@@ -1,0 +1,4290 @@
+BLASTP 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           84,060,097 sequences; 30,803,427,846 total letters
+
+
+
+Query= TN_Fu0480P1
+
+Length=88
+
+RID: FNAFM7WB014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AAP36178.1|  Homo sapiens microseminoprotein, beta- [synthetic...    152   5e-45
+ref|NP_002434.1|  beta-microseminoprotein isoform a precursor [Ho...    152   5e-45
+dbj|BAG35044.1|  unnamed protein product [Homo sapiens]                 152   9e-45
+emb|CAB39325.1|  beta-microseminoprotein [Homo sapiens]                 148   5e-44
+ref|XP_003811861.1|  PREDICTED: beta-microseminoprotein isoform X...    149   8e-44
+ref|XP_004049458.1|  PREDICTED: beta-microseminoprotein [Gorilla ...    146   1e-42
+ref|XP_003278237.1|  PREDICTED: beta-microseminoprotein isoform X...    139   5e-40
+ref|XP_002820770.2|  PREDICTED: beta-microseminoprotein [Pongo ab...    137   5e-39
+ref|XP_010368660.1|  PREDICTED: beta-microseminoprotein isoform X...    135   2e-38
+ref|XP_011805776.1|  PREDICTED: beta-microseminoprotein isoform X...    135   3e-38
+ref|XP_011828515.1|  PREDICTED: beta-microseminoprotein isoform X...    131   6e-37
+ref|XP_011927663.1|  PREDICTED: beta-microseminoprotein isoform X...    131   7e-37
+ref|XP_011747856.1|  PREDICTED: beta-microseminoprotein [Macaca n...    130   2e-36
+ref|NP_001106120.1|  beta-microseminoprotein precursor [Papio anu...    129   4e-36
+ref|XP_009212627.1|  PREDICTED: beta-microseminoprotein isoform X...    129   6e-36
+ref|NP_001040596.1|  beta-microseminoprotein precursor [Macaca mu...    128   2e-35
+gb|EHH18999.1|  hypothetical protein EGK_19616 [Macaca mulatta]         125   1e-34
+ref|XP_007960734.1|  PREDICTED: beta-microseminoprotein [Chloroce...    123   1e-33
+sp|O97949.1|MSPJ_SAGOE  RecName: Full=Beta-microseminoprotein J1;...    122   2e-33
+ref|XP_003734491.1|  PREDICTED: LOW QUALITY PROTEIN: beta-microse...    120   3e-32
+ref|XP_003930047.1|  PREDICTED: beta-microseminoprotein J1-like [...    119   4e-32
+ref|XP_012328029.1|  PREDICTED: beta-microseminoprotein isoform X...    119   5e-32
+ref|XP_012328030.1|  PREDICTED: beta-microseminoprotein isoform X...    118   1e-31
+ref|XP_009007787.1|  PREDICTED: beta-microseminoprotein J1 [Calli...    118   1e-31
+sp|O97936.2|MSPA_SAGOE  RecName: Full=Beta-microseminoprotein A1;...    117   2e-31
+ref|XP_009007788.1|  PREDICTED: beta-microseminoprotein E1-like [...    116   5e-31
+ref|XP_012299192.1|  PREDICTED: beta-microseminoprotein J1-like [...    117   6e-31
+ref|XP_010339146.1|  PREDICTED: beta-microseminoprotein A1 [Saimi...    117   3e-30
+pdb|2IZ3|A  Chain A, Solution Structure Of Human And Porcine Beta...    114   4e-30
+pdb|3IX0|A  Chain A, Crystal Structure Of Human Seminal Plasma Pr...    113   5e-30
+gb|AAZ82231.1|  beta-microseminoprotein [Pan troglodytes]               112   2e-29
+ref|XP_010339137.1|  PREDICTED: beta-microseminoprotein A1-like [...    112   4e-29
+prf||1209281A  microseminoprotein beta [Homo sapiens]                   108   6e-28
+ref|XP_002756172.2|  PREDICTED: beta-microseminoprotein E1 [Calli...    107   3e-27
+sp|O97935.1|MSPE_SAGOE  RecName: Full=Beta-microseminoprotein E1;...    106   4e-27
+gb|AAZ82236.1|  beta-microseminoprotein [Symphalangus syndactylus]      105   1e-26
+gb|AAZ82235.1|  beta-microseminoprotein [Nomascus gabriellae]           105   1e-26
+ref|XP_010338908.1|  PREDICTED: beta-microseminoprotein E1 [Saimi...    104   3e-26
+gb|AAZ82234.1|  beta-microseminoprotein [Pongo pygmaeus]                103   3e-26
+ref|XP_008568226.1|  PREDICTED: beta-microseminoprotein [Galeopte...  96.7    1e-22
+gb|AAZ82237.1|  beta-microseminoprotein [Macaca mulatta]              92.8    6e-22
+ref|XP_004467440.2|  PREDICTED: beta-microseminoprotein [Dasypus ...  90.9    1e-20
+ref|XP_014685964.1|  PREDICTED: beta-microseminoprotein [Equus as...  89.0    3e-20
+ref|XP_014589601.1|  PREDICTED: beta-microseminoprotein [Equus ca...  88.6    4e-20
+gb|AAZ82238.1|  beta-microseminoprotein [Erythrocebus patas]          87.0    1e-19
+ref|XP_004388021.1|  PREDICTED: beta-microseminoprotein [Trichech...  87.4    4e-19
+ref|NP_999017.1|  beta-microseminoprotein precursor [Sus scrofa]      85.9    4e-19
+ref|XP_012513853.1|  PREDICTED: beta-microseminoprotein [Propithe...  88.6    5e-19
+ref|XP_011353764.1|  PREDICTED: beta-microseminoprotein [Pteropus...  85.5    7e-19
+ref|XP_006898923.1|  PREDICTED: beta-microseminoprotein-like [Ele...  85.1    1e-18
+ref|XP_008522538.1|  PREDICTED: beta-microseminoprotein isoform X...  84.7    1e-18
+ref|XP_008147368.1|  PREDICTED: beta-microseminoprotein [Eptesicu...  85.9    2e-18
+ref|XP_008522537.1|  PREDICTED: beta-microseminoprotein isoform X...  83.6    5e-18
+ref|XP_008053413.1|  PREDICTED: beta-microseminoprotein [Tarsius ...  83.6    8e-18
+ref|XP_006757205.1|  PREDICTED: beta-microseminoprotein [Myotis d...  82.0    1e-17
+ref|XP_005883189.1|  PREDICTED: beta-microseminoprotein [Myotis b...  82.0    2e-17
+ref|XP_007936879.1|  PREDICTED: beta-microseminoprotein [Oryctero...  82.0    2e-17
+ref|NP_619540.1|  beta-microseminoprotein isoform b precursor [Ho...  80.1    3e-17
+ref|XP_014644481.1|  PREDICTED: beta-microseminoprotein [Ceratoth...  80.9    4e-17
+ref|XP_010587581.1|  PREDICTED: beta-microseminoprotein [Loxodont...  80.5    4e-17
+ref|XP_015104849.1|  PREDICTED: beta-microseminoprotein isoform X...  80.5    5e-17
+ref|XP_007446843.1|  PREDICTED: beta-microseminoprotein [Lipotes ...  80.1    8e-17
+ref|XP_006108301.1|  PREDICTED: beta-microseminoprotein [Myotis l...  80.1    8e-17
+ref|XP_008962443.1|  PREDICTED: beta-microseminoprotein isoform X...  79.0    9e-17
+ref|XP_005226676.1|  PREDICTED: beta-microseminoprotein isoform X...  79.0    2e-16
+ref|XP_006902116.1|  PREDICTED: beta-microseminoprotein-like [Ele...  78.6    3e-16
+ref|XP_012600061.1|  PREDICTED: beta-microseminoprotein [Microceb...  77.8    5e-16
+ref|XP_010983603.1|  PREDICTED: beta-microseminoprotein isoform X...  77.4    7e-16
+ref|XP_010852753.1|  PREDICTED: beta-microseminoprotein [Bison bi...  77.4    7e-16
+gb|ELR52877.1|  Beta-microseminoprotein [Bos mutus]                   76.6    1e-15
+ref|XP_005412606.1|  PREDICTED: beta-microseminoprotein-like [Chi...  77.4    1e-15
+ref|XP_005960997.1|  PREDICTED: beta-microseminoprotein [Pantholo...  76.6    1e-15
+ref|XP_004049459.1|  PREDICTED: beta-microseminoprotein [Gorilla ...  75.9    2e-15
+gb|EAW53683.1|  microseminoprotein, beta-, isoform CRA_a [Homo sa...  75.5    2e-15
+ref|XP_006065751.1|  PREDICTED: beta-microseminoprotein [Bubalus ...  76.6    2e-15
+ref|XP_004021615.1|  PREDICTED: beta-microseminoprotein isoform X...  75.9    3e-15
+ref|XP_012891663.1|  PREDICTED: beta-microseminoprotein [Dipodomy...  75.5    5e-15
+ref|XP_011989336.1|  PREDICTED: beta-microseminoprotein isoform X...  75.1    6e-15
+ref|XP_007176349.1|  PREDICTED: beta-microseminoprotein isoform X...  75.5    6e-15
+ref|XP_013831148.1|  PREDICTED: beta-microseminoprotein [Capra hi...  75.5    6e-15
+ref|XP_014438626.1|  PREDICTED: beta-microseminoprotein [Tupaia c...  74.7    8e-15
+ref|XP_010368661.1|  PREDICTED: beta-microseminoprotein isoform X...  73.6    1e-14
+ref|XP_011805777.1|  PREDICTED: beta-microseminoprotein isoform X...  72.4    3e-14
+ref|XP_011960939.1|  PREDICTED: beta-microseminoprotein isoform X...  72.8    8e-14
+ref|XP_008251297.1|  PREDICTED: beta-microseminoprotein-like [Ory...  72.8    8e-14
+ref|XP_011989335.1|  PREDICTED: beta-microseminoprotein isoform X...  72.0    1e-13
+ref|XP_015354380.1|  PREDICTED: beta-microseminoprotein [Marmota ...  71.6    2e-13
+ref|XP_008268062.1|  PREDICTED: beta-microseminoprotein [Oryctola...  71.2    2e-13
+ref|XP_005411869.1|  PREDICTED: beta-microseminoprotein-like isof...  70.9    2e-13
+ref|XP_003278238.1|  PREDICTED: beta-microseminoprotein isoform X...  70.1    3e-13
+ref|XP_011828516.1|  PREDICTED: beta-microseminoprotein isoform X...  70.1    3e-13
+ref|XP_011927664.1|  PREDICTED: beta-microseminoprotein isoform X...  70.1    4e-13
+ref|XP_012781851.1|  PREDICTED: beta-microseminoprotein [Ochotona...  70.5    4e-13
+gb|AAB20103.1|  immunoglobulin binding factor, IgBF=prostatic sec...  68.2    5e-13
+ref|XP_005411870.1|  PREDICTED: beta-microseminoprotein-like isof...  68.9    1e-12
+ref|XP_008835960.1|  PREDICTED: beta-microseminoprotein [Nannospa...  69.3    1e-12
+ref|XP_007115872.1|  PREDICTED: LOW QUALITY PROTEIN: beta-microse...  69.7    2e-12
+ref|XP_003466102.1|  PREDICTED: beta-microseminoprotein A1-like [...  67.8    3e-12
+ref|XP_002724249.1|  PREDICTED: beta-microseminoprotein-like [Ory...  68.2    3e-12
+ref|XP_012974238.1|  PREDICTED: beta-microseminoprotein [Mesocric...  67.0    6e-12
+ref|XP_005412608.1|  PREDICTED: beta-microseminoprotein-like isof...  67.0    6e-12
+ref|XP_007526570.1|  PREDICTED: beta-microseminoprotein [Erinaceu...  66.2    1e-11
+ref|XP_007638259.1|  PREDICTED: beta-microseminoprotein isoform X...  66.6    1e-11
+ref|XP_012578988.1|  PREDICTED: beta-microseminoprotein [Condylur...  65.1    3e-11
+ref|XP_007176350.1|  PREDICTED: beta-microseminoprotein isoform X...  64.7    4e-11
+ref|XP_005348707.1|  PREDICTED: beta-microseminoprotein [Microtus...  64.7    5e-11
+ref|XP_015722342.1|  PREDICTED: beta-microseminoprotein-like [Cot...  64.7    5e-11
+ref|XP_005412607.1|  PREDICTED: beta-microseminoprotein-like isof...  65.1    7e-11
+gb|EPQ18236.1|  Beta-microseminoprotein [Myotis brandtii]             63.9    8e-11
+gb|ELK35244.1|  Beta-microseminoprotein [Myotis davidii]              63.9    8e-11
+ref|XP_013033273.1|  PREDICTED: beta-microseminoprotein-like [Ans...  63.2    2e-10
+ref|XP_006996300.1|  PREDICTED: beta-microseminoprotein [Peromysc...  63.2    2e-10
+ref|NP_062061.1|  beta-microseminoprotein precursor [Rattus norve...  62.4    3e-10
+ref|XP_007478109.1|  PREDICTED: beta-microseminoprotein-like isof...  62.0    6e-10
+ref|XP_004942175.2|  PREDICTED: beta-microseminoprotein-like [Gal...  61.6    7e-10
+ref|XP_003466101.1|  PREDICTED: beta-microseminoprotein-like isof...  62.0    7e-10
+ref|XP_013004049.1|  PREDICTED: beta-microseminoprotein-like isof...  61.2    8e-10
+ref|XP_010961812.1|  PREDICTED: beta-microseminoprotein isoform X...  61.2    9e-10
+ref|XP_008769211.1|  PREDICTED: beta-microseminoprotein isoform X...  60.5    2e-09
+ref|XP_007478111.1|  PREDICTED: beta-microseminoprotein A1-like [...  60.5    2e-09
+ref|XP_005022269.1|  PREDICTED: beta-microseminoprotein-like [Ana...  60.1    3e-09
+ref|XP_005416549.1|  PREDICTED: beta-microseminoprotein J1-like [...  60.1    3e-09
+gb|EHB08864.1|  Beta-microseminoprotein [Heterocephalus glaber]       60.5    4e-09
+ref|XP_009896071.1|  PREDICTED: beta-microseminoprotein-like [Pic...  58.9    8e-09
+ref|XP_010712763.1|  PREDICTED: beta-microseminoprotein-like [Mel...  58.5    1e-08
+gb|EHB08865.1|  Beta-microseminoprotein [Heterocephalus glaber]       58.2    1e-08
+pdb|2IZ4|A  Chain A, Solution Structure Of Human And Porcine Beta...  57.8    1e-08
+ref|XP_007478110.1|  PREDICTED: beta-microseminoprotein-like isof...  57.8    2e-08
+gb|EOA99386.1|  Beta-microseminoprotein J1 [Anas platyrhynchos]       57.8    2e-08
+ref|XP_005411867.1|  PREDICTED: beta-microseminoprotein-like isof...  57.8    2e-08
+ref|XP_009972075.1|  PREDICTED: beta-microseminoprotein J1-like [...  57.8    2e-08
+ref|XP_010409606.1|  PREDICTED: beta-microseminoprotein-like [Cor...  57.4    2e-08
+pdb|1XHH|A  Chain A, Solution Structure Of Porcine Beta-Microsemi...  57.0    2e-08
+ref|XP_009640183.1|  PREDICTED: beta-microseminoprotein-like [Egr...  57.0    4e-08
+ref|NP_065622.1|  beta-microseminoprotein precursor [Mus musculus]    56.2    5e-08
+gb|KFO27470.1|  Ankyrin repeat domain-containing protein 26 [Fuko...  58.5    6e-08
+ref|XP_010129813.1|  PREDICTED: beta-microseminoprotein-like [Buc...  56.2    8e-08
+ref|XP_008642110.1|  PREDICTED: beta-microseminoprotein-like [Cor...  55.8    1e-07
+ref|XP_014426512.1|  PREDICTED: beta-microseminoprotein-like isof...  55.8    1e-07
+ref|XP_007069179.1|  PREDICTED: beta-microseminoprotein J1-like [...  55.1    2e-07
+ref|XP_014426514.1|  PREDICTED: beta-microseminoprotein A1-like i...  55.1    2e-07
+ref|XP_010222958.1|  PREDICTED: beta-microseminoprotein-like [Tin...  55.1    2e-07
+ref|XP_006118239.1|  PREDICTED: beta-microseminoprotein A1-like i...  55.1    2e-07
+ref|XP_005481326.1|  PREDICTED: beta-microseminoprotein-like [Zon...  55.1    2e-07
+gb|EDL24829.1|  beta-microseminoprotein [Mus musculus]                54.7    2e-07
+ref|XP_014730812.1|  PREDICTED: beta-microseminoprotein-like isof...  54.7    2e-07
+ref|XP_007614028.1|  PREDICTED: beta-microseminoprotein isoform X...  54.7    3e-07
+ref|XP_007478112.1|  PREDICTED: beta-microseminoprotein-like [Mon...  53.9    4e-07
+ref|XP_009887125.1|  PREDICTED: beta-microseminoprotein J1-like [...  53.9    5e-07
+gb|KQL71333.1|  microseminoprotein, beta [Alligator mississippien...  53.5    6e-07
+ref|XP_007478121.1|  PREDICTED: beta-microseminoprotein J1-like i...  53.5    6e-07
+ref|XP_007478123.1|  PREDICTED: beta-microseminoprotein J1-like i...  53.5    7e-07
+ref|XP_008945851.1|  PREDICTED: beta-microseminoprotein [Merops n...  53.1    7e-07
+ref|XP_010116960.1|  PREDICTED: beta-microseminoprotein-like [Chl...  53.1    9e-07
+ref|XP_014730811.1|  PREDICTED: beta-microseminoprotein-like isof...  52.8    1e-06
+ref|XP_009085946.1|  PREDICTED: beta-microseminoprotein-like [Ser...  52.8    1e-06
+ref|XP_013814268.1|  PREDICTED: beta-microseminoprotein-like [Apt...  51.6    3e-06
+ref|XP_008928098.1|  PREDICTED: beta-microseminoprotein-like [Man...  52.0    3e-06
+ref|XP_007478122.1|  PREDICTED: beta-microseminoprotein J1-like i...  51.6    3e-06
+ref|XP_005311424.1|  PREDICTED: beta-microseminoprotein-like [Chr...  51.6    3e-06
+ref|XP_009318957.1|  PREDICTED: beta-microseminoprotein-like [Pyg...  51.6    3e-06
+ref|XP_012368647.1|  PREDICTED: beta-microseminoprotein [Octodon ...  51.6    3e-06
+ref|XP_009569079.1|  PREDICTED: beta-microseminoprotein-like [Cuc...  51.6    3e-06
+ref|XP_012396390.1|  PREDICTED: beta-microseminoprotein-like [Sar...  51.2    4e-06
+ref|XP_007478120.1|  PREDICTED: beta-microseminoprotein J1-like i...  51.2    4e-06
+ref|XP_014106044.1|  PREDICTED: beta-microseminoprotein isoform X...  50.4    7e-06
+gb|AAB35259.1|  beta-microseminoprotein {N-terminal} [Homo sapiens]   49.3    8e-06
+ref|XP_010299772.1|  PREDICTED: beta-microseminoprotein-like [Bal...  49.7    1e-05
+ref|NP_001290738.1|  microseminoprotein, beta- precursor [Esox lu...  49.7    2e-05
+gb|ACO13995.1|  Beta-microseminoprotein precursor [Esox lucius]       49.7    2e-05
+ref|XP_011595193.1|  PREDICTED: beta-microseminoprotein-like [Aqu...  49.3    2e-05
+ref|XP_009813102.1|  PREDICTED: beta-microseminoprotein-like [Gav...  49.3    2e-05
+ref|XP_010073398.1|  PREDICTED: beta-microseminoprotein-like [Pte...  48.9    3e-05
+ref|XP_009916315.1|  PREDICTED: beta-microseminoprotein-like [Hal...  48.5    3e-05
+gb|KQL71336.1|  hypothetical protein Y1Q_026640 [Alligator missis...  48.5    4e-05
+ref|XP_007478117.1|  PREDICTED: beta-microseminoprotein A1-like i...  48.5    4e-05
+ref|XP_012985645.1|  PREDICTED: beta-microseminoprotein-like [Mel...  48.5    4e-05
+ref|XP_005022270.1|  PREDICTED: beta-microseminoprotein-like [Ana...  48.1    5e-05
+ref|XP_010206292.1|  PREDICTED: beta-microseminoprotein-like [Col...  48.1    5e-05
+ref|XP_009276269.1|  PREDICTED: uncharacterized protein LOC103897...  49.7    5e-05
+ref|XP_006014891.2|  PREDICTED: beta-microseminoprotein [Alligato...  47.8    6e-05
+ref|XP_009464933.1|  PREDICTED: beta-microseminoprotein-like [Nip...  47.8    6e-05
+ref|XP_009571147.1|  PREDICTED: beta-microseminoprotein-like [Ful...  48.1    6e-05
+ref|XP_009998654.1|  PREDICTED: beta-microseminoprotein-like [Cha...  48.1    7e-05
+ref|XP_012429911.1|  PREDICTED: beta-microseminoprotein-like [Tae...  47.4    7e-05
+ref|XP_007478115.1|  PREDICTED: beta-microseminoprotein-like [Mon...  47.8    7e-05
+ref|XP_012804113.1|  PREDICTED: beta-microseminoprotein [Jaculus ...  47.0    9e-05
+ref|XP_005048689.1|  PREDICTED: beta-microseminoprotein-like [Fic...  47.4    1e-04
+ref|XP_009863149.1|  PREDICTED: beta-microseminoprotein-like [Apa...  47.4    1e-04
+gb|KQL71334.1|  hypothetical protein Y1Q_026640 [Alligator missis...  47.0    1e-04
+ref|XP_005339136.1|  PREDICTED: beta-microseminoprotein [Ictidomy...  47.0    1e-04
+gb|KQL71335.1|  hypothetical protein Y1Q_026640 [Alligator missis...  46.6    1e-04
+ref|XP_010010316.1|  PREDICTED: beta-microseminoprotein-like [Nes...  46.6    2e-04
+ref|XP_005411868.1|  PREDICTED: beta-microseminoprotein-like isof...  46.2    2e-04
+ref|XP_006278861.1|  PREDICTED: beta-microseminoprotein-like isof...  46.2    2e-04
+ref|XP_013033365.1|  PREDICTED: beta-microseminoprotein-like [Ans...  46.2    2e-04
+ref|XP_007478116.1|  PREDICTED: beta-microseminoprotein A1-like i...  46.2    2e-04
+ref|XP_006118215.1|  PREDICTED: beta-microseminoprotein-like [Pel...  45.8    3e-04
+ref|XP_012924934.1|  PREDICTED: beta-microseminoprotein [Heteroce...  45.4    3e-04
+ref|XP_007069200.1|  PREDICTED: beta-microseminoprotein-like [Che...  45.8    3e-04
+ref|XP_009704747.1|  PREDICTED: beta-microseminoprotein-like [Car...  45.8    3e-04
+ref|XP_006272816.1|  PREDICTED: beta-microseminoprotein-like [All...  45.8    3e-04
+ref|XP_014813549.1|  PREDICTED: beta-microseminoprotein-like [Phi...  45.8    3e-04
+ref|XP_014460550.1|  PREDICTED: beta-microseminoprotein-like isof...  45.4    3e-04
+ref|XP_010620922.1|  PREDICTED: beta-microseminoprotein [Fukomys ...  47.8    4e-04
+ref|XP_008500315.1|  PREDICTED: beta-microseminoprotein-like [Cal...  46.2    5e-04
+ref|XP_007478118.1|  PREDICTED: beta-microseminoprotein A1-like [...  45.1    5e-04
+ref|XP_009938705.1|  PREDICTED: beta-microseminoprotein-like [Opi...  45.1    6e-04
+ref|XP_009076418.1|  PREDICTED: beta-microseminoprotein J1-like [...  45.1    7e-04
+ref|XP_011595155.1|  PREDICTED: beta-microseminoprotein-like [Aqu...  44.7    7e-04
+gb|KFO54250.1|  Beta-microseminoprotein [Corvus brachyrhynchos]       44.3    8e-04
+ref|XP_007478113.1|  PREDICTED: beta-microseminoprotein-like [Mon...  44.3    0.001
+ref|XP_015392083.1|  PREDICTED: beta-microseminoprotein [Panthera...  43.9    0.001
+ref|XP_007444146.1|  PREDICTED: small serum protein 5-like isofor...  43.9    0.001
+ref|XP_007444147.1|  PREDICTED: small serum protein 5-like isofor...  43.9    0.001
+ref|XP_006118216.1|  PREDICTED: beta-microseminoprotein-like [Pel...  43.5    0.002
+ref|XP_011243285.1|  PREDICTED: beta-microseminoprotein isoform X...  43.5    0.002
+gb|EMP27053.1|  Beta-microseminoprotein [Chelonia mydas]              45.4    0.002
+ref|XP_009489330.1|  PREDICTED: beta-microseminoprotein-like [Pel...  43.5    0.002
+ref|XP_014106047.1|  PREDICTED: beta-microseminoprotein isoform X...  43.1    0.002
+dbj|BAK64382.1|  small serum protein [Laticauda semifasciata]         43.1    0.002
+ref|XP_012988263.1|  PREDICTED: prostate-associated microseminopr...  43.1    0.003
+ref|XP_002936015.2|  PREDICTED: beta-microseminoprotein-like [Xen...  43.1    0.003
+ref|XP_009954111.1|  PREDICTED: LOW QUALITY PROTEIN: beta-microse...  43.1    0.003
+ref|XP_011285691.1|  PREDICTED: beta-microseminoprotein [Felis ca...  42.7    0.004
+ref|XP_014057778.1|  PREDICTED: beta-microseminoprotein-like [Sal...  42.7    0.004
+ref|XP_009985528.1|  PREDICTED: beta-microseminoprotein-like [Tau...  42.7    0.004
+dbj|BAJ14706.1|  small serum protein-1 [Gloydius blomhoffii blomh...  42.4    0.004
+ref|XP_007661750.1|  PREDICTED: beta-microseminoprotein [Ornithor...  42.0    0.004
+ref|XP_005154173.1|  PREDICTED: beta-microseminoprotein-like [Mel...  42.4    0.004
+ref|XP_004642396.1|  PREDICTED: peroxidasin homolog [Octodon degus]   45.1    0.005
+ref|XP_010865726.1|  PREDICTED: beta-microseminoprotein-like [Eso...  42.4    0.005
+ref|XP_012985734.1|  PREDICTED: LOW QUALITY PROTEIN: beta-microse...  42.0    0.006
+gb|KFQ42119.1|  Beta-microseminoprotein E1 [Nestor notabilis]         41.6    0.006
+ref|XP_009676222.1|  PREDICTED: beta-microseminoprotein-like [Str...  42.0    0.006
+gb|ERE91253.1|  beta-microseminoprotein [Cricetulus griseus]          41.6    0.008
+gb|KFO31218.1|  Peroxidasin like protein [Fukomys damarensis]         44.3    0.009
+ref|XP_006031287.2|  PREDICTED: small serum protein 2-like [Allig...  41.6    0.010
+ref|XP_013004015.1|  PREDICTED: beta-microseminoprotein-like [Cav...  41.6    0.010
+ref|XP_008928096.1|  PREDICTED: beta-microseminoprotein-like [Man...  41.6    0.010
+ref|XP_009484873.1|  PREDICTED: beta-microseminoprotein [Pelecanu...  41.2    0.011
+ref|XP_010283181.1|  PREDICTED: beta-microseminoprotein-like [Pha...  42.7    0.011
+ref|XP_010865732.1|  PREDICTED: beta-microseminoprotein-like [Eso...  42.0    0.012
+ref|XP_014813550.1|  PREDICTED: beta-microseminoprotein-like [Phi...  41.2    0.013
+ref|XP_010116958.1|  PREDICTED: beta-microseminoprotein-like [Chl...  41.6    0.013
+ref|XP_009954112.1|  PREDICTED: beta-microseminoprotein [Leptosom...  41.2    0.015
+gb|KFV65191.1|  Beta-microseminoprotein [Picoides pubescens]          40.4    0.015
+ref|XP_010712764.1|  PREDICTED: beta-microseminoprotein-like [Mel...  40.8    0.017
+ref|XP_010010314.1|  PREDICTED: beta-microseminoprotein-like [Nes...  40.8    0.017
+gb|AEX32799.1|  uterine-secreted microprotein 2 [Macropus eugenii]    40.4    0.017
+ref|XP_007069202.1|  PREDICTED: beta-microseminoprotein J1-like [...  42.0    0.018
+ref|XP_002936006.1|  PREDICTED: beta-microseminoprotein [Xenopus ...  40.8    0.018
+gb|KFV59732.1|  Beta-microseminoprotein [Tyto alba]                   40.4    0.019
+gb|KFO86883.1|  Beta-microseminoprotein J1 [Buceros rhinoceros si...  40.0    0.024
+ref|XP_005498061.1|  PREDICTED: beta-microseminoprotein-like [Col...  40.4    0.025
+ref|XP_015722344.1|  PREDICTED: beta-microseminoprotein-like [Cot...  40.4    0.025
+ref|XP_013814261.1|  PREDICTED: beta-microseminoprotein [Apteryx ...  40.4    0.026
+ref|XP_010409617.1|  PREDICTED: beta-microseminoprotein-like [Cor...  40.0    0.026
+ref|XP_010159031.1|  PREDICTED: beta-microseminoprotein-like [Eur...  40.4    0.027
+ref|XP_008641981.1|  PREDICTED: beta-microseminoprotein-like [Cor...  40.0    0.027
+ref|XP_008939732.1|  PREDICTED: beta-microseminoprotein-like [Mer...  40.0    0.029
+gb|ELK08354.1|  Nuclear receptor coactivator 4 [Pteropus alecto]      42.4    0.033
+ref|XP_010171067.1|  PREDICTED: beta-microseminoprotein-like [Cap...  39.7    0.033
+ref|XP_009276000.1|  PREDICTED: beta-microseminoprotein-like [Apt...  39.7    0.034
+ref|XP_005311423.1|  PREDICTED: beta-microseminoprotein-like [Chr...  40.0    0.035
+ref|XP_005417455.1|  PREDICTED: beta-microseminoprotein-like [Geo...  40.0    0.036
+ref|XP_003641562.1|  PREDICTED: beta-microseminoprotein-like [Gal...  39.7    0.036
+ref|XP_009568989.1|  PREDICTED: beta-microseminoprotein-like [Cuc...  39.7    0.036
+ref|XP_010010315.1|  PREDICTED: beta-microseminoprotein-like [Nes...  40.0    0.036
+ref|XP_009318666.1|  PREDICTED: beta-microseminoprotein [Pygoscel...  39.7    0.038
+ref|XP_009505894.1|  PREDICTED: beta-microseminoprotein-like [Pha...  40.4    0.040
+ref|XP_005498042.2|  PREDICTED: uncharacterized protein LOC102086...  41.2    0.041
+ref|XP_002665222.1|  PREDICTED: beta-microseminoprotein-like [Dan...  39.7    0.042
+sp|A7VN14.1|MSMB2_PROFL  RecName: Full=Small serum protein 2; Sho...  39.7    0.043
+ref|XP_009813099.1|  PREDICTED: beta-microseminoprotein-like [Gav...  39.7    0.049
+ref|XP_009916311.1|  PREDICTED: beta-microseminoprotein-like [Hal...  39.3    0.051
+ref|XP_009813098.1|  PREDICTED: beta-microseminoprotein-like [Gav...  39.3    0.052
+ref|XP_005417456.1|  PREDICTED: beta-microseminoprotein-like [Geo...  39.3    0.054
+gb|KFP51022.1|  Beta-microseminoprotein [Cathartes aura]              38.9    0.056
+ref|XP_002936007.1|  PREDICTED: beta-microseminoprotein-like [Xen...  39.3    0.063
+ref|XP_004555982.1|  PREDICTED: beta-microseminoprotein [Maylandi...  39.3    0.063
+ref|XP_013814243.1|  PREDICTED: beta-microseminoprotein-like [Apt...  39.3    0.066
+ref|XP_013033011.1|  PREDICTED: beta-microseminoprotein-like [Ans...  38.9    0.068
+ref|XP_015672021.1|  PREDICTED: uncharacterized protein LOC107287...  40.4    0.069
+ref|XP_005481325.1|  PREDICTED: beta-microseminoprotein-like [Zon...  38.9    0.074
+ref|XP_007069201.1|  PREDICTED: uncharacterized protein LOC102942...  40.8    0.074
+ref|XP_014813546.1|  PREDICTED: beta-microseminoprotein-like [Phi...  39.3    0.080
+ref|XP_009676180.1|  PREDICTED: beta-microseminoprotein [Struthio...  38.9    0.080
+ref|XP_004915979.1|  PREDICTED: beta-microseminoprotein-like isof...  38.9    0.082
+ref|XP_009640185.1|  PREDICTED: beta-microseminoprotein-like [Egr...  38.9    0.087
+gb|KFR15305.1|  Beta-microseminoprotein [Opisthocomus hoazin]         38.5    0.089
+ref|XP_003441036.1|  PREDICTED: beta-microseminoprotein-like [Ore...  38.9    0.092
+ref|XP_013002703.1|  PREDICTED: peroxidasin homolog isoform X2 [C...  41.2    0.092
+ref|XP_003465000.1|  PREDICTED: peroxidasin homolog isoform X1 [C...  41.2    0.093
+gb|KFQ03211.1|  Beta-microseminoprotein [Haliaeetus albicilla]        38.1    0.100
+ref|XP_008295796.1|  PREDICTED: beta-microseminoprotein [Stegaste...  38.5    0.11 
+ref|XP_010299773.1|  PREDICTED: beta-microseminoprotein-like [Bal...  38.5    0.11 
+ref|XP_015202065.1|  PREDICTED: beta-microseminoprotein-like [Lep...  38.5    0.11 
+ref|XP_010286753.1|  PREDICTED: beta-microseminoprotein-like [Pha...  38.5    0.11 
+gb|KFQ21176.1|  Beta-microseminoprotein J1 [Merops nubicus]           38.1    0.11 
+ref|XP_005404444.1|  PREDICTED: peroxidasin homolog isoform X2 [C...  40.8    0.12 
+sp|A7VN15.1|MSMB3_PROFL  RecName: Full=Small serum protein 3; Sho...  38.1    0.12 
+ref|XP_010149885.1|  PREDICTED: beta-microseminoprotein-like [Eur...  38.5    0.13 
+ref|XP_005404443.1|  PREDICTED: peroxidasin homolog isoform X1 [C...  40.8    0.13 
+ref|XP_009489332.1|  PREDICTED: beta-microseminoprotein-like [Pel...  38.9    0.13 
+ref|XP_005737230.1|  PREDICTED: beta-microseminoprotein [Pundamil...  38.1    0.16 
+ref|XP_002193739.2|  PREDICTED: beta-microseminoprotein-like [Tae...  38.1    0.16 
+ref|XP_012822291.1|  PREDICTED: beta-microseminoprotein-like isof...  37.4    0.18 
+ref|XP_011553139.1|  PREDICTED: collagen alpha-1(II) chain-like [...  40.0    0.18 
+ref|XP_010167256.1|  PREDICTED: beta-microseminoprotein-like [Cap...  37.7    0.18 
+ref|XP_009704750.1|  PREDICTED: beta-microseminoprotein-like [Car...  38.5    0.18 
+ref|XP_010159034.1|  PREDICTED: beta-microseminoprotein J1-like [...  37.4    0.18 
+dbj|BAJ14707.1|  small serum protein-2 [Gloydius blomhoffii blomh...  37.7    0.18 
+ref|XP_009887029.1|  PREDICTED: beta-microseminoprotein [Charadri...  37.7    0.18 
+ref|XP_011554807.1|  PREDICTED: fibril-forming collagen alpha cha...  40.0    0.18 
+ref|XP_010384406.1|  PREDICTED: peroxidasin homolog [Rhinopithecu...  40.4    0.18 
+ref|XP_010627436.1|  PREDICTED: peroxidasin homolog [Fukomys dama...  40.0    0.19 
+sp|A7VN17.1|MSMB5_PROFL  RecName: Full=Small serum protein 5; Sho...  37.7    0.19 
+ref|XP_006153600.1|  PREDICTED: peroxidasin homolog [Tupaia chine...  40.0    0.21 
+ref|XP_004915978.1|  PREDICTED: beta-microseminoprotein-like isof...  37.7    0.21 
+ref|XP_010299770.1|  PREDICTED: beta-microseminoprotein-like [Bal...  37.7    0.22 
+sp|A7VN13.1|MSMB1_PROFL  RecName: Full=Small serum protein 1; Sho...  37.7    0.22 
+ref|XP_008641982.1|  PREDICTED: beta-microseminoprotein-like [Cor...  37.4    0.22 
+ref|XP_004868416.1|  PREDICTED: peroxidasin homolog [Heterocephal...  40.0    0.23 
+gb|EHB13124.1|  Peroxidasin-like protein [Heterocephalus glaber]      40.0    0.24 
+ref|XP_015284078.1|  PREDICTED: small serum protein 2-like [Gekko...  37.0    0.25 
+ref|XP_009571144.1|  PREDICTED: beta-microseminoprotein [Fulmarus...  37.4    0.26 
+ref|XP_006800917.1|  PREDICTED: beta-microseminoprotein-like [Neo...  37.4    0.26 
+ref|XP_007478119.1|  PREDICTED: beta-microseminoprotein-like isof...  38.1    0.27 
+gb|KFW85910.1|  Beta-microseminoprotein [Manacus vitellinus]          37.0    0.28 
+ref|XP_009276002.1|  PREDICTED: beta-microseminoprotein-like [Apt...  37.4    0.28 
+dbj|BAM72534.1|  small serum protein-1 [Protobothrops flavoviridis]   37.4    0.29 
+ref|XP_010116957.1|  PREDICTED: beta-microseminoprotein-like [Chl...  37.4    0.30 
+gb|KTG35001.1|  hypothetical protein cypCar_00015152 [Cyprinus ca...  37.4    0.33 
+ref|XP_009318946.1|  PREDICTED: beta-microseminoprotein-like [Pyg...  37.7    0.33 
+ref|XP_014730813.1|  PREDICTED: beta-microseminoprotein-like [Stu...  37.4    0.34 
+ref|XP_009571149.1|  PREDICTED: beta-microseminoprotein-like [Ful...  37.4    0.35 
+ref|XP_011595153.1|  PREDICTED: beta-microseminoprotein-like [Aqu...  37.0    0.36 
+ref|XP_009984839.1|  PREDICTED: beta-microseminoprotein-like [Tau...  37.0    0.36 
+ref|XP_014697105.1|  PREDICTED: peroxidasin homolog isoform X2 [E...  39.3    0.38 
+ref|XP_014697104.1|  PREDICTED: peroxidasin homolog isoform X1 [E...  39.3    0.38 
+ref|XP_010712832.1|  PREDICTED: beta-microseminoprotein-like [Mel...  37.0    0.40 
+ref|XP_012884323.1|  PREDICTED: peroxidasin homolog [Dipodomys or...  39.3    0.41 
+ref|XP_004174849.1|  PREDICTED: beta-microseminoprotein-like [Tae...  37.0    0.42 
+ref|XP_010073231.1|  PREDICTED: beta-microseminoprotein-like [Pte...  37.0    0.43 
+ref|XP_004174847.1|  PREDICTED: beta-microseminoprotein-like [Tae...  37.0    0.45 
+gb|KFP41114.1|  Beta-microseminoprotein [Chlamydotis undulata mac...  36.2    0.46 
+ref|XP_009505896.1|  PREDICTED: beta-microseminoprotein-like [Pha...  37.4    0.47 
+ref|XP_005242657.1|  PREDICTED: beta-microseminoprotein-like [Fal...  37.0    0.48 
+ref|XP_009895998.1|  PREDICTED: beta-microseminoprotein-like [Pic...  36.6    0.49 
+ref|XP_005048387.1|  PREDICTED: beta-microseminoprotein-like isof...  37.0    0.49 
+ref|XP_012618628.1|  PREDICTED: peroxidasin homolog [Microcebus m...  38.9    0.49 
+ref|XP_009464106.1|  PREDICTED: beta-microseminoprotein-like [Nip...  36.6    0.51 
+gb|EHB08867.1|  Beta-microseminoprotein [Heterocephalus glaber]       36.2    0.54 
+ref|XP_010189621.1|  PREDICTED: beta-microseminoprotein-like [Mes...  36.6    0.55 
+gb|KFV82845.1|  Beta-microseminoprotein [Struthio camelus australis]  36.2    0.56 
+ref|XP_007431094.1|  PREDICTED: small serum protein 2-like [Pytho...  36.6    0.58 
+ref|XP_007445193.1|  PREDICTED: small serum protein 5-like [Pytho...  35.8    0.61 
+dbj|BAJ14710.1|  small serum protein-5 [Gloydius blomhoffii blomh...  36.6    0.62 
+ref|XP_010193085.1|  PREDICTED: beta-microseminoprotein-like [Mes...  37.0    0.64 
+ref|XP_002936005.1|  PREDICTED: beta-microseminoprotein-like [Xen...  36.6    0.65 
+gb|KGL96303.1|  Beta-microseminoprotein J1 [Charadrius vociferus]     35.8    0.66 
+dbj|BAJ14708.1|  small serum protein-3 [Gloydius blomhoffii blomh...  36.2    0.66 
+emb|CDQ56705.1|  unnamed protein product [Oncorhynchus mykiss]        36.6    0.66 
+ref|XP_005048388.1|  PREDICTED: beta-microseminoprotein-like isof...  36.6    0.68 
+gb|KFO71033.1|  Beta-microseminoprotein [Cuculus canorus]             35.8    0.68 
+ref|XP_010348399.1|  PREDICTED: peroxidasin homolog [Saimiri boli...  38.5    0.69 
+gb|KFP27127.1|  Beta-microseminoprotein [Colius striatus]             35.8    0.78 
+ref|XP_006882981.1|  PREDICTED: peroxidasin homolog [Elephantulus...  38.1    0.86 
+gb|EHJ72120.1|  putative collagen alpha-2 precursor [Danaus plexi...  38.1    0.87 
+gb|KFV18646.1|  Beta-microseminoprotein [Tauraco erythrolophus]       35.4    0.89 
+ref|XP_013927317.1|  PREDICTED: small serum protein 5-like [Thamn...  36.2    0.93 
+ref|XP_014306088.1|  PREDICTED: LOW QUALITY PROTEIN: peroxidasin ...  37.7    0.96 
+ref|XP_005048391.1|  PREDICTED: beta-microseminoprotein-like isof...  35.8    1.0  
+ref|XP_009916312.1|  PREDICTED: beta-microseminoprotein-like [Hal...  35.8    1.0  
+ref|XP_009569078.1|  PREDICTED: LOW QUALITY PROTEIN: beta-microse...  35.8    1.0  
+ref|XP_012517630.1|  PREDICTED: peroxidasin homolog isoform X1 [P...  37.7    1.0  
+gb|KQL98731.1|  hypothetical protein Y1Q_028823 [Alligator missis...  35.8    1.1  
+ref|XP_012517631.1|  PREDICTED: peroxidasin homolog isoform X2 [P...  37.7    1.1  
+ref|XP_012009775.1|  PREDICTED: LOW QUALITY PROTEIN: peroxidasin ...  37.7    1.1  
+gb|KFP18629.1|  Beta-microseminoprotein [Egretta garzetta]            35.4    1.1  
+gb|ELK13949.1|  Peroxidasin like protein [Pteropus alecto]            37.7    1.2  
+ref|XP_005962147.1|  PREDICTED: peroxidasin homolog [Pantholops h...  37.7    1.2  
+ref|XP_015443609.1|  PREDICTED: peroxidasin homolog [Pteropus ale...  37.7    1.2  
+ref|XP_008500264.1|  PREDICTED: beta-microseminoprotein-like [Cal...  35.4    1.3  
+ref|XP_011981459.1|  PREDICTED: peroxidasin homolog isoform X4 [O...  37.7    1.3  
+ref|XP_011981457.1|  PREDICTED: peroxidasin homolog isoform X2 [O...  37.7    1.3  
+ref|XP_011981458.1|  PREDICTED: peroxidasin homolog isoform X3 [O...  37.4    1.4  
+gb|ELK32764.1|  Peroxidasin like protein [Myotis davidii]             37.4    1.4  
+ref|XP_004620042.1|  PREDICTED: peroxidasin homolog [Sorex araneus]   37.4    1.4  
+ref|XP_009704742.1|  PREDICTED: beta-microseminoprotein-like [Car...  35.4    1.5  
+ref|XP_004709889.1|  PREDICTED: peroxidasin homolog [Echinops tel...  37.4    1.5  
+ref|XP_010590188.1|  PREDICTED: peroxidasin homolog isoform X2 [L...  37.4    1.5  
+ref|XP_003411841.2|  PREDICTED: peroxidasin homolog isoform X1 [L...  37.4    1.6  
+ref|XP_007946320.1|  PREDICTED: peroxidasin homolog [Orycteropus ...  37.4    1.6  
+ref|XP_008428190.1|  PREDICTED: LOW QUALITY PROTEIN: beta-microse...  35.8    1.6  
+ref|XP_004656927.1|  PREDICTED: peroxidasin homolog [Jaculus jacu...  37.4    1.6  
+ref|XP_011383404.1|  PREDICTED: peroxidasin homolog [Pteropus vam...  37.4    1.7  
+ref|XP_008979461.1|  PREDICTED: peroxidasin homolog [Callithrix j...  37.4    1.7  
+ref|XP_005048389.1|  PREDICTED: beta-microseminoprotein-like isof...  35.4    1.8  
+ref|XP_015417277.1|  PREDICTED: LOW QUALITY PROTEIN: peroxidasin ...  37.0    1.8  
+ref|XP_004582880.1|  PREDICTED: peroxidasin homolog [Ochotona pri...  37.0    1.8  
+ref|XP_012292690.1|  PREDICTED: peroxidasin homolog [Aotus nancym...  36.2    1.8  
+ref|XP_003757952.2|  PREDICTED: peroxidasin homolog [Sarcophilus ...  37.0    1.9  
+ref|XP_004405022.1|  PREDICTED: peroxidasin homolog [Odobenus ros...  37.0    1.9  
+ref|XP_010129812.1|  PREDICTED: beta-microseminoprotein-like [Buc...  35.0    2.0  
+ref|XP_009076419.1|  PREDICTED: beta-microseminoprotein-like [Aca...  35.0    2.1  
+ref|XP_014466196.1|  PREDICTED: small serum protein 2-like [Allig...  35.0    2.1  
+ref|XP_002740290.1|  PREDICTED: uncharacterized protein LOC100366...  37.0    2.2  
+gb|KFV55780.1|  Beta-microseminoprotein [Gavia stellata]              34.7    2.2  
+ref|XP_006930569.1|  PREDICTED: peroxidasin homolog isoform X1 [F...  37.0    2.2  
+ref|XP_009954110.1|  PREDICTED: beta-microseminoprotein-like [Lep...  35.0    2.2  
+gb|KFO33965.1|  Nuclear receptor coactivator 4 [Fukomys damarensis]   36.6    2.3  
+ref|XP_006930570.1|  PREDICTED: peroxidasin homolog isoform X2 [F...  36.6    2.3  
+ref|XP_010206291.1|  PREDICTED: beta-microseminoprotein-like [Col...  34.7    2.5  
+ref|XP_009085591.1|  PREDICTED: beta-microseminoprotein-like [Ser...  34.7    2.5  
+ref|XP_008500316.1|  PREDICTED: beta-microseminoprotein-like [Cal...  35.4    2.6  
+ref|XP_015106602.1|  PREDICTED: LOW QUALITY PROTEIN: peroxidasin ...  36.6    2.7  
+ref|XP_004028820.1|  PREDICTED: peroxidasin homolog [Gorilla gori...  36.6    2.8  
+ref|XP_013880153.1|  PREDICTED: collagen alpha-2(V) chain-like [A...  36.6    2.8  
+ref|XP_013975701.1|  PREDICTED: peroxidasin homolog [Canis lupus ...  36.6    2.8  
+ref|XP_008687391.1|  PREDICTED: peroxidasin homolog [Ursus mariti...  36.6    2.8  
+ref|XP_011226754.1|  PREDICTED: peroxidasin homolog [Ailuropoda m...  36.6    2.8  
+ref|XP_015289559.1|  PREDICTED: peroxidasin homolog [Macaca fasci...  36.6    2.9  
+ref|XP_011767028.1|  PREDICTED: peroxidasin homolog isoform X1 [M...  36.6    2.9  
+ref|XP_007910745.1|  PREDICTED: beta-microseminoprotein [Callorhi...  35.4    2.9  
+ref|XP_005264764.1|  PREDICTED: peroxidasin homolog isoform X1 [H...  36.6    2.9  
+ref|XP_003908274.1|  PREDICTED: peroxidasin homolog isoform X3 [P...  36.6    2.9  
+ref|XP_011767031.1|  PREDICTED: peroxidasin homolog isoform X3 [M...  36.6    2.9  
+ref|NP_036425.1|  peroxidasin homolog precursor [Homo sapiens]        36.6    3.0  
+ref|XP_009181875.1|  PREDICTED: peroxidasin homolog isoform X6 [P...  36.2    3.0  
+ref|XP_008957760.1|  PREDICTED: peroxidasin homolog isoform X1 [P...  36.6    3.0  
+ref|XP_011816352.1|  PREDICTED: peroxidasin homolog [Colobus ango...  36.2    3.0  
+ref|XP_001169397.4|  PREDICTED: peroxidasin homolog [Pan troglody...  36.2    3.0  
+ref|XP_003807454.1|  PREDICTED: peroxidasin homolog isoform X2 [P...  36.2    3.0  
+ref|XP_011844918.1|  PREDICTED: peroxidasin homolog [Mandrillus l...  36.2    3.1  
+gb|AAF06354.1|AF200348_1  melanoma-associated antigen MG50 [Homo ...  36.2    3.1  
+ref|XP_006736879.1|  PREDICTED: peroxidasin homolog [Leptonychote...  36.2    3.1  
+ref|XP_011767030.1|  PREDICTED: peroxidasin homolog isoform X2 [M...  36.2    3.1  
+ref|XP_009181873.1|  PREDICTED: peroxidasin homolog isoform X4 [P...  36.2    3.1  
+ref|XP_011508697.1|  PREDICTED: peroxidasin homolog isoform X2 [H...  36.2    3.2  
+ref|XP_009181874.1|  PREDICTED: peroxidasin homolog isoform X5 [P...  36.2    3.2  
+ref|XP_014967092.1|  PREDICTED: peroxidasin homolog [Macaca mulatta]  36.2    3.2  
+ref|XP_011508698.1|  PREDICTED: peroxidasin homolog isoform X3 [H...  36.2    3.2  
+gb|EHH21863.1|  hypothetical protein EGK_05020 [Macaca mulatta]       36.2    3.2  
+gb|KGL84166.1|  Beta-microseminoprotein J1 [Tinamus guttatus]         33.9    3.2  
+gb|EFB14072.1|  hypothetical protein PANDA_011012 [Ailuropoda mel...  36.2    3.3  
+ref|XP_009181872.1|  PREDICTED: peroxidasin homolog isoform X2 [P...  36.2    3.3  
+ref|XP_009181871.1|  PREDICTED: peroxidasin homolog isoform X1 [P...  36.2    3.3  
+ref|XP_009971273.1|  PREDICTED: beta-microseminoprotein-like [Tyt...  34.3    3.4  
+ref|XP_002812384.1|  PREDICTED: peroxidasin homolog [Pongo abelii]    36.2    3.5  
+ref|XP_015279107.1|  PREDICTED: small serum protein 5-like [Gekko...  33.9    3.5  
+ref|XP_005048390.1|  PREDICTED: beta-microseminoprotein-like isof...  34.7    3.6  
+ref|XP_005481683.1|  PREDICTED: beta-microseminoprotein-like [Zon...  34.7    3.6  
+gb|AAH09496.2|  PXDN protein [Homo sapiens]                           35.4    3.6  
+ref|XP_008055000.1|  PREDICTED: peroxidasin homolog [Tarsius syri...  36.2    3.8  
+ref|NP_001134572.1|  Beta-microseminoprotein precursor [Salmo salar]  34.7    3.9  
+ref|XP_007640262.1|  PREDICTED: peroxidasin homolog isoform X2 [C...  36.2    3.9  
+gb|ERE68516.1|  putative peroxidasin like protein [Cricetulus gri...  35.8    4.0  
+ref|XP_003501456.1|  PREDICTED: peroxidasin homolog isoform X1 [C...  35.8    4.1  
+ref|XP_007635129.1|  PREDICTED: peroxidasin homolog isoform X3 [C...  35.8    4.1  
+gb|KFB40368.1|  AGAP007237-PA-like protein [Anopheles sinensis]       35.8    4.1  
+gb|KFP84466.1|  Beta-microseminoprotein [Apaloderma vittatum]         33.5    4.2  
+gb|KFU98143.1|  Beta-microseminoprotein [Pterocles gutturalis]        33.5    4.3  
+ref|XP_008848403.1|  PREDICTED: peroxidasin homolog [Nannospalax ...  35.8    4.3  
+gb|AEX32798.1|  uterine-secreted microprotein 1 [Macropus eugenii]    33.9    4.3  
+ref|XP_008305318.1|  PREDICTED: peroxidasin homolog [Cynoglossus ...  35.8    4.5  
+ref|XP_013821774.1|  PREDICTED: peroxidasin homolog [Capra hircus]    35.8    4.5  
+ref|XP_010222957.1|  PREDICTED: beta-microseminoprotein-like [Tin...  34.3    4.5  
+gb|ELR60993.1|  Peroxidasin-like protein [Bos mutus]                  35.8    4.6  
+ref|XP_014331753.1|  PREDICTED: peroxidasin homolog [Bos mutus]       35.8    4.6  
+ref|XP_010167255.1|  PREDICTED: beta-microseminoprotein-like [Cap...  34.3    4.6  
+ref|XP_014460548.1|  PREDICTED: beta-microseminoprotein-like isof...  34.3    4.7  
+ref|XP_007910743.1|  PREDICTED: beta-microseminoprotein A1-like [...  34.3    4.7  
+ref|XP_014460547.1|  PREDICTED: beta-microseminoprotein-like isof...  34.3    4.8  
+ref|XP_010846742.1|  PREDICTED: peroxidasin homolog [Bison bison ...  35.8    5.0  
+gb|KFO04727.1|  Beta-microseminoprotein [Balearica pavonina gibbe...  33.5    5.0  
+ref|XP_006118214.1|  PREDICTED: beta-microseminoprotein-like [Pel...  33.9    5.1  
+ref|XP_009640340.1|  PREDICTED: beta-microseminoprotein-like [Egr...  33.9    5.2  
+ref|XP_002723857.2|  PREDICTED: peroxidasin homolog [Oryctolagus ...  35.8    5.3  
+ref|XP_013158806.1|  PREDICTED: beta-microseminoprotein-like [Fal...  35.0    5.3  
+ref|XP_012908316.1|  PREDICTED: peroxidasin homolog [Mustela puto...  35.4    5.7  
+gb|ERE68514.1|  myelin transcription factor 1-like protein isofor...  35.4    5.8  
+ref|XP_010799145.1|  PREDICTED: peroxidasin homolog isoform X3 [B...  35.4    5.9  
+ref|XP_007476590.1|  PREDICTED: small serum protein 5-like [Monod...  33.5    6.2  
+ref|XP_006054234.1|  PREDICTED: peroxidasin homolog [Bubalus buba...  35.4    6.4  
+ref|XP_010799143.1|  PREDICTED: peroxidasin homolog isoform X1 [B...  35.4    6.5  
+ref|XP_010799144.1|  PREDICTED: peroxidasin homolog isoform X2 [B...  35.4    6.5  
+ref|XP_013206792.1|  PREDICTED: peroxidasin homolog isoform X2 [M...  35.4    6.6  
+ref|XP_006989847.1|  PREDICTED: peroxidasin homolog isoform X1 [P...  35.4    6.6  
+ref|XP_005360713.1|  PREDICTED: peroxidasin homolog isoform X1 [M...  35.4    6.8  
+ref|NP_001258190.1|  peroxidasin homolog precursor [Rattus norveg...  35.4    6.9  
+ref|XP_012582834.1|  PREDICTED: peroxidasin homolog [Condylura cr...  35.0    6.9  
+ref|XP_015863556.1|  PREDICTED: peroxidasin homolog isoform X2 [P...  35.4    6.9  
+ref|XP_010997908.1|  PREDICTED: peroxidasin homolog [Camelus drom...  35.0    7.3  
+ref|XP_014416906.1|  PREDICTED: peroxidasin homolog isoform X1 [C...  35.0    7.3  
+sp|P83242.1|MSMB_STRCA  RecName: Full=Beta-microseminoprotein [St...  33.1    7.5  
+ref|XP_004477730.1|  PREDICTED: peroxidasin homolog isoform X1 [D...  35.0    7.5  
+ref|XP_004477731.1|  PREDICTED: peroxidasin homolog isoform X2 [D...  35.0    7.7  
+ref|XP_010961372.1|  PREDICTED: peroxidasin homolog [Camelus bact...  35.0    7.9  
+
+
+>gb|AAP36178.1| Homo sapiens microseminoprotein, beta- [synthetic construct]
+ gb|AAX29460.1| microseminoprotein beta-, partial [synthetic construct]
+ gb|AAX29461.1| microseminoprotein beta-, partial [synthetic construct]
+Length=115
+
+ Score =   152 bits (384),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 73/74 (99%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC
+Sbjct  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           TCYETEISCCTL S
+Sbjct  61  TCYETEISCCTLVS  74
+
+
+>ref|NP_002434.1| beta-microseminoprotein isoform a precursor [Homo sapiens]
+ sp|P08118.1|MSMB_HUMAN RecName: Full=Beta-microseminoprotein; AltName: Full=Immunoglobulin-binding 
+factor; Short=IGBF; AltName: Full=PN44; AltName: 
+Full=Prostate secreted seminal plasma protein; AltName: 
+Full=Prostate secretory protein of 94 amino acids; Short=PSP-94; 
+Short=PSP94; AltName: Full=Seminal plasma beta-inhibin; 
+Flags: Precursor
+ gb|AAA36635.1| seminal plasma protein precursor [Homo sapiens]
+ gb|AAB29732.1| prostate secretory protein [Homo sapiens]
+ gb|AAA59871.1| beta-microseminoprotein [Homo sapiens]
+ emb|CAA41002.1| prostatic secretory protein (PSP-94) [Homo sapiens]
+ gb|AAB37355.1| prostatic secretory protein 94 [Homo sapiens]
+ gb|AAH05257.1| Microseminoprotein, beta- [Homo sapiens]
+ gb|AAP35462.1| microseminoprotein, beta- [Homo sapiens]
+ emb|CAG33296.1| MSMB [Homo sapiens]
+ gb|AAX42006.1| microseminoprotein beta [synthetic construct]
+ gb|AAX42007.1| microseminoprotein beta [synthetic construct]
+ gb|EAW53685.1| microseminoprotein, beta-, isoform CRA_c [Homo sapiens]
+ gb|ABM83424.1| microseminoprotein, beta- [synthetic construct]
+ gb|ABM86637.1| microseminoprotein, beta- [synthetic construct]
+ gb|AIC49230.1| MSMB, partial [synthetic construct]
+Length=114
+
+ Score =   152 bits (384),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 73/74 (99%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC
+Sbjct  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           TCYETEISCCTL S
+Sbjct  61  TCYETEISCCTLVS  74
+
+
+>dbj|BAG35044.1| unnamed protein product [Homo sapiens]
+Length=114
+
+ Score =   152 bits (383),  Expect = 9e-45, Method: Compositional matrix adjust.
+ Identities = 72/74 (97%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHP+NSEWQTDNCETC
+Sbjct  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPVNSEWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           TCYETEISCCTL S
+Sbjct  61  TCYETEISCCTLVS  74
+
+
+>emb|CAB39325.1| beta-microseminoprotein [Homo sapiens]
+Length=71
+
+ Score =   148 bits (374),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT
+Sbjct  1   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  60
+
+Query  62  CYETEISCCTL  72
+           CYETEISCCTL
+Sbjct  61  CYETEISCCTL  71
+
+
+>ref|XP_003811861.1| PREDICTED: beta-microseminoprotein isoform X1 [Pan paniscus]
+ ref|XP_009456684.1| PREDICTED: beta-microseminoprotein [Pan troglodytes]
+Length=114
+
+ Score =   149 bits (376),  Expect = 8e-44, Method: Compositional matrix adjust.
+ Identities = 71/74 (96%), Positives = 73/74 (99%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLGS+VIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL+GNKHPINSEWQTDNCETC
+Sbjct  1   MNVLLGSLVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLEGNKHPINSEWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           TCYETEISCCTL S
+Sbjct  61  TCYETEISCCTLVS  74
+
+
+>ref|XP_004049458.1| PREDICTED: beta-microseminoprotein [Gorilla gorilla gorilla]
+Length=114
+
+ Score =   146 bits (369),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 70/74 (95%), Positives = 72/74 (97%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVL GS+VIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL+GNKHPINSEWQTDNCETC
+Sbjct  1   MNVLPGSLVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLEGNKHPINSEWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           TCYETEISCCTL S
+Sbjct  61  TCYETEISCCTLVS  74
+
+
+>ref|XP_003278237.1| PREDICTED: beta-microseminoprotein isoform X1 [Nomascus leucogenys]
+Length=114
+
+ Score =   139 bits (351),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 66/74 (89%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVL+GS+VIF TFVTLCNASCYFIPNE V GDSTR+CMDL+GNKHPINSEWQTDNCETC
+Sbjct  1   MNVLVGSLVIFTTFVTLCNASCYFIPNERVAGDSTRECMDLEGNKHPINSEWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           TCYETEISCCTL S
+Sbjct  61  TCYETEISCCTLVS  74
+
+
+>ref|XP_002820770.2| PREDICTED: beta-microseminoprotein, partial [Pongo abelii]
+Length=113
+
+ Score =   137 bits (344),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 64/73 (88%), Positives = 70/73 (96%), Gaps = 0/73 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           NVLLGS+VIFA FVTLCNASCYFIPNE VPGDSTR+CMDL+GNKHPINS+WQTDNCETCT
+Sbjct  1   NVLLGSLVIFAIFVTLCNASCYFIPNERVPGDSTRECMDLEGNKHPINSKWQTDNCETCT  60
+
+Query  62  CYETEISCCTLSS  74
+           CY+TEISCC+L S
+Sbjct  61  CYKTEISCCSLVS  73
+
+
+>ref|XP_010368660.1| PREDICTED: beta-microseminoprotein isoform X1 [Rhinopithecus 
+roxellana]
+Length=114
+
+ Score =   135 bits (340),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 64/74 (86%), Positives = 68/74 (92%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASCY IPNEGVPGDSTR+C DL+GNKHPINS+WQTDNCETC
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCYVIPNEGVPGDSTRECTDLEGNKHPINSKWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           +CYETEI CCTL S
+Sbjct  61  SCYETEIFCCTLVS  74
+
+
+>ref|XP_011805776.1| PREDICTED: beta-microseminoprotein isoform X1 [Colobus angolensis 
+palliatus]
+Length=114
+
+ Score =   135 bits (339),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 63/74 (85%), Positives = 68/74 (92%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASCY +PNEGVPGDSTR+C DL+GNKHPINS+WQTDNCETC
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCYVVPNEGVPGDSTRECTDLEGNKHPINSKWQTDNCETC  60
+
+Query  61  TCYETEISCCTLSS  74
+           +CYETEI CCTL S
+Sbjct  61  SCYETEIFCCTLVS  74
+
+
+>ref|XP_011828515.1| PREDICTED: beta-microseminoprotein isoform X1 [Mandrillus leucophaeus]
+Length=114
+
+ Score =   131 bits (330),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 61/72 (85%), Positives = 65/72 (90%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASC+FIPNE  PGDSTR+C DLKGNKHPINS+WQTDNCE C
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCFFIPNERFPGDSTRECTDLKGNKHPINSKWQTDNCERC  60
+
+Query  61  TCYETEISCCTL  72
+           +CYETEI CCTL
+Sbjct  61  SCYETEIICCTL  72
+
+
+>ref|XP_011927663.1| PREDICTED: beta-microseminoprotein isoform X1 [Cercocebus atys]
+Length=114
+
+ Score =   131 bits (330),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 61/72 (85%), Positives = 65/72 (90%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASC+FIPNE  PGDSTR+C DLKGNKHPINS+WQTDNCE C
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCFFIPNERFPGDSTRECTDLKGNKHPINSKWQTDNCERC  60
+
+Query  61  TCYETEISCCTL  72
+           +CYETEI CCTL
+Sbjct  61  SCYETEIICCTL  72
+
+
+>ref|XP_011747856.1| PREDICTED: beta-microseminoprotein [Macaca nemestrina]
+Length=114
+
+ Score =   130 bits (328),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 62/79 (78%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASC FIPNEG PGDSTR+C DLKGNKHPINS+W+TDNCE C
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCSFIPNEGFPGDSTRECTDLKGNKHPINSKWKTDNCERC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           TCY+TEI CCTL +    Y
+Sbjct  61  TCYKTEIICCTLIATPVGY  79
+
+
+>ref|NP_001106120.1| beta-microseminoprotein precursor [Papio anubis]
+ sp|Q28767.1|MSMB_PAPAN RecName: Full=Beta-microseminoprotein; AltName: Full=Prostate 
+secreted seminal plasma protein; AltName: Full=Prostate secretory 
+protein of 94 amino acids; Short=PSP-94; Short=PSP94; 
+Flags: Precursor
+ gb|AAB62726.1| prostate secretory protein 94 [Papio anubis]
+Length=114
+
+ Score =   129 bits (325),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 61/72 (85%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASC F+PNE  PGDSTR+C DLKGNKHPINS+WQTDNCE C
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCSFMPNERFPGDSTRECTDLKGNKHPINSKWQTDNCEAC  60
+
+Query  61  TCYETEISCCTL  72
+           TCYETEI CCTL
+Sbjct  61  TCYETEIICCTL  72
+
+
+>ref|XP_009212627.1| PREDICTED: beta-microseminoprotein isoform X1 [Papio anubis]
+ ref|XP_009212628.1| PREDICTED: beta-microseminoprotein isoform X1 [Papio anubis]
+Length=114
+
+ Score =   129 bits (324),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 61/72 (85%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASC F+PNE  PGDSTR+C DLKGNKHPINS+WQTDNCE C
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCSFMPNERFPGDSTRECTDLKGNKHPINSKWQTDNCERC  60
+
+Query  61  TCYETEISCCTL  72
+           TCYETEI CCTL
+Sbjct  61  TCYETEIICCTL  72
+
+
+>ref|NP_001040596.1| beta-microseminoprotein precursor [Macaca mulatta]
+ ref|XP_015311483.1| PREDICTED: beta-microseminoprotein [Macaca fascicularis]
+ sp|P25142.1|MSMB_MACMU RecName: Full=Beta-microseminoprotein; AltName: Full=Prostate 
+secreted seminal plasma protein; AltName: Full=Prostate secretory 
+protein of 94 amino acids; Short=PSP-94; Short=PSP94; 
+Flags: Precursor
+ gb|AAA36903.1| prostatic secretory protein [Macaca mulatta]
+ emb|CAA41003.1| prostatic secretory protein (PSP-94) [Macaca mulatta]
+Length=114
+
+ Score =   128 bits (321),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 61/79 (77%), Positives = 66/79 (84%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASC FIPNE  PGDSTR+C DLKGNKHPINS+W+TDNCE C
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCSFIPNERFPGDSTRECTDLKGNKHPINSKWKTDNCERC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           TCY+TEI CCTL +    Y
+Sbjct  61  TCYKTEIICCTLIATPVGY  79
+
+
+>gb|EHH18999.1| hypothetical protein EGK_19616, partial [Macaca mulatta]
+ gb|EHH64674.1| hypothetical protein EGM_17958, partial [Macaca fascicularis]
+Length=114
+
+ Score =   125 bits (315),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 60/79 (76%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+            NVLLG  VIFATFVTLCNASC FIPNE  PGDSTR+C DLKGNKHPINS+W+TDNCE C
+Sbjct  1   QNVLLGGFVIFATFVTLCNASCSFIPNERFPGDSTRECTDLKGNKHPINSKWKTDNCERC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           TCY+TEI CCTL +    Y
+Sbjct  61  TCYKTEIICCTLIATPVGY  79
+
+
+>ref|XP_007960734.1| PREDICTED: beta-microseminoprotein [Chlorocebus sabaeus]
+Length=114
+
+ Score =   123 bits (309),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 60/79 (76%), Positives = 64/79 (81%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG  VIFATFVTLCNASC FIP E  PGDST++C DL+GNKHPINS WQTDNCE C
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCSFIPLERFPGDSTKECTDLQGNKHPINSNWQTDNCERC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +CYETEI CCTL S    Y
+Sbjct  61  SCYETEIICCTLISTPVGY  79
+
+
+>sp|O97949.1|MSPJ_SAGOE RecName: Full=Beta-microseminoprotein J1; Short=msp-J1; Flags: 
+Precursor
+ emb|CAB38123.1| beta-microseminoprotein J precursor [Saguinus oedipus]
+Length=114
+
+ Score =   122 bits (307),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 58/79 (73%), Positives = 66/79 (84%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATFVTLCNASCY I N+ +PGDST +C DLKGNKHPINS+W+TDNC++C
+Sbjct  1   MNVLLGGLVIFATFVTLCNASCYIILNDMIPGDSTNECTDLKGNKHPINSKWRTDNCDSC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           TC E EISCCTL S    Y
+Sbjct  61  TCREKEISCCTLVSTPVGY  79
+
+
+>ref|XP_003734491.1| PREDICTED: LOW QUALITY PROTEIN: beta-microseminoprotein A1-like 
+[Callithrix jacchus]
+Length=114
+
+ Score =   120 bits (300),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 54/74 (73%), Positives = 63/74 (85%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATFVTLCNASCY IPN+ VPGDS ++C DLKGNKHP+NS WQT+NC+ C
+Sbjct  1   MNVLLGGLVIFATFVTLCNASCYLIPNKMVPGDSNKECTDLKGNKHPLNSRWQTENCDEC  60
+
+Query  61  TCYETEISCCTLSS  74
+            C E EISCC+L +
+Sbjct  61  DCLEKEISCCSLVA  74
+
+
+>ref|XP_003930047.1| PREDICTED: beta-microseminoprotein J1-like [Saimiri boliviensis 
+boliviensis]
+Length=114
+
+ Score =   119 bits (298),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 56/79 (71%), Positives = 64/79 (81%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATFVTLCNASCY I N+ VPG+ST++C DLKGNKHPINS W+TDNC+ C
+Sbjct  1   MNVLLGRLVIFATFVTLCNASCYLILNDIVPGESTKECTDLKGNKHPINSRWRTDNCDIC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C E EISCC+L S    Y
+Sbjct  61  ACREKEISCCSLVSTPVGY  79
+
+
+>ref|XP_012328029.1| PREDICTED: beta-microseminoprotein isoform X1 [Aotus nancymaae]
+Length=115
+
+ Score =   119 bits (298),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 51/74 (69%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN+LLG + IFATFVTLCNASCYFIPN+ VPGDST++C+DL+GNKHP+NS W+T+NC+ C
+Sbjct  2   MNILLGRLAIFATFVTLCNASCYFIPNKIVPGDSTKECLDLEGNKHPLNSRWRTENCDAC  61
+
+Query  61  TCYETEISCCTLSS  74
+            C E +I+CC+L S
+Sbjct  62  VCLEKDIACCSLVS  75
+
+
+>ref|XP_012328030.1| PREDICTED: beta-microseminoprotein isoform X2 [Aotus nancymaae]
+Length=106
+
+ Score =   118 bits (295),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 50/72 (69%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN+LLG + IFATFVTLCNASCYFIPN+ VPGDST++C+DL+GNKHP+NS W+T+NC+ C
+Sbjct  2   MNILLGRLAIFATFVTLCNASCYFIPNKIVPGDSTKECLDLEGNKHPLNSRWRTENCDAC  61
+
+Query  61  TCYETEISCCTL  72
+            C E +I+CC+L
+Sbjct  62  VCLEKDIACCSL  73
+
+
+>ref|XP_009007787.1| PREDICTED: beta-microseminoprotein J1 [Callithrix jacchus]
+Length=114
+
+ Score =   118 bits (295),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 55/79 (70%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATF TLCNASCY I N+ VPG+ST++C DLKGNKHPINS+W+TD+C+ C
+Sbjct  1   MNVLLGGLVIFATFATLCNASCYLILNDVVPGESTKECTDLKGNKHPINSKWRTDSCDIC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           TC E EISCCTL +    Y
+Sbjct  61  TCQEKEISCCTLVATPVGY  79
+
+
+>sp|O97936.2|MSPA_SAGOE RecName: Full=Beta-microseminoprotein A1; Short=msp-A1; Flags: 
+Precursor
+ emb|CAB38124.2| beta-microseminoprotein A precursor [Saguinus oedipus]
+Length=113
+
+ Score =   117 bits (293),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 52/74 (70%), Positives = 63/74 (85%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATFVTLCN SCY +PN+ VPGDST++C DLKGNKHP+NS W+T+NC+ C
+Sbjct  1   MNVLLGGLVIFATFVTLCNGSCYLMPNKMVPGDSTKECTDLKGNKHPLNSRWKTENCDEC  60
+
+Query  61  TCYETEISCCTLSS  74
+            C E EISCC+L +
+Sbjct  61  DCLEKEISCCSLVA  74
+
+
+>ref|XP_009007788.1| PREDICTED: beta-microseminoprotein E1-like [Callithrix jacchus]
+Length=114
+
+ Score =   116 bits (291),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 57/79 (72%), Positives = 64/79 (81%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATFVTLCNASCY I N+ VP +ST++C DL+GNKHPINS W+TDNCETC
+Sbjct  1   MNVLLGGLVIFATFVTLCNASCYLILNDIVPEESTKECTDLEGNKHPINSRWRTDNCETC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C E EISCCTL S    Y
+Sbjct  61  ACGEKEISCCTLVSTPVGY  79
+
+
+>ref|XP_012299192.1| PREDICTED: beta-microseminoprotein J1-like, partial [Aotus nancymaae]
+Length=143
+
+ Score =   117 bits (293),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 55/71 (77%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LLG +VIFATFVTLCNASCY I N+ VPG+ST++C DLKGNKHPINS WQTDNCETC 
+Sbjct  31   NFLLGGLVIFATFVTLCNASCYLILNDIVPGESTKECTDLKGNKHPINSRWQTDNCETCD  90
+
+Query  62   CYETEISCCTL  72
+            C E EISCC+L
+Sbjct  91   CGEKEISCCSL  101
+
+
+>ref|XP_010339146.1| PREDICTED: beta-microseminoprotein A1 [Saimiri boliviensis boliviensis]
+Length=195
+
+ Score =   117 bits (292),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 52/71 (73%), Positives = 62/71 (87%), Gaps = 0/71 (0%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            NVLLG ++IFATFVTLCNASCY IPN+ VPG+ST++C DLKGNKHP+NS WQT+NC+ C 
+Sbjct  83   NVLLGGLLIFATFVTLCNASCYLIPNKIVPGESTKECTDLKGNKHPLNSSWQTENCDACD  142
+
+Query  62   CYETEISCCTL  72
+            C E EISCC+L
+Sbjct  143  CLEKEISCCSL  153
+
+
+>pdb|2IZ3|A Chain A, Solution Structure Of Human And Porcine Beta- Microseminoprotein
+Length=97
+
+ Score =   114 bits (284),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 53/56 (95%), Positives = 53/56 (95%), Gaps = 0/56 (0%)
+
+Query  19  NASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+             SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTL S
+Sbjct  2   GGSCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLVS  57
+
+
+>pdb|3IX0|A Chain A, Crystal Structure Of Human Seminal Plasma Protein Psp94
+ pdb|3IX0|B Chain B, Crystal Structure Of Human Seminal Plasma Protein Psp94
+ pdb|3IX0|C Chain C, Crystal Structure Of Human Seminal Plasma Protein Psp94
+ pdb|3IX0|D Chain D, Crystal Structure Of Human Seminal Plasma Protein Psp94
+Length=94
+
+ Score =   113 bits (283),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 53/54 (98%), Positives = 53/54 (98%), Gaps = 0/54 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTL S
+Sbjct  1   SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLVS  54
+
+
+>gb|AAZ82231.1| beta-microseminoprotein, partial [Pan troglodytes]
+ gb|AAZ82232.1| beta-microseminoprotein, partial [Pan paniscus]
+ gb|AAZ82233.1| beta-microseminoprotein, partial [Gorilla gorilla]
+Length=94
+
+ Score =   112 bits (279),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 52/54 (96%), Positives = 53/54 (98%), Gaps = 0/54 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           SCYFIPNEGVPGDSTRKCMDL+GNKHPINSEWQTDNCETCTCYETEISCCTL S
+Sbjct  1   SCYFIPNEGVPGDSTRKCMDLEGNKHPINSEWQTDNCETCTCYETEISCCTLVS  54
+
+
+>ref|XP_010339137.1| PREDICTED: beta-microseminoprotein A1-like [Saimiri boliviensis 
+boliviensis]
+Length=130
+
+ Score =   112 bits (280),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 54/78 (69%), Positives = 61/78 (78%), Gaps = 0/78 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           NVLLG +VIFATFVTLCNASCY I NE VPG+ST++C DLKGNKHPINS W+TDNCE C 
+Sbjct  18  NVLLGRLVIFATFVTLCNASCYLILNEIVPGESTKECTDLKGNKHPINSRWRTDNCEKCG  77
+
+Query  62  CYETEISCCTLSSEENEY  79
+           C E   SCC+L +    Y
+Sbjct  78  CGEKLTSCCSLVAIPVSY  95
+
+
+>prf||1209281A microseminoprotein beta
+Length=93
+
+ Score =   108 bits (269),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 51/54 (94%), Positives = 51/54 (94%), Gaps = 0/54 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCE  TCYETEISCCTL S
+Sbjct  1   SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCEPTTCYETEISCCTLVS  54
+
+
+>ref|XP_002756172.2| PREDICTED: beta-microseminoprotein E1 [Callithrix jacchus]
+Length=114
+
+ Score =   107 bits (266),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 48/79 (61%), Positives = 62/79 (78%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATFVTLCN SCY I ++ VPG++ ++C DLKGNKHP++S W+T++CE C
+Sbjct  1   MNVLLGGLVIFATFVTLCNGSCYVIRHKIVPGETIKECTDLKGNKHPLDSRWRTEDCELC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C + EISCC+L S    Y
+Sbjct  61  ACRDIEISCCSLVSTPVGY  79
+
+
+>sp|O97935.1|MSPE_SAGOE RecName: Full=Beta-microseminoprotein E1; Short=msp-E1; Flags: 
+Precursor
+ emb|CAB38105.1| beta-microseminoprotein E precursor [Saguinus oedipus]
+Length=114
+
+ Score =   106 bits (265),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 48/79 (61%), Positives = 62/79 (78%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG +VIFATFVTLCN SCY I ++ VPG++ ++C DLKGNKHP++S W+T++CE C
+Sbjct  1   MNVLLGGLVIFATFVTLCNGSCYVIRHKIVPGETIKECTDLKGNKHPLDSRWRTEDCELC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C + EISCC+L S    Y
+Sbjct  61  ACRDIEISCCSLVSTPVGY  79
+
+
+>gb|AAZ82236.1| beta-microseminoprotein, partial [Symphalangus syndactylus]
+Length=94
+
+ Score =   105 bits (261),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 49/54 (91%), Positives = 51/54 (94%), Gaps = 0/54 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           SCYFIPNE V GDSTR+CMDL+GNKHPINSEWQTDNCETCTCYETEISCCTL S
+Sbjct  1   SCYFIPNERVAGDSTRECMDLEGNKHPINSEWQTDNCETCTCYETEISCCTLVS  54
+
+
+>gb|AAZ82235.1| beta-microseminoprotein, partial [Nomascus gabriellae]
+Length=94
+
+ Score =   105 bits (261),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 49/54 (91%), Positives = 51/54 (94%), Gaps = 0/54 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           SCYFIPNE V GDSTR+CMDL+GNKHPINSEWQTDNCETCTCYETEISCCTL S
+Sbjct  1   SCYFIPNERVAGDSTRECMDLEGNKHPINSEWQTDNCETCTCYETEISCCTLVS  54
+
+
+>ref|XP_010338908.1| PREDICTED: beta-microseminoprotein E1 [Saimiri boliviensis boliviensis]
+Length=125
+
+ Score =   104 bits (260),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 46/79 (58%), Positives = 61/79 (77%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MNVLLG ++IFATFVTLCN SCY I ++  PG++ ++C DLKGNKHP++S W+T++CE C
+Sbjct  12  MNVLLGGLLIFATFVTLCNGSCYVIRHKLAPGETIKECTDLKGNKHPLDSRWRTEDCELC  71
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C + EISCC+L S    Y
+Sbjct  72  ACRDIEISCCSLVSTPVGY  90
+
+
+>gb|AAZ82234.1| beta-microseminoprotein, partial [Pongo pygmaeus]
+Length=94
+
+ Score =   103 bits (258),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           SCYFIPNE VPGDSTR+CMDL+GNKHPINS+WQTDNCETCTCY+TEISCC+L S
+Sbjct  1   SCYFIPNERVPGDSTRECMDLEGNKHPINSKWQTDNCETCTCYKTEISCCSLVS  54
+
+
+>ref|XP_008568226.1| PREDICTED: beta-microseminoprotein [Galeopterus variegatus]
+Length=171
+
+ Score = 96.7 bits (239),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 40/71 (56%), Positives = 55/71 (77%), Gaps = 0/71 (0%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LLGS+++FATF+TLCNA CY IP E +PG+++ +C DL G KHP+NS+W+T  CE C+
+Sbjct  59   NALLGSLMVFATFLTLCNAQCYVIPAEKIPGNTSSECKDLDGVKHPLNSKWKTKTCEMCS  118
+
+Query  62   CYETEISCCTL  72
+            C E  I CC++
+Sbjct  119  CKEDGIHCCSI  129
+
+
+>gb|AAZ82237.1| beta-microseminoprotein, partial [Macaca mulatta]
+Length=94
+
+ Score = 92.8 bits (229),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTL  72
+           SC FIPNE  PGDSTR+C DLKGNKHPINS+W+TDNCE CTCY+TEI CCTL
+Sbjct  1   SCSFIPNERFPGDSTRECTDLKGNKHPINSKWKTDNCERCTCYKTEIICCTL  52
+
+
+>ref|XP_004467440.2| PREDICTED: beta-microseminoprotein [Dasypus novemcinctus]
+Length=142
+
+ Score = 90.9 bits (224),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 40/74 (54%), Positives = 55/74 (74%), Gaps = 0/74 (0%)
+
+Query  1    MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+            MN LLG +V+FATFVTLC+A+C+ IPNE  PGD + +C D  G +H +NSEW T+ C+ C
+Sbjct  29   MNSLLGILVVFATFVTLCDAACFVIPNEYTPGDPSHECKDPNGVRHQLNSEWNTEECQQC  88
+
+Query  61   TCYETEISCCTLSS  74
+            +C E  ISCC+ ++
+Sbjct  89   SCTEFGISCCSTAA  102
+
+
+>ref|XP_014685964.1| PREDICTED: beta-microseminoprotein [Equus asinus]
+Length=114
+
+ Score = 89.0 bits (219),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 38/79 (48%), Positives = 56/79 (71%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LLGS+++ ATFVT+CNA C+ IP+E +PG+   +C DL G  HP+NS+W+T +C+ C
+Sbjct  1   MNALLGSLLVLATFVTVCNAQCFVIPHENIPGNLPNECKDLDGVTHPMNSKWKTKSCQEC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  ISCC   +   +Y
+Sbjct  61  SCDQHGISCCNAVAIPADY  79
+
+
+>ref|XP_014589601.1| PREDICTED: beta-microseminoprotein [Equus caballus]
+Length=114
+
+ Score = 88.6 bits (218),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 38/79 (48%), Positives = 55/79 (70%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LLGS+++ ATFVT+CNA C+ IP E +PG+   +C DL G  HP+NS+W+T +C+ C
+Sbjct  1   MNALLGSLLVLATFVTVCNAQCFVIPRENIPGNLPNECKDLDGVTHPMNSKWKTKSCQEC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  ISCC   +   +Y
+Sbjct  61  SCDQHGISCCNTVAIPADY  79
+
+
+>gb|AAZ82238.1| beta-microseminoprotein, partial [Erythrocebus patas]
+Length=94
+
+ Score = 87.0 bits (214),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 41/54 (76%), Positives = 44/54 (81%), Gaps = 0/54 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           SC FIP E  PGDST +C DL GNKHPINS+WQTDNCE C+CYETEI CCTL S
+Sbjct  1   SCSFIPLEKFPGDSTTECTDLAGNKHPINSKWQTDNCERCSCYETEIICCTLIS  54
+
+
+>ref|XP_004388021.1| PREDICTED: beta-microseminoprotein [Trichechus manatus latirostris]
+Length=174
+
+ Score = 87.4 bits (215),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 44/79 (56%), Positives = 53/79 (67%), Gaps = 1/79 (1%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LLGS+VI ATFVTLCNA CY IP E + G+ST +C D  G  HP+NS W+T+ CE C+
+Sbjct  77   NALLGSLVISATFVTLCNAQCYVIPLENITGESTTECKDGSGVTHPLNSRWKTEKCEECS  136
+
+Query  62   CYETEISCC-TLSSEENEY  79
+            C    I CC TL+ E   Y
+Sbjct  137  CSTNGIQCCNTLNKETCSY  155
+
+
+>ref|NP_999017.1| beta-microseminoprotein precursor [Sus scrofa]
+ sp|O02826.1|MSMB_PIG RecName: Full=Beta-microseminoprotein; AltName: Full=Prostate 
+secreted seminal plasma protein; AltName: Full=Prostate secretory 
+protein of 94 amino acids; Short=PSP-94; Short=PSP94; 
+AltName: Full=TS507; Flags: Precursor
+ gb|AAB50711.1| PSP94-like protein [Sus scrofa]
+Length=111
+
+ Score = 85.9 bits (211),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 54/79 (68%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  LLG++V+ ATFVTLCN+ CYFIPN+ +  +   +C DLKG  HP+NS W+T +CE C
+Sbjct  1   MKFLLGTLVVLATFVTLCNSQCYFIPNQSLKPN---ECQDLKGVSHPLNSVWKTKDCEEC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           TC +  ISCC  ++    Y
+Sbjct  58  TCGQNAISCCNTAAIPTGY  76
+
+
+>ref|XP_012513853.1| PREDICTED: beta-microseminoprotein [Propithecus coquereli]
+Length=271
+
+ Score = 88.6 bits (218),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 39/78 (50%), Positives = 52/78 (67%), Gaps = 0/78 (0%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LLGS+++FATFVTLCNA C  IP+EG  G S  +C D  G  HP+ +EW T +CE C+
+Sbjct  159  NALLGSLLVFATFVTLCNAQCRVIPSEGAVGASPSECRDSDGATHPLKAEWNTGDCEKCS  218
+
+Query  62   CYETEISCCTLSSEENEY  79
+            C E  I CC++  +  +Y
+Sbjct  219  CEENGIHCCSIVLKPAKY  236
+
+
+>ref|XP_011353764.1| PREDICTED: beta-microseminoprotein [Pteropus vampyrus]
+ ref|XP_015448745.1| PREDICTED: beta-microseminoprotein [Pteropus alecto]
+ ref|XP_015448746.1| PREDICTED: beta-microseminoprotein [Pteropus alecto]
+Length=115
+
+ Score = 85.5 bits (210),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 37/78 (47%), Positives = 55/78 (71%), Gaps = 0/78 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+             LL  +++++TFVTLCNA CYF+PN   PGD + +C DL G  HP++S+W+T+NCE C+
+Sbjct  3   KALLCRLMVWSTFVTLCNAQCYFMPNMYTPGDLSNECKDLDGVTHPLSSKWKTENCEECS  62
+
+Query  62  CYETEISCCTLSSEENEY  79
+           C +  ISCC +++    Y
+Sbjct  63  CGQDGISCCNIAAIPMNY  80
+
+
+>ref|XP_006898923.1| PREDICTED: beta-microseminoprotein-like [Elephantulus edwardii]
+Length=129
+
+ Score = 85.1 bits (209),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 42/80 (53%), Positives = 52/80 (65%), Gaps = 0/80 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LLG +V+ ATFVT CNA CY IP E V G S  +C D  G  HPI + W+TD+CE C+
+Sbjct  17  NRLLGYLVVLATFVTSCNAYCYTIPFETVSGKSAVECKDDNGVIHPIYTVWKTDSCERCS  76
+
+Query  62  CYETEISCCTLSSEENEYLP  81
+           C+E  ISCC++ S    Y P
+Sbjct  77  CWEDGISCCSIVSSPMGYYP  96
+
+
+>ref|XP_008522538.1| PREDICTED: beta-microseminoprotein isoform X2 [Equus przewalskii]
+Length=114
+
+ Score = 84.7 bits (208),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 37/79 (47%), Positives = 54/79 (68%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LLGS+++ ATFVT+CNA C+ IP E + G+   +C DL G  HP+NS+W+T +C+ C
+Sbjct  1   MNALLGSLLVLATFVTVCNAQCFVIPRENILGNLPNECKDLDGVTHPMNSKWKTKSCQEC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  ISCC   +   +Y
+Sbjct  61  SCDQHGISCCNTVAIPADY  79
+
+
+>ref|XP_008147368.1| PREDICTED: beta-microseminoprotein [Eptesicus fuscus]
+Length=175
+
+ Score = 85.9 bits (211),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 36/70 (51%), Positives = 47/70 (67%), Gaps = 0/70 (0%)
+
+Query  1    MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+            MN LLG +V+ A+FV LCN  CYFIPN   PGD  ++C DL G  + +NS+W+ + CE C
+Sbjct  62   MNALLGRLVVLASFVMLCNGQCYFIPNPRAPGDVLKECKDLSGVTYAMNSKWKNEKCEEC  121
+
+Query  61   TCYETEISCC  70
+            +C  T I CC
+Sbjct  122  SCNPTGIDCC  131
+
+
+>ref|XP_008522537.1| PREDICTED: beta-microseminoprotein isoform X1 [Equus przewalskii]
+Length=126
+
+ Score = 83.6 bits (205),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 36/79 (46%), Positives = 54/79 (68%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           +N LLGS+++ ATFVT+CNA C+ IP E + G+   +C DL G  HP+NS+W+T +C+ C
+Sbjct  13  LNALLGSLLVLATFVTVCNAQCFVIPRENILGNLPNECKDLDGVTHPMNSKWKTKSCQEC  72
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  ISCC   +   +Y
+Sbjct  73  SCDQHGISCCNTVAIPADY  91
+
+
+>ref|XP_008053413.1| PREDICTED: beta-microseminoprotein [Tarsius syrichta]
+Length=146
+
+ Score = 83.6 bits (205),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 41/73 (56%), Positives = 51/73 (70%), Gaps = 0/73 (0%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LL S+VIF TF+TLCNASCYFIP E    + T KC D KG   P++SEW+T+ CE C 
+Sbjct  34   NALLSSLVIFTTFMTLCNASCYFIPIELDLDNLTTKCRDHKGVIRPMDSEWKTEYCERCH  93
+
+Query  62   CYETEISCCTLSS  74
+            C ++ I CCT+ S
+Sbjct  94   CQQSGIHCCTIIS  106
+
+
+>ref|XP_006757205.1| PREDICTED: beta-microseminoprotein [Myotis davidii]
+Length=125
+
+ Score = 82.0 bits (201),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 37/70 (53%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LLGS+V+ A+ V LCNA CYFIP EG P +S ++C DL G  + +NS+W+ + CE C
+Sbjct  12  MNALLGSLVVLASCVMLCNAQCYFIPIEGSPDNSLKECKDLGGVTYAMNSKWKNERCEEC  71
+
+Query  61  TCYETEISCC  70
+           +C  T I CC
+Sbjct  72  SCNPTGIDCC  81
+
+
+>ref|XP_005883189.1| PREDICTED: beta-microseminoprotein [Myotis brandtii]
+Length=125
+
+ Score = 82.0 bits (201),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 37/74 (50%), Positives = 50/74 (68%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LLGS+V+ A+ V LCNA CYFIP EG P +  ++C DL G  + +NS+W+ D CE C
+Sbjct  12  MNALLGSLVVLASCVMLCNAQCYFIPIEGSPDNLLKECKDLGGVTYAMNSKWKNDRCEEC  71
+
+Query  61  TCYETEISCCTLSS  74
+           +C  T I CC + +
+Sbjct  72  SCNPTGIHCCNIVA  85
+
+
+>ref|XP_007936879.1| PREDICTED: beta-microseminoprotein [Orycteropus afer afer]
+Length=114
+
+ Score = 82.0 bits (201),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 39/70 (56%), Positives = 48/70 (69%), Gaps = 5/70 (7%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S+V+FATFVT C+A CYFIP E +P     +C DL G  H +NS+W+T NCE C
+Sbjct  6   MNALLCSLVVFATFVTFCHAQCYFIPIENIP-----ECKDLSGVTHQVNSKWKTKNCEQC  60
+
+Query  61  TCYETEISCC  70
+           +C E  I CC
+Sbjct  61  SCLENGIHCC  70
+
+
+>ref|NP_619540.1| beta-microseminoprotein isoform b precursor [Homo sapiens]
+ gb|AAA83556.1| PSP57 [Homo sapiens]
+Length=77
+
+ Score = 80.1 bits (196),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 37/41 (90%), Positives = 38/41 (93%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTR  + L
+Sbjct  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRMFLHL  41
+
+
+>ref|XP_014644481.1| PREDICTED: beta-microseminoprotein [Ceratotherium simum simum]
+Length=114
+
+ Score = 80.9 bits (198),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 37/70 (53%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S+++ ATFVTLCNA CY I NE  P + + +C DL G  HP+NS W+T++C  C
+Sbjct  1   MNALLCSLLVSATFVTLCNAQCYVILNENTPDNLSNECKDLDGVTHPMNSTWKTESCVEC  60
+
+Query  61  TCYETEISCC  70
+           +C + EI+CC
+Sbjct  61  SCGQDEINCC  70
+
+
+>ref|XP_010587581.1| PREDICTED: beta-microseminoprotein [Loxodonta africana]
+Length=106
+
+ Score = 80.5 bits (197),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 35/62 (56%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+
+Query  9   VIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEIS  68
+           ++FATFVTLCNA CY I  E +PG+S  +C D+ G  H +NSEW+T+NCE C+C E  I 
+Sbjct  1   MVFATFVTLCNAQCYVILAEKIPGESATECKDINGVTHQLNSEWKTENCEACSCGEDGIQ  60
+
+Query  69  CC  70
+           CC
+Sbjct  61  CC  62
+
+
+>ref|XP_015104849.1| PREDICTED: beta-microseminoprotein isoform X1 [Vicugna pacos]
+ ref|XP_015104850.1| PREDICTED: beta-microseminoprotein isoform X2 [Vicugna pacos]
+Length=111
+
+ Score = 80.5 bits (197),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 37/79 (47%), Positives = 54/79 (68%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +L S+V+ ATFVTLC+  C+ IPN+      + +C DL G  HP+NS+W+T+NCE C
+Sbjct  1   MNAILVSLVVLATFVTLCSTQCFIIPNQN---SGSNECKDLDGITHPLNSQWKTENCEEC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  I+CC+L +   EY
+Sbjct  58  SCSQNGINCCSLIAVPVEY  76
+
+
+>ref|XP_007446843.1| PREDICTED: beta-microseminoprotein [Lipotes vexillifer]
+Length=123
+
+ Score = 80.1 bits (196),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 38/78 (49%), Positives = 54/78 (69%), Gaps = 3/78 (4%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LLGS+V+ ATFVT+C+A CY I N+     +  KC DL G  HP+NS+W+T+NCE CT
+Sbjct  14  NPLLGSLVVLATFVTVCSAQCYIISNQN---STPNKCKDLDGVIHPLNSKWKTENCEECT  70
+
+Query  62  CYETEISCCTLSSEENEY  79
+           C +  I+CC +++   +Y
+Sbjct  71  CDQGGINCCNIAAVPVDY  88
+
+
+>ref|XP_006108301.1| PREDICTED: beta-microseminoprotein [Myotis lucifugus]
+Length=125
+
+ Score = 80.1 bits (196),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 36/74 (49%), Positives = 50/74 (68%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LLGS+V+ A+ V LCNA CYFIP EG P +  ++C DL G  + +NS+W+ + CE C
+Sbjct  12  MNALLGSLVVLASCVMLCNAQCYFIPIEGSPDNLPKECKDLGGVTYAMNSKWKNERCEEC  71
+
+Query  61  TCYETEISCCTLSS  74
+           +C  T I CC + +
+Sbjct  72  SCNPTGIHCCNIVA  85
+
+
+>ref|XP_008962443.1| PREDICTED: beta-microseminoprotein isoform X2 [Pan paniscus]
+Length=77
+
+ Score = 79.0 bits (193),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 36/41 (88%), Positives = 38/41 (93%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVLLGS+VIFATFVTLCNASCYFIPNEGVPGDSTR  + L
+Sbjct  1   MNVLLGSLVIFATFVTLCNASCYFIPNEGVPGDSTRMFLHL  41
+
+
+>ref|XP_005226676.1| PREDICTED: beta-microseminoprotein isoform X1 [Bos taurus]
+ ref|XP_014335225.1| PREDICTED: beta-microseminoprotein [Bos mutus]
+Length=111
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/74 (51%), Positives = 48/74 (65%), Gaps = 3/74 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S V+ ATFVTLCNA CYFIPNE     ++  C DL G  H + S+W+T+NCE+C
+Sbjct  1   MNALLFSFVVLATFVTLCNAQCYFIPNE---SSASNGCKDLSGVTHELKSDWKTENCESC  57
+
+Query  61  TCYETEISCCTLSS  74
+            C    I CC  ++
+Sbjct  58  HCSNDGIECCNTAA  71
+
+
+>ref|XP_006902116.1| PREDICTED: beta-microseminoprotein-like [Elephantulus edwardii]
+Length=117
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 35/71 (49%), Positives = 47/71 (66%), Gaps = 0/71 (0%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+            LG++V+ ATFV  CNA CY IP E V G ST +C D  G  HP+N+ W+T+ CE C+C+
+Sbjct  7   FLGTLVVLATFVVSCNAYCYIIPIEKVSGKSTTECKDDNGIMHPMNTAWETEKCERCSCW  66
+
+Query  64  ETEISCCTLSS  74
+              I CC++ S
+Sbjct  67  RDGIQCCSIIS  77
+
+
+>ref|XP_012600061.1| PREDICTED: beta-microseminoprotein [Microcebus murinus]
+Length=114
+
+ Score = 77.8 bits (190),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 38/79 (48%), Positives = 46/79 (58%), Gaps = 0/79 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LLGS++ FATFVTLCNA C  IP EG  G S+ +C    G  H   + W   NCE C
+Sbjct  1   MNALLGSLLAFATFVTLCNAECRVIPREGTVGASSSECKGSDGTIHRFQAVWNNRNCERC  60
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C E  I CC++ S+   Y
+Sbjct  61  FCEEDGIHCCSVVSKPMNY  79
+
+
+>ref|XP_010983603.1| PREDICTED: beta-microseminoprotein isoform X1 [Camelus dromedarius]
+ ref|XP_010983604.1| PREDICTED: beta-microseminoprotein isoform X2 [Camelus dromedarius]
+Length=111
+
+ Score = 77.4 bits (189),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 35/79 (44%), Positives = 53/79 (67%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +L S+V+ AT VTLCN  C+ IPN+      + +C DL G  HP++S+W+T+NCE C
+Sbjct  1   MNAILVSLVVLATLVTLCNTQCFIIPNQN---SGSNECKDLDGITHPLDSQWKTENCEEC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  I+CC+L +   +Y
+Sbjct  58  SCSQNGINCCSLIAVPVDY  76
+
+
+>ref|XP_010852753.1| PREDICTED: beta-microseminoprotein [Bison bison bison]
+Length=111
+
+ Score = 77.4 bits (189),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 37/74 (50%), Positives = 48/74 (65%), Gaps = 3/74 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S V+ ATFVTLCNA CYFIPNE     ++  C DL G  H + S+W+T++CE+C
+Sbjct  1   MNALLFSFVVLATFVTLCNAQCYFIPNE---SSASNGCKDLSGVTHELKSDWKTEDCESC  57
+
+Query  61  TCYETEISCCTLSS  74
+            C    I CC  ++
+Sbjct  58  HCSNDGIECCNTAA  71
+
+
+>gb|ELR52877.1| Beta-microseminoprotein, partial [Bos mutus]
+Length=111
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 37/73 (51%), Positives = 47/73 (64%), Gaps = 3/73 (4%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LL S V+ ATFVTLCNA CYFIPNE     ++  C DL G  H + S+W+T+NCE+C 
+Sbjct  2   NALLFSFVVLATFVTLCNAQCYFIPNE---SSASNGCKDLSGVTHELKSDWKTENCESCH  58
+
+Query  62  CYETEISCCTLSS  74
+           C    I CC  ++
+Sbjct  59  CSNDGIECCNTAA  71
+
+
+>ref|XP_005412606.1| PREDICTED: beta-microseminoprotein-like [Chinchilla lanigera]
+Length=140
+
+ Score = 77.4 bits (189),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 35/78 (45%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+             LLGS+++ ATFVT+C A CY  P     GDS   C DL G  HPINS W + NC  C 
+Sbjct  8   KALLGSLLVLATFVTVCKAHCYLQPLVQGEGDSLPVCRDLDGTTHPINSTWMSWNCTKCV  67
+
+Query  62  CYETEISCCTLSSEENEY  79
+           CY+ ++ CC++     +Y
+Sbjct  68  CYQNKLECCSILHIPLQY  85
+
+
+>ref|XP_005960997.1| PREDICTED: beta-microseminoprotein [Pantholops hodgsonii]
+Length=111
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 38/79 (48%), Positives = 46/79 (58%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S    ATFVTLC+A CY IPNE    D    C DL G  H + S+W+TDNCE+C
+Sbjct  1   MNALLISFAALATFVTLCDAQCYVIPNESSASDG---CKDLSGVTHQLKSDWKTDNCESC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C    I CC+ ++    Y
+Sbjct  58  HCDADGIQCCSTAATPMGY  76
+
+
+>ref|XP_004049459.1| PREDICTED: beta-microseminoprotein [Gorilla gorilla gorilla]
+Length=77
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 35/41 (85%), Positives = 37/41 (90%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVL GS+VIFATFVTLCNASCYFIPNEGVPGDSTR  + L
+Sbjct  1   MNVLPGSLVIFATFVTLCNASCYFIPNEGVPGDSTRMFLHL  41
+
+
+>gb|EAW53683.1| microseminoprotein, beta-, isoform CRA_a [Homo sapiens]
+Length=76
+
+ Score = 75.5 bits (184),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+
+Query  39  MDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           MDLKGNKHPINSEWQTDNCETCTCYETEISCCTL S
+Sbjct  1   MDLKGNKHPINSEWQTDNCETCTCYETEISCCTLVS  36
+
+
+>ref|XP_006065751.1| PREDICTED: beta-microseminoprotein [Bubalus bubalis]
+Length=111
+
+ Score = 76.6 bits (187),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 37/70 (53%), Positives = 45/70 (64%), Gaps = 3/70 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S V+ ATFVTLCNA CY IPNE     ++  C DL G  H + S+W+T+NCE+C
+Sbjct  1   MNALLFSFVVLATFVTLCNAQCYLIPNE---SSASNGCKDLSGVTHELKSDWKTENCESC  57
+
+Query  61  TCYETEISCC  70
+            C    I CC
+Sbjct  58  RCDSDGIECC  67
+
+
+>ref|XP_004021615.1| PREDICTED: beta-microseminoprotein isoform X2 [Ovis aries]
+Length=111
+
+ Score = 75.9 bits (185),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 36/74 (49%), Positives = 46/74 (62%), Gaps = 3/74 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S    ATFV+LC+A CY IPNE    D    C DL G  H + S+W+TDNCE+C
+Sbjct  1   MNALLISFAALATFVSLCDAQCYVIPNESSASDG---CKDLSGVTHQLRSDWETDNCESC  57
+
+Query  61  TCYETEISCCTLSS  74
+            C +  I CC+ ++
+Sbjct  58  HCDDDGIQCCSTAA  71
+
+
+>ref|XP_012891663.1| PREDICTED: beta-microseminoprotein [Dipodomys ordii]
+Length=114
+
+ Score = 75.5 bits (184),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 35/70 (50%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  LLGS V+ ATF+T CNA CYFIP      +   +C D+ G K+P++  WQT+NC  C
+Sbjct  1   MKALLGSFVVLATFMTSCNAQCYFIPGTEPGMNLNDECQDIDGAKYPVHKTWQTENCFEC  60
+
+Query  61  TCYETEISCC  70
+           TC E  I CC
+Sbjct  61  TCNEEGIQCC  70
+
+
+>ref|XP_011989336.1| PREDICTED: beta-microseminoprotein isoform X2 [Ovis aries musimon]
+Length=111
+
+ Score = 75.1 bits (183),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 36/74 (49%), Positives = 46/74 (62%), Gaps = 3/74 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL S    ATFV+LC+A CY IPNE    D    C DL G  H + S+W+TDNCE+C
+Sbjct  1   MNALLISFSALATFVSLCDAQCYVIPNESSASDG---CKDLSGVTHQLRSDWETDNCESC  57
+
+Query  61  TCYETEISCCTLSS  74
+            C +  I CC+ ++
+Sbjct  58  HCDDDGIQCCSTAA  71
+
+
+>ref|XP_007176349.1| PREDICTED: beta-microseminoprotein isoform X1 [Balaenoptera acutorostrata 
+scammoni]
+Length=123
+
+ Score = 75.5 bits (184),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 36/78 (46%), Positives = 49/78 (63%), Gaps = 3/78 (4%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LLGS+++ AT  T CNA CY I N+     +  KC DL G  HP+NS+W+T+NCE CT
+Sbjct  14  NALLGSLMVLATLATSCNAQCYIISNQN---STPNKCKDLNGVIHPLNSKWKTENCEECT  70
+
+Query  62  CYETEISCCTLSSEENEY  79
+           C +  I CC  ++   +Y
+Sbjct  71  CDQGGIHCCNTAAVPVDY  88
+
+
+>ref|XP_013831148.1| PREDICTED: beta-microseminoprotein [Capra hircus]
+Length=123
+
+ Score = 75.5 bits (184),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 35/74 (47%), Positives = 46/74 (62%), Gaps = 3/74 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           +N LL S    ATFV+LC+A CY IPNE    D    C DL G  H + S+W+TDNCE+C
+Sbjct  13  LNALLISFAALATFVSLCDAQCYVIPNESSASDG---CKDLSGVTHQLKSDWKTDNCESC  69
+
+Query  61  TCYETEISCCTLSS  74
+            C +  I CC+ ++
+Sbjct  70  HCDDDGIQCCSTAA  83
+
+
+>ref|XP_014438626.1| PREDICTED: beta-microseminoprotein [Tupaia chinensis]
+ gb|ELV11879.1| Beta-microseminoprotein [Tupaia chinensis]
+Length=115
+
+ Score = 74.7 bits (182),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 33/67 (49%), Positives = 44/67 (66%), Gaps = 0/67 (0%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           +LGS+++FA FVT CNA CY I  E  P D +  C D +G  HP+ S+W+T+NCE C+C 
+Sbjct  5   VLGSLLVFAAFVTFCNAQCYTIRKEVTPNDLSTGCKDKEGVVHPLKSKWKTENCEQCSCG  64
+
+Query  64  ETEISCC  70
+              I CC
+Sbjct  65  HYGIHCC  71
+
+
+>ref|XP_010368661.1| PREDICTED: beta-microseminoprotein isoform X2 [Rhinopithecus 
+roxellana]
+Length=77
+
+ Score = 73.6 bits (179),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 34/41 (83%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVLLG  VIFATFVTLCNASCY IPNEGVPGDSTR  + L
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCYVIPNEGVPGDSTRVFLHL  41
+
+
+>ref|XP_011805777.1| PREDICTED: beta-microseminoprotein isoform X2 [Colobus angolensis 
+palliatus]
+Length=77
+
+ Score = 72.4 bits (176),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 33/41 (80%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVLLG  VIFATFVTLCNASCY +PNEGVPGDSTR  + L
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCYVVPNEGVPGDSTRVFLHL  41
+
+
+>ref|XP_011960939.1| PREDICTED: beta-microseminoprotein isoform X1 [Ovis aries]
+Length=145
+
+ Score = 72.8 bits (177),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 35/73 (48%), Positives = 45/73 (62%), Gaps = 3/73 (4%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LL S    ATFV+LC+A CY IPNE    D    C DL G  H + S+W+TDNCE+C 
+Sbjct  36   NALLISFAALATFVSLCDAQCYVIPNESSASDG---CKDLSGVTHQLRSDWETDNCESCH  92
+
+Query  62   CYETEISCCTLSS  74
+            C +  I CC+ ++
+Sbjct  93   CDDDGIQCCSTAA  105
+
+
+>ref|XP_008251297.1| PREDICTED: beta-microseminoprotein-like [Oryctolagus cuniculus]
+Length=152
+
+ Score = 72.8 bits (177),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 34/73 (47%), Positives = 46/73 (63%), Gaps = 0/73 (0%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LLGS+V+FA+ + LCN  CY    +  P D   +C DL G  H +N EW+T+NC TC+
+Sbjct  40   NTLLGSLVVFASLLVLCNTQCYVELYDKNPEDPPDECRDLDGVTHKLNVEWKTENCYTCS  99
+
+Query  62   CYETEISCCTLSS  74
+            C ET I CC  ++
+Sbjct  100  CDETGIHCCNTAA  112
+
+
+>ref|XP_011989335.1| PREDICTED: beta-microseminoprotein isoform X1 [Ovis aries musimon]
+Length=145
+
+ Score = 72.0 bits (175),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 35/73 (48%), Positives = 45/73 (62%), Gaps = 3/73 (4%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            N LL S    ATFV+LC+A CY IPNE    D    C DL G  H + S+W+TDNCE+C 
+Sbjct  36   NALLISFSALATFVSLCDAQCYVIPNESSASDG---CKDLSGVTHQLRSDWETDNCESCH  92
+
+Query  62   CYETEISCCTLSS  74
+            C +  I CC+ ++
+Sbjct  93   CDDDGIQCCSTAA  105
+
+
+>ref|XP_015354380.1| PREDICTED: beta-microseminoprotein [Marmota marmota marmota]
+Length=129
+
+ Score = 71.6 bits (174),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/70 (47%), Positives = 43/70 (61%), Gaps = 5/70 (7%)
+
+Query  3    VLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+              L S+++ ATF+T CNA CY      +  DS ++C D+ G  HP+NS+W   NCE C C
+Sbjct  65   AFLASLMVLATFMTACNAQCY-----AITLDSDQECKDINGVIHPLNSKWTNSNCEECYC  119
+
+Query  63   YETEISCCTL  72
+             E EISCC L
+Sbjct  120  REREISCCNL  129
+
+
+>ref|XP_008268062.1| PREDICTED: beta-microseminoprotein [Oryctolagus cuniculus]
+Length=116
+
+ Score = 71.2 bits (173),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/73 (45%), Positives = 45/73 (62%), Gaps = 0/73 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LLGS+V+F + + LCN  CY    +  P D   +C DL G  H +N EW+T+NC TC+
+Sbjct  4   NTLLGSLVVFTSLLVLCNTQCYVKLYDKNPEDPPDECRDLDGVTHKLNVEWKTENCYTCS  63
+
+Query  62  CYETEISCCTLSS  74
+           C ET I CC  ++
+Sbjct  64  CDETGIHCCNTAA  76
+
+
+>ref|XP_005411869.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Chinchilla 
+lanigera]
+Length=114
+
+ Score = 70.9 bits (172),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/72 (46%), Positives = 45/72 (63%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  LLG++++ ATFVT C+A CY IP  G  G+   +C DL G  H +NS W T NCE+C
+Sbjct  1   MKTLLGALLVLATFVTTCSAHCYTIPLMGGLGEFPTECKDLDGTSHSMNSNWITSNCESC  60
+
+Query  61  TCYETEISCCTL  72
+           +C      CC++
+Sbjct  61  SCNGDGALCCSI  72
+
+
+>ref|XP_003278238.1| PREDICTED: beta-microseminoprotein isoform X2 [Nomascus leucogenys]
+Length=77
+
+ Score = 70.1 bits (170),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVL+GS+VIF TFVTLCNASCYFIPNE V GDSTR  + L
+Sbjct  1   MNVLVGSLVIFTTFVTLCNASCYFIPNERVAGDSTRVFLHL  41
+
+
+>ref|XP_011828516.1| PREDICTED: beta-microseminoprotein isoform X2 [Mandrillus leucophaeus]
+Length=98
+
+ Score = 70.1 bits (170),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVLLG  VIFATFVTLCNASC+FIPNE  PGDSTR  + L
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCFFIPNERFPGDSTRVLLHL  41
+
+
+>ref|XP_011927664.1| PREDICTED: beta-microseminoprotein isoform X2 [Cercocebus atys]
+Length=98
+
+ Score = 70.1 bits (170),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL  41
+           MNVLLG  VIFATFVTLCNASC+FIPNE  PGDSTR  + L
+Sbjct  1   MNVLLGGFVIFATFVTLCNASCFFIPNERFPGDSTRVLLHL  41
+
+
+>ref|XP_012781851.1| PREDICTED: beta-microseminoprotein, partial [Ochotona princeps]
+Length=113
+
+ Score = 70.5 bits (171),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 31/70 (44%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           + LL S+V+FA+ VTLCNA CY    +    DS  +C D  G  H +N EW+T+NC+ C 
+Sbjct  1   DTLLRSLVVFASLVTLCNAQCYLFSYDRRVEDSPDECRDSDGVTHQLNVEWKTENCDRCI  60
+
+Query  62  CYETEISCCT  71
+           C E+++ CC+
+Sbjct  61  CDESKVQCCS  70
+
+
+>gb|AAB20103.1| immunoglobulin binding factor, IgBF=prostatic secretory protein 
+homolog [human, Peptide Partial, 30 aa]
+Length=30
+
+ Score = 68.2 bits (165),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDLKGNKHPINS  50
+           SCYFIPNEGVPGDSTRKCMDLKGNKHPINS
+Sbjct  1   SCYFIPNEGVPGDSTRKCMDLKGNKHPINS  30
+
+
+>ref|XP_005411870.1| PREDICTED: beta-microseminoprotein-like isoform X2 [Chinchilla 
+lanigera]
+Length=113
+
+ Score = 68.9 bits (167),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 44/69 (64%), Gaps = 0/69 (0%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           LLG++++ ATFVT C+A CY IP  G  G+   +C DL G  H +NS W T NCE+C+C 
+Sbjct  3   LLGALLVLATFVTTCSAHCYTIPLMGGLGEFPTECKDLDGTSHSMNSNWITSNCESCSCN  62
+
+Query  64  ETEISCCTL  72
+                CC++
+Sbjct  63  GDGALCCSI  71
+
+
+>ref|XP_008835960.1| PREDICTED: beta-microseminoprotein [Nannospalax galili]
+Length=140
+
+ Score = 69.3 bits (168),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/69 (48%), Positives = 43/69 (62%), Gaps = 1/69 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            VLLG +V+ A+ VT CNA CY    E +P  ++  C D  G+KHPI+S W+  NCETC 
+Sbjct  29  KVLLGCLVVLASLVTSCNAQCYVQLLERLPDQTSDDCKDADGDKHPIDSSWEK-NCETCF  87
+
+Query  62  CYETEISCC  70
+           C +  I CC
+Sbjct  88  CTKDSIQCC  96
+
+
+>ref|XP_007115872.1| PREDICTED: LOW QUALITY PROTEIN: beta-microseminoprotein [Physeter 
+catodon]
+Length=201
+
+ Score = 69.7 bits (169),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 35/79 (44%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  1    MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+             N LL S+V+ ATFVTLCNA CY I N+     +  KC DL G  HP+NS+ +T++ E C
+Sbjct  91   FNALLSSLVVLATFVTLCNAQCYIISNQ---NSTPNKCKDLDGVIHPLNSKXKTESSEEC  147
+
+Query  61   TCYETEISCCTLSSEENEY  79
+             C +  I+CC  ++   +Y
+Sbjct  148  ICDQGGINCCNTAAVPVDY  166
+
+
+>ref|XP_003466102.1| PREDICTED: beta-microseminoprotein A1-like [Cavia porcellus]
+Length=100
+
+ Score = 67.8 bits (164),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 41/65 (63%), Gaps = 0/65 (0%)
+
+Query  15  VTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           +T+CNA CY IP E VP  S  +C DL G  HP+ S W+T +C+ C C E EISCC L+ 
+Sbjct  1   MTICNAECYVIPLEKVPDGSRTECKDLYGVTHPLKSSWRTFHCDDCYCEENEISCCKLAP  60
+
+Query  75  EENEY  79
+              +Y
+Sbjct  61  VPVDY  65
+
+
+>ref|XP_002724249.1| PREDICTED: beta-microseminoprotein-like [Oryctolagus cuniculus]
+Length=132
+
+ Score = 68.2 bits (165),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 32/73 (44%), Positives = 43/73 (59%), Gaps = 0/73 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LLGS+V+FA+ + LCN  CY    +  P D   +C DL G  H +N  W T+NC  C+
+Sbjct  20  NTLLGSLVVFASLLVLCNTQCYVELYDKNPEDPPDECRDLDGVTHKLNMPWMTENCYRCS  79
+
+Query  62  CYETEISCCTLSS  74
+           C ET I CC  ++
+Sbjct  80  CDETGIHCCNTAA  92
+
+
+>ref|XP_012974238.1| PREDICTED: beta-microseminoprotein [Mesocricetus auratus]
+Length=113
+
+ Score = 67.0 bits (162),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 34/72 (47%), Positives = 43/72 (60%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  LLGS++  AT VT CNA C     +G+P     +C+D  G KHPINS W  D C+ C
+Sbjct  1   MKSLLGSLLFLATLVTACNAVCSLEFRKGLPNQLPGECVDPDGGKHPINSFWVRD-CKKC  59
+
+Query  61  TCYETEISCCTL  72
+            C E  ISCC++
+Sbjct  60  FCREDAISCCSI  71
+
+
+>ref|XP_005412608.1| PREDICTED: beta-microseminoprotein-like isoform X2 [Chinchilla 
+lanigera]
+Length=113
+
+ Score = 67.0 bits (162),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 48/79 (61%), Gaps = 1/79 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  LLGS+++ ATF++ C+A CY +P E         C D+ G  +P+NS W+T  CE C
+Sbjct  1   MKTLLGSLLVLATFMSSCSAHCYLMPTESSES-YPPVCKDVDGTIYPVNSTWKTQYCEDC  59
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C ++ I CC ++S   +Y
+Sbjct  60  SCSDSGIECCNIASVPIDY  78
+
+
+>ref|XP_007526570.1| PREDICTED: beta-microseminoprotein [Erinaceus europaeus]
+Length=120
+
+ Score = 66.2 bits (160),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/78 (40%), Positives = 47/78 (60%), Gaps = 4/78 (5%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LL  +++ ATF+TLCNA CY +    +     + C D  G  H +NS+W+T NC  C 
+Sbjct  12  NALLCRLLVLATFMTLCNAQCYIMGFSSLH----KGCKDTDGKYHKLNSKWRTKNCMECY  67
+
+Query  62  CYETEISCCTLSSEENEY  79
+           C ++EISCC++++    Y
+Sbjct  68  CGKSEISCCSITARPVGY  85
+
+
+>ref|XP_007638259.1| PREDICTED: beta-microseminoprotein isoform X1 [Cricetulus griseus]
+Length=145
+
+ Score = 66.6 bits (161),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 35/70 (50%), Positives = 40/70 (57%), Gaps = 1/70 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+             LLGS++  AT VT CNA C     EG P      C+D  G+KHPINS W  D C+ C 
+Sbjct  24  KALLGSLLFLATLVTTCNAVCSLELREGHPNQPPGDCVDSDGDKHPINSYWVKD-CKRCF  82
+
+Query  62  CYETEISCCT  71
+           C E  ISCCT
+Sbjct  83  CGEDTISCCT  92
+
+
+>ref|XP_012578988.1| PREDICTED: beta-microseminoprotein [Condylura cristata]
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 35/76 (46%), Positives = 46/76 (61%), Gaps = 8/76 (11%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDST--RKCMDLKGNKHPINSEWQTDNCE  58
+           MN LLGS+++ +TFVTLCNA C+F        DST    C D KG  HP+ S W T++C 
+Sbjct  1   MNALLGSLLVLSTFVTLCNAQCFFTKR-----DSTWPEGCKDSKGISHPLQSTW-TNDCN  54
+
+Query  59  TCTCYETEISCCTLSS  74
+            CTC    I+CC ++ 
+Sbjct  55  KCTCSSGGIACCRIAG  70
+
+
+>ref|XP_007176350.1| PREDICTED: beta-microseminoprotein isoform X2 [Balaenoptera acutorostrata 
+scammoni]
+ ref|XP_007176351.1| PREDICTED: beta-microseminoprotein isoform X3 [Balaenoptera acutorostrata 
+scammoni]
+Length=103
+
+ Score = 64.7 bits (156),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 31/71 (44%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  9   VIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEIS  68
+           ++ AT  T CNA CY I N+     +  KC DL G  HP+NS+W+T+NCE CTC +  I 
+Sbjct  1   MVLATLATSCNAQCYIISNQN---STPNKCKDLNGVIHPLNSKWKTENCEECTCDQGGIH  57
+
+Query  69  CCTLSSEENEY  79
+           CC  ++   +Y
+Sbjct  58  CCNTAAVPVDY  68
+
+
+>ref|XP_005348707.1| PREDICTED: beta-microseminoprotein [Microtus ochrogaster]
+Length=113
+
+ Score = 64.7 bits (156),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 32/79 (41%), Positives = 41/79 (52%), Gaps = 1/79 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  LLGS++  AT VT C A C+    + +P      C+D  G KHP+ S W  D C  C
+Sbjct  1   MKALLGSLLFLATLVTACKAVCFLELRKALPDQPLGDCVDPDGTKHPLESSWVKD-CNRC  59
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C    ISCC+L+S    Y
+Sbjct  60  FCGPDSISCCSLTSIPQGY  78
+
+
+>ref|XP_015722342.1| PREDICTED: beta-microseminoprotein-like [Coturnix japonica]
+ ref|XP_015722343.1| PREDICTED: beta-microseminoprotein-like [Coturnix japonica]
+Length=115
+
+ Score = 64.7 bits (156),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 31/72 (43%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVP-GDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M   L  +++ +  VTL NASCYF P + V  GD      D+KG  H  N+ W+T++C  
+Sbjct  1   MKTFLACLLVLSVSVTLSNASCYFQPIKPVKRGDEIIGSYDMKGVPHEFNTHWKTEDCLD  60
+
+Query  60  CTCYETEISCCT  71
+           C+CY++ ISCCT
+Sbjct  61  CSCYKSGISCCT  72
+
+
+>ref|XP_005412607.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Chinchilla 
+lanigera]
+Length=156
+
+ Score = 65.1 bits (157),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 30/78 (38%), Positives = 47/78 (60%), Gaps = 1/78 (1%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+              LLGS+++ ATF++ C+A CY +P E         C D+ G  +P+NS W+T  CE C+
+Sbjct  45   KTLLGSLLVLATFMSSCSAHCYLMPTESSES-YPPVCKDVDGTIYPVNSTWKTQYCEDCS  103
+
+Query  62   CYETEISCCTLSSEENEY  79
+            C ++ I CC ++S   +Y
+Sbjct  104  CSDSGIECCNIASVPIDY  121
+
+
+>gb|EPQ18236.1| Beta-microseminoprotein [Myotis brandtii]
+Length=99
+
+ Score = 63.9 bits (154),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 38/58 (66%), Gaps = 0/58 (0%)
+
+Query  17  LCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSS  74
+           LCNA CYFIP EG P +  ++C DL G  + +NS+W+ D CE C+C  T I CC + +
+Sbjct  2   LCNAQCYFIPIEGSPDNLLKECKDLGGVTYAMNSKWKNDRCEECSCNPTGIHCCNIVA  59
+
+
+>gb|ELK35244.1| Beta-microseminoprotein [Myotis davidii]
+Length=99
+
+ Score = 63.9 bits (154),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 28/54 (52%), Positives = 37/54 (69%), Gaps = 0/54 (0%)
+
+Query  17  LCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCC  70
+           LCNA CYFIP EG P +S ++C DL G  + +NS+W+ + CE C+C  T I CC
+Sbjct  2   LCNAQCYFIPIEGSPDNSLKECKDLGGVTYAMNSKWKNERCEECSCNPTGIDCC  55
+
+
+>ref|XP_013033273.1| PREDICTED: beta-microseminoprotein-like [Anser cygnoides domesticus]
+Length=117
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/72 (40%), Positives = 42/72 (58%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGV-PGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M   L  +++ +  V + NA+CYF P + V PGD  + C D +G  H   SEW+T NC  
+Sbjct  3   MKTFLACLLVLSVSVAVSNAACYFQPFKPVNPGDEIKGCYDSEGELHEFGSEWKTANCLE  62
+
+Query  60  CTCYETEISCCT  71
+           C+C+   ISCC+
+Sbjct  63  CSCFRDGISCCS  74
+
+
+>ref|XP_006996300.1| PREDICTED: beta-microseminoprotein [Peromyscus maniculatus bairdii]
+Length=113
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/70 (43%), Positives = 39/70 (56%), Gaps = 1/70 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  LLGS++  AT VT CNA C F   E +P      C+D  G KH + ++W  D C+ C
+Sbjct  1   MKALLGSLLFLATLVTACNAGCTFQQRENLPDQPPDGCLDSAGIKHSVGAQWTVD-CKKC  59
+
+Query  61  TCYETEISCC  70
+            C +  ISCC
+Sbjct  60  FCEKAGISCC  69
+
+
+>ref|NP_062061.1| beta-microseminoprotein precursor [Rattus norvegicus]
+ sp|P97580.1|MSMB_RAT RecName: Full=Beta-microseminoprotein; AltName: Full=Prostate 
+secreted seminal plasma protein; AltName: Full=Prostate secretory 
+protein of 94 amino acids; Short=PSP-94; Short=PSP94; 
+Flags: Precursor
+ gb|AAB19102.1| beta-microseminoprotein precursor [Rattus norvegicus]
+ gb|EDL88928.1| rCG42267, isoform CRA_c [Rattus norvegicus]
+Length=113
+
+ Score = 62.4 bits (150),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/71 (42%), Positives = 44/71 (62%), Gaps = 1/71 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LGS+++ AT VT  NA+C     + +P + + +C D+ G KH +N+ WQ  NCE C
+Sbjct  1   MKARLGSLLVLATLVTASNAACSIQRLKRLPNEKSDECTDVDGGKHVLNTYWQ-KNCEWC  59
+
+Query  61  TCYETEISCCT  71
+            C +T I+CCT
+Sbjct  60  FCEKTAITCCT  70
+
+
+>ref|XP_007478109.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Monodelphis 
+domestica]
+Length=115
+
+ Score = 62.0 bits (149),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 32/80 (40%), Positives = 44/80 (55%), Gaps = 1/80 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++  A FVTLC+A CY IP E     + + C D     H   S+W+T+ CE C
+Sbjct  1   MNTMLGVLLALAIFVTLCDAFCYMIPLEVTREKNPKGCKDNNNIMHKFRSKWKTEKCEDC  60
+
+Query  61  TC-YETEISCCTLSSEENEY  79
+           +C  +T I CCT     + Y
+Sbjct  61  SCDSKTGIRCCTKVRVPSAY  80
+
+
+>ref|XP_004942175.2| PREDICTED: beta-microseminoprotein-like [Gallus gallus]
+Length=115
+
+ Score = 61.6 bits (148),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 28/72 (39%), Positives = 43/72 (60%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M   L  +++ +  +++ NASCYF+P N    GD    C D+KG  H  N+ W+T++C  
+Sbjct  1   MKTFLACLLVLSVSMSVSNASCYFLPLNPVKRGDEIVGCYDMKGEPHEFNTHWKTEDCLE  60
+
+Query  60  CTCYETEISCCT  71
+           C+C  + ISCCT
+Sbjct  61  CSCSNSGISCCT  72
+
+
+>ref|XP_003466101.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Cavia porcellus]
+Length=130
+
+ Score = 62.0 bits (149),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 33/68 (49%), Positives = 39/68 (57%), Gaps = 0/68 (0%)
+
+Query  12  ATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCT  71
+           ATFV  C+A CYFIP E     S  +C D  G  H +NS+W T+NC  CTC    ISCC 
+Sbjct  28  ATFVIPCSAQCYFIPLERSLDGSPDECKDSDGTTHLMNSKWMTNNCVECTCGTDGISCCN  87
+
+Query  72  LSSEENEY  79
+           + S   EY
+Sbjct  88  IVSIPVEY  95
+
+
+>ref|XP_013004049.1| PREDICTED: beta-microseminoprotein-like isoform X2 [Cavia porcellus]
+Length=114
+
+ Score = 61.2 bits (147),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 33/68 (49%), Positives = 39/68 (57%), Gaps = 0/68 (0%)
+
+Query  12  ATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCT  71
+           ATFV  C+A CYFIP E     S  +C D  G  H +NS+W T+NC  CTC    ISCC 
+Sbjct  12  ATFVIPCSAQCYFIPLERSLDGSPDECKDSDGTTHLMNSKWMTNNCVECTCGTDGISCCN  71
+
+Query  72  LSSEENEY  79
+           + S   EY
+Sbjct  72  IVSIPVEY  79
+
+
+>ref|XP_010961812.1| PREDICTED: beta-microseminoprotein isoform X1 [Camelus bactrianus]
+ ref|XP_010961813.1| PREDICTED: beta-microseminoprotein isoform X2 [Camelus bactrianus]
+ ref|XP_014418127.1| PREDICTED: beta-microseminoprotein isoform X1 [Camelus ferus]
+ ref|XP_014418128.1| PREDICTED: beta-microseminoprotein isoform X2 [Camelus ferus]
+Length=111
+
+ Score = 61.2 bits (147),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 34/79 (43%), Positives = 53/79 (67%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +L S+++ AT VTLCN  C+ IPN+      + +C DL G  HP++S+W+T+NCE C
+Sbjct  1   MNAILVSLLVLATLVTLCNTQCFIIPNQN---SGSNECKDLDGITHPLDSQWKTENCEEC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  I+CC+L +   +Y
+Sbjct  58  SCSQNGINCCSLIAVPVDY  76
+
+
+>ref|XP_008769211.1| PREDICTED: beta-microseminoprotein isoform X1 [Rattus norvegicus]
+Length=121
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 43/67 (64%), Gaps = 1/67 (1%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYE  64
+           LGS+++ AT VT  NA+C     + +P + + +C D+ G KH +N+ WQ  NCE C C +
+Sbjct  13  LGSLLVLATLVTASNAACSIQRLKRLPNEKSDECTDVDGGKHVLNTYWQ-KNCEWCFCEK  71
+
+Query  65  TEISCCT  71
+           T I+CCT
+Sbjct  72  TAITCCT  78
+
+
+>ref|XP_007478111.1| PREDICTED: beta-microseminoprotein A1-like [Monodelphis domestica]
+Length=114
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/72 (40%), Positives = 41/72 (57%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN LL  ++ +  FVTLC+A+C F   +   G+ ++ C D +G  H + S W  D CETC
+Sbjct  1   MNALLAVLLSWTIFVTLCDANCTFTQMKINGGNESKGCTDGQGVFHYLYSTWSDDECETC  60
+
+Query  61  TCYETEISCCTL  72
+            C E  I CC +
+Sbjct  61  DCLENGIECCNI  72
+
+
+>ref|XP_005022269.1| PREDICTED: beta-microseminoprotein-like [Anas platyrhynchos]
+Length=115
+
+ Score = 60.1 bits (144),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGV-PGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M   L  +++ +  V + NA+CY  P + V PGD  + C D KG  H  +S+W+T++C  
+Sbjct  1   MKTFLACLLVLSVSVEVSNAACYVEPLKPVNPGDEIKGCYDSKGELHEFDSQWKTEDCYE  60
+
+Query  60  CTCYETEISCCTLSS  74
+           C+C    I CCT+ S
+Sbjct  61  CSCSREGIDCCTIYS  75
+
+
+>ref|XP_005416549.1| PREDICTED: beta-microseminoprotein J1-like [Geospiza fortis]
+Length=130
+
+ Score = 60.1 bits (144),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           MN +L  +++ A  + L +ASC+++P   G+       C+D +GN H  +S W+T++C+ 
+Sbjct  16  MNTILACLLVLAISMPLSDASCFYMPFKPGMSNGVVVGCLDGEGNVHEFDSRWRTEDCDD  75
+
+Query  60  CTCYETEISCCT  71
+           C+C +T I CCT
+Sbjct  76  CSCSKTGIGCCT  87
+
+
+>gb|EHB08864.1| Beta-microseminoprotein [Heterocephalus glaber]
+Length=223
+
+ Score = 60.5 bits (145),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 34/86 (40%), Positives = 45/86 (52%), Gaps = 13/86 (15%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNE--GVPGDSTRKCMD-----------LKGNKHPI  48
+             VL GS+++ ATF+T C+A CYFIP +   V     R   D           L G  +P+
+Sbjct  98   KVLWGSLMVLATFMTSCSAFCYFIPMKVSDVSSPHARDSTDYVICAISVCKYLDGITYPM  157
+
+Query  49   NSEWQTDNCETCTCYETEISCCTLSS  74
+            NS W T  CE CTC E  I CC +++
+Sbjct  158  NSNWNTKYCENCTCNERGIKCCKIAA  183
+
+
+>ref|XP_009896071.1| PREDICTED: beta-microseminoprotein-like [Picoides pubescens]
+Length=127
+
+ Score = 58.9 bits (141),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 29/71 (41%), Positives = 38/71 (54%), Gaps = 3/71 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  +L  +++ A  V L NASC+F P +    D    C+D KGN H   S W+TD+C  C
+Sbjct  17  MKTILACLLVLAVSVPLSNASCFFQPMKPETSDG---CLDSKGNLHQFGSRWRTDDCMDC  73
+
+Query  61  TCYETEISCCT  71
+            C    I CCT
+Sbjct  74  YCSRDAIECCT  84
+
+
+>ref|XP_010712763.1| PREDICTED: beta-microseminoprotein-like [Meleagris gallopavo]
+Length=115
+
+ Score = 58.5 bits (140),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 29/72 (40%), Positives = 41/72 (57%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M   L  +++ +  VT  NASCY +P N    GD      D+KG  H  NS+W+T++C  
+Sbjct  1   MKTFLACLLVLSVSVTASNASCYVLPLNPVKRGDEIIGSYDMKGEPHEFNSQWKTEDCLE  60
+
+Query  60  CTCYETEISCCT  71
+           C+C +  ISCCT
+Sbjct  61  CSCSKFGISCCT  72
+
+
+>gb|EHB08865.1| Beta-microseminoprotein, partial [Heterocephalus glaber]
+Length=111
+
+ Score = 58.2 bits (139),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/70 (39%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           L+GS+++ ATF+T C+A CY + N     + + +C  + G K+P+NS W+T  CE C C 
+Sbjct  1   LVGSLLVLATFMTSCSAFCYRVYNGRGFHNLSTECESVDGTKYPVNSRWRTPKCEECYCK  60
+
+Query  64  ETEISCCTLS  73
+            + IS C ++
+Sbjct  61  VSGISYCNIA  70
+
+
+>pdb|2IZ4|A Chain A, Solution Structure Of Human And Porcine Beta- Microseminoprotein
+Length=94
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/61 (44%), Positives = 36/61 (59%), Gaps = 3/61 (5%)
+
+Query  19  NASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSSEENE  78
+              CYFIPN+ +      +C DLKG  HP+NS W+T +CE CTC +  ISCC  ++    
+Sbjct  2   GGQCYFIPNQSL---KPNECQDLKGVSHPLNSVWKTKDCEECTCGQDAISCCNTAAIPTG  58
+
+Query  79  Y  79
+           Y
+Sbjct  59  Y  59
+
+
+>ref|XP_007478110.1| PREDICTED: beta-microseminoprotein-like isoform X2 [Monodelphis 
+domestica]
+Length=112
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 30/77 (39%), Positives = 42/77 (55%), Gaps = 1/77 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC-  62
+           +LG ++  A FVTLC+A CY IP E     + + C D     H   S+W+T+ CE C+C 
+Sbjct  1   MLGVLLALAIFVTLCDAFCYMIPLEVTREKNPKGCKDNNNIMHKFRSKWKTEKCEDCSCD  60
+
+Query  63  YETEISCCTLSSEENEY  79
+            +T I CCT     + Y
+Sbjct  61  SKTGIRCCTKVRVPSAY  77
+
+
+>gb|EOA99386.1| Beta-microseminoprotein J1, partial [Anas platyrhynchos]
+Length=114
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 27/72 (38%), Positives = 42/72 (58%), Gaps = 1/72 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGV-PGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+            L  +++ +  V + NA+CY  P + V PGD  + C D KG  H  +S+W+T++C  C+C
+Sbjct  3   FLACLLVLSVSVEVSNAACYVEPLKPVNPGDEIKGCYDSKGELHEFDSQWKTEDCYECSC  62
+
+Query  63  YETEISCCTLSS  74
+               I CCT+ S
+Sbjct  63  SREGIDCCTIYS  74
+
+
+>ref|XP_005411867.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Chinchilla 
+lanigera]
+Length=131
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 37/67 (55%), Gaps = 1/67 (1%)
+
+Query  13  TFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTL  72
+           TFV  C+A CY IP EG   DS  +C D  G  H +NS W   NCE C+C    I CC +
+Sbjct  31  TFVRSCSAQCYVIPMEGSQDDSPTECKDSDGVSHSMNSNW-VSNCEACSCNRNGIQCCNI  89
+
+Query  73  SSEENEY  79
+           ++   +Y
+Sbjct  90  AAIPVQY  96
+
+
+>ref|XP_009972075.1| PREDICTED: beta-microseminoprotein J1-like, partial [Tyto alba]
+Length=113
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/70 (36%), Positives = 38/70 (54%), Gaps = 0/70 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+            ++L  +++ A  + L NA C+  P +   G +   C D KG  H   S W+TD+C  C+
+Sbjct  1   KIILARLLVLAVSLPLSNAYCFLQPMKLESGSAIAGCRDSKGELHKFGSSWRTDDCFDCS  60
+
+Query  62  CYETEISCCT  71
+           C E  ISCC+
+Sbjct  61  CSEGRISCCS  70
+
+
+>ref|XP_010409606.1| PREDICTED: beta-microseminoprotein-like [Corvus cornix cornix]
+Length=115
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 27/72 (38%), Positives = 41/72 (57%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M+ +L  ++  A  + L +ASC  +P   G+       C+D +G  H  +S W+TD+C  
+Sbjct  1   MSTILACLLALAVVMPLSDASCTLMPFKPGMSNGVVVGCLDEEGKVHEFHSSWRTDDCND  60
+
+Query  60  CTCYETEISCCT  71
+           C+CY T ISCCT
+Sbjct  61  CSCYRTGISCCT  72
+
+
+>pdb|1XHH|A Chain A, Solution Structure Of Porcine Beta-Microseminoprotein
+Length=91
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 36/58 (62%), Gaps = 3/58 (5%)
+
+Query  22  CYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSSEENEY  79
+           CYFIPN+ +      +C DLKG  HP+NS W+T +CE CTC +  ISCC  ++    Y
+Sbjct  2   CYFIPNQSL---KPNECQDLKGVSHPLNSVWKTKDCEECTCGQDAISCCNTAAIPTGY  56
+
+
+>ref|XP_009640183.1| PREDICTED: beta-microseminoprotein-like [Egretta garzetta]
+Length=132
+
+ Score = 57.0 bits (136),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 26/69 (38%), Positives = 38/69 (55%), Gaps = 1/69 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+           +L  +++    VTL NA+C+F P N G P +    C DL G  H   S W+  +C  C+C
+Sbjct  20  ILACLLVLVISVTLSNAACFFQPLNPGTPDEEVTGCRDLDGELHEFGSRWRNADCYDCSC  79
+
+Query  63  YETEISCCT  71
+            ET + CC+
+Sbjct  80  SETGMDCCS  88
+
+
+>ref|NP_065622.1| beta-microseminoprotein precursor [Mus musculus]
+ sp|O08540.1|MSMB_MOUSE RecName: Full=Beta-microseminoprotein; AltName: Full=Prostate 
+secreted seminal plasma protein; AltName: Full=Prostate secretory 
+protein of 94 amino acids; Short=PSP-94; Short=PSP94; 
+Flags: Precursor
+ gb|AAB49683.1| prostate secretory protein [Mus musculus]
+ gb|AAI41602.1| Beta-microseminoprotein [synthetic construct]
+ gb|AAI40209.1| Beta-microseminoprotein, partial [synthetic construct]
+Length=113
+
+ Score = 56.2 bits (134),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 30/79 (38%), Positives = 41/79 (52%), Gaps = 1/79 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LGS++  AT V    A C     E  P   +  CMD  GNKH +N+ W+  NC  C
+Sbjct  1   MEAWLGSLLFLATMVIASKAVCSIENREIFPNQMSDDCMDADGNKHFLNTPWKK-NCTWC  59
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +T I+CCT ++    Y
+Sbjct  60  SCDKTSITCCTNATRPLSY  78
+
+
+>gb|KFO27470.1| Ankyrin repeat domain-containing protein 26 [Fukomys damarensis]
+Length=337
+
+ Score = 58.5 bits (140),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 27/69 (39%), Positives = 38/69 (55%), Gaps = 0/69 (0%)
+
+Query  1    MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+            + VLLGS+++ A F    ++ C   P E V  +S  +C D  G  HP+NS W T+ CE C
+Sbjct  90   VKVLLGSLLVLAAFKISYSSQCCIRPTEEVQDESPAECTDEDGIMHPMNSSWITEKCEEC  149
+
+Query  61   TCYETEISC  69
+             C +  I C
+Sbjct  150  YCLKNGIQC  158
+
+
+>ref|XP_010129813.1| PREDICTED: beta-microseminoprotein-like [Buceros rhinoceros silvestris]
+Length=146
+
+ Score = 56.2 bits (134),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 44/75 (59%), Gaps = 5/75 (7%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIP-----NEGVPGDSTRKCMDLKGNKHPINSEWQTDN  56
+            N +L  +++ +  V+L NASC+F P     ++G    +   C D KG  H   S+W+TD+
+Sbjct  29   NTILACLLVLSISVSLSNASCFFDPLKPGTSDGCLHTTFSGCSDSKGELHEFGSKWRTDD  88
+
+Query  57   CETCTCYETEISCCT  71
+            C  C+C ++ ISCCT
+Sbjct  89   CLDCSCSKSGISCCT  103
+
+
+>ref|XP_008642110.1| PREDICTED: beta-microseminoprotein-like [Corvus brachyrhynchos]
+Length=131
+
+ Score = 55.8 bits (133),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           + +L  ++  A  + L +ASC  +P   G+       C+D +G  H  +S W+TD+C  C
+Sbjct  18  STILACLLALAVVMPLSDASCTLMPFKPGMSNGVVVGCLDEEGKVHEFHSSWRTDDCNDC  77
+
+Query  61  TCYETEISCCT  71
+           +CY T ISCCT
+Sbjct  78  SCYRTGISCCT  88
+
+
+>ref|XP_014426512.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Pelodiscus 
+sinensis]
+Length=154
+
+ Score = 55.8 bits (133),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 44/72 (61%), Gaps = 4/72 (6%)
+
+Query  8    VVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEI  67
+            ++I A  VTLC+A C+    + +  D+ + C+D  G  HP NSEW+T +C +C+C +  +
+Sbjct  52   LLIVAVSVTLCDAQCWL---KNIDSDA-KGCIDKTGVLHPFNSEWRTADCYSCSCTKKSL  107
+
+Query  68   SCCTLSSEENEY  79
+             CC+L +   +Y
+Sbjct  108  ECCSLVATPTDY  119
+
+
+>ref|XP_007069179.1| PREDICTED: beta-microseminoprotein J1-like [Chelonia mydas]
+Length=108
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 49/79 (62%), Gaps = 6/79 (8%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M++L   +V+F+  VTLC+A C+    + + G   + C D KG  H  NS+W+T +C++C
+Sbjct  1   MHMLGLLIVVFS--VTLCDAQCW----QKIIGYDAQGCTDEKGVLHEFNSKWKTKDCQSC  54
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C++  + CC+L +   +Y
+Sbjct  55  SCHKKIMRCCSLVATPTDY  73
+
+
+>ref|XP_014426514.1| PREDICTED: beta-microseminoprotein A1-like isoform X2 [Pelodiscus 
+sinensis]
+Length=109
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 44/72 (61%), Gaps = 4/72 (6%)
+
+Query  8   VVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEI  67
+           ++I A  VTLC+A C+    + +  D+ + C+D  G  HP NSEW+T +C +C+C +  +
+Sbjct  7   LLIVAVSVTLCDAQCWL---KNIDSDA-KGCIDKTGVLHPFNSEWRTADCYSCSCTKKSL  62
+
+Query  68  SCCTLSSEENEY  79
+            CC+L +   +Y
+Sbjct  63  ECCSLVATPTDY  74
+
+
+>ref|XP_010222958.1| PREDICTED: beta-microseminoprotein-like [Tinamus guttatus]
+Length=115
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/72 (39%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M   L  + I A  VTL NA C+  P   G PG+    C+D KG      S+W+T+NC  
+Sbjct  1   MKTFLACLFILAICVTLSNAYCFMEPLTAGKPGEEILGCIDPKGKIRQFGSQWRTENCLD  60
+
+Query  60  CTCYETEISCCT  71
+           C+C E    CC+
+Sbjct  61  CSCGEDGTRCCS  72
+
+
+>ref|XP_006118239.1| PREDICTED: beta-microseminoprotein A1-like isoform X3 [Pelodiscus 
+sinensis]
+Length=108
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 44/72 (61%), Gaps = 4/72 (6%)
+
+Query  8   VVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEI  67
+           ++I A  VTLC+A C+    + +  D+ + C+D  G  HP NSEW+T +C +C+C +  +
+Sbjct  6   LLIVAVSVTLCDAQCWL---KNIDSDA-KGCIDKTGVLHPFNSEWRTADCYSCSCTKKSL  61
+
+Query  68  SCCTLSSEENEY  79
+            CC+L +   +Y
+Sbjct  62  ECCSLVATPTDY  73
+
+
+>ref|XP_005481326.1| PREDICTED: beta-microseminoprotein-like [Zonotrichia albicollis]
+Length=130
+
+ Score = 55.1 bits (131),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 42/72 (58%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           MN ++  ++  A  + L +ASC+++P   G+       C+D +G  H  +S W+T++C  
+Sbjct  16  MNTIMACLLALAISMPLSDASCFYMPFKPGMSNGVVVGCLDGEGKVHEFDSRWRTEDCND  75
+
+Query  60  CTCYETEISCCT  71
+           C+C +T I CCT
+Sbjct  76  CSCSKTGIGCCT  87
+
+
+>gb|EDL24829.1| beta-microseminoprotein, partial [Mus musculus]
+Length=113
+
+ Score = 54.7 bits (130),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 29/75 (39%), Positives = 40/75 (53%), Gaps = 1/75 (1%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYE  64
+           LGS++  AT V    A C     E  P   +  CMD  GNKH +N+ W+  NC  C+C +
+Sbjct  5   LGSLLFLATMVIASKAVCSIENREIFPNQMSDDCMDADGNKHFLNTPWKK-NCTWCSCDK  63
+
+Query  65  TEISCCTLSSEENEY  79
+           T I+CCT ++    Y
+Sbjct  64  TSITCCTNATRPLSY  78
+
+
+>ref|XP_014730812.1| PREDICTED: beta-microseminoprotein-like isoform X2 [Sturnus vulgaris]
+Length=115
+
+ Score = 54.7 bits (130),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 39/71 (55%), Gaps = 1/71 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           MN ++  ++  A  + L +A+CYFIP   G        C+D +G  H   S W+T++C  
+Sbjct  1   MNTIVACLLALAISMPLSDAACYFIPFKPGTSNGEVVGCLDEEGKVHEFGSSWRTEDCND  60
+
+Query  60  CTCYETEISCC  70
+           C+C +T I CC
+Sbjct  61  CSCSDTGIGCC  71
+
+
+>ref|XP_007614028.1| PREDICTED: beta-microseminoprotein isoform X2 [Cricetulus griseus]
+Length=157
+
+ Score = 54.7 bits (130),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 26/55 (47%), Positives = 31/55 (56%), Gaps = 0/55 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDN  56
+             LLGS++  AT VT CNA C     EG P      C+D  G+KHPINS W  D+
+Sbjct  24  KALLGSLLFLATLVTTCNAVCSLELREGHPNQPPGDCVDSDGDKHPINSYWVKDS  78
+
+
+>ref|XP_007478112.1| PREDICTED: beta-microseminoprotein-like [Monodelphis domestica]
+Length=114
+
+ Score = 53.9 bits (128),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 28/72 (39%), Positives = 37/72 (51%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++ +  F TL  A C  IP E    D +  C D  G  H +N  W +D CE C
+Sbjct  1   MNTILGILLTWTIFGTLYEAQCTDIPLEFKTDDHSNGCKDRHGEFHELNIYWISDYCEIC  60
+
+Query  61  TCYETEISCCTL  72
+            C E E+ C +L
+Sbjct  61  QCDEEEMECSSL  72
+
+
+>ref|XP_009887125.1| PREDICTED: beta-microseminoprotein J1-like [Charadrius vociferus]
+Length=169
+
+ Score = 53.9 bits (128),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 28/77 (36%), Positives = 39/77 (51%), Gaps = 1/77 (1%)
+
+Query  4    LLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+            +L  +++ A  V L NASC+  P    V G  T  C DL G  H  +S W+T +C  C+C
+Sbjct  58   ILACLLVLAVSVALSNASCFLQPLKPWVSGGETIGCHDLNGEGHEFDSSWRTIDCNDCSC  117
+
+Query  63   YETEISCCTLSSEENEY  79
+                I CCT   +  +Y
+Sbjct  118  SRGGIRCCTAYVKPVDY  134
+
+
+>gb|KQL71333.1| microseminoprotein, beta [Alligator mississippiensis]
+Length=110
+
+ Score = 53.5 bits (127),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 29/80 (36%), Positives = 40/80 (50%), Gaps = 6/80 (8%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNE-GVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           M   L  +      V+LCNA+C+    E GVPG     C+D +G  H  N+ W+TDNC  
+Sbjct  1   MKHFLVCIFPLVLSVSLCNAACFIQSMEPGVPG-----CVDDQGKLHAFNTNWKTDNCLD  55
+
+Query  60  CTCYETEISCCTLSSEENEY  79
+           C+C E  + CC +      Y
+Sbjct  56  CSCSEHGMDCCDIGGRPAGY  75
+
+
+>ref|XP_007478121.1| PREDICTED: beta-microseminoprotein J1-like isoform X2 [Monodelphis 
+domestica]
+Length=135
+
+ Score = 53.5 bits (127),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 38/72 (53%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++ +   +T C+A CY    E   G     C D  G     N++W+TD+C++C
+Sbjct  22  MNSILGVLLTWTIVMTSCDAQCYLTQLEITLGSQPEGCKDAHGVLKQFNTKWKTDDCQSC  81
+
+Query  61  TCYETEISCCTL  72
+            C +    CC+L
+Sbjct  82  ECTDQGTECCSL  93
+
+
+>ref|XP_007478123.1| PREDICTED: beta-microseminoprotein J1-like isoform X4 [Monodelphis 
+domestica]
+Length=114
+
+ Score = 53.5 bits (127),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 38/72 (53%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++ +   +T C+A CY    E   G     C D  G     N++W+TD+C++C
+Sbjct  1   MNSILGVLLTWTIVMTSCDAQCYLTQLEITLGSQPEGCKDAHGVLKQFNTKWKTDDCQSC  60
+
+Query  61  TCYETEISCCTL  72
+            C +    CC+L
+Sbjct  61  ECTDQGTECCSL  72
+
+
+>ref|XP_008945851.1| PREDICTED: beta-microseminoprotein, partial [Merops nubicus]
+Length=110
+
+ Score = 53.1 bits (126),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 25/68 (37%), Positives = 38/68 (56%), Gaps = 3/68 (4%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           +L  +++ A  V+L NASC+  P   +  ++   C D KG  H  +S W+T NC  C+C 
+Sbjct  3   ILACLLVLAISVSLSNASCFLQP---LKSETANGCHDWKGQLHEFDSSWRTSNCLDCSCS  59
+
+Query  64  ETEISCCT  71
+           +  I CCT
+Sbjct  60  KAGIRCCT  67
+
+
+>ref|XP_010116960.1| PREDICTED: beta-microseminoprotein-like [Chlamydotis macqueenii]
+Length=127
+
+ Score = 53.1 bits (126),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 38/71 (54%), Gaps = 1/71 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+             +L  +++ A  + L NASC+F P  +G        C D +G  H  +S W+TD+C  C
+Sbjct  14  KTILACLLVLAISMPLSNASCFFQPLKQGTSDHENEGCHDSEGVLHEFDSHWRTDDCFDC  73
+
+Query  61  TCYETEISCCT  71
+           +C  + I CCT
+Sbjct  74  SCTRSGIDCCT  84
+
+
+>ref|XP_014730811.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Sturnus vulgaris]
+Length=131
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 38/70 (54%), Gaps = 1/70 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           N ++  ++  A  + L +A+CYFIP   G        C+D +G  H   S W+T++C  C
+Sbjct  18  NTIVACLLALAISMPLSDAACYFIPFKPGTSNGEVVGCLDEEGKVHEFGSSWRTEDCNDC  77
+
+Query  61  TCYETEISCC  70
+           +C +T I CC
+Sbjct  78  SCSDTGIGCC  87
+
+
+>ref|XP_009085946.1| PREDICTED: beta-microseminoprotein-like [Serinus canaria]
+Length=131
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 41/71 (58%), Gaps = 1/71 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           N +L  ++  A  +   +ASC+F+P   G+       C+D +G  H  +S W+T++C+ C
+Sbjct  18  NTILACLLSLAISMPQSDASCFFMPFKPGMSNGVVVGCLDGEGKVHEFDSSWRTEDCDDC  77
+
+Query  61  TCYETEISCCT  71
+           +C +T I CCT
+Sbjct  78  SCSKTGIGCCT  88
+
+
+>ref|XP_013814268.1| PREDICTED: beta-microseminoprotein-like [Apteryx australis mantelli]
+Length=114
+
+ Score = 51.6 bits (122),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 34/71 (48%), Gaps = 0/71 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   L  +++ A  VTL NASC+    +         C D +G  H   S+W+T NC  C
+Sbjct  1   MKTFLACLLVLAISVTLSNASCFVEELKRESDKEVPGCTDFEGKFHEFGSQWETKNCMDC  60
+
+Query  61  TCYETEISCCT  71
+           +C    I CCT
+Sbjct  61  SCSRQGIGCCT  71
+
+
+>ref|XP_008928098.1| PREDICTED: beta-microseminoprotein-like [Manacus vitellinus]
+Length=159
+
+ Score = 52.0 bits (123),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+              +L  +++ A  V+L +ASC+F+    G+    T  C+D +G  H   S W+TD+C  C
+Sbjct  46   KTILPCLLVLAISVSLSDASCFFMECKPGMSDGVTVGCLDSEGKLHEFGSRWRTDDCNDC  105
+
+Query  61   TCYETEISCCT  71
+            + +   ISCC+
+Sbjct  106  SSFRHGISCCS  116
+
+
+>ref|XP_007478122.1| PREDICTED: beta-microseminoprotein J1-like isoform X3 [Monodelphis 
+domestica]
+Length=135
+
+ Score = 51.6 bits (122),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 38/72 (53%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++ +   +T C+A CY  P     G     C DL+G    + ++W+ + CE C
+Sbjct  22  MNSILGVLLTWTIVMTSCDAYCYVSPLRVSLGSQPEGCKDLQGVLRSLKTQWKNNACEIC  81
+
+Query  61  TCYETEISCCTL  72
+            C    I+CC+L
+Sbjct  82  DCSYDGITCCSL  93
+
+
+>ref|XP_005311424.1| PREDICTED: beta-microseminoprotein-like [Chrysemys picta bellii]
+Length=109
+
+ Score = 51.6 bits (122),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 43/72 (60%), Gaps = 5/72 (7%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  +LG ++I A+ VTLC+A C+    E       + C+D  G  H  NS+W+T +C++C
+Sbjct  1   MMHMLGLLIIVAS-VTLCDAQCWLTRIES----DAQGCIDENGVLHEFNSKWKTKDCQSC  55
+
+Query  61  TCYETEISCCTL  72
+           +C +  + CC+L
+Sbjct  56  SCSKETMGCCSL  67
+
+
+>ref|XP_009318957.1| PREDICTED: beta-microseminoprotein-like [Pygoscelis adeliae]
+Length=117
+
+ Score = 51.6 bits (122),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNE-GVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           + ++L  +++ A  VTL NA C+  P +  +P D    C D  G  H   S W+  +C  
+Sbjct  3   LKIILACLLVLAISVTLSNADCFIQPLKLEIPNDEITGCHDSNGKLHEFGSHWRNADCYD  62
+
+Query  60  CTCYETEISCCT  71
+           C+C    ISCC+
+Sbjct  63  CSCSRDGISCCS  74
+
+
+>ref|XP_012368647.1| PREDICTED: beta-microseminoprotein [Octodon degus]
+Length=152
+
+ Score = 51.6 bits (122),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 37/73 (51%), Gaps = 6/73 (8%)
+
+Query  3    VLLGSVVIFATFVTLCNA---SCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+             +LG + I  TFV  CN    S +    E  P     +C D  G  HPINS W T NCE 
+Sbjct  40   AVLGCLFILTTFVASCNTFHCSTFLYTCENGP---PTECKDSDGVSHPINSTWMTKNCEN  96
+
+Query  60   CTCYETEISCCTL  72
+            CTC E  + CC++
+Sbjct  97   CTCNEVWMKCCSI  109
+
+
+>ref|XP_009569079.1| PREDICTED: beta-microseminoprotein-like [Cuculus canorus]
+Length=137
+
+ Score = 51.6 bits (122),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 26/76 (34%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  5    LGSVVIFATFVTLCNASCYFIPNEGVP-GDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+            L  +++ A  + L NA C+  P    P GD  + C D KG  H   S W+T++C  C+C 
+Sbjct  27   LACLLVLAASLPLSNAECFLQPLIPRPSGDEIKNCHDSKGELHEFGSSWKTEDCYDCSCS  86
+
+Query  64   ETEISCCTLSSEENEY  79
+               ISCC+  +  ++Y
+Sbjct  87   REGISCCSSFAIPSDY  102
+
+
+>ref|XP_012396390.1| PREDICTED: beta-microseminoprotein-like, partial [Sarcophilus 
+harrisii]
+Length=107
+
+ Score = 51.2 bits (121),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 26/69 (38%), Positives = 39/69 (57%), Gaps = 2/69 (3%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           +L  ++  A FVTLC+A C  +P +       + C D  G  H  NSEW+ DNC+ C+C 
+Sbjct  1   MLRVLLALAIFVTLCDAQCSLLPLDK-DSKELQGCKDSSGIIHDFNSEWK-DNCKKCSCT  58
+
+Query  64  ETEISCCTL  72
+              I+CC++
+Sbjct  59  SEGINCCSM  67
+
+
+>ref|XP_007478120.1| PREDICTED: beta-microseminoprotein J1-like isoform X1 [Monodelphis 
+domestica]
+Length=154
+
+ Score = 51.2 bits (121),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 38/72 (53%), Gaps = 0/72 (0%)
+
+Query  1    MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+            MN +LG ++ +   +T C+A CY  P     G     C DL+G    + ++W+ + CE C
+Sbjct  41   MNSILGVLLTWTIVMTSCDAYCYVSPLRVSLGSQPEGCKDLQGVLRSLKTQWKNNACEIC  100
+
+Query  61   TCYETEISCCTL  72
+             C    I+CC+L
+Sbjct  101  DCSYDGITCCSL  112
+
+
+>ref|XP_014106044.1| PREDICTED: beta-microseminoprotein isoform X1 [Pseudopodoces 
+humilis]
+ ref|XP_014106045.1| PREDICTED: beta-microseminoprotein isoform X1 [Pseudopodoces 
+humilis]
+ ref|XP_014106046.1| PREDICTED: beta-microseminoprotein isoform X1 [Pseudopodoces 
+humilis]
+Length=115
+
+ Score = 50.4 bits (119),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           MN ++  ++  A  + L +ASC  +P   G+       C+D +G  H   S W+T+NC  
+Sbjct  1   MNTIVACLLALAISMPLSDASCALMPFKPGMSNGVVVGCLDEEGKVHEFGSRWRTENCND  60
+
+Query  60  CTCYETEISCCT  71
+           C+C    I CCT
+Sbjct  61  CSCSRDGIGCCT  72
+
+
+>gb|AAB35259.1| beta-microseminoprotein {N-terminal} [human, seminal plasma, 
+Peptide Partial, 21 aa]
+Length=21
+
+ Score = 49.3 bits (116),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 21/21 (100%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+
+Query  21  SCYFIPNEGVPGDSTRKCMDL  41
+           SCYFIPNEGVPGDSTRKCMDL
+Sbjct  1   SCYFIPNEGVPGDSTRKCMDL  21
+
+
+>ref|XP_010299772.1| PREDICTED: beta-microseminoprotein-like [Balearica regulorum 
+gibbericeps]
+Length=133
+
+ Score = 49.7 bits (117),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 25/68 (37%), Positives = 35/68 (51%), Gaps = 1/68 (1%)
+
+Query  5   LGSVVIFATFVTLCNASCYF-IPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           L  +++ A  VTL NA+C+F I   G+       C D  G  H  +S W+  +C  CTC 
+Sbjct  23  LACLLVLAISVTLSNAACFFEILKPGISDGEIIGCRDSNGEVHKFDSHWRNADCYDCTCS  82
+
+Query  64  ETEISCCT  71
+              ISCC+
+Sbjct  83  RDGISCCS  90
+
+
+>ref|NP_001290738.1| microseminoprotein, beta- precursor [Esox lucius]
+ gb|ACO13654.1| Beta-microseminoprotein precursor [Esox lucius]
+Length=119
+
+ Score = 49.7 bits (117),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 26/77 (34%), Positives = 42/77 (55%), Gaps = 4/77 (5%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLK-GNKHPINSEWQTDNCETCTCY  63
+           L   VI  + + L +A+C+F   +  PGD  ++C+D K G  H I S W+T +C  C+C 
+Sbjct  4   LALAVILCSVLPLSHAACWF--QQAEPGDGIKQCIDTKDGTLHAIGSMWRTSDCMDCSCL  61
+
+Query  64  ET-EISCCTLSSEENEY  79
+           +  E+ CC   S   ++
+Sbjct  62  DNREMRCCDTYSTPTDF  78
+
+
+>gb|ACO13995.1| Beta-microseminoprotein precursor [Esox lucius]
+Length=119
+
+ Score = 49.7 bits (117),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 26/77 (34%), Positives = 42/77 (55%), Gaps = 4/77 (5%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLK-GNKHPINSEWQTDNCETCTCY  63
+           L   VI  + + L +A+C+F   +  PGD  ++C+D K G  H I S W+T +C  C+C 
+Sbjct  4   LALAVILCSVLPLSHAACWF--QQAEPGDGIKQCIDTKDGTLHAIGSMWRTSDCMDCSCL  61
+
+Query  64  ET-EISCCTLSSEENEY  79
+           +  E+ CC   S   ++
+Sbjct  62  DNREMRCCDTYSTPTDF  78
+
+
+>ref|XP_011595193.1| PREDICTED: beta-microseminoprotein-like [Aquila chrysaetos canadensis]
+Length=117
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 36/71 (51%), Gaps = 1/71 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRK-CMDLKGNKHPINSEWQTDNCETC  60
+             +L  +++ A  V L NA C+F P +    D     C D KG  H  +S W+T++C  C
+Sbjct  4   KTILACLLVLAISVPLSNAYCFFQPLKPEMSDGEHAGCRDSKGELHEFDSHWRTNDCHDC  63
+
+Query  61  TCYETEISCCT  71
+           +C    I CC+
+Sbjct  64  SCSRDGIDCCS  74
+
+
+>ref|XP_009813102.1| PREDICTED: beta-microseminoprotein-like [Gavia stellata]
+Length=117
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 39/71 (55%), Gaps = 5/71 (7%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRK---CMDLKGNKHPINSEWQTDNCETC  60
+           +L  +++ A  +T+ NA C+F P +  PG S  K   C D  G  H   S W+  +C  C
+Sbjct  6   ILACLLVLAISMTMSNADCFFQPLK--PGMSDGKIIGCRDSSGELHEFGSRWRNADCYDC  63
+
+Query  61  TCYETEISCCT  71
+           +C++  ISCC+
+Sbjct  64  SCFKNGISCCS  74
+
+
+>ref|XP_010073398.1| PREDICTED: beta-microseminoprotein-like [Pterocles gutturalis]
+Length=122
+
+ Score = 48.9 bits (115),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/69 (36%), Positives = 36/69 (52%), Gaps = 1/69 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+           +L  +++ A  VTL NA+C+  P   GV       C D  G  H   S W+T +C  C+C
+Sbjct  11  ILVYLLVLAIGVTLSNAACFLEPLKPGVSDGEIVGCSDSNGELHEFGSSWRTTDCNDCSC  70
+
+Query  63  YETEISCCT  71
+             + ISCC+
+Sbjct  71  DRSGISCCS  79
+
+
+>ref|XP_009916315.1| PREDICTED: beta-microseminoprotein-like [Haliaeetus albicilla]
+ ref|XP_010561829.1| PREDICTED: beta-microseminoprotein-like [Haliaeetus leucocephalus]
+Length=117
+
+ Score = 48.5 bits (114),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 35/71 (49%), Gaps = 1/71 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRK-CMDLKGNKHPINSEWQTDNCETC  60
+             +L  +++    + L NA C+F P +    D     C D KG  H  +S W+TD+C  C
+Sbjct  4   KAILACLLVLTISMPLSNAYCFFQPLKPEMSDGEHDGCRDSKGELHEFDSHWRTDDCHDC  63
+
+Query  61  TCYETEISCCT  71
+           +C    I CC+
+Sbjct  64  SCSRDGIDCCS  74
+
+
+>gb|KQL71336.1| hypothetical protein Y1Q_026640 [Alligator mississippiensis]
+Length=111
+
+ Score = 48.5 bits (114),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 25/79 (32%), Positives = 38/79 (48%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LG +      V LC+  C+F  N+  P  ST  C+   G  H   + W+T++C  C
+Sbjct  1   MKSFLGFLFATGILVILCDTYCFFQAND--PAISTEGCVQ-DGKIHKFGTNWRTEDCHRC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+            C    +SCC++  E  +Y
+Sbjct  58  NCSWHGLSCCSIFIEPGDY  76
+
+
+>ref|XP_007478117.1| PREDICTED: beta-microseminoprotein A1-like isoform X2 [Monodelphis 
+domestica]
+Length=113
+
+ Score = 48.5 bits (114),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 27/72 (38%), Positives = 35/72 (49%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++ +  F TL    C   P +    D T  C D  G  H +N  W TD+CE C
+Sbjct  1   MNTILGILLTWTIFGTLYETQCTATPLQVNIEDLTNVCDDHHGEIHDLNIPWITDDCEKC  60
+
+Query  61  TCYETEISCCTL  72
+            C E  I C +L
+Sbjct  61  NCSEEGIECTSL  72
+
+
+>ref|XP_012985645.1| PREDICTED: beta-microseminoprotein-like [Melopsittacus undulatus]
+Length=132
+
+ Score = 48.5 bits (114),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 26/77 (34%), Positives = 40/77 (52%), Gaps = 1/77 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDST-RKCMDLKGNKHPINSEWQTDNCETCTC  62
+           +L  +   A  + L NA C   P++    D     C DL G  H ++S+W+TD+C  C+C
+Sbjct  21  ILACLFALAVSIPLSNAYCVNQPSKPELSDGKIVGCRDLNGELHELDSQWRTDSCHDCSC  80
+
+Query  63  YETEISCCTLSSEENEY  79
+            E  I CC+  S  ++Y
+Sbjct  81  SEGVIDCCSSFSTPSDY  97
+
+
+>ref|XP_005022270.1| PREDICTED: beta-microseminoprotein-like [Anas platyrhynchos]
+Length=111
+
+ Score = 48.1 bits (113),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 41/72 (57%), Gaps = 3/72 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   L  ++     VTL +A C+   N+  PG+S + C+ L G  +P     +TD+C  C
+Sbjct  1   MKSFLAFLLAMGIIVTLGDAYCFTKINK--PGESDKGCV-LDGKVYPFGHISRTDDCFRC  57
+
+Query  61  TCYETEISCCTL  72
+           TC +++ISCC+L
+Sbjct  58  TCTQSQISCCSL  69
+
+
+>ref|XP_010206292.1| PREDICTED: beta-microseminoprotein-like [Colius striatus]
+Length=117
+
+ Score = 48.1 bits (113),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 24/77 (31%), Positives = 39/77 (51%), Gaps = 1/77 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNE-GVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+           +L  +++ A  + L NASC+  P + G+       C+D     +  +S+W+TDNC  C+C
+Sbjct  6   VLACLLVLAIGMPLSNASCFIWPFKPGLSDGGIIGCLDSDAKLYEFDSQWKTDNCYDCSC  65
+
+Query  63  YETEISCCTLSSEENEY  79
+               I CCT   +   Y
+Sbjct  66  SRNGIRCCTSFMKSTGY  82
+
+
+>ref|XP_009276269.1| PREDICTED: uncharacterized protein LOC103897821 [Aptenodytes 
+forsteri]
+Length=233
+
+ Score = 49.7 bits (117),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 23/70 (33%), Positives = 34/70 (49%), Gaps = 0/70 (0%)
+
+Query  2    NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+             ++L  +++ A  VTL NA C+  P +    D    C D  G  H   S W+  +C  C+
+Sbjct  121  KIILACLLVLAISVTLSNADCFIQPLKLEISDKITGCHDSNGKLHEFGSHWRNADCYDCS  180
+
+Query  62   CYETEISCCT  71
+            C    ISCC+
+Sbjct  181  CSRDGISCCS  190
+
+
+>ref|XP_006014891.2| PREDICTED: beta-microseminoprotein [Alligator sinensis]
+Length=109
+
+ Score = 47.8 bits (112),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 37/70 (53%), Gaps = 4/70 (6%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           +LG ++ F T +TL NA CYF P +    + +RK     G  + I++ W T  C  C C 
+Sbjct  3   ILGFLLAFITAITLSNAQCYFEPKK----EKSRKGCLKDGKMYAIDASWYTKECLLCHCT  58
+
+Query  64  ETEISCCTLS  73
+              I+CC ++
+Sbjct  59  HKHITCCNVA  68
+
+
+>ref|XP_009464933.1| PREDICTED: beta-microseminoprotein-like [Nipponia nippon]
+Length=118
+
+ Score = 47.8 bits (112),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 25/72 (35%), Positives = 38/72 (53%), Gaps = 6/72 (8%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRK----CMDLKGNKHPINSEWQTDNCET  59
+           +L  +++ A  VTL NA+C+  P +  PG S  K    C+D  G  H   S W++ +C  
+Sbjct  6   ILACLLVLAISVTLSNAACFLQPLK--PGMSDGKIIKGCLDSNGELHEFGSSWRSADCND  63
+
+Query  60  CTCYETEISCCT  71
+           C+C    I CC+
+Sbjct  64  CSCSRDAIRCCS  75
+
+
+>ref|XP_009571147.1| PREDICTED: beta-microseminoprotein-like [Fulmarus glacialis]
+Length=132
+
+ Score = 48.1 bits (113),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 35/72 (49%), Gaps = 1/72 (1%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCET  59
+           +  +L  +++ A  VTL NA+C+  P   G P      C D  G  H   S W+  +C  
+Sbjct  18  VKTILSCLLVLAISVTLSNANCFLQPLKPGTPDGEIVGCHDSNGELHEFGSSWRNADCYD  77
+
+Query  60  CTCYETEISCCT  71
+           C+C  + I CC+
+Sbjct  78  CSCSRSGIDCCS  89
+
+
+>ref|XP_009998654.1| PREDICTED: beta-microseminoprotein-like [Chaetura pelagica]
+Length=160
+
+ Score = 48.1 bits (113),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 26/82 (32%), Positives = 42/82 (51%), Gaps = 5/82 (6%)
+
+Query  1    MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRK---CMDLKGNKHPINSEWQTDNC  57
+            M  +L  +++ A  V L NA+C+  P E  PG++  K   C D  G  H   S W+  +C
+Sbjct  46   MKTILVCLLVLAVSVPLSNAACFLQPLE--PGETDGKIIGCRDAGGELHKFGSSWRDADC  103
+
+Query  58   ETCTCYETEISCCTLSSEENEY  79
+              CTC +  ++CC+  +   +Y
+Sbjct  104  NDCTCDKIGMNCCSSYATPVDY  125
+
+
+>ref|XP_012429911.1| PREDICTED: beta-microseminoprotein-like [Taeniopygia guttata]
+Length=101
+
+ Score = 47.4 bits (111),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 25/64 (39%), Positives = 36/64 (56%), Gaps = 1/64 (2%)
+
+Query  17  LCNASCYFIPNE-GVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSSE  75
+           L +A C F P E G+       C+D +GN H  +S W+T++C  C+C +T ISCC  S  
+Sbjct  3   LSDAYCVFSPFEPGMSNGVVVGCLDKEGNVHEFDSHWRTEDCNDCSCSKTGISCCASSMN  62
+
+Query  76  ENEY  79
+             +Y
+Sbjct  63  PVDY  66
+
+
+>ref|XP_007478115.1| PREDICTED: beta-microseminoprotein-like [Monodelphis domestica]
+Length=113
+
+ Score = 47.8 bits (112),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 27/72 (38%), Positives = 35/72 (49%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +L  ++ +  F TL  A C   P +    D T  C D  G  H +N  W TD+CE C
+Sbjct  1   MNTILRILLTWTIFGTLYEAQCTDTPLQVNIEDLTNDCNDRYGEFHDLNLSWITDDCEKC  60
+
+Query  61  TCYETEISCCTL  72
+            C E  I C +L
+Sbjct  61  HCSEEGIECSSL  72
+
+
+>ref|XP_012804113.1| PREDICTED: beta-microseminoprotein [Jaculus jaculus]
+Length=101
+
+ Score = 47.0 bits (110),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 20/43 (47%), Positives = 27/43 (63%), Gaps = 0/43 (0%)
+
+Query  37  KCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSSEENEY  79
+           +C D+ G KHP+NS+W+T+ C  C C E EI CC+      EY
+Sbjct  24  ECTDIDGVKHPLNSKWETERCFECVCGENEIQCCSRIFTPTEY  66
+
+
+>ref|XP_005048689.1| PREDICTED: beta-microseminoprotein-like [Ficedula albicollis]
+Length=131
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 22/70 (31%), Positives = 36/70 (51%), Gaps = 1/70 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           N ++  ++  A  + L +A+C+ IP   G+       C+D +G  H   S W+T++C  C
+Sbjct  18  NTIVACLLALAISMPLSDAACFIIPFKPGMSNGVVVGCLDEEGKVHEFGSSWKTEDCNNC  77
+
+Query  61  TCYETEISCC  70
+            C  T I CC
+Sbjct  78  YCSATGIDCC  87
+
+
+>ref|XP_009863149.1| PREDICTED: beta-microseminoprotein-like [Apaloderma vittatum]
+Length=160
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 33/67 (49%), Gaps = 1/67 (1%)
+
+Query  5    LGSVVIFATFVTLCNASCYFIPNEGVPGDS-TRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+            L S+++ A  V L NA C F P + V  +     C D KG  H + S W   +C  C C+
+Sbjct  50   LASLLVLAISVPLSNAGCSFEPLKPVKSNGEIIGCRDSKGKTHLMGSRWMMGSCLRCYCF  109
+
+Query  64   ETEISCC  70
+            E  I CC
+Sbjct  110  EDGIECC  116
+
+
+>gb|KQL71334.1| hypothetical protein Y1Q_026640 [Alligator mississippiensis]
+Length=94
+
+ Score = 47.0 bits (110),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 24/74 (32%), Positives = 36/74 (49%), Gaps = 3/74 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LG +      V LC+  C+F  N+  P  ST  C+   G  H   + W+T++C  C
+Sbjct  1   MKSFLGFLFATGILVILCDTYCFFQAND--PAISTEGCVQ-DGKIHKFGTNWRTEDCHRC  57
+
+Query  61  TCYETEISCCTLSS  74
+            C    +SCC++ S
+Sbjct  58  NCSWHGLSCCSIES  71
+
+
+>ref|XP_005339136.1| PREDICTED: beta-microseminoprotein [Ictidomys tridecemlineatus]
+Length=119
+
+ Score = 47.0 bits (110),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 33/59 (56%), Gaps = 5/59 (8%)
+
+Query  15  VTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLS  73
+           +T CNA C+ I          ++C D+ G    +NS+W+  NCE C C E EISCC L+
+Sbjct  1   MTACNAQCHVIA-----LGKDQECKDVNGVTRLVNSKWRNSNCEECYCSEHEISCCNLA  54
+
+
+>gb|KQL71335.1| hypothetical protein Y1Q_026640 [Alligator mississippiensis]
+Length=87
+
+ Score = 46.6 bits (109),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 23/75 (31%), Positives = 36/75 (48%), Gaps = 3/75 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LG +      V LC+  C+F  N+  P  ST  C+   G  H   + W+T++C  C
+Sbjct  1   MKSFLGFLFATGILVILCDTYCFFQAND--PAISTEGCVQ-DGKIHKFGTNWRTEDCHRC  57
+
+Query  61  TCYETEISCCTLSSE  75
+            C    +SCC++  +
+Sbjct  58  NCSWHGLSCCSIDDQ  72
+
+
+>ref|XP_010010316.1| PREDICTED: beta-microseminoprotein-like [Nestor notabilis]
+Length=117
+
+ Score = 46.6 bits (109),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 25/79 (32%), Positives = 40/79 (51%), Gaps = 1/79 (1%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDST-RKCMDLKGNKHPINSEWQTDNCETC  60
+             +   +++ A  + L NA C   P +    D     C DL G  H ++S+W+TD+C  C
+Sbjct  4   KTIWACLLVLALSMPLSNAYCVRQPWKPEKSDGKIVGCRDLNGELHELDSQWRTDSCYDC  63
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C E  I CC+  S  ++Y
+Sbjct  64  SCSEGAIDCCSSFSTPSDY  82
+
+
+>ref|XP_005411868.1| PREDICTED: beta-microseminoprotein-like isoform X2 [Chinchilla 
+lanigera]
+Length=77
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/49 (49%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  13  TFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           TFV  C+A CY IP EG   DS  +C D  G  H +NS W   +C TCT
+Sbjct  31  TFVRSCSAQCYVIPMEGSQDDSPTECKDSDGVSHSMNSNW---SCYTCT  76
+
+
+>ref|XP_006278861.1| PREDICTED: beta-microseminoprotein-like isoform X1 [Alligator 
+mississippiensis]
+Length=110
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 37/73 (51%), Gaps = 4/73 (5%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  +LG ++ F T +TL NA CYF   E     S + C+   G  + I++ W T  C  C
+Sbjct  1   MMHILGFLLAFITAITLSNAQCYF---EQKKEKSRKGCLK-DGKMYAIDASWYTKECLLC  56
+
+Query  61  TCYETEISCCTLS  73
+            C    I+CC ++
+Sbjct  57  HCTHKHITCCNVA  69
+
+
+>ref|XP_013033365.1| PREDICTED: beta-microseminoprotein-like [Anser cygnoides domesticus]
+Length=111
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 25/72 (35%), Positives = 40/72 (56%), Gaps = 3/72 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   L  ++     VTL +A C+   N+  PG+S + C+ L G  +P     +TD+C  C
+Sbjct  1   MKSFLAFLLAMGIIVTLGDAYCFTKINK--PGESDKGCV-LNGKLYPFGHISRTDDCYRC  57
+
+Query  61  TCYETEISCCTL  72
+           +C + +ISCC+L
+Sbjct  58  SCTQNQISCCSL  69
+
+
+>ref|XP_007478116.1| PREDICTED: beta-microseminoprotein A1-like isoform X1 [Monodelphis 
+domestica]
+Length=122
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 34/71 (48%), Gaps = 0/71 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N +LG ++ +  F TL    C   P +    D T  C D  G  H +N  W TD+CE C 
+Sbjct  11  NTILGILLTWTIFGTLYETQCTATPLQVNIEDLTNVCDDHHGEIHDLNIPWITDDCEKCN  70
+
+Query  62  CYETEISCCTL  72
+           C E  I C +L
+Sbjct  71  CSEEGIECTSL  81
+
+
+>ref|XP_006118215.1| PREDICTED: beta-microseminoprotein-like [Pelodiscus sinensis]
+Length=108
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 36/71 (51%), Gaps = 6/71 (8%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LG  + F   VTLC+A+C+  P       S + C+   G ++P  + W  D C +C
+Sbjct  1   MKGFLGFFLAFGMLVTLCDAACFIEPAN----PSIKGCVQ-DGIRYPYGATWVKD-CNSC  54
+
+Query  61  TCYETEISCCT  71
+           TCY+    CCT
+Sbjct  55  TCYQDGAQCCT  65
+
+
+>ref|XP_012924934.1| PREDICTED: beta-microseminoprotein, partial [Heterocephalus glaber]
+Length=69
+
+ Score = 45.4 bits (106),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  46  HPINSEWQTDNCETCTCYETEISCCTLSSEENEY  79
+           HP+NS W+  +CE CTC ETE+SCC+++S+ + Y
+Sbjct  1   HPVNSSWKNAHCEECTCGETEMSCCSIASKPSMY  34
+
+
+>ref|XP_007069200.1| PREDICTED: beta-microseminoprotein-like [Chelonia mydas]
+Length=131
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 24/76 (32%), Positives = 34/76 (45%), Gaps = 4/76 (5%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+            L  ++ F    TLC+A CY            + C D  G  H  N+ W+T +C  CTC 
+Sbjct  25  FLSFLLAFVLSTTLCDAQCY----AETIDPKAKGCNDRDGAFHKFNTRWKTKDCFRCTCR  80
+
+Query  64  ETEISCCTLSSEENEY  79
+           +  I CC+L +    Y
+Sbjct  81  KQTIECCSLFAIPTSY  96
+
+
+>ref|XP_009704747.1| PREDICTED: beta-microseminoprotein-like [Cariama cristata]
+Length=120
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 24/67 (36%), Positives = 32/67 (48%), Gaps = 1/67 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPN-EGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+           +L  +++ A  V L NA+ +  P  +G  G     C D KG  H   S W+TDNC  C C
+Sbjct  10  ILACLLVLAINVLLSNAASFLRPQLQGTSGGYIAGCRDSKGQLHEFYSYWRTDNCFDCFC  69
+
+Query  63  YETEISC  69
+               I C
+Sbjct  70  STDGIDC  76
+
+
+>ref|XP_006272816.1| PREDICTED: beta-microseminoprotein-like [Alligator mississippiensis]
+Length=111
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 39/73 (53%), Gaps = 3/73 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LG  +     VT+C+A C+F  N     +ST  C++  G  +   + WQ+++C TC
+Sbjct  1   MKWFLGFFLAIGILVTVCDAYCFFQQNN--LKESTEGCVE-NGKLYEFGTTWQSEDCHTC  57
+
+Query  61  TCYETEISCCTLS  73
+           +C    + CC+++
+Sbjct  58  SCSHRGMRCCSIA  70
+
+
+>ref|XP_014813549.1| PREDICTED: beta-microseminoprotein-like [Calidris pugnax]
+Length=111
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 26/79 (33%), Positives = 38/79 (48%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   L  +V     VTL +A C+  P    PGD+   C+ L G  +P     +TD C  C
+Sbjct  1   MKSFLAFLVAMGIIVTLGDAYCFTKPQR--PGDAKGGCL-LDGKLYPFGWIERTDTCFQC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C   ++SCC+L     +Y
+Sbjct  58  SCSPHKMSCCSLFHTPTDY  76
+
+
+>ref|XP_014460550.1| PREDICTED: beta-microseminoprotein-like isoform X2 [Alligator 
+mississippiensis]
+Length=109
+
+ Score = 45.4 bits (106),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 4/70 (6%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           +LG ++ F T +TL NA CYF   E     S + C+   G  + I++ W T  C  C C 
+Sbjct  3   ILGFLLAFITAITLSNAQCYF---EQKKEKSRKGCLK-DGKMYAIDASWYTKECLLCHCT  58
+
+Query  64  ETEISCCTLS  73
+              I+CC ++
+Sbjct  59  HKHITCCNVA  68
+
+
+>ref|XP_010620922.1| PREDICTED: beta-microseminoprotein [Fukomys damarensis]
+Length=450
+
+ Score = 47.8 bits (112),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 26/66 (39%), Positives = 34/66 (52%), Gaps = 0/66 (0%)
+
+Query  5    LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYE  64
+            LGS+++ AT +T  +  C F   E    +S   C D  G     N++W TDNCE CTC  
+Sbjct  278  LGSLLVLATCITAFSNECTFKFEEERLNNSHYVCRDDNGKIRIRNTKWMTDNCERCTCEP  337
+
+Query  65   TEISCC  70
+              I CC
+Sbjct  338  GGIKCC  343
+
+
+>ref|XP_008500315.1| PREDICTED: beta-microseminoprotein-like [Calypte anna]
+Length=197
+
+ Score = 46.2 bits (108),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 24/67 (36%), Positives = 38/67 (57%), Gaps = 5/67 (7%)
+
+Query  8    VVIFATFVTLCNASCYFIPNEGVPGDSTRK---CMDLKGNKHPINSEWQTDNCETCTCYE  64
+            +++ A  V L NA+C+  P +  PG+S  K   C D  G +H  +  W+ +NC  C+C +
+Sbjct  90   LLVLAVSVPLSNAACFLQPLK--PGESDGKIKGCHDSNGVQHKFDFLWRDENCNDCSCSK  147
+
+Query  65   TEISCCT  71
+              ISCC+
+Sbjct  148  DGISCCS  154
+
+
+>ref|XP_007478118.1| PREDICTED: beta-microseminoprotein A1-like [Monodelphis domestica]
+Length=114
+
+ Score = 45.1 bits (105),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 34/72 (47%), Gaps = 0/72 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++ +  F TL  A C  IP E    D    C D     H +NS W T +CE C
+Sbjct  1   MNTILGILLTWTIFGTLYEAQCTDIPLEIDMEDLRNGCKDRHYIVHELNSSWVTFSCEVC  60
+
+Query  61  TCYETEISCCTL  72
+            C    I C ++
+Sbjct  61  RCSRKGIECSSI  72
+
+
+>ref|XP_009938705.1| PREDICTED: beta-microseminoprotein-like [Opisthocomus hoazin]
+Length=146
+
+ Score = 45.1 bits (105),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 37/70 (53%), Gaps = 5/70 (7%)
+
+Query  5    LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRK---CMDLKGNKHPINSEWQTDNCETCT  61
+            L  +++ A  + L NA C+    E  PG S  K   C D KG  H   S+W+TD C  C+
+Sbjct  36   LACLLVLAVSMPLSNAYCFDQTLE--PGMSDGKIVGCRDSKGELHEFGSDWRTDECHDCS  93
+
+Query  62   CYETEISCCT  71
+            C  + I+CC+
+Sbjct  94   CSRSGINCCS  103
+
+
+>ref|XP_009076418.1| PREDICTED: beta-microseminoprotein J1-like [Acanthisitta chloris]
+Length=146
+
+ Score = 45.1 bits (105),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 38/69 (55%), Gaps = 2/69 (3%)
+
+Query  4    LLGSVVIFATFVTLCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+            +L  +++ A  V L +ASC+  P   G+       C+D +G  H  +S+W+  NC+ C+C
+Sbjct  36   ILACLLVLAISVPLSDASCFLEPFKPGMSDGKVVGCLDSEGVVHKFDSKWRK-NCDDCSC  94
+
+Query  63   YETEISCCT  71
+             +  I CCT
+Sbjct  95   SKQGIGCCT  103
+
+
+>ref|XP_011595155.1| PREDICTED: beta-microseminoprotein-like [Aquila chrysaetos canadensis]
+Length=111
+
+ Score = 44.7 bits (104),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 38/72 (53%), Gaps = 3/72 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   L  +V     VTL +A C+   N+  PG++ + CM L G  +P+    +T+NC  C
+Sbjct  1   MKSFLAFLVAMGIIVTLGDAYCFSKLNK--PGEADKGCM-LDGKLYPLGEIARTENCFRC  57
+
+Query  61  TCYETEISCCTL  72
+           +C    + CC+L
+Sbjct  58  SCSRDAMRCCSL  69
+
+
+>gb|KFO54250.1| Beta-microseminoprotein, partial [Corvus brachyrhynchos]
+Length=77
+
+ Score = 44.3 bits (103),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  38  CMDLKGNKHPINSEWQTDNCETCTCYETEISCCT  71
+           C+D +G  H  +S W+TD+C  C+CY T ISCCT
+Sbjct  1   CLDEEGKVHEFHSSWRTDDCNDCSCYRTGISCCT  34
+
+
+>ref|XP_007478113.1| PREDICTED: beta-microseminoprotein-like [Monodelphis domestica]
+Length=114
+
+ Score = 44.3 bits (103),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 26/74 (35%), Positives = 34/74 (46%), Gaps = 0/74 (0%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           MN +LG ++ +  F TL    C  IP E      T  C D  G  H +N  W TD+CE C
+Sbjct  1   MNTILGILLTWTIFGTLYETQCTDIPLEFNMEVQTNGCKDHHGEIHELNIYWFTDDCEMC  60
+
+Query  61  TCYETEISCCTLSS  74
+            C    + C +  S
+Sbjct  61  HCSPEGMECSSAIS  74
+
+
+>ref|XP_015392083.1| PREDICTED: beta-microseminoprotein, partial [Panthera tigris 
+altaica]
+Length=100
+
+ Score = 43.9 bits (102),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 23/32 (72%), Gaps = 0/32 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGD  33
+           NVLLGS+ + A FVTLCNA C  IPN+  PG 
+Sbjct  5   NVLLGSLRVLANFVTLCNAQCCVIPNKNTPGG  36
+
+
+>ref|XP_007444146.1| PREDICTED: small serum protein 5-like isoform X1 [Python bivittatus]
+Length=111
+
+ Score = 43.9 bits (102),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 36/71 (51%), Gaps = 3/71 (4%)
+
+Query  4   LLGSVVIFATFVTLCNASC--YFIPNEGVPGDSTRKCMDLKGNK-HPINSEWQTDNCETC  60
+           LL S+ +F T  +LC  SC    +  + V G    +C D      HP+ S W ++NC  C
+Sbjct  7   LLLSLTVFCTIFSLCYGSCGRQLLHPKIVNGKKVMECTDFSDRSVHPVGSTWNSENCMQC  66
+
+Query  61  TCYETEISCCT  71
+           +C   E+ CC+
+Sbjct  67  SCGWKEMVCCS  77
+
+
+>ref|XP_007444147.1| PREDICTED: small serum protein 5-like isoform X2 [Python bivittatus]
+Length=107
+
+ Score = 43.9 bits (102),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 36/71 (51%), Gaps = 3/71 (4%)
+
+Query  4   LLGSVVIFATFVTLCNASC--YFIPNEGVPGDSTRKCMDLKGNK-HPINSEWQTDNCETC  60
+           LL S+ +F T  +LC  SC    +  + V G    +C D      HP+ S W ++NC  C
+Sbjct  3   LLLSLTVFCTIFSLCYGSCGRQLLHPKIVNGKKVMECTDFSDRSVHPVGSTWNSENCMQC  62
+
+Query  61  TCYETEISCCT  71
+           +C   E+ CC+
+Sbjct  63  SCGWKEMVCCS  73
+
+
+>ref|XP_006118216.1| PREDICTED: beta-microseminoprotein-like [Pelodiscus sinensis]
+Length=110
+
+ Score = 43.5 bits (101),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 35/66 (53%), Gaps = 4/66 (6%)
+
+Query  14  FVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLS  73
+           +VTLC+A CYF  N+  P   T+ C+D  G  H  +S W   NC  C C +  I CC++ 
+Sbjct  14  WVTLCDAYCYFRLND--PATFTKGCLD-DGELHKFDSTW-ISNCHRCYCSQNGIRCCSVF  69
+
+Query  74  SEENEY  79
+               E+
+Sbjct  70  HSPREF  75
+
+
+>ref|XP_011243285.1| PREDICTED: beta-microseminoprotein isoform X1 [Mus musculus]
+Length=100
+
+ Score = 43.5 bits (101),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/66 (36%), Positives = 33/66 (50%), Gaps = 1/66 (2%)
+
+Query  14  FVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLS  73
+            V    A C     E  P   +  CMD  GNKH +N+ W+  NC  C+C +T I+CCT +
+Sbjct  1   MVIASKAVCSIENREIFPNQMSDDCMDADGNKHFLNTPWKK-NCTWCSCDKTSITCCTNA  59
+
+Query  74  SEENEY  79
+           +    Y
+Sbjct  60  TRPLSY  65
+
+
+>gb|EMP27053.1| Beta-microseminoprotein [Chelonia mydas]
+Length=298
+
+ Score = 45.4 bits (106),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 35/79 (44%), Gaps = 4/79 (5%)
+
+Query  1    MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+            +   L  ++ F    TLC+A CY            + C D  G  H  N+ W+T +C  C
+Sbjct  108  LKCFLSFLLAFVLSTTLCDAQCY----AETIDPKAKGCNDRDGAFHKFNTRWKTKDCFRC  163
+
+Query  61   TCYETEISCCTLSSEENEY  79
+            TC +  I CC+L +    Y
+Sbjct  164  TCRKQTIECCSLFAIPTSY  182
+
+
+ Score = 42.7 bits (99),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 39/79 (49%), Gaps = 4/79 (5%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M   LG ++     VTLC+A+C+       P  STR C+   G  +   + W   NC +C
+Sbjct  1   MKCFLGFLLAVGILVTLCDAACFH--EAASPRKSTRGCIQ-DGKLYHYGATW-IKNCYSC  56
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C +  I CC++ +   +Y
+Sbjct  57  SCDKGGIGCCSIVATPTDY  75
+
+
+>ref|XP_009489330.1| PREDICTED: beta-microseminoprotein-like, partial [Pelecanus crispus]
+Length=114
+
+ Score = 43.5 bits (101),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/69 (32%), Positives = 32/69 (46%), Gaps = 1/69 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTR-KCMDLKGNKHPINSEWQTDNCETCTC  62
+           +L  +++ A  VT+ +A C+F P E    D     C D  G  H   S W+  +C  C C
+Sbjct  3   ILACLLVLAISVTVSDADCFFQPLEAEVSDGKAVGCHDGNGELHEFGSHWRNADCYDCFC  62
+
+Query  63  YETEISCCT  71
+               I CC+
+Sbjct  63  SGAGIECCS  71
+
+
+>ref|XP_014106047.1| PREDICTED: beta-microseminoprotein isoform X2 [Pseudopodoces 
+humilis]
+ ref|XP_015489332.1| PREDICTED: beta-microseminoprotein [Parus major]
+Length=101
+
+ Score = 43.1 bits (100),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 21/56 (38%), Positives = 29/56 (52%), Gaps = 1/56 (2%)
+
+Query  17  LCNASCYFIP-NEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCT  71
+           L +ASC  +P   G+       C+D +G  H   S W+T+NC  C+C    I CCT
+Sbjct  3   LSDASCALMPFKPGMSNGVVVGCLDEEGKVHEFGSRWRTENCNDCSCSRDGIGCCT  58
+
+
+>dbj|BAK64382.1| small serum protein [Laticauda semifasciata]
+Length=110
+
+ Score = 43.1 bits (100),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/74 (32%), Positives = 37/74 (50%), Gaps = 5/74 (7%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDS---TRKCMDL-KGNKHPINSEWQTDN  56
+           M V   S++IF+  +  C  +C+  P E    D    ++ C+D+  G KH I S W T +
+Sbjct  1   MKVFF-SLIIFSLMLAACQGACFSGPFEVEIKDGKPVSKTCLDIYDGRKHLIGSTWNTAH  59
+
+Query  57  CETCTCYETEISCC  70
+           C  C C +  + CC
+Sbjct  60  CFRCKCSKNGLHCC  73
+
+
+>ref|XP_012988263.1| PREDICTED: prostate-associated microseminoprotein-like, partial 
+[Esox lucius]
+Length=129
+
+ Score = 43.1 bits (100),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 24/77 (31%), Positives = 38/77 (49%), Gaps = 4/77 (5%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLK-GNKHPINSEWQTDNCETCTCY  63
+           L   VI  + + L  A+C+F   +  PGD  ++C+  K G  H I S W+T +C  C+C 
+Sbjct  20  LALAVILCSVLPLSYAACWF--QQAEPGDGIKQCLYTKDGTWHAIGSRWRTSDCMDCSCL  77
+
+Query  64  ET-EISCCTLSSEENEY  79
+           +   + CC   S    +
+Sbjct  78  DNGGMRCCDAYSTPKRF  94
+
+
+>ref|XP_002936015.2| PREDICTED: beta-microseminoprotein-like [Xenopus tropicalis]
+Length=109
+
+ Score = 43.1 bits (100),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 37/71 (52%), Gaps = 7/71 (10%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M  +L SV+     +T CNA+C+ +P E   G     C+   G  H + S+++T +C  C
+Sbjct  1   MKFILASVIALGILLTTCNAACFHLPPENQEG-----CL-YSGELHELGSKFRTKDCMDC  54
+
+Query  61  TC-YETEISCC  70
+           TC  +  + CC
+Sbjct  55  TCDMDGSMGCC  65
+
+
+>ref|XP_009954111.1| PREDICTED: LOW QUALITY PROTEIN: beta-microseminoprotein-like 
+[Leptosomus discolor]
+Length=135
+
+ Score = 43.1 bits (100),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 27/72 (38%), Positives = 38/72 (53%), Gaps = 5/72 (7%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDS-TRKCMDLKGNKHPINSEWQTDNCET  59
+           +  +L  +++ AT V   NASC+  P++  P DS    C D K   H + S W+TDN   
+Sbjct  25  LKTILACLLVLATSVPQFNASCFQQPSK--PSDSEIAGCHDRKXKPHELRSSWRTDNYLD  82
+
+Query  60  CTCYETEISCCT  71
+           C C  + I CCT
+Sbjct  83  CHC--SGIECCT  92
+
+
+>ref|XP_011285691.1| PREDICTED: beta-microseminoprotein, partial [Felis catus]
+Length=100
+
+ Score = 42.7 bits (99),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGD  33
+           NVLLGS+   A FVTLCNA C  IPN+  PG 
+Sbjct  5   NVLLGSLRALANFVTLCNAQCCVIPNKNTPGG  36
+
+
+>ref|XP_014057778.1| PREDICTED: beta-microseminoprotein-like [Salmo salar]
+Length=111
+
+ Score = 42.7 bits (99),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 28/77 (36%), Positives = 38/77 (49%), Gaps = 6/77 (8%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLK-GNKHPINSEWQTDNCETCTCY  63
+           L   VI    + L +A C+F P E  PG   R+C+  K G  H I S W+T +C  C C 
+Sbjct  4   LAVAVILCVLLPLFHAGCWFKPAE--PG--MRQCLYNKDGTWHDIGSRWRTSDCMNCYCQ  59
+
+Query  64  -ETEISCCTLSSEENEY  79
+              ++SCC   SE   +
+Sbjct  60  TNGDMSCCQAYSEPTRF  76
+
+
+>ref|XP_009985528.1| PREDICTED: beta-microseminoprotein-like [Tauraco erythrolophus]
+Length=131
+
+ Score = 42.7 bits (99),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 22/64 (34%), Positives = 31/64 (48%), Gaps = 1/64 (2%)
+
+Query  9   VIFATFVTLCNASCYFIPNEGVPGDS-TRKCMDLKGNKHPINSEWQTDNCETCTCYETEI  67
+           +I    +TL +A C+  P +    D     C DL G  H   S W  ++C  C+C E  I
+Sbjct  25  LILVISMTLSSADCFLQPLKSETSDGEIVGCHDLNGELHEFGSSWSNEDCYDCSCSEHGI  84
+
+Query  68  SCCT  71
+           SCC+
+Sbjct  85  SCCS  88
+
+
+>dbj|BAJ14706.1| small serum protein-1 [Gloydius blomhoffii blomhoffii]
+Length=107
+
+ Score = 42.4 bits (98),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 34/71 (48%), Gaps = 2/71 (3%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDL-KGNKHPINSEWQTDNCET  59
+           M V   S++IF+  +  C  +C   P        T+KC+D   G KH + S+W   NC  
+Sbjct  1   MRVFF-SLIIFSFMLATCQGACAAGPEPTDDIVPTKKCVDPNDGRKHLVLSKWNAANCTI  59
+
+Query  60  CTCYETEISCC  70
+           C C+   + CC
+Sbjct  60  CYCFRHGLRCC  70
+
+
+>ref|XP_007661750.1| PREDICTED: beta-microseminoprotein, partial [Ornithorhynchus 
+anatinus]
+Length=77
+
+ Score = 42.0 bits (97),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 17/35 (49%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  38  CMDLKGNKHPINSEWQTDNCETCTCYETEISCCTL  72
+           C D  G  H + SEW+TD+C +C C+   ISCC+L
+Sbjct  1   CTDSSGVVHELGSEWKTDDCYSCQCFSESISCCSL  35
+
+
+>ref|XP_005154173.1| PREDICTED: beta-microseminoprotein-like [Melopsittacus undulatus]
+Length=114
+
+ Score = 42.4 bits (98),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 37/77 (48%), Gaps = 9/77 (12%)
+
+Query  3   VLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTC  62
+           +L  S+++F+   TLC+A CYF P       S R       N +   + W+TD+C  C C
+Sbjct  12  LLFCSILLFSG--TLCDARCYFRPASKYGCLSNR-------NLYVFGAVWKTDDCYQCKC  62
+
+Query  63  YETEISCCTLSSEENEY  79
+             T + CC+L      Y
+Sbjct  63  KMTAMICCSLVLIPKNY  79
+
+
+>ref|XP_004642396.1| PREDICTED: peroxidasin homolog [Octodon degus]
+Length=1527
+
+ Score = 45.1 bits (105),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 16/36 (44%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  34    STRKCMDLKGNKHPINSEWQTDNCETCTCYETEISC  69
+             ST +C+D  G  H  N++W+TD C TC C + +I+C
+Sbjct  1459  STSECVDSDGEAHANNTKWKTDTCTTCECKDGQITC  1494
+
+
+>ref|XP_010865726.1| PREDICTED: beta-microseminoprotein-like [Esox lucius]
+Length=110
+
+ Score = 42.4 bits (98),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 40/72 (56%), Gaps = 6/72 (8%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCM-DLKGNKHPINSEWQTDNCETCTCY  63
+           L   V+  T + L +ASC++   E       ++C+ D +G  +PI S W+T +C  C+C+
+Sbjct  4   LALAVLLGTLLPLIHASCWYKKAET----DIKQCLYDKEGAWYPIGSRWRTKDCMDCSCH  59
+
+Query  64  ETEI-SCCTLSS  74
+           +  + SCC+  S
+Sbjct  60  DNGVMSCCSAYS  71
+
+
+>ref|XP_012985734.1| PREDICTED: LOW QUALITY PROTEIN: beta-microseminoprotein-like 
+[Melopsittacus undulatus]
+Length=118
+
+ Score = 42.0 bits (97),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 25/69 (36%), Positives = 38/69 (55%), Gaps = 3/69 (4%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+            L  +V     VTL +A C+   N+  P ++T+ C+ L G  +P     +T+NC  C C 
+Sbjct  11  FLAFLVAMGITVTLGDAYCFSKINK--PEETTKGCV-LDGKLYPYGEIARTENCLRCRCS  67
+
+Query  64  ETEISCCTL  72
+           +TEI CC+L
+Sbjct  68  KTEIRCCSL  76
+
+
+>gb|KFQ42119.1| Beta-microseminoprotein E1, partial [Nestor notabilis]
+Length=77
+
+ Score = 41.6 bits (96),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 18/42 (43%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  38  CMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSSEENEY  79
+           C DL G  H ++S+W+TD+C  C+C E  I CC+  S  ++Y
+Sbjct  1   CRDLNGELHELDSQWRTDSCYDCSCSEGAIDCCSSFSTPSDY  42
+
+
+>ref|XP_009676222.1| PREDICTED: beta-microseminoprotein-like [Struthio camelus australis]
+Length=123
+
+ Score = 42.0 bits (97),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 34/64 (53%), Gaps = 7/64 (11%)
+
+Query  16  TLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSSE  75
+           TLC+A CYF P+      S   C+   GN +   + W+T++C  C C  T + CC+L S 
+Sbjct  32  TLCDAHCYFRPS------SKYGCLS-NGNLYVFGAAWKTEHCYQCRCKMTAMICCSLVSI  84
+
+Query  76  ENEY  79
+             +Y
+Sbjct  85  PKKY  88
+
+
+>gb|ERE91253.1| beta-microseminoprotein, partial [Cricetulus griseus]
+Length=92
+
+ Score = 41.6 bits (96),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 21/42 (50%), Positives = 27/42 (64%), Gaps = 1/42 (2%)
+
+Query  38  CMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLSSEENEY  79
+           C+D  G+KHPINS W  D C+ C C E  ISCCT ++  + Y
+Sbjct  17  CVDSDGDKHPINSYWVKD-CKRCFCGEDTISCCTQTAIPSRY  57
+
+
+>gb|KFO31218.1| Peroxidasin like protein [Fukomys damarensis]
+Length=1425
+
+ Score = 44.3 bits (103),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  34    STRKCMDLKGNKHPINSEWQTDNCETCTCYETEISC  69
+             S  +C+D  G  H  N++W+TD+C TC C + +++C
+Sbjct  1357  SASECVDTDGRSHANNTKWKTDSCTTCACSDGQVTC  1392
+
+
+>ref|XP_006031287.2| PREDICTED: small serum protein 2-like [Alligator sinensis]
+Length=108
+
+ Score = 41.6 bits (96),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 27/84 (32%), Positives = 39/84 (46%), Gaps = 5/84 (6%)
+
+Query  10  IFATFVTLCNASCYFIPNE-GVPGDST---RKCMD-LKGNKHPINSEWQTDNCETCTCYE  64
+           +  T +TL +A C+ I NE  +  D     +KC+D    ++H I + W +  C  C CY 
+Sbjct  5   VLCTMLTLIHAVCFIIKNELEINTDGLLVPQKCLDPFDKSEHAIRTSWNSSLCMRCKCYG  64
+
+Query  65  TEISCCTLSSEENEYLPRPEWQLQ  88
+             +SCCT  S      P  E  L 
+Sbjct  65  ATVSCCTRYSSSISTPPGCEATLD  88
+
+
+>ref|XP_013004015.1| PREDICTED: beta-microseminoprotein-like [Cavia porcellus]
+Length=125
+
+ Score = 41.6 bits (96),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 25/76 (33%), Positives = 37/76 (49%), Gaps = 1/76 (1%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+           LLGS++  A   T  +  CY +  EG  G++   C  L G  +  NS W    CE C+C 
+Sbjct  16  LLGSLLFLANCDTSSSIRCYTVQMEG-QGENFDICRYLLGVTYKKNSNWINAQCENCSCD  74
+
+Query  64  ETEISCCTLSSEENEY  79
+           +  + CCT  +   +Y
+Sbjct  75  QNGMKCCTTVAIPTQY  90
+
+
+>ref|XP_008928096.1| PREDICTED: beta-microseminoprotein-like [Manacus vitellinus]
+Length=128
+
+ Score = 41.6 bits (96),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 38/76 (50%), Gaps = 3/76 (4%)
+
+Query  4   LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+            L  +V  +  V L +A C+      +PG + + CM L G  +P+    +T++C  C C 
+Sbjct  21  FLAFLVAMSIIVALGDAYCF--SKRYMPGKADKGCM-LNGKLYPLGHIERTEDCYRCDCS  77
+
+Query  64  ETEISCCTLSSEENEY  79
+            TE+ CC++ S    Y
+Sbjct  78  PTEMRCCSIFSTPVAY  93
+
+
+>ref|XP_009484873.1| PREDICTED: beta-microseminoprotein [Pelecanus crispus]
+Length=101
+
+ Score = 41.2 bits (95),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 35/61 (57%), Gaps = 3/61 (5%)
+
+Query  12  ATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCT  71
+              VTL +A C+   N+  PG++T+ C+ L G  +P     +TDNC  C+C +  + CC+
+Sbjct  2   GIIVTLGDAYCFSKMNK--PGEATKGCV-LDGKLYPFGEIARTDNCFRCSCSQDAMRCCS  58
+
+Query  72  L  72
+           L
+Sbjct  59  L  59
+
+
+>ref|XP_010283181.1| PREDICTED: beta-microseminoprotein-like [Phaethon lepturus]
+Length=203
+
+ Score = 42.7 bits (99),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  4    LLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCY  63
+             L  +V     VTL +A C+   N+  PG+S + C+ L G  +P     +T+NC  C+C 
+Sbjct  96   FLAFLVAVGIIVTLADAYCFSKINK--PGESDKGCI-LDGKLYPFGEIARTENCFRCSCS  152
+
+Query  64   ETEISCCTL  72
+            +  + CC+L
+Sbjct  153  QDAMRCCSL  161
+
+
+>ref|XP_010865732.1| PREDICTED: beta-microseminoprotein-like [Esox lucius]
+Length=158
+
+ Score = 42.0 bits (97),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 37/68 (54%), Gaps = 5/68 (7%)
+
+Query  5    LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLK-GNKHPINSEWQTDNCETCTCY  63
+            L   VI  + + L +A+ +    +  PGD  ++C+D K G  H I S W+T +C  C+  
+Sbjct  49   LALAVILCSVLPLSHAAGF---QQAEPGDGIKQCLDTKDGTWHAIGSRWRTSDCMDCSFL  105
+
+Query  64   ET-EISCC  70
+            +  E+SCC
+Sbjct  106  DNGEMSCC  113
+
+
+>ref|XP_014813550.1| PREDICTED: beta-microseminoprotein-like [Calidris pugnax]
+Length=115
+
+ Score = 41.2 bits (95),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 23/66 (35%), Positives = 36/66 (55%), Gaps = 2/66 (3%)
+
+Query  15  VTLCNASCYFIPNEGVPGDSTR-KCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTLS  73
+           VTL +A C+F   +    D     C+DLKG  H   S W+T++C  C+C ++ I CC+  
+Sbjct  15  VTLSDAYCFFERFKPAISDGVVIGCLDLKGVAHKFGS-WKTEDCHDCSCDKSGIQCCSSY  73
+
+Query  74  SEENEY  79
+           +  + Y
+Sbjct  74  ASPSGY  79
+
+
+>ref|XP_010116958.1| PREDICTED: beta-microseminoprotein-like [Chlamydotis macqueenii]
+Length=135
+
+ Score = 41.6 bits (96),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 35/78 (45%), Gaps = 7/78 (9%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N LL   +I     TLC+A CYF P       S R       N +   + W+T++C  C 
+Sbjct  30  NSLLFFCLILLYSRTLCDARCYFRPASKYGCLSNR-------NLYVFGAVWKTEDCYQCR  82
+
+Query  62  CYETEISCCTLSSEENEY  79
+           C  T + CC+L S    Y
+Sbjct  83  CKITAMICCSLVSIPKNY  100
+
+
+>ref|XP_009954112.1| PREDICTED: beta-microseminoprotein [Leptosomus discolor]
+Length=118
+
+ Score = 41.2 bits (95),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 39/71 (55%), Gaps = 3/71 (4%)
+
+Query  2   NVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCT  61
+           N  L  +V  +  VTL +A C+   N+  PG++ + C+ L+G  +P     +T+NC  C+
+Sbjct  9   NSFLAFLVATSIIVTLGDAYCFSKLNK--PGETDKGCV-LEGKIYPFGEIARTENCFRCS  65
+
+Query  62  CYETEISCCTL  72
+           C    + CC+L
+Sbjct  66  CSRDAMRCCSL  76
+
+
+>gb|KFV65191.1| Beta-microseminoprotein, partial [Picoides pubescens]
+Length=77
+
+ Score = 40.4 bits (93),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 17/34 (50%), Positives = 20/34 (59%), Gaps = 0/34 (0%)
+
+Query  38  CMDLKGNKHPINSEWQTDNCETCTCYETEISCCT  71
+           C+D KGN H   S W+TD+C  C C    I CCT
+Sbjct  1   CLDSKGNLHQFGSRWRTDDCMDCYCSRDAIECCT  34
+
+
+>ref|XP_010712764.1| PREDICTED: beta-microseminoprotein-like [Meleagris gallopavo]
+Length=110
+
+ Score = 40.8 bits (94),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 41/79 (52%), Gaps = 3/79 (4%)
+
+Query  1   MNVLLGSVVIFATFVTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETC  60
+           M +LL  +      VT  +A C+    +  PG++ + CM + G  +P     +T+NC TC
+Sbjct  1   MKILLAFLFSMGIIVTQGDAFCFHQFFK--PGEAEKGCM-VDGVLYPFGEISRTENCLTC  57
+
+Query  61  TCYETEISCCTLSSEENEY  79
+           +C + E+ CC+L +    Y
+Sbjct  58  SCSQYEMHCCSLYTTPVNY  76
+
+
+>ref|XP_010010314.1| PREDICTED: beta-microseminoprotein-like [Nestor notabilis]
+Length=101
+
+ Score = 40.8 bits (94),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 23/58 (40%), Positives = 35/58 (60%), Gaps = 3/58 (5%)
+
+Query  15  VTLCNASCYFIPNEGVPGDSTRKCMDLKGNKHPINSEWQTDNCETCTCYETEISCCTL  72
+           VTL +A C+   N+  PG++ + C+ L G  +P     +T+NC  C+C   EISCC+L
+Sbjct  5   VTLSDAYCFSKINK--PGETNKGCV-LDGKLYPYGEIARTENCLRCSCSREEISCCSL  59
+
+
+>gb|AEX32799.1| uterine-secreted microprotein 2 [Macropus eugenii]
+Length=78
+
+ Score = 40.4 bits (93),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 34/68 (50%), Gaps = 2/68 (3%)
+
+Query  5   LGSVVIFATFVTLCNASCYFIPNEGVPGDSTRK-CMDLKGNK-HPINSEWQTDNCETCTC  62
+           L S+++ +T + L +  CY +    +     R  CMD   NK + + S+WQ   CETC C
+Sbjct  4   LISLMLLSTVLALAHGYCYRVQLRRISQFGPRNMCMDEVNNKMYKMGSKWQNSRCETCLC  63
+
+Query  63  YETEISCC  70
+               + CC
+Sbjct  64  TNIGMMCC  71
+
+
+
+Lambda      K        H
+   0.319    0.133    0.444 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 777838266600
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Mar 28, 2016 12:00 AM
+  Number of letters in database: 30,803,427,846
+  Number of sequences in database:  84,060,097
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

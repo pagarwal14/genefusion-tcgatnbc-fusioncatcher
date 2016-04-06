@@ -1,0 +1,3441 @@
+BLASTP 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           84,060,097 sequences; 30,803,427,846 total letters
+
+
+
+Query= TN_Fu0005P1
+
+Length=44
+
+RID: FMYAUN11014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AIC59745.1|  CHP [synthetic construct]                             70.9    2e-14
+gb|EAW61652.1|  hCG2038681 [Homo sapiens]                             71.2    3e-14
+gb|EAW58131.1|  LAG1 longevity assurance homolog 5 (S. cerevisiae...  70.9    2e-13
+ref|XP_008977631.1|  PREDICTED: glycerol-3-phosphate acyltransfer...  70.5    2e-13
+gb|EHH20263.1|  hypothetical protein EGK_03078 [Macaca mulatta]       69.3    3e-13
+gb|EHH18324.1|  hypothetical protein EGK_14898 [Macaca mulatta]       71.2    4e-13
+gb|EHH54758.1|  hypothetical protein EGM_15654 [Macaca fascicularis]  67.4    4e-13
+ref|XP_012303404.1|  PREDICTED: uncharacterized protein LOC105714...  69.7    5e-13
+ref|XP_004052457.1|  PREDICTED: UPF0764 protein C16orf89-like [Go...  67.0    5e-13
+gb|EAW67706.1|  hCG1817271 [Homo sapiens]                             67.0    5e-13
+gb|EAW57931.1|  hCG1814090, isoform CRA_a [Homo sapiens]              68.9    6e-13
+gb|EAW85940.1|  hCG2040465 [Homo sapiens]                             67.8    7e-13
+gb|EHH18952.1|  hypothetical protein EGK_19543 [Macaca mulatta]       67.0    7e-13
+gb|EHH18371.1|  hypothetical protein EGK_14950 [Macaca mulatta]       67.4    8e-13
+gb|EHH59527.1|  hypothetical protein EGM_09663 [Macaca fascicularis]  66.6    9e-13
+gb|EAW57932.1|  hCG1814090, isoform CRA_b [Homo sapiens]              68.2    1e-12
+gb|EHH60591.1|  hypothetical protein EGM_11981 [Macaca fascicularis]  66.2    1e-12
+gb|EAW62946.1|  hCG2038800 [Homo sapiens]                             67.0    1e-12
+ref|XP_006719750.1|  PREDICTED: ceramide synthase 5 isoform X2 [H...  70.1    2e-12
+gb|EHH25734.1|  hypothetical protein EGK_15555 [Macaca mulatta]       67.4    2e-12
+dbj|BAB60728.1|  hypothetical protein [Macaca fascicularis]           67.0    2e-12
+dbj|BAA91131.1|  unnamed protein product [Homo sapiens]               67.4    2e-12
+gb|EAW92088.1|  hCG1814455 [Homo sapiens]                             66.2    2e-12
+gb|EHH20620.1|  hypothetical protein EGK_03509 [Macaca mulatta]       65.5    2e-12
+gb|EAW67976.1|  cytoskeleton associated protein 5 [Homo sapiens]      70.9    2e-12
+ref|XP_008982937.1|  PREDICTED: putative uncharacterized protein ...  65.1    2e-12
+gb|EAX08319.1|  hCG2038792 [Homo sapiens]                             67.0    3e-12
+ref|XP_011931858.1|  PREDICTED: serine/threonine/tyrosine-interac...  68.9    4e-12
+ref|XP_011818024.1|  PREDICTED: LYR motif-containing protein 4 is...  66.2    4e-12
+gb|EAW56733.1|  similar to zinc finger protein 569, isoform CRA_a...  65.9    5e-12
+gb|EHH63076.1|  hypothetical protein EGM_15972 [Macaca fascicularis]  64.3    5e-12
+ref|XP_009201062.1|  PREDICTED: serine/threonine/tyrosine-interac...  68.6    5e-12
+ref|XP_004041754.1|  PREDICTED: ras-related protein Rab-5C isofor...  67.4    5e-12
+gb|EHH51808.1|  hypothetical protein EGM_11255 [Macaca fascicularis]  64.3    5e-12
+ref|XP_011839977.1|  PREDICTED: LYR motif-containing protein 4 is...  65.9    6e-12
+ref|XP_003951673.1|  PREDICTED: cAMP-responsive element modulator...  65.9    6e-12
+gb|EAW85402.1|  hCG1778978 [Homo sapiens]                             65.1    6e-12
+ref|XP_014990994.1|  PREDICTED: LYR motif-containing protein 4 is...  65.5    6e-12
+gb|EAX10112.1|  hCG2018900 [Homo sapiens]                             65.9    7e-12
+dbj|BAE90853.1|  unnamed protein product [Macaca fascicularis]        63.9    7e-12
+ref|XP_009243549.1|  PREDICTED: cAMP-responsive element modulator...  65.5    8e-12
+gb|EHH28336.1|  hypothetical protein EGK_18756 [Macaca mulatta]       63.9    8e-12
+ref|XP_011533016.1|  PREDICTED: uncharacterized protein LOC101928...  66.6    8e-12
+gb|EHH24426.1|  hypothetical protein EGK_08082 [Macaca mulatta]       64.7    9e-12
+dbj|BAC85336.1|  unnamed protein product [Homo sapiens]               65.1    9e-12
+ref|XP_011886588.1|  PREDICTED: LYR motif-containing protein 4 is...  65.1    1e-11
+gb|EAW47497.1|  hCG2029440 [Homo sapiens]                             65.1    1e-11
+gb|EAW48919.1|  hCG2028158 [Homo sapiens]                             65.1    1e-11
+ref|XP_008954846.1|  PREDICTED: LYR motif-containing protein 4 is...  65.1    1e-11
+ref|XP_011520694.1|  PREDICTED: UPF0764 protein C16orf89 isoform ...  65.5    1e-11
+dbj|BAG10485.1|  SET domain-containing protein 2 [synthetic const...  68.9    1e-11
+ref|XP_001163021.2|  PREDICTED: LYR motif-containing protein 4 is...  64.7    1e-11
+ref|XP_008966224.1|  PREDICTED: UPF0764 protein C16orf89 homolog ...  67.8    1e-11
+gb|EHH66151.1|  hypothetical protein EGM_03074 [Macaca fascicularis]  63.2    1e-11
+gb|EAW93409.1|  hCG2039073 [Homo sapiens]                             64.7    1e-11
+ref|NP_001287990.1|  B-cell CLL/lymphoma 7 protein family member ...  65.5    1e-11
+ref|XP_001170404.1|  PREDICTED: UPF0764 protein C16orf89 homolog ...  67.4    1e-11
+gb|EHH51986.1|  hypothetical protein EGM_12342 [Macaca fascicularis]  63.9    1e-11
+ref|XP_012351623.1|  PREDICTED: putative uncharacterized protein ...  63.2    2e-11
+ref|XP_009450650.1|  PREDICTED: protein GVQW1-like [Pan troglodytes]  64.7    2e-11
+ref|XP_009008169.1|  PREDICTED: multiple inositol polyphosphate p...  67.4    2e-11
+gb|EHH16041.1|  hypothetical protein EGK_11270 [Macaca mulatta]       64.3    2e-11
+gb|EHH16997.1|  hypothetical protein EGK_13278 [Macaca mulatta]       63.2    2e-11
+gb|EHH63176.1|  hypothetical protein EGM_16090 [Macaca fascicularis]  63.2    2e-11
+gb|EHH29510.1|  hypothetical protein EGK_09960 [Macaca mulatta]       62.8    2e-11
+ref|XP_008988528.1|  PREDICTED: transmembrane protein 14C-like is...  64.3    2e-11
+ref|XP_004054100.1|  PREDICTED: putative uncharacterized protein ...  63.5    2e-11
+ref|XP_012361420.1|  PREDICTED: WD repeat-containing protein 27 [...  67.4    3e-11
+gb|EAW83836.1|  hCG2014340 [Homo sapiens]                             63.9    3e-11
+gb|EHH61583.1|  hypothetical protein EGM_19546 [Macaca fascicularis]  63.2    3e-11
+gb|EHH52750.1|  hypothetical protein EGM_13262 [Macaca fascicularis]  62.0    4e-11
+gb|AAQ88847.1|  SARG904 [Homo sapiens]                                66.2    4e-11
+ref|NP_689672.4|  UPF0764 protein C16orf89 isoform 1 precursor [H...  65.9    4e-11
+ref|XP_005554181.1|  PREDICTED: LYR motif-containing protein 4 is...  63.2    5e-11
+gb|EHH29987.1|  hypothetical protein EGK_10551 [Macaca mulatta]       62.0    5e-11
+ref|XP_008997697.1|  PREDICTED: putative uncharacterized protein ...  62.0    5e-11
+ref|XP_009248717.1|  PREDICTED: LOW QUALITY PROTEIN: UPF0764 prot...  65.9    5e-11
+gb|EAX02980.1|  hCG1820679, isoform CRA_b [Homo sapiens]              63.2    5e-11
+ref|XP_011749113.1|  PREDICTED: LYR motif-containing protein 4 is...  63.2    5e-11
+gb|EAW85243.1|  hypothetical protein MGC45438, isoform CRA_b [Hom...  65.9    6e-11
+dbj|BAC11494.1|  unnamed protein product [Homo sapiens]               65.9    6e-11
+gb|EHH17391.1|  hypothetical protein EGK_13790 [Macaca mulatta]       61.2    6e-11
+ref|XP_011754134.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  62.8    6e-11
+gb|EAW90337.1|  complement component 1, q subcomponent binding pr...  65.1    6e-11
+ref|XP_004088774.1|  PREDICTED: LYR motif-containing protein 4 is...  62.8    6e-11
+ref|XP_011535196.1|  PREDICTED: probable RNA-binding protein 23 i...  65.9    7e-11
+ref|XP_011535197.1|  PREDICTED: probable RNA-binding protein 23 i...  65.5    7e-11
+ref|XP_009425750.1|  PREDICTED: probable RNA-binding protein 23 i...  65.5    7e-11
+ref|XP_011535203.1|  PREDICTED: probable RNA-binding protein 23 i...  65.1    7e-11
+gb|EHH18929.1|  hypothetical protein EGK_19508 [Macaca mulatta]       61.6    7e-11
+ref|XP_012358188.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  63.9    8e-11
+gb|EAW93800.1|  hypothetical protein MGC72075, isoform CRA_c [Hom...  62.8    8e-11
+gb|EHH19220.1|  hypothetical protein EGK_19893 [Macaca mulatta]       62.0    8e-11
+ref|XP_011535194.1|  PREDICTED: probable RNA-binding protein 23 i...  65.5    8e-11
+ref|XP_011512598.1|  PREDICTED: transcription initiation factor T...  64.7    8e-11
+gb|EHH56016.1|  hypothetical protein EGM_05345 [Macaca fascicularis]  61.2    8e-11
+gb|EAX04078.1|  taube nuss homolog (mouse), isoform CRA_a [Homo s...  64.7    8e-11
+ref|XP_011535192.1|  PREDICTED: probable RNA-binding protein 23 i...  65.5    9e-11
+ref|XP_009235762.1|  PREDICTED: protein GVQW1-like [Pongo abelii]     62.4    9e-11
+gb|EHH30618.1|  hypothetical protein EGK_20358 [Macaca mulatta]       61.2    9e-11
+tpd|FAA00321.1|  TPA: augmented in rheumatoid arthritis 2 [Homo s...  61.6    1e-10
+gb|EAX06532.1|  hCG2031845 [Homo sapiens]                             62.0    1e-10
+gb|EAX04080.1|  taube nuss homolog (mouse), isoform CRA_b [Homo s...  64.7    1e-10
+ref|XP_009099128.1|  PREDICTED: putative uncharacterized protein ...  60.8    1e-10
+ref|XP_010385738.1|  PREDICTED: serine/threonine/tyrosine-interac...  64.7    1e-10
+dbj|BAB21918.1|  hypothetical protein [Macaca fascicularis]           62.0    1e-10
+dbj|BAC04889.1|  unnamed protein product [Homo sapiens]               62.0    1e-10
+gb|EAX02036.1|  hCG1641044, isoform CRA_a [Homo sapiens]              62.4    1e-10
+dbj|BAE91091.1|  unnamed protein product [Macaca fascicularis]        61.6    1e-10
+ref|XP_003780449.1|  PREDICTED: LOW QUALITY PROTEIN: LYR motif-co...  61.6    2e-10
+gb|EHH64647.1|  hypothetical protein EGM_17921 [Macaca fascicularis]  60.8    2e-10
+gb|EAW88287.1|  hCG2021982 [Homo sapiens]                             63.2    2e-10
+gb|AAH33883.1|  RBP7 protein [Homo sapiens]                           62.4    2e-10
+gb|ALQ33338.1|  acyl-CoA dehydrogenase short/branched chain isofo...  60.5    2e-10
+gb|EAX04489.1|  hCG1643345, isoform CRA_b [Homo sapiens]              60.1    2e-10
+gb|EAX02917.1|  hCG2042107 [Homo sapiens]                             62.0    2e-10
+dbj|BAE89999.1|  unnamed protein product [Macaca fascicularis]        63.9    2e-10
+dbj|BAC03563.1|  unnamed protein product [Homo sapiens]               62.0    2e-10
+gb|AAH07609.1|  E2F2 protein [Homo sapiens]                           60.8    2e-10
+dbj|BAC86723.1|  unnamed protein product [Homo sapiens]               62.0    2e-10
+ref|XP_012351744.1|  PREDICTED: death-associated protein-like 1 i...  61.6    2e-10
+dbj|BAC87102.1|  unnamed protein product [Homo sapiens]               61.6    2e-10
+ref|XP_011785565.1|  PREDICTED: serine/threonine/tyrosine-interac...  63.9    2e-10
+gb|EHH19897.1|  hypothetical protein EGK_02637 [Macaca mulatta]       60.1    2e-10
+gb|EHH61898.1|  hypothetical protein EGM_20022 [Macaca fascicularis]  60.1    3e-10
+ref|XP_008952016.1|  PREDICTED: collagenase 3 isoform X1 [Pan pan...  63.9    3e-10
+gb|EAW72619.1|  hypothetical protein MGC2752 [Homo sapiens]           61.6    3e-10
+gb|EHH17280.1|  hypothetical protein EGK_13646 [Macaca mulatta]       61.6    3e-10
+gb|EHH27828.1|  hypothetical protein EGK_18118 [Macaca mulatta]       60.5    3e-10
+gb|KRZ64886.1|  UPF0764 protein C16orf89 [Trichinella papuae]         60.1    3e-10
+ref|NP_001158312.1|  LYR motif-containing protein 4 isoform 2 [Ho...  60.8    4e-10
+gb|EHH16412.1|  hypothetical protein EGK_11692 [Macaca mulatta]       60.1    4e-10
+gb|EHH49777.1|  hypothetical protein EGM_00492 [Macaca fascicularis]  60.5    4e-10
+gb|EHH27277.1|  hypothetical protein EGK_17439 [Macaca mulatta]       59.7    4e-10
+gb|EAX10331.1|  hCG1646932, isoform CRA_c [Homo sapiens]              60.8    4e-10
+ref|XP_004035908.1|  PREDICTED: RNA-binding motif, single-strande...  60.8    5e-10
+dbj|BAG57781.1|  unnamed protein product [Homo sapiens]               60.8    5e-10
+gb|EAW76032.1|  hCG2038368 [Homo sapiens]                             60.1    5e-10
+dbj|BAC85397.1|  unnamed protein product [Homo sapiens]               60.5    5e-10
+gb|AAH18471.1|  NFS1 nitrogen fixation 1 homolog (S. cerevisiae) ...  60.8    6e-10
+ref|XP_002830047.2|  PREDICTED: D-tyrosyl-tRNA(Tyr) deacylase 1 [...  60.8    6e-10
+ref|XP_003269292.1|  PREDICTED: UPF0764 protein C16orf89 homolog ...  62.8    7e-10
+ref|XP_006715563.1|  PREDICTED: hexaprenyldihydroxybenzoate methy...  62.8    7e-10
+gb|AAX47089.1|  alpha-1A adrenoceptor variant 2c [Macaca mulatta]     62.4    7e-10
+gb|EHH21360.1|  hypothetical protein EGK_04398 [Macaca mulatta]       59.7    7e-10
+gb|AAR84645.1|  alpha 1A adrenoceptor isoform 2c [Homo sapiens]       62.4    7e-10
+gb|EAX10330.1|  hCG1646932, isoform CRA_b [Homo sapiens]              60.5    7e-10
+ref|XP_004033029.1|  PREDICTED: putative uncharacterized protein ...  59.7    7e-10
+ref|NP_001254494.1|  cAMP-responsive element modulator isoform 26...  60.1    7e-10
+gb|EHH14613.1|  hypothetical protein EGK_00570 [Macaca mulatta]       59.7    8e-10
+ref|XP_011534200.1|  PREDICTED: hexaprenyldihydroxybenzoate methy...  62.0    8e-10
+dbj|BAE90637.1|  unnamed protein product [Macaca fascicularis]        58.5    9e-10
+dbj|BAE91325.1|  unnamed protein product [Macaca fascicularis]        60.1    9e-10
+gb|EHH66749.1|  hypothetical protein EGM_03798 [Macaca fascicularis]  58.9    9e-10
+gb|AAF24056.1|AF090944_1  PRO0663 [Homo sapiens]                      58.5    9e-10
+dbj|BAE89454.1|  unnamed protein product [Macaca fascicularis]        58.9    1e-09
+dbj|BAB15100.1|  unnamed protein product [Homo sapiens]               60.8    1e-09
+gb|EAW89455.1|  hCG2039055 [Homo sapiens]                             60.1    1e-09
+ref|XP_008965838.1|  PREDICTED: cAMP-responsive element modulator...  59.7    1e-09
+gb|AAF22026.1|AF118094_21  PRO1902 [Homo sapiens]                     58.9    1e-09
+gb|EHH17277.1|  hypothetical protein EGK_13642 [Macaca mulatta]       59.7    1e-09
+gb|AAP97731.1|  hypothetical protein precursor [Homo sapiens]         59.3    1e-09
+ref|XP_014967919.1|  PREDICTED: putative uncharacterized protein ...  59.3    1e-09
+gb|EHH24999.1|  hypothetical protein EGK_08749 [Macaca mulatta]       58.5    1e-09
+gb|EAW93060.1|  hCG2041755 [Homo sapiens]                             59.7    1e-09
+ref|XP_004029508.1|  PREDICTED: uncharacterized protein LOC101146...  61.2    1e-09
+ref|XP_010341849.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  60.1    1e-09
+gb|EAW94179.1|  ubiquitin-conjugating enzyme E2D 4 (putative), is...  59.3    1e-09
+dbj|BAB85044.1|  unnamed protein product [Homo sapiens]               60.1    1e-09
+gb|EHH55557.1|  hypothetical protein EGM_04789 [Macaca fascicularis]  58.5    1e-09
+gb|EHH18962.1|  hypothetical protein EGK_19562 [Macaca mulatta]       58.2    1e-09
+gb|EHH66747.1|  hypothetical protein EGM_03796 [Macaca fascicularis]  59.7    1e-09
+ref|XP_004049315.1|  PREDICTED: UPF0764 protein C16orf89 homolog ...  59.3    1e-09
+gb|EAX10823.1|  hCG2003656 [Homo sapiens]                             58.9    2e-09
+ref|NP_872358.4|  WD repeat-containing protein 27 isoform 1 [Homo...  62.4    2e-09
+gb|EHH18945.1|  hypothetical protein EGK_19530 [Macaca mulatta]       58.2    2e-09
+ref|XP_014199227.1|  PREDICTED: uncharacterized protein LOC100968...  61.6    2e-09
+ref|NP_001304972.1|  D-tyrosyl-tRNA(Tyr) deacylase 1 isoform 1 [H...  59.7    2e-09
+gb|AAL55833.1|AF318326_1  unknown [Homo sapiens]                      58.9    2e-09
+gb|AAI06050.1|  NSUN5C protein [Homo sapiens]                         59.7    2e-09
+dbj|BAE00668.1|  unnamed protein product [Macaca fascicularis]        58.9    2e-09
+gb|EAX08445.1|  hCG2019873 [Homo sapiens]                             58.9    2e-09
+gb|EHH58869.1|  hypothetical protein EGM_08825 [Macaca fascicularis]  57.8    2e-09
+gb|EAW55348.1|  chromosome 6 open reading frame 79, isoform CRA_c...  60.1    2e-09
+emb|CQB86647.1|  Uncharacterised protein [Chlamydia trachomatis]      58.9    2e-09
+gb|EHH59230.1|  hypothetical protein EGM_09292 [Macaca fascicularis]  57.8    2e-09
+gb|EAW71075.1|  hCG2012753 [Homo sapiens]                             57.4    2e-09
+ref|XP_009250669.1|  PREDICTED: transcription factor 4 isoform X1...  62.0    2e-09
+gb|EHH63089.1|  hypothetical protein EGM_15987 [Macaca fascicularis]  57.8    2e-09
+ref|XP_012353507.1|  PREDICTED: abhydrolase domain-containing pro...  61.6    2e-09
+gb|EAW85513.1|  hCG2042870, isoform CRA_a [Homo sapiens]              58.2    2e-09
+gb|KRX11621.1|  UPF0764 protein C16orf89 [Trichinella nelsoni]        57.4    2e-09
+ref|XP_012356988.1|  PREDICTED: transmembrane protein 220 isoform...  58.9    2e-09
+gb|AAC08737.1|  neuronal thread protein AD7c-NTP [Homo sapiens]       61.2    2e-09
+dbj|BAB14934.1|  unnamed protein product [Homo sapiens]               60.1    2e-09
+gb|EHH14529.1|  hypothetical protein EGK_00471 [Macaca mulatta]       57.8    2e-09
+gb|EAX10829.1|  hCG2003821 [Homo sapiens]                             57.4    2e-09
+gb|AAF69605.1|AF119917_13  PRO1722 [Homo sapiens]                     58.5    2e-09
+ref|XP_009189101.1|  PREDICTED: protein GVQW1-like [Papio anubis]     58.2    2e-09
+ref|NP_001243358.1|  PDZ and LIM domain protein 5 isoform i [Homo...  58.5    2e-09
+gb|EHH58664.1|  hypothetical protein EGM_08570 [Macaca fascicularis]  57.4    2e-09
+ref|XP_008984468.1|  PREDICTED: transmembrane protein 231-like is...  58.9    2e-09
+gb|EHH50766.1|  hypothetical protein EGM_01641 [Macaca fascicularis]  57.8    2e-09
+ref|XP_012365799.1|  PREDICTED: ATP synthase F(0) complex subunit...  58.9    2e-09
+gb|EAW64334.1|  hCG2041539 [Homo sapiens]                             58.2    3e-09
+ref|XP_011842717.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  61.2    3e-09
+gb|EAX00825.1|  hCG1989288 [Homo sapiens]                             58.2    3e-09
+gb|EAW77968.1|  zinc finger protein 680, isoform CRA_c [Homo sapi...  58.5    3e-09
+ref|XP_011529875.1|  PREDICTED: kelch-like protein 2 isoform X3 [...  61.6    3e-09
+gb|AIC61924.1|  hypothetical protein [synthetic construct]            57.4    3e-09
+ref|XP_004091240.1|  PREDICTED: cAMP-responsive element modulator...  58.5    3e-09
+gb|EAW63468.1|  leptin receptor overlapping transcript-like 1, is...  58.5    3e-09
+gb|AAG35515.1|AF130117_48  PRO2550 [Homo sapiens]                     58.2    3e-09
+ref|XP_011529874.1|  PREDICTED: kelch-like protein 2 isoform X2 [...  61.6    3e-09
+ref|XP_011848523.1|  PREDICTED: protein GVQW1-like [Mandrillus le...  58.5    3e-09
+gb|AIC61908.1|  hypothetical protein [synthetic construct]            57.8    3e-09
+gb|EAX06738.1|  hCG2038119 [Homo sapiens]                             58.5    3e-09
+dbj|BAD18412.1|  unnamed protein product [Homo sapiens]               58.5    3e-09
+gb|EAW98491.1|  hCG2042307 [Homo sapiens]                             57.8    3e-09
+gb|EAW85514.1|  hCG2042870, isoform CRA_b [Homo sapiens]              57.0    3e-09
+ref|XP_009454113.1|  PREDICTED: putative uncharacterized protein ...  58.5    3e-09
+ref|XP_005246262.1|  PREDICTED: protein GVQW1-like [Homo sapiens]     57.8    3e-09
+ref|XP_015306714.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  58.5    3e-09
+ref|XP_004048368.1|  PREDICTED: putative uncharacterized protein ...  57.0    3e-09
+ref|NP_001308207.1|  tRNA-splicing endonuclease subunit Sen2 isof...  60.8    4e-09
+dbj|BAC86633.1|  unnamed protein product [Homo sapiens]               58.5    4e-09
+gb|EHH53042.1|  hypothetical protein EGM_13600 [Macaca fascicularis]  60.5    4e-09
+gb|EHH49632.1|  hypothetical protein EGM_00324 [Macaca fascicularis]  57.0    4e-09
+ref|XP_011925131.1|  PREDICTED: cytokine receptor-like factor 2 [...  60.1    4e-09
+gb|EHH17264.1|  hypothetical protein EGK_13618 [Macaca mulatta]       56.6    4e-09
+ref|XP_011766033.1|  PREDICTED: zinc finger protein 354C isoform ...  58.5    4e-09
+gb|EAW47553.1|  hCG1817437 [Homo sapiens]                             57.4    4e-09
+dbj|BAG64432.1|  unnamed protein product [Homo sapiens]               58.2    4e-09
+gb|AAB31736.1|  neurofibromatosis type 2 [Homo sapiens]               56.6    4e-09
+dbj|BAC86986.1|  unnamed protein product [Homo sapiens]               57.8    4e-09
+gb|EHH14429.1|  hypothetical protein EGK_00351 [Macaca mulatta]       57.0    4e-09
+gb|EHH14636.1|  hypothetical protein EGK_00596 [Macaca mulatta]       57.4    4e-09
+gb|EHH17143.1|  hypothetical protein EGK_13471 [Macaca mulatta]       57.0    5e-09
+gb|ALQ34105.1|  peptidylprolyl isomerase -like 3 isoform 2 [Homo ...  57.8    5e-09
+gb|EAW55411.1|  hCG1979495 [Homo sapiens]                             57.8    5e-09
+ref|XP_012360476.1|  PREDICTED: CCR4-NOT transcription complex su...  59.7    5e-09
+ref|XP_010334997.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  58.5    5e-09
+gb|EHH21769.1|  hypothetical protein EGK_04905 [Macaca mulatta]       57.0    6e-09
+gb|EHH57429.1|  hypothetical protein EGM_07048 [Macaca fascicularis]  56.6    6e-09
+dbj|BAC86856.1|  unnamed protein product [Homo sapiens]               59.7    6e-09
+ref|NP_115861.1|  peptidyl-prolyl cis-trans isomerase-like 3 isof...  57.8    6e-09
+gb|EHH60697.1|  hypothetical protein EGM_18538 [Macaca fascicularis]  57.4    6e-09
+gb|EHH56302.1|  hypothetical protein EGM_05679 [Macaca fascicularis]  57.0    6e-09
+ref|XP_012360475.1|  PREDICTED: CCR4-NOT transcription complex su...  59.7    7e-09
+ref|XP_008951147.1|  PREDICTED: transmembrane protein 14B isoform...  57.0    7e-09
+gb|EAW49231.1|  chromosome 10 open reading frame 137, isoform CRA...  60.5    7e-09
+ref|NP_001273418.1|  transmembrane protein 14B isoform e [Homo sa...  57.0    8e-09
+dbj|BAB84895.1|  FLJ00140 protein [Homo sapiens]                      60.1    8e-09
+ref|NP_001229669.1|  protein GVQW2 [Homo sapiens]                     57.0    8e-09
+dbj|BAB12311.1|  hypothetical protein [Macaca fascicularis]           56.2    8e-09
+ref|XP_011936657.1|  PREDICTED: LOW QUALITY PROTEIN: protein GVQW...  56.2    8e-09
+ref|XP_009246264.1|  PREDICTED: high mobility group protein HMGI-...  57.4    8e-09
+ref|XP_011810510.1|  PREDICTED: zinc finger protein 680 isoform X...  57.0    8e-09
+gb|EAW67034.1|  matrix metallopeptidase 13 (collagenase 3), isofo...  59.7    9e-09
+gb|EHH63249.1|  hypothetical protein EGM_16173 [Macaca fascicularis]  57.4    9e-09
+ref|XP_015307366.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  57.4    9e-09
+gb|EHH51329.1|  hypothetical protein EGM_10684 [Macaca fascicularis]  55.8    1e-08
+dbj|BAC86483.1|  unnamed protein product [Homo sapiens]               57.4    1e-08
+ref|XP_011535622.1|  PREDICTED: protein lin-52 homolog isoform X1...  57.4    1e-08
+gb|EAW66988.1|  hCG2039926 [Homo sapiens]                             56.2    1e-08
+ref|XP_004063026.1|  PREDICTED: histone demethylase UTY-like [Gor...  57.0    1e-08
+gb|EAW58492.1|  hCG2011315, isoform CRA_b [Homo sapiens]              57.0    1e-08
+ref|XP_008951146.1|  PREDICTED: transmembrane protein 14B isoform...  57.0    1e-08
+ref|NP_001273417.1|  transmembrane protein 14B isoform d [Homo sa...  57.0    1e-08
+dbj|BAH11489.1|  unnamed protein product [Homo sapiens]               58.2    1e-08
+gb|EHH64306.1|  hypothetical protein EGM_17487 [Macaca fascicularis]  55.5    1e-08
+gb|AAH42428.1|  COL23A1 protein [Homo sapiens]                        58.5    1e-08
+ref|XP_011829267.1|  PREDICTED: epidermal growth factor receptor ...  57.8    1e-08
+ref|XP_015297485.1|  PREDICTED: zinc finger protein 888 isoform X...  56.6    1e-08
+ref|XP_004061485.1|  PREDICTED: putative uncharacterized protein ...  55.8    1e-08
+gb|ACF94513.1|  epididymis luminal protein 209 [Homo sapiens]         56.2    1e-08
+gb|EAW56724.1|  GLI-Kruppel family member HKR1, isoform CRA_d [Ho...  56.6    1e-08
+gb|EAW47448.1|  WD repeat domain 27, isoform CRA_b [Homo sapiens]     59.7    2e-08
+ref|NP_001270724.1|  uncharacterized protein LOC101865568 precurs...  56.6    2e-08
+ref|XP_004047977.1|  PREDICTED: putative uncharacterized protein ...  55.5    2e-08
+gb|AAF24019.1|AF090895_1  PRO0117 [Homo sapiens]                      55.5    2e-08
+gb|EHH23374.1|  hypothetical protein EGK_06829 [Macaca mulatta]       58.9    2e-08
+ref|XP_011855036.1|  PREDICTED: LOW QUALITY PROTEIN: protein GVQW...  56.2    2e-08
+gb|EHH59445.1|  hypothetical protein EGM_09562 [Macaca fascicularis]  55.8    2e-08
+dbj|BAD92387.1|  phospholipase A2, group IVB variant [Homo sapiens]   58.9    2e-08
+dbj|BAE90291.1|  unnamed protein product [Macaca fascicularis]        56.6    2e-08
+dbj|BAB15692.1|  unnamed protein product [Homo sapiens]               56.2    2e-08
+ref|XP_009434511.1|  PREDICTED: zinc finger protein 28 isoform X3...  56.2    2e-08
+dbj|BAH12795.1|  unnamed protein product [Homo sapiens]               55.5    2e-08
+ref|XP_009442000.1|  PREDICTED: kelch-like protein 23 isoform X2 ...  58.9    2e-08
+gb|EHH16638.1|  hypothetical protein EGK_11956 [Macaca mulatta]       55.1    2e-08
+gb|EAX05863.1|  hypothetical protein MGC35043, isoform CRA_c [Hom...  56.2    2e-08
+gb|AAH32518.1|  CCNG2 protein [Homo sapiens]                          58.2    2e-08
+gb|EHH31951.1|  hypothetical protein EGK_13122 [Macaca mulatta]       55.5    2e-08
+ref|XP_009235048.1|  PREDICTED: zinc finger protein 701-like [Pon...  55.8    2e-08
+dbj|BAK62850.1|  retinal rod rhodopsin-sensitive cGMP 3',5'-cycli...  55.1    2e-08
+dbj|BAB21933.1|  hypothetical protein [Macaca fascicularis]           55.5    2e-08
+gb|EAW88839.1|  NADH dehydrogenase (ubiquinone) 1 alpha subcomple...  57.0    3e-08
+ref|XP_009250786.1|  PREDICTED: putative uncharacterized protein ...  54.7    3e-08
+ref|XP_011791799.1|  PREDICTED: BEN domain-containing protein 2-l...  56.2    3e-08
+gb|EAW53833.1|  collagen, type XXIII, alpha 1, isoform CRA_a [Hom...  58.5    3e-08
+gb|AAD22706.1|AF007826_1  bax epsilon [Homo sapiens]                  55.8    3e-08
+gb|ACP43292.1|  ubiquitously transcribed tetratricopeptide repeat...  55.1    3e-08
+gb|EAX09678.1|  hCG2045814 [Homo sapiens]                             54.7    3e-08
+dbj|BAH11638.1|  unnamed protein product [Homo sapiens]               56.2    3e-08
+gb|EHH15138.1|  hypothetical protein EGK_01187 [Macaca mulatta]       55.5    3e-08
+gb|EAX06404.1|  hCG2031252 [Homo sapiens]                             55.8    3e-08
+ref|XP_015299742.1|  PREDICTED: N-acylglucosamine 2-epimerase iso...  58.2    3e-08
+ref|XP_005565038.1|  PREDICTED: cAMP-responsive element modulator...  55.8    3e-08
+gb|ACP43291.1|  ubiquitously transcribed tetratricopeptide repeat...  55.1    3e-08
+ref|XP_008967439.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  57.4    3e-08
+ref|XP_011523723.1|  PREDICTED: beclin-1 isoform X2 [Homo sapiens]    57.8    3e-08
+gb|ACP43290.1|  ubiquitously transcribed tetratricopeptide repeat...  54.7    3e-08
+gb|KRZ64722.1|  Uncharacterized protein T10_2136 [Trichinella pap...  54.7    3e-08
+dbj|BAB15557.1|  unnamed protein product [Homo sapiens]               56.2    3e-08
+dbj|BAH13973.1|  unnamed protein product [Homo sapiens]               55.5    3e-08
+ref|NP_001276950.1|  armadillo repeat-containing protein 4 isofor...  58.2    4e-08
+gb|EAW52525.1|  carnitine palmitoyltransferase 1C, isoform CRA_c ...  55.5    4e-08
+gb|EHH21285.1|  hypothetical protein EGK_04304 [Macaca mulatta]       54.3    4e-08
+gb|AAF77052.1|  ubiquitous TPR-motif protein Y isoform [Homo sapi...  56.2    4e-08
+gb|EAW92943.1|  hCG2041504 [Homo sapiens]                             54.7    4e-08
+gb|EHH64622.1|  hypothetical protein EGM_17881 [Macaca fascicularis]  54.3    4e-08
+gb|EHH24659.1|  hypothetical protein EGK_08355 [Macaca mulatta]       54.3    4e-08
+gb|EHH22620.1|  hypothetical protein EGK_05928 [Macaca mulatta]       55.1    4e-08
+emb|CKC03773.1|  Uncharacterised protein [Streptococcus pneumoniae]   55.5    4e-08
+ref|XP_012364528.1|  PREDICTED: transmembrane protein 14B isoform...  55.1    4e-08
+gb|AAA62422.1|  NF2 [Homo sapiens]                                    53.9    4e-08
+ref|XP_003832768.1|  PREDICTED: putative uncharacterized protein ...  54.7    4e-08
+gb|EHH20949.1|  hypothetical protein EGK_03909 [Macaca mulatta]       54.3    4e-08
+gb|AAP78939.1|  collagenase-3 splice variant COL3-9B-2 [Homo sapi...  57.8    4e-08
+ref|NP_001243297.1|  uncharacterized protein LOC100144595 [Homo s...  54.7    4e-08
+ref|XP_012365389.1|  PREDICTED: zinc finger protein 888-like isof...  55.1    5e-08
+gb|EHH22116.1|  hypothetical protein EGK_05320 [Macaca mulatta]       54.7    5e-08
+ref|NP_001267260.1|  protein lin-52 homolog [Pan troglodytes]         55.5    5e-08
+ref|XP_010377368.1|  PREDICTED: collagenase 3 isoform X1 [Rhinopi...  57.8    5e-08
+gb|EHH31407.1|  hypothetical protein EGK_12471 [Macaca mulatta]       53.9    5e-08
+gb|EAX04831.1|  hCG2026064 [Homo sapiens]                             54.3    5e-08
+gb|ABN42511.1|  B cell maturation antigen transcript variant 5 [H...  54.7    6e-08
+ref|XP_009210213.1|  PREDICTED: protein lin-52 homolog isoform X1...  55.1    6e-08
+ref|XP_011940122.1|  PREDICTED: cAMP-responsive element modulator...  54.7    6e-08
+ref|XP_011850528.1|  PREDICTED: cAMP-responsive element modulator...  54.7    6e-08
+ref|XP_012364527.1|  PREDICTED: transmembrane protein 14B isoform...  54.7    6e-08
+gb|EHH15918.1|  hypothetical protein EGK_02088 [Macaca mulatta]       54.3    6e-08
+ref|XP_009212530.1|  PREDICTED: UPF0764 protein C16orf89 isoform ...  54.7    7e-08
+ref|XP_011714905.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  55.1    7e-08
+gb|EAX04784.1|  chloride channel 3, isoform CRA_c [Homo sapiens]      54.3    7e-08
+gb|EHH23728.1|  hypothetical protein EGK_07262 [Macaca mulatta]       53.9    7e-08
+ref|XP_008956364.1|  PREDICTED: death-associated protein-like 1 i...  54.7    8e-08
+emb|CAD97830.1|  hypothetical protein [Homo sapiens]                  57.4    8e-08
+ref|XP_004090794.1|  PREDICTED: solute carrier family 7 member 13...  57.0    8e-08
+dbj|BAC87545.1|  unnamed protein product [Homo sapiens]               54.7    9e-08
+gb|ABR09248.1|  ubiquitously transcribed tetratricopeptide repeat...  56.6    9e-08
+gb|AIC61893.1|  hypothetical protein [synthetic construct]            53.9    9e-08
+gb|AAY68207.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    9e-08
+gb|EAW91002.1|  ring finger and WD repeat domain 2, isoform CRA_d...  57.0    9e-08
+gb|AAH16905.1|  FAM175A protein [Homo sapiens]                        53.5    9e-08
+gb|EAW51829.1|  hCG2040082 [Homo sapiens]                             53.9    9e-08
+ref|XP_004060486.1|  PREDICTED: uncharacterized protein LOC101134...  55.5    1e-07
+gb|AAR21084.1|  DNA polymerase-transactivated protein 3 [Homo sap...  53.9    1e-07
+dbj|BAB15239.1|  unnamed protein product [Homo sapiens]               57.0    1e-07
+ref|XP_011536535.1|  PREDICTED: intraflagellar transport protein ...  56.6    1e-07
+ref|XP_003276816.1|  PREDICTED: protein FAM78A isoform X1 [Nomasc...  55.8    1e-07
+ref|XP_009448788.1|  PREDICTED: transmembrane protein 14B isoform...  53.9    1e-07
+gb|EHH16884.1|  hypothetical protein EGK_12255 [Macaca mulatta]       53.5    1e-07
+ref|XP_011529764.1|  PREDICTED: histone demethylase UTY isoform X...  57.4    1e-07
+dbj|BAB14371.1|  unnamed protein product [Homo sapiens]               54.3    1e-07
+gb|ABV49427.1|  ubiquitously transcribed tetratricopeptide repeat...  57.4    1e-07
+gb|ABR09243.1|  ubiquitously transcribed tetratricopeptide repeat...  57.4    1e-07
+ref|XP_006715517.1|  PREDICTED: inhibitor of Bruton tyrosine kina...  57.4    1e-07
+ref|XP_011529763.1|  PREDICTED: histone demethylase UTY isoform X...  57.4    1e-07
+ref|XP_011529762.1|  PREDICTED: histone demethylase UTY isoform X...  57.4    1e-07
+gb|ABR09240.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+ref|XP_009232904.1|  PREDICTED: BEN domain-containing protein 2 i...  57.0    1e-07
+ref|XP_011529766.1|  PREDICTED: histone demethylase UTY isoform X...  57.0    1e-07
+gb|ABC87284.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|ABC87286.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|ABR09254.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+ref|XP_011529767.1|  PREDICTED: histone demethylase UTY isoform X...  57.0    1e-07
+gb|EAW69677.1|  B-cell CLL/lymphoma 7B, isoform CRA_c [Homo sapiens]  53.9    1e-07
+dbj|BAF85547.1|  unnamed protein product [Homo sapiens]               57.0    1e-07
+ref|XP_009438179.1|  PREDICTED: histone demethylase UTY isoform X...  57.0    1e-07
+ref|NP_872601.1|  histone demethylase UTY isoform 1 [Homo sapiens]    57.0    1e-07
+gb|AAU87837.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|ABR09253.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+ref|XP_011529765.1|  PREDICTED: histone demethylase UTY isoform X...  57.0    1e-07
+gb|ABR09255.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|ACP43285.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|ABC75708.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|ABV82621.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|EAW67980.1|  hCG1818647 [Homo sapiens]                             53.9    1e-07
+gb|ABR09242.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+gb|ABV49466.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+ref|XP_004039184.1|  PREDICTED: histone demethylase UTY-like [Gor...  53.9    1e-07
+ref|XP_003779652.2|  PREDICTED: BEN domain-containing protein 2 i...  57.0    1e-07
+ref|NP_001009002.1|  histone demethylase UTY [Pan troglodytes]        57.0    1e-07
+ref|XP_006715516.1|  PREDICTED: inhibitor of Bruton tyrosine kina...  57.0    1e-07
+gb|AAX29945.1|  cyclin G2 [synthetic construct]                       56.2    1e-07
+gb|ABC75709.1|  ubiquitously transcribed tetratricopeptide repeat...  57.0    1e-07
+ref|NP_001287848.1|  high mobility group protein HMGI-C isoform d...  53.9    1e-07
+dbj|BAE90042.1|  unnamed protein product [Macaca fascicularis]        53.5    1e-07
+gb|EAW72525.1|  hCG2042309 [Homo sapiens]                             53.5    1e-07
+gb|AAU43855.1|  HMGA2e' [Homo sapiens]                                53.9    1e-07
+ref|XP_004045461.1|  PREDICTED: putative uncharacterized protein ...  53.9    1e-07
+ref|XP_004057210.1|  PREDICTED: UPF0764 protein C16orf89 homolog ...  56.2    1e-07
+dbj|BAE88374.1|  unnamed protein product [Macaca fascicularis]        53.1    1e-07
+ref|XP_011812244.1|  PREDICTED: DNA fragmentation factor subunit ...  56.2    1e-07
+gb|EAW90999.1|  ring finger and WD repeat domain 2, isoform CRA_a...  56.6    1e-07
+ref|NP_862828.1|  zinc finger protein 283 isoform 1 [Homo sapiens]    56.6    1e-07
+ref|XP_008949459.1|  PREDICTED: ceramide synthase 5 isoform X4 [P...  56.2    1e-07
+emb|CKC03796.1|  Uncharacterised protein [Streptococcus pneumoniae]   53.5    2e-07
+gb|AEM53915.1|  death-associated protein-like 1 isoform 2 [Homo s...  53.5    2e-07
+gb|AAH64962.1|  Zinc finger protein 573 [Homo sapiens]                56.6    2e-07
+dbj|BAG57956.1|  unnamed protein product [Homo sapiens]               56.6    2e-07
+ref|XP_012365719.1|  PREDICTED: zinc finger protein 573 isoform X...  56.6    2e-07
+ref|XP_009448787.1|  PREDICTED: transmembrane protein 14B isoform...  53.9    2e-07
+ref|XP_015002318.1|  PREDICTED: cAMP-responsive element modulator...  53.5    2e-07
+ref|NP_689573.3|  zinc finger protein 573 isoform 1 [Homo sapiens]    56.2    2e-07
+ref|XP_012356103.1|  PREDICTED: LOW QUALITY PROTEIN: ankyrin repe...  56.6    2e-07
+gb|EHH24394.1|  hypothetical protein EGK_08048 [Macaca mulatta]       52.8    2e-07
+ref|XP_007606451.1|  PREDICTED: putative uncharacterized protein ...  52.4    2e-07
+gb|EHH53017.1|  hypothetical protein EGM_13572 [Macaca fascicularis]  53.5    2e-07
+ref|XP_008989741.1|  PREDICTED: myosin-9-like isoform X2 [Callith...  53.9    2e-07
+ref|XP_008959130.1|  PREDICTED: uncharacterized protein LOC103784...  53.5    2e-07
+ref|XP_009099203.1|  PREDICTED: uncharacterized protein FLJ39582-...  52.0    2e-07
+ref|XP_011925326.1|  PREDICTED: putative uncharacterized protein ...  55.5    2e-07
+gb|EHH14298.1|  hypothetical protein EGK_00197 [Macaca mulatta]       52.8    2e-07
+dbj|BAC86448.1|  unnamed protein product [Homo sapiens]               53.5    2e-07
+gb|EAW76005.1|  DEAH (Asp-Glu-Ala-His) box polypeptide 35, isofor...  56.2    2e-07
+gb|EHH22132.1|  hypothetical protein EGK_05340 [Macaca mulatta]       52.8    2e-07
+gb|EHH25535.1|  hypothetical protein EGK_21369 [Macaca mulatta]       55.8    2e-07
+gb|EHH56703.1|  hypothetical protein EGM_06166 [Macaca fascicularis]  55.8    2e-07
+gb|EAW59154.1|  hCG201155, isoform CRA_c [Homo sapiens]               55.5    2e-07
+gb|EAW56745.1|  zinc finger protein 30 homolog (mouse) [Homo sapi...  52.8    3e-07
+gb|AAD01416.1|  bax epsilon [Homo sapiens]                            51.6    3e-07
+dbj|BAH12031.1|  unnamed protein product [Homo sapiens]               55.1    3e-07
+ref|XP_011828565.1|  PREDICTED: transmembrane protein 220 isoform...  53.9    3e-07
+ref|XP_008971181.1|  PREDICTED: BEN domain-containing protein 2 i...  55.8    3e-07
+gb|EHH55411.1|  hypothetical protein EGM_04619 [Macaca fascicularis]  52.0    3e-07
+ref|XP_010386594.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  53.5    3e-07
+ref|XP_011852017.1|  PREDICTED: LOW QUALITY PROTEIN: retinoid-bin...  53.1    3e-07
+gb|EHH51548.1|  hypothetical protein EGM_10947 [Macaca fascicularis]  52.0    3e-07
+ref|XP_010354921.1|  PREDICTED: N-acetylgalactosamine kinase isof...  55.1    4e-07
+ref|XP_003819584.1|  PREDICTED: BEN domain-containing protein 2 i...  55.5    4e-07
+ref|XP_004063934.1|  PREDICTED: BEN domain-containing protein 2 [...  54.3    4e-07
+ref|XP_007965246.1|  PREDICTED: LOW QUALITY PROTEIN: protein GVQW...  51.6    4e-07
+ref|XP_011836968.1|  PREDICTED: protein lin-52 homolog [Mandrillu...  53.5    5e-07
+gb|EHH66476.1|  hypothetical protein EGM_03478 [Macaca fascicularis]  51.6    5e-07
+gb|EAW88986.1|  hCG2038779 [Homo sapiens]                             51.6    5e-07
+gb|EAW96239.1|  hCG2038731 [Homo sapiens]                             52.4    5e-07
+ref|NP_001229857.1|  zinc finger protein 410 isoform e [Homo sapi...  54.3    5e-07
+gb|EAX06921.1|  hCG2031628 [Homo sapiens]                             52.0    5e-07
+ref|XP_009448631.1|  PREDICTED: guanine nucleotide-binding protei...  53.9    5e-07
+ref|XP_011818583.1|  PREDICTED: chloride intracellular channel pr...  53.9    5e-07
+gb|EAW53691.1|  hCG1747827 [Homo sapiens]                             52.0    6e-07
+dbj|BAC87615.1|  unnamed protein product [Homo sapiens]               53.5    6e-07
+gb|AAF69654.1|AF119917_62  PRO2822 [Homo sapiens]                     51.6    6e-07
+dbj|BAA91396.1|  unnamed protein product [Homo sapiens]               52.8    6e-07
+ref|NP_001305856.1|  ribulose-phosphate 3-epimerase isoform 7 [Ho...  52.8    6e-07
+gb|EAW62752.1|  hCG2039002 [Homo sapiens]                             52.0    6e-07
+gb|EAW48723.1|  hCG1817642 [Homo sapiens]                             52.0    6e-07
+gb|EAW48585.1|  arginyl-tRNA synthetase-like, isoform CRA_b [Homo...  51.6    6e-07
+gb|ABR09258.1|  ubiquitously transcribed tetratricopeptide repeat...  54.7    7e-07
+gb|EHH23362.1|  hypothetical protein EGK_06814 [Macaca mulatta]       51.2    8e-07
+gb|AAI13076.1|  NDST4 protein [Homo sapiens]                          53.9    8e-07
+dbj|BAC85329.1|  unnamed protein product [Homo sapiens]               51.6    8e-07
+ref|NP_001138525.1|  EF-hand calcium-binding domain-containing pr...  54.7    8e-07
+dbj|BAG61537.1|  unnamed protein product [Homo sapiens]               54.7    8e-07
+gb|EAW70278.1|  amyotrophic lateral sclerosis 2 (juvenile) chromo...  53.1    8e-07
+ref|XP_004063243.1|  PREDICTED: cytospin-A [Gorilla gorilla gorilla]  54.7    8e-07
+ref|XP_005584617.2|  PREDICTED: protein Wnt-9b isoform X1 [Macaca...  54.3    8e-07
+dbj|BAG64177.1|  unnamed protein product [Homo sapiens]               54.3    8e-07
+dbj|BAC86261.1|  unnamed protein product [Homo sapiens]               51.6    8e-07
+ref|XP_008001002.1|  PREDICTED: cAMP-responsive element modulator...  51.6    9e-07
+dbj|BAE89854.1|  unnamed protein product [Macaca fascicularis]        50.8    9e-07
+gb|EHH49966.1|  hypothetical protein EGM_00715 [Macaca fascicularis]  52.4    9e-07
+gb|EAX07955.1|  hCG1789126 [Homo sapiens]                             52.8    1e-06
+gb|EAW82740.1|  hypothetical protein FLJ38101, isoform CRA_c [Hom...  50.8    1e-06
+ref|XP_010352943.1|  PREDICTED: probable sodium-coupled neutral a...  53.9    1e-06
+gb|EHH65544.1|  hypothetical protein EGM_02322 [Macaca fascicularis]  51.6    1e-06
+dbj|BAB33325.1|  KIAA1655 protein [Homo sapiens]                      51.2    1e-06
+ref|XP_012361757.1|  PREDICTED: transcription factor 4 isoform X1...  53.9    1e-06
+ref|XP_008989742.1|  PREDICTED: myosin-9-like isoform X3 [Callith...  51.6    1e-06
+gb|ABR09247.1|  ubiquitously transcribed tetratricopeptide repeat...  53.9    1e-06
+gb|ABR09237.1|  ubiquitously transcribed tetratricopeptide repeat...  53.9    1e-06
+ref|XP_011791232.1|  PREDICTED: LOW QUALITY PROTEIN: retinoid-bin...  51.2    1e-06
+ref|XP_007979685.1|  PREDICTED: ubiquitin-conjugating enzyme E2 D...  51.2    1e-06
+ref|XP_007979683.1|  PREDICTED: ubiquitin-conjugating enzyme E2 D...  51.2    1e-06
+ref|XP_014996261.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  51.2    1e-06
+gb|EHH54855.1|  hypothetical protein EGM_03947 [Macaca fascicularis]  50.1    1e-06
+ref|XP_011782026.1|  PREDICTED: collagenase 3 isoform X1 [Colobus...  53.5    2e-06
+ref|XP_007989663.1|  PREDICTED: lysine-specific demethylase 6A is...  53.9    2e-06
+gb|EAW81351.1|  hCG1820857 [Homo sapiens]                             50.4    2e-06
+ref|XP_011507266.1|  PREDICTED: uncharacterized protein LOC100996...  51.6    2e-06
+ref|XP_012332071.1|  PREDICTED: LOW QUALITY PROTEIN: uncharacteri...  52.4    2e-06
+gb|EHH62714.1|  hypothetical protein EGM_21129 [Macaca fascicularis]  52.8    2e-06
+ref|XP_007974521.1|  PREDICTED: protein GVQW1-like [Chlorocebus s...  49.7    2e-06
+gb|EHH16558.1|  hypothetical protein EGK_11851 [Macaca mulatta]       49.7    2e-06
+ref|XP_007979681.1|  PREDICTED: ubiquitin-conjugating enzyme E2 D...  51.2    2e-06
+gb|EHH64452.1|  hypothetical protein EGM_17660 [Macaca fascicularis]  50.1    2e-06
+dbj|BAC87274.1|  unnamed protein product [Homo sapiens]               52.4    2e-06
+
+
+>gb|AIC59745.1| CHP, partial [synthetic construct]
+Length=66
+
+ Score = 70.9 bits (172),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 35/41 (85%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQWRDLGS QP PPGFKQFSH SL SSWDYR
+Sbjct  1   MESHSVTQAGVQWRDLGSLQPLPPGFKQFSHLSLPSSWDYR  41
+
+
+>gb|EAW61652.1| hCG2038681, partial [Homo sapiens]
+Length=110
+
+ Score = 71.2 bits (173),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 33/41 (80%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW DLGS QPPPPGFK+FS  SLLS WDYR
+Sbjct  34  MESHSVAQAGVQWCDLGSLQPPPPGFKRFSCLSLLSGWDYR  74
+
+
+>gb|EAW58131.1| LAG1 longevity assurance homolog 5 (S. cerevisiae), isoform CRA_a 
+[Homo sapiens]
+Length=237
+
+ Score = 70.9 bits (172),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 34/41 (83%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            MESRSV+QAGVQ  DLGSPQPPPPGFK+FS  SL SSWDYR
+Sbjct  152  MESRSVAQAGVQCHDLGSPQPPPPGFKRFSCLSLPSSWDYR  192
+
+
+>ref|XP_008977631.1| PREDICTED: glycerol-3-phosphate acyltransferase 4-like isoform 
+X2 [Callithrix jacchus]
+ ref|XP_008977632.1| PREDICTED: glycerol-3-phosphate acyltransferase 4-like isoform 
+X2 [Callithrix jacchus]
+ ref|XP_008977633.1| PREDICTED: glycerol-3-phosphate acyltransferase 4-like isoform 
+X2 [Callithrix jacchus]
+Length=251
+
+ Score = 70.5 bits (171),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  8    SQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            + AGVQWRDLGSPQPPPPGF+QFS  SLLSSWDYR 
+Sbjct  202  TMAGVQWRDLGSPQPPPPGFRQFSCLSLLSSWDYRV  237
+
+
+>gb|EHH20263.1| hypothetical protein EGK_03078, partial [Macaca mulatta]
+Length=161
+
+ Score = 69.3 bits (168),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 32/40 (80%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+QAGVQW +LGS QPPPPGFK+FS  SLLSSWDYR
+Sbjct  98   ESHSVAQAGVQWHNLGSLQPPPPGFKRFSCLSLLSSWDYR  137
+
+
+>gb|EHH18324.1| hypothetical protein EGK_14898, partial [Macaca mulatta]
+Length=337
+
+ Score = 71.2 bits (173),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 33/42 (79%), Positives = 36/42 (86%), Gaps = 0/42 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            M ESRSV+QA VQW+DLGS QPPPPGFK+F   SLLSSWDYR
+Sbjct  260  MTESRSVTQAVVQWQDLGSLQPPPPGFKRFFCLSLLSSWDYR  301
+
+
+>gb|EHH54758.1| hypothetical protein EGM_15654, partial [Macaca fascicularis]
+Length=74
+
+ Score = 67.4 bits (163),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 33/39 (85%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  4   SRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           SRSV+QAGVQW DLGS QPPPPGFK+FS FSL SSWDYR
+Sbjct  1   SRSVAQAGVQWCDLGSLQPPPPGFKRFSCFSLPSSWDYR  39
+
+
+>ref|XP_012303404.1| PREDICTED: uncharacterized protein LOC105714100 [Aotus nancymaae]
+Length=251
+
+ Score = 69.7 bits (169),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 31/37 (84%), Positives = 34/37 (92%), Gaps = 0/37 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           V+QAGVQWR+LGSPQPPPPGF+QFS  SLLSSWD RT
+Sbjct  18  VAQAGVQWRNLGSPQPPPPGFRQFSCLSLLSSWDQRT  54
+
+
+>ref|XP_004052457.1| PREDICTED: UPF0764 protein C16orf89-like [Gorilla gorilla gorilla]
+Length=63
+
+ Score = 67.0 bits (162),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 33/41 (80%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW DLGS QP PPGFK+FS FSLLSSWD R
+Sbjct  16  MESYSVAQAGVQWHDLGSVQPLPPGFKRFSCFSLLSSWDSR  56
+
+
+>gb|EAW67706.1| hCG1817271 [Homo sapiens]
+Length=63
+
+ Score = 67.0 bits (162),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 33/41 (80%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW DLGS QP PPGFK+FS FSLLSSWD R
+Sbjct  16  MESYSVAQAGVQWHDLGSVQPLPPGFKRFSCFSLLSSWDSR  56
+
+
+>gb|EAW57931.1| hCG1814090, isoform CRA_a, partial [Homo sapiens]
+Length=185
+
+ Score = 68.9 bits (167),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1   MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           M E  SV+QAGVQW DLGS QPPPPGFK+FS  SL SSWDYR
+Sbjct  1   MTECCSVTQAGVQWHDLGSLQPPPPGFKRFSCLSLPSSWDYR  42
+
+
+>gb|EAW85940.1| hCG2040465, partial [Homo sapiens]
+Length=102
+
+ Score = 67.8 bits (164),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 33/41 (80%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+ AGVQW DLGS QP PPGFKQFS  SLLSSWDYR
+Sbjct  30  MESHSVTLAGVQWYDLGSLQPLPPGFKQFSCLSLLSSWDYR  70
+
+
+>gb|EHH18952.1| hypothetical protein EGK_19543, partial [Macaca mulatta]
+Length=73
+
+ Score = 67.0 bits (162),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 33/40 (83%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQW DLGS QPPPP FKQFS  SLLSSWDYR
+Sbjct  4   ESHSVTQAGVQWHDLGSLQPPPPRFKQFSCLSLLSSWDYR  43
+
+
+>gb|EHH18371.1| hypothetical protein EGK_14950, partial [Macaca mulatta]
+Length=97
+
+ Score = 67.4 bits (163),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 33/40 (83%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+QAGVQW DLGS QPPPPGFK+FS  SL SSWDYR
+Sbjct  6   ESRSVTQAGVQWYDLGSLQPPPPGFKRFSCLSLPSSWDYR  45
+
+
+>gb|EHH59527.1| hypothetical protein EGM_09663, partial [Macaca fascicularis]
+Length=75
+
+ Score = 66.6 bits (161),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +ESRSV+Q GVQW DL S QP PPGFKQFS  SLLSSWDYR
+Sbjct  1   IESRSVAQGGVQWHDLSSLQPLPPGFKQFSCLSLLSSWDYR  41
+
+
+>gb|EAW57932.1| hCG1814090, isoform CRA_b [Homo sapiens]
+Length=145
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1   MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           M E  SV+QAGVQW DLGS QPPPPGFK+FS  SL SSWDYR
+Sbjct  1   MTECCSVTQAGVQWHDLGSLQPPPPGFKRFSCLSLPSSWDYR  42
+
+
+>gb|EHH60591.1| hypothetical protein EGM_11981, partial [Macaca fascicularis]
+Length=66
+
+ Score = 66.2 bits (160),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/43 (74%), Positives = 34/43 (79%), Gaps = 0/43 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           MES+SV+Q GVQW DL S QP PPGFKQFSH SL SSWDYR  
+Sbjct  1   MESQSVTQHGVQWHDLSSAQPLPPGFKQFSHLSLPSSWDYRCA  43
+
+
+>gb|EAW62946.1| hCG2038800, partial [Homo sapiens]
+Length=117
+
+ Score = 67.0 bits (162),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/40 (80%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESR V+QAGVQWR L S QP PPGFKQFS  SLLSSWDYR
+Sbjct  33  ESRCVAQAGVQWRHLSSLQPLPPGFKQFSFLSLLSSWDYR  72
+
+
+>ref|XP_006719750.1| PREDICTED: ceramide synthase 5 isoform X2 [Homo sapiens]
+Length=392
+
+ Score = 70.1 bits (170),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 34/41 (83%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            MESRSV+QAGVQ  DLGSPQPPPPGFK+FS  SL SSWDYR
+Sbjct  344  MESRSVAQAGVQCHDLGSPQPPPPGFKRFSCLSLPSSWDYR  384
+
+
+>gb|EHH25734.1| hypothetical protein EGK_15555, partial [Macaca mulatta]
+Length=147
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 34/43 (79%), Positives = 35/43 (81%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M S SV+QAGVQW DLGS QPPPPGFKQFS  SL SSWDYR T
+Sbjct  76   MVSCSVAQAGVQWCDLGSLQPPPPGFKQFSCLSLSSSWDYRPT  118
+
+
+>dbj|BAB60728.1| hypothetical protein [Macaca fascicularis]
+Length=135
+
+ Score = 67.0 bits (162),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/40 (83%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SVSQAGVQWRDLGSPQPPPP F QF   SL SSWDYR
+Sbjct  84   ESCSVSQAGVQWRDLGSPQPPPPRFTQFFCLSLPSSWDYR  123
+
+
+>dbj|BAA91131.1| unnamed protein product [Homo sapiens]
+Length=152
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 31/36 (86%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+QAGVQWR+LGS QPPPPGFKQFS  SLLSSWDYR
+Sbjct  34  VAQAGVQWRNLGSLQPPPPGFKQFSCLSLLSSWDYR  69
+
+
+>gb|EAW92088.1| hCG1814455 [Homo sapiens]
+Length=98
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  1   MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +MES SV+QAGVQW DLGS QPPPP FK+FS  SL SSWDYR
+Sbjct  32  VMESHSVAQAGVQWHDLGSLQPPPPRFKRFSCLSLPSSWDYR  73
+
+
+>gb|EHH20620.1| hypothetical protein EGK_03509, partial [Macaca mulatta]
+Length=64
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  4   SRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           S S+SQAGVQW DLGS QPPPPGF+QFS  SL SSWDYR T
+Sbjct  1   SHSISQAGVQWHDLGSLQPPPPGFQQFSCLSLPSSWDYRCT  41
+
+
+>gb|EAW67976.1| cytoskeleton associated protein 5 [Homo sapiens]
+Length=2031
+
+ Score = 70.9 bits (172),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 30/34 (88%), Positives = 30/34 (88%), Gaps = 0/34 (0%)
+
+Query  9    QAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            QAGVQW DLGSPQPPPPGFKQFS  SL SSWDYR
+Sbjct  656  QAGVQWHDLGSPQPPPPGFKQFSCLSLPSSWDYR  689
+
+
+>ref|XP_008982937.1| PREDICTED: putative uncharacterized protein encoded by LINC00596, 
+partial [Callithrix jacchus]
+Length=48
+
+ Score = 65.1 bits (157),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+QAGVQWR+LGS QPPPPGF+QFS  SLLSSWDYR
+Sbjct  1   VTQAGVQWRNLGSLQPPPPGFRQFSCLSLLSSWDYR  36
+
+
+>gb|EAX08319.1| hCG2038792, partial [Homo sapiens]
+Length=180
+
+ Score = 67.0 bits (162),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            M+S SV+QAGVQWRDLGS QPP P FKQFS  SLL+SW+YR
+Sbjct  130  MQSHSVAQAGVQWRDLGSLQPPSPEFKQFSCLSLLNSWNYR  170
+
+
+>ref|XP_011931858.1| PREDICTED: serine/threonine/tyrosine-interacting-like protein 
+1 isoform X1 [Cercocebus atys]
+Length=381
+
+ Score = 68.9 bits (167),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+QAGVQW DLGS Q PPPGF  FS+ SLLS WDYR
+Sbjct  272  ESHSVTQAGVQWHDLGSLQAPPPGFMPFSYLSLLSCWDYR  311
+
+
+>ref|XP_011818024.1| PREDICTED: LYR motif-containing protein 4 isoform X1 [Colobus 
+angolensis palliatus]
+Length=130
+
+ Score = 66.2 bits (160),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 34/43 (79%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+SRSV+QAGV W +L S QP PP FKQFS+ SLL SWDYR T
+Sbjct  70   MDSRSVAQAGVHWHNLSSLQPLPPRFKQFSYLSLLISWDYRRT  112
+
+
+>gb|EAW56733.1| similar to zinc finger protein 569, isoform CRA_a [Homo sapiens]
+Length=115
+
+ Score = 65.9 bits (159),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 31/43 (72%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           ME  SV+QAGVQW DL S QPPPPGFK+FS  SL SSWDYR  
+Sbjct  1   MEFHSVAQAGVQWHDLSSLQPPPPGFKRFSCLSLPSSWDYRCV  43
+
+
+>gb|EHH63076.1| hypothetical protein EGM_15972, partial [Macaca fascicularis]
+Length=61
+
+ Score = 64.3 bits (155),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES S +QAGVQW DLGS Q PPPGFK+F   SLLSSWDYR
+Sbjct  1   MESHSAAQAGVQWHDLGSLQSPPPGFKRFFCLSLLSSWDYR  41
+
+
+>ref|XP_009201062.1| PREDICTED: serine/threonine/tyrosine-interacting-like protein 
+1 isoform X1 [Papio anubis]
+Length=382
+
+ Score = 68.6 bits (166),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+QAGVQW DLGS Q PPPGF  FS+ SLLS WDYR
+Sbjct  272  ESHSVTQAGVQWHDLGSLQAPPPGFMPFSYLSLLSCWDYR  311
+
+
+>ref|XP_004041754.1| PREDICTED: ras-related protein Rab-5C isoform 3 [Gorilla gorilla 
+gorilla]
+Length=286
+
+ Score = 67.4 bits (163),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 33/40 (83%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           MESRSV+QAGVQWRDLGS QP PPGFKQFS  SL SS DY
+Sbjct  1   MESRSVAQAGVQWRDLGSLQPLPPGFKQFSCLSLPSSRDY  40
+
+
+>gb|EHH51808.1| hypothetical protein EGM_11255, partial [Macaca fascicularis]
+Length=65
+
+ Score = 64.3 bits (155),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES S +QAGVQW DLGS QPPPPGFK+FS  +LLSSWDYR
+Sbjct  1   ESCSATQAGVQWCDLGSLQPPPPGFKRFSCLNLLSSWDYR  40
+
+
+>ref|XP_011839977.1| PREDICTED: LYR motif-containing protein 4 isoform X1 [Mandrillus 
+leucophaeus]
+Length=130
+
+ Score = 65.9 bits (159),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 29/43 (67%), Positives = 34/43 (79%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+SR+V+QA V W +L S QPPPP FKQFS+ SLL SWDYR T
+Sbjct  70   MDSRTVAQAEVHWHNLSSLQPPPPRFKQFSYLSLLISWDYRRT  112
+
+
+>ref|XP_003951673.1| PREDICTED: cAMP-responsive element modulator isoform X21 [Pan 
+troglodytes]
+Length=131
+
+ Score = 65.9 bits (159),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +SRSV QAGV+W DL S QPPPPGFK+FS  SL+SSWDYR
+Sbjct  28  QSRSVIQAGVRWHDLSSLQPPPPGFKKFSCLSLMSSWDYR  67
+
+
+>gb|EAW85402.1| hCG1778978 [Homo sapiens]
+Length=94
+
+ Score = 65.1 bits (157),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           E RS S AGVQWR+L SPQPPPPGFK+FS  SLL +WDYR
+Sbjct  17  EFRSSSHAGVQWRNLSSPQPPPPGFKRFSCLSLLITWDYR  56
+
+
+>ref|XP_014990994.1| PREDICTED: LYR motif-containing protein 4 isoform X3 [Macaca 
+mulatta]
+Length=130
+
+ Score = 65.5 bits (158),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 29/43 (67%), Positives = 34/43 (79%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+S +V+QA V WR+L S QPPPP FKQFS+ SLL SWDYR T
+Sbjct  70   MDSHAVAQAEVHWRNLSSLQPPPPRFKQFSYLSLLISWDYRRT  112
+
+
+>gb|EAX10112.1| hCG2018900, partial [Homo sapiens]
+Length=143
+
+ Score = 65.9 bits (159),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ESRSV+QAGVQWR+LGS + PPPGF  FS  SLLSSWDYR
+Sbjct  92   ESRSVTQAGVQWRNLGSLKAPPPGFTPFSCLSLLSSWDYR  131
+
+
+>dbj|BAE90853.1| unnamed protein product [Macaca fascicularis]
+Length=52
+
+ Score = 63.9 bits (154),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQWR L S QPPPP FKQ S  SLLSSWDYR
+Sbjct  1   MESCSVTQAGVQWRGLSSLQPPPPRFKQVSCLSLLSSWDYR  41
+
+
+>ref|XP_009243549.1| PREDICTED: cAMP-responsive element modulator isoform X11 [Pongo 
+abelii]
+Length=131
+
+ Score = 65.5 bits (158),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV QAGV+W DL S QPPPPGFK+FS  SLLSSWDYR
+Sbjct  28  ESCSVIQAGVRWHDLSSLQPPPPGFKKFSCLSLLSSWDYR  67
+
+
+>gb|EHH28336.1| hypothetical protein EGK_18756, partial [Macaca mulatta]
+Length=60
+
+ Score = 63.9 bits (154),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQW DL S QPPPP FK+FS  SLLSSWDYR
+Sbjct  1   ESHSVAQAGVQWHDLSSLQPPPPRFKRFSCLSLLSSWDYR  40
+
+
+>ref|XP_011533016.1| PREDICTED: uncharacterized protein LOC101928726, partial [Homo 
+sapiens]
+Length=267
+
+ Score = 66.6 bits (161),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 33/42 (79%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           ES SV+QAGVQWRDLGS QPPPP FK+FS  SL SSWDYR T
+Sbjct  1   ESHSVTQAGVQWRDLGSLQPPPPRFKRFSCLSLPSSWDYRHT  42
+
+
+>gb|EHH24426.1| hypothetical protein EGK_08082, partial [Macaca mulatta]
+Length=99
+
+ Score = 64.7 bits (156),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  4   SRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           S SV+QAGVQW +LGSPQP PPGFKQFS  SL SSWDYR 
+Sbjct  7   SCSVAQAGVQWHNLGSPQPLPPGFKQFSCLSLPSSWDYRC  46
+
+
+>dbj|BAC85336.1| unnamed protein product [Homo sapiens]
+Length=122
+
+ Score = 65.1 bits (157),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+             ++S SV+QAGVQW DL SPQPPPP FKQFS  S+ SSWDYR
+Sbjct  66   FLKSHSVAQAGVQWHDLSSPQPPPPRFKQFSCLSIPSSWDYR  107
+
+
+>ref|XP_011886588.1| PREDICTED: LYR motif-containing protein 4 isoform X1 [Cercocebus 
+atys]
+Length=130
+
+ Score = 65.1 bits (157),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 28/43 (65%), Positives = 34/43 (79%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M++R+V+QA V W +L S QPPPP FKQFS+ SLL SWDYR T
+Sbjct  70   MDARAVAQAEVHWHNLSSLQPPPPRFKQFSYLSLLISWDYRRT  112
+
+
+>gb|EAW47497.1| hCG2029440, partial [Homo sapiens]
+Length=141
+
+ Score = 65.1 bits (157),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           +S SVSQAGVQWRDL S QPPPP FKQFS  SL SSWD+R T
+Sbjct  42  DSHSVSQAGVQWRDLSSLQPPPPRFKQFSCISLWSSWDHRCT  83
+
+
+>gb|EAW48919.1| hCG2028158, partial [Homo sapiens]
+Length=136
+
+ Score = 65.1 bits (157),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           M+S SV+QAGVQW DLGS QPPPP FKQFS  SL SSWDYR
+Sbjct  1   MKSCSVAQAGVQWCDLGSLQPPPPRFKQFSCLSLPSSWDYR  41
+
+
+>ref|XP_008954846.1| PREDICTED: LYR motif-containing protein 4 isoform X1 [Pan paniscus]
+Length=130
+
+ Score = 65.1 bits (157),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/43 (72%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+S SV+QAGV W DL S QP PP FKQFS  SLLSSWDYR T
+Sbjct  70   MDSHSVAQAGVHWNDLSSLQPLPPWFKQFSCLSLLSSWDYRRT  112
+
+
+>ref|XP_011520694.1| PREDICTED: UPF0764 protein C16orf89 isoform X2 [Homo sapiens]
+Length=216
+
+ Score = 65.5 bits (158),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            +SRSV+QAGVQWR+LGS QP PPGFKQFS   L SSWDYR+ 
+Sbjct  133  DSRSVAQAGVQWRNLGSLQPLPPGFKQFSCLILPSSWDYRSV  174
+
+
+>dbj|BAG10485.1| SET domain-containing protein 2 [synthetic construct]
+Length=2642
+
+ Score = 68.9 bits (167),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  3     ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+             ESRS++QAGVQW+DLGS QP PPGFK+FS  S LSSWDYR
+Sbjct  1615  ESRSIAQAGVQWQDLGSLQPLPPGFKRFSCLSFLSSWDYR  1654
+
+
+>ref|XP_001163021.2| PREDICTED: LYR motif-containing protein 4 isoform X1 [Pan troglodytes]
+Length=130
+
+ Score = 64.7 bits (156),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+S SV+QAGV W DL S QP PP FKQFS  +LLSSWDYR T
+Sbjct  70   MDSHSVAQAGVHWNDLSSLQPLPPWFKQFSCLTLLSSWDYRCT  112
+
+
+>ref|XP_008966224.1| PREDICTED: UPF0764 protein C16orf89 homolog isoform X1 [Pan paniscus]
+Length=440
+
+ Score = 67.8 bits (164),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            +SRSV+QAGVQWRDLGS QP PPGFKQFS   L SSWDYR+
+Sbjct  357  DSRSVAQAGVQWRDLGSLQPLPPGFKQFSCLILPSSWDYRS  397
+
+
+>gb|EHH66151.1| hypothetical protein EGM_03074, partial [Macaca fascicularis]
+Length=46
+
+ Score = 63.2 bits (152),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+Q GVQW +L S QPPPPGFK+FS  SLLSSWDYR
+Sbjct  3   ESHSVAQTGVQWCNLSSLQPPPPGFKRFSCLSLLSSWDYR  42
+
+
+>gb|EAW93409.1| hCG2039073, partial [Homo sapiens]
+Length=124
+
+ Score = 64.7 bits (156),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           ES S++QAGVQW +LGSPQP P GFK+FS  SLLSSWDYR 
+Sbjct  17  ESHSLTQAGVQWCELGSPQPLPSGFKRFSCLSLLSSWDYRC  57
+
+
+>ref|NP_001287990.1| B-cell CLL/lymphoma 7 protein family member B isoform 3 [Homo 
+sapiens]
+ gb|EAW69675.1| B-cell CLL/lymphoma 7B, isoform CRA_a [Homo sapiens]
+Length=213
+
+ Score = 65.5 bits (158),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1   MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           M ESRSV+QAGV WR+LGS QP P  FKQFS  SLLSSWDYR
+Sbjct  1   MTESRSVTQAGVHWRNLGSLQPLPLRFKQFSCLSLLSSWDYR  42
+
+
+>ref|XP_001170404.1| PREDICTED: UPF0764 protein C16orf89 homolog isoform X3 [Pan troglodytes]
+Length=440
+
+ Score = 67.4 bits (163),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            +SRSV+QAGVQWRDLGS QP PPGFKQFS   L SSWDYR+
+Sbjct  357  DSRSVAQAGVQWRDLGSLQPLPPGFKQFSCLILPSSWDYRS  397
+
+
+>gb|EHH51986.1| hypothetical protein EGM_12342, partial [Macaca fascicularis]
+Length=98
+
+ Score = 63.9 bits (154),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MESR V+QAGVQW  +GS QPPPPGF++FS  + LSSWDYR
+Sbjct  4   MESRFVAQAGVQWCSVGSLQPPPPGFQRFSCLNFLSSWDYR  44
+
+
+>ref|XP_012351623.1| PREDICTED: putative uncharacterized protein encoded by LINC00596 
+[Nomascus leucogenys]
+Length=67
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 33/41 (80%), Positives = 35/41 (85%), Gaps = 2/41 (5%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW DLGS QPPPPGF+QFS   LLSSWDYR
+Sbjct  1   MESHSVTQAGVQWCDLGSLQPPPPGFQQFS--CLLSSWDYR  39
+
+
+>ref|XP_009450650.1| PREDICTED: protein GVQW1-like [Pan troglodytes]
+Length=154
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+QAGVQW +LGS QPPPPGFKQFS  SLLSSWDYR
+Sbjct  36  VAQAGVQWCNLGSLQPPPPGFKQFSCLSLLSSWDYR  71
+
+
+>ref|XP_009008169.1| PREDICTED: multiple inositol polyphosphate phosphatase 1 isoform 
+X1 [Callithrix jacchus]
+Length=528
+
+ Score = 67.4 bits (163),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/37 (81%), Positives = 33/37 (89%), Gaps = 0/37 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            V+Q GVQWRDLGSPQP PPGF+QFS  SLLSSWDYR+
+Sbjct  362  VTQPGVQWRDLGSPQPLPPGFRQFSCLSLLSSWDYRS  398
+
+
+>gb|EHH16041.1| hypothetical protein EGK_11270 [Macaca mulatta]
+Length=130
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+QAGVQW DLGS QP PP FKQFSH SLL+ WDYR
+Sbjct  68   ESCSVAQAGVQWCDLGSLQPLPPRFKQFSHLSLLNRWDYR  107
+
+
+>gb|EHH16997.1| hypothetical protein EGK_13278, partial [Macaca mulatta]
+Length=76
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           M+S  V+QAGVQW DLGS QP PPGFK+FS  SLLSSWDYR
+Sbjct  11  MKSSFVAQAGVQWHDLGSLQPSPPGFKRFSCLSLLSSWDYR  51
+
+
+>gb|EHH63176.1| hypothetical protein EGM_16090, partial [Macaca fascicularis]
+Length=66
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW D GS Q PPPGFKQFS  SL SSWDYR
+Sbjct  1   MESCSVAQAGVQWWDFGSLQCPPPGFKQFSCLSLPSSWDYR  41
+
+
+>gb|EHH29510.1| hypothetical protein EGK_09960, partial [Macaca mulatta]
+Length=57
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQWR+LGS QPPPP FKQFS  SL  SWDYR
+Sbjct  1   ESHSVAQAGVQWRNLGSLQPPPPVFKQFSCLSLPRSWDYR  40
+
+
+>ref|XP_008988528.1| PREDICTED: transmembrane protein 14C-like isoform X1 [Callithrix 
+jacchus]
+Length=150
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+QAG QW DLGS QPPPPGF+QFS  SLLSSWDYR
+Sbjct  103  VTQAGAQWHDLGSLQPPPPGFRQFSCLSLLSSWDYR  138
+
+
+>ref|XP_004054100.1| PREDICTED: putative uncharacterized protein encoded by LINC00596-like 
+[Gorilla gorilla gorilla]
+Length=110
+
+ Score = 63.5 bits (153),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+Q GVQW +LGS QPPPPGFK+FS  SL SSWDYR
+Sbjct  46  ESHSVAQGGVQWHNLGSLQPPPPGFKRFSCLSLSSSWDYR  85
+
+
+>ref|XP_012361420.1| PREDICTED: WD repeat-containing protein 27 [Nomascus leucogenys]
+Length=838
+
+ Score = 67.4 bits (163),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 32/40 (80%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+            MESRSV+ AGVQWRDLGS QPPPP FKQF   SL SSWDY
+Sbjct  785  MESRSVAHAGVQWRDLGSLQPPPPRFKQFFCLSLPSSWDY  824
+
+
+>gb|EAW83836.1| hCG2014340 [Homo sapiens]
+Length=132
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 32/41 (78%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+Q GVQWR L S QPPPPGFKQFS  SL SSWDYR
+Sbjct  15  MESHSVTQVGVQWRHLSSLQPPPPGFKQFSCRSLPSSWDYR  55
+
+
+>gb|EHH61583.1| hypothetical protein EGM_19546, partial [Macaca fascicularis]
+Length=90
+
+ Score = 63.2 bits (152),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           MES SV+QAGVQW DLGS QPPPP FKQF   S+ SSWDY
+Sbjct  1   MESHSVTQAGVQWCDLGSLQPPPPRFKQFCTLSIPSSWDY  40
+
+
+>gb|EHH52750.1| hypothetical protein EGM_13262, partial [Macaca fascicularis]
+Length=57
+
+ Score = 62.0 bits (149),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MESRSV+QAGVQW +LGS Q PPP FK+FS  SL SSWDYR
+Sbjct  1   MESRSVAQAGVQWCNLGSLQAPPPRFKRFSCLSLPSSWDYR  41
+
+
+>gb|AAQ88847.1| SARG904 [Homo sapiens]
+ gb|EAW85244.1| hypothetical protein MGC45438, isoform CRA_c [Homo sapiens]
+Length=440
+
+ Score = 66.2 bits (160),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            +SRSV+QAGVQWR+LGS QP PPGFKQFS   L SSWDYR+ 
+Sbjct  357  DSRSVAQAGVQWRNLGSLQPLPPGFKQFSCLILPSSWDYRSV  398
+
+
+>ref|NP_689672.4| UPF0764 protein C16orf89 isoform 1 precursor [Homo sapiens]
+ sp|Q6UX73.2|CP089_HUMAN RecName: Full=UPF0764 protein C16orf89; Flags: Precursor
+Length=402
+
+ Score = 65.9 bits (159),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            +SRSV+QAGVQWR+LGS QP PPGFKQFS   L SSWDYR+ 
+Sbjct  319  DSRSVAQAGVQWRNLGSLQPLPPGFKQFSCLILPSSWDYRSV  360
+
+
+>ref|XP_005554181.1| PREDICTED: LYR motif-containing protein 4 isoform X2 [Macaca 
+fascicularis]
+Length=130
+
+ Score = 63.2 bits (152),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 28/43 (65%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+S +V+QA V W +L S QPPPP FKQFS+ SLL SWDYR T
+Sbjct  70   MDSHAVAQAEVHWHNLSSLQPPPPRFKQFSYLSLLISWDYRRT  112
+
+
+>gb|EHH29987.1| hypothetical protein EGK_10551, partial [Macaca mulatta]
+Length=75
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +ESRSV+Q GVQW DL S QP PP FK+FS  SLLSSWDYR
+Sbjct  1   IESRSVAQGGVQWHDLSSLQPLPPRFKKFSCLSLLSSWDYR  41
+
+
+>ref|XP_008997697.1| PREDICTED: putative uncharacterized protein encoded by LINC00596, 
+partial [Callithrix jacchus]
+Length=74
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 28/32 (88%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  11  GVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           GVQWR+LGSPQPPPPGF+QFS  SLLSSWDYR
+Sbjct  1   GVQWRNLGSPQPPPPGFRQFSCLSLLSSWDYR  32
+
+
+>ref|XP_009248717.1| PREDICTED: LOW QUALITY PROTEIN: UPF0764 protein C16orf89 homolog 
+[Pongo abelii]
+Length=402
+
+ Score = 65.9 bits (159),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 32/40 (80%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ESRSV+QAGVQWRDL S QP PPGFKQFS   L SSWDYR
+Sbjct  319  ESRSVAQAGVQWRDLSSLQPLPPGFKQFSCLILPSSWDYR  358
+
+
+>gb|EAX02980.1| hCG1820679, isoform CRA_b [Homo sapiens]
+Length=143
+
+ Score = 63.2 bits (152),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            ES SV+QAGV+W DLGS Q PPP FKQFS+ SLLSSWD+R T
+Sbjct  73   ESHSVAQAGVRWHDLGSLQSPPPRFKQFSYLSLLSSWDHRHT  114
+
+
+>ref|XP_011749113.1| PREDICTED: LYR motif-containing protein 4 isoform X1 [Macaca 
+nemestrina]
+Length=130
+
+ Score = 63.2 bits (152),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 28/43 (65%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+S +V+QA V W +L S QPPPP FKQFS+ SLL SWDYR T
+Sbjct  70   MDSHAVAQAEVHWHNLSSLQPPPPQFKQFSYLSLLISWDYRHT  112
+
+
+>gb|EAW85243.1| hypothetical protein MGC45438, isoform CRA_b [Homo sapiens]
+Length=472
+
+ Score = 65.9 bits (159),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            +SRSV+QAGVQWR+LGS QP PPGFKQFS   L SSWDYR+ 
+Sbjct  389  DSRSVAQAGVQWRNLGSLQPLPPGFKQFSCLILPSSWDYRSV  430
+
+
+>dbj|BAC11494.1| unnamed protein product [Homo sapiens]
+Length=434
+
+ Score = 65.9 bits (159),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            +SRSV+QAGVQWR+LGS QP PPGFKQFS   L SSWDYR+ 
+Sbjct  351  DSRSVAQAGVQWRNLGSLQPLPPGFKQFSCLILPSSWDYRSV  392
+
+
+>gb|EHH17391.1| hypothetical protein EGK_13790, partial [Macaca mulatta]
+Length=46
+
+ Score = 61.2 bits (147),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES  V+QAGVQW DLGS QP PPGFK FS  SL SSWDY+ 
+Sbjct  2   MESHPVAQAGVQWCDLGSLQPVPPGFKLFSCLSLPSSWDYKC  43
+
+
+>ref|XP_011754134.1| PREDICTED: LOW QUALITY PROTEIN: uncharacterized protein FLJ39582-like, 
+partial [Macaca nemestrina]
+Length=125
+
+ Score = 62.8 bits (151),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  9   QAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           QAGVQW DLGS QPPPPGFK+FS FSLLSSWD  T
+Sbjct  25  QAGVQWHDLGSLQPPPPGFKRFSCFSLLSSWDLGT  59
+
+
+>gb|EAW90337.1| complement component 1, q subcomponent binding protein, isoform 
+CRA_c [Homo sapiens]
+Length=321
+
+ Score = 65.1 bits (157),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  9    QAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            QAG QWRDLGS QPPPP FKQFS  SLLSSWDYR T
+Sbjct  134  QAGEQWRDLGSLQPPPPRFKQFSCLSLLSSWDYRIT  169
+
+
+>ref|XP_004088774.1| PREDICTED: LYR motif-containing protein 4 isoform X1 [Nomascus 
+leucogenys]
+Length=130
+
+ Score = 62.8 bits (151),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            M+S SV+QAGV W DL S QPPPP FKQFS  SL SSWDYR
+Sbjct  70   MDSCSVAQAGVHWNDLSSLQPPPPRFKQFSCLSLPSSWDYR  110
+
+
+>ref|XP_011535196.1| PREDICTED: probable RNA-binding protein 23 isoform X7 [Homo sapiens]
+Length=465
+
+ Score = 65.9 bits (159),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAG QWR LGS QPPPPGFKQF   SL SSWDYR+
+Sbjct  1   MESCSVTQAGAQWRVLGSLQPPPPGFKQFLCHSLPSSWDYRS  42
+
+
+>ref|XP_011535197.1| PREDICTED: probable RNA-binding protein 23 isoform X8 [Homo sapiens]
+ ref|XP_011535198.1| PREDICTED: probable RNA-binding protein 23 isoform X9 [Homo sapiens]
+ gb|EAW66226.1| RNA binding motif protein 23, isoform CRA_e [Homo sapiens]
+Length=449
+
+ Score = 65.5 bits (158),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAG QWR LGS QPPPPGFKQF   SL SSWDYR+
+Sbjct  1   MESCSVTQAGAQWRVLGSLQPPPPGFKQFLCHSLPSSWDYRS  42
+
+
+>ref|XP_009425750.1| PREDICTED: probable RNA-binding protein 23 isoform X1 [Pan troglodytes]
+ ref|XP_009425751.1| PREDICTED: probable RNA-binding protein 23 isoform X2 [Pan troglodytes]
+Length=470
+
+ Score = 65.5 bits (158),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAG QWR LGS QPPPPGFKQF   SL SSWDYR+
+Sbjct  1   MESCSVTQAGAQWRVLGSLQPPPPGFKQFLCHSLPSSWDYRS  42
+
+
+>ref|XP_011535203.1| PREDICTED: probable RNA-binding protein 23 isoform X12 [Homo 
+sapiens]
+Length=363
+
+ Score = 65.1 bits (157),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAG QWR LGS QPPPPGFKQF   SL SSWDYR+
+Sbjct  1   MESCSVTQAGAQWRVLGSLQPPPPGFKQFLCHSLPSSWDYRS  42
+
+
+>gb|EHH18929.1| hypothetical protein EGK_19508, partial [Macaca mulatta]
+Length=66
+
+ Score = 61.6 bits (148),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           V+QAGVQW D G PQPPPPGFKQFS  SL SSWDYR  
+Sbjct  1   VTQAGVQWYDRGLPQPPPPGFKQFSCLSLPSSWDYRCV  38
+
+
+>ref|XP_012358188.1| PREDICTED: LOW QUALITY PROTEIN: uncharacterized protein LOC101179517, 
+partial [Nomascus leucogenys]
+Length=255
+
+ Score = 63.9 bits (154),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+QAGVQW DLGS QPPPP FK+FS  SL SSWDYR
+Sbjct  101  ESHSVTQAGVQWHDLGSLQPPPPRFKRFSCLSLPSSWDYR  140
+
+
+ Score = 48.1 bits (113),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  8   SQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           +QAGVQW +LGS Q  PPGF  FS  SL  SWDYR 
+Sbjct  1   AQAGVQWCNLGSLQALPPGFTPFSCLSLSDSWDYRC  36
+
+
+>gb|EAW93800.1| hypothetical protein MGC72075, isoform CRA_c [Homo sapiens]
+Length=132
+
+ Score = 62.8 bits (151),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+Q GVQW DLGSPQP PPGFKQFS  SLLSSW YR
+Sbjct  27  VAQGGVQWYDLGSPQPLPPGFKQFSCLSLLSSWGYR  62
+
+
+>gb|EHH19220.1| hypothetical protein EGK_19893, partial [Macaca mulatta]
+Length=86
+
+ Score = 62.0 bits (149),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           ES SV QAGVQW DLGS QP   GFKQFS  SLLSSWDY+ T
+Sbjct  4   ESCSVVQAGVQWHDLGSLQPLSHGFKQFSCLSLLSSWDYKRT  45
+
+
+>ref|XP_011535194.1| PREDICTED: probable RNA-binding protein 23 isoform X5 [Homo sapiens]
+ ref|XP_011535195.1| PREDICTED: probable RNA-binding protein 23 isoform X6 [Homo sapiens]
+ gb|EAW66230.1| RNA binding motif protein 23, isoform CRA_h [Homo sapiens]
+Length=467
+
+ Score = 65.5 bits (158),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAG QWR LGS QPPPPGFKQF   SL SSWDYR+
+Sbjct  1   MESCSVTQAGAQWRVLGSLQPPPPGFKQFLCHSLPSSWDYRS  42
+
+
+>ref|XP_011512598.1| PREDICTED: transcription initiation factor TFIID subunit 8 isoform 
+X1 [Homo sapiens]
+Length=338
+
+ Score = 64.7 bits (156),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 34/42 (81%), Positives = 39/42 (93%), Gaps = 0/42 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            M+ESRSV+QAGVQW+DLGS QPPPPGFK+FS  SLLSSW+YR
+Sbjct  260  MIESRSVTQAGVQWQDLGSLQPPPPGFKRFSSLSLLSSWNYR  301
+
+
+>gb|EHH56016.1| hypothetical protein EGM_05345, partial [Macaca fascicularis]
+Length=55
+
+ Score = 61.2 bits (147),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQWR+LGS Q PPPGF  FS  SL  SWDYR
+Sbjct  6   MESCSVAQAGVQWRNLGSLQAPPPGFTPFSCLSLPCSWDYR  46
+
+
+>gb|EAX04078.1| taube nuss homolog (mouse), isoform CRA_a [Homo sapiens]
+ gb|EAX04079.1| taube nuss homolog (mouse), isoform CRA_a [Homo sapiens]
+Length=338
+
+ Score = 64.7 bits (156),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 34/42 (81%), Positives = 39/42 (93%), Gaps = 0/42 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            M+ESRSV+QAGVQW+DLGS QPPPPGFK+FS  SLLSSW+YR
+Sbjct  260  MIESRSVTQAGVQWQDLGSLQPPPPGFKRFSSLSLLSSWNYR  301
+
+
+>ref|XP_011535192.1| PREDICTED: probable RNA-binding protein 23 isoform X3 [Homo sapiens]
+ ref|XP_011535193.1| PREDICTED: probable RNA-binding protein 23 isoform X4 [Homo sapiens]
+ gb|EAW66222.1| RNA binding motif protein 23, isoform CRA_a [Homo sapiens]
+Length=483
+
+ Score = 65.5 bits (158),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAG QWR LGS QPPPPGFKQF   SL SSWDYR+
+Sbjct  1   MESCSVTQAGAQWRVLGSLQPPPPGFKQFLCHSLPSSWDYRS  42
+
+
+>ref|XP_009235762.1| PREDICTED: protein GVQW1-like, partial [Pongo abelii]
+Length=114
+
+ Score = 62.4 bits (150),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +S SV+QAGVQW DLGS QPPPP FKQF   SL SSWDYR
+Sbjct  31  QSCSVAQAGVQWHDLGSLQPPPPKFKQFFCLSLPSSWDYR  70
+
+
+>gb|EHH30618.1| hypothetical protein EGK_20358, partial [Macaca mulatta]
+Length=61
+
+ Score = 61.2 bits (147),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 30/37 (81%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           V+QA VQW DLGS QPPPPGFKQFS FSL SSWDYR 
+Sbjct  1   VTQAEVQWCDLGSLQPPPPGFKQFSCFSLPSSWDYRC  37
+
+
+>tpd|FAA00321.1| TPA: augmented in rheumatoid arthritis 2 [Homo sapiens]
+Length=89
+
+ Score = 61.6 bits (148),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+QAG QWRDLGS QPPPPGFK+FS  SL SSWDYR
+Sbjct  32  VAQAGAQWRDLGSLQPPPPGFKRFSCLSLPSSWDYR  67
+
+
+>gb|EAX06532.1| hCG2031845 [Homo sapiens]
+Length=111
+
+ Score = 62.0 bits (149),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+QAGVQW DLGS Q PPPGF  FS  SL  SWDYR
+Sbjct  44  ESRSVAQAGVQWCDLGSLQAPPPGFTPFSCLSLPRSWDYR  83
+
+
+>gb|EAX04080.1| taube nuss homolog (mouse), isoform CRA_b [Homo sapiens]
+Length=338
+
+ Score = 64.7 bits (156),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 34/42 (81%), Positives = 39/42 (93%), Gaps = 0/42 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            M+ESRSV+QAGVQW+DLGS QPPPPGFK+FS  SLLSSW+YR
+Sbjct  260  MVESRSVTQAGVQWQDLGSLQPPPPGFKRFSSLSLLSSWNYR  301
+
+
+>ref|XP_009099128.1| PREDICTED: putative uncharacterized protein encoded by LINC00596, 
+partial [Serinus canaria]
+Length=45
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 28/38 (74%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           V+Q GVQW +LGS QPPPPGFKQFS  SL SSWDYR  
+Sbjct  1   VAQVGVQWCNLGSLQPPPPGFKQFSCLSLWSSWDYRCV  38
+
+
+>ref|XP_010385738.1| PREDICTED: serine/threonine/tyrosine-interacting-like protein 
+1 isoform X1 [Rhinopithecus roxellana]
+Length=381
+
+ Score = 64.7 bits (156),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 30/41 (73%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            MESRSV+QAGVQW DLGS Q   PGF  FS  SLLS WDYR
+Sbjct  271  MESRSVTQAGVQWHDLGSLQALLPGFTPFSCLSLLSCWDYR  311
+
+
+>dbj|BAB21918.1| hypothetical protein [Macaca fascicularis]
+Length=122
+
+ Score = 62.0 bits (149),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           ES SV QAGVQW DLGS QPP PG KQFS  SL SSW+YR 
+Sbjct  20  ESCSVGQAGVQWHDLGSLQPPTPGLKQFSCLSLPSSWNYRC  60
+
+
+>dbj|BAC04889.1| unnamed protein product [Homo sapiens]
+Length=127
+
+ Score = 62.0 bits (149),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ESRSV+QAGVQWRDLGS Q PPPGF  F   +L SSWDY+
+Sbjct  72   ESRSVAQAGVQWRDLGSLQTPPPGFTPFGCLTLHSSWDYK  111
+
+
+>gb|EAX02036.1| hCG1641044, isoform CRA_a [Homo sapiens]
+ gb|EAX02037.1| hCG1641044, isoform CRA_a [Homo sapiens]
+Length=184
+
+ Score = 62.4 bits (150),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+QAGVQ RDLGS QPP PGFKQFSH SL SSWDYR
+Sbjct  124  VAQAGVQRRDLGSLQPPSPGFKQFSHLSLPSSWDYR  159
+
+
+>dbj|BAE91091.1| unnamed protein product [Macaca fascicularis]
+Length=98
+
+ Score = 61.6 bits (148),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/40 (78%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+QAGVQWRDLGS Q P PGF  FS  SL SSWDYR
+Sbjct  28  ESRSVAQAGVQWRDLGSLQAPLPGFTPFSCLSLPSSWDYR  67
+
+
+>ref|XP_003780449.1| PREDICTED: LOW QUALITY PROTEIN: LYR motif-containing protein 
+4, partial [Pongo abelii]
+Length=127
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+Q GVQW +LGS QPPPP FKQF   SL SSWDYR
+Sbjct  71   ESHSVTQVGVQWHNLGSLQPPPPRFKQFXCLSLPSSWDYR  110
+
+
+>gb|EHH64647.1| hypothetical protein EGM_17921, partial [Macaca fascicularis]
+Length=88
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 31/42 (74%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           ES SV+QAGVQW DL S QP PPGFK+FS  SL SSWDYR T
+Sbjct  7   ESHSVTQAGVQWCDLSSLQPLPPGFKRFSCLSLPSSWDYRHT  48
+
+
+>gb|EAW88287.1| hCG2021982, partial [Homo sapiens]
+Length=273
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            MESRSV+QAG QW DLGSPQ PPPGF  FS  SL SSW YR
+Sbjct  217  MESRSVAQAGAQWCDLGSPQAPPPGFTPFSCLSLPSSWGYR  257
+
+
+>gb|AAH33883.1| RBP7 protein, partial [Homo sapiens]
+Length=225
+
+ Score = 62.4 bits (150),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+QAGVQWRDLGSPQ P P FKQFS FSLLSSWD R
+Sbjct  50  VAQAGVQWRDLGSPQLPSPRFKQFSCFSLLSSWDCR  85
+
+
+>gb|ALQ33338.1| acyl-CoA dehydrogenase short/branched chain isoform 2 [Homo sapiens]
+Length=67
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  1   MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           +MES  V+QAGVQW DLGS QP P GFKQFS  SL SSWDY  
+Sbjct  14  LMESHFVAQAGVQWCDLGSLQPLPLGFKQFSCLSLPSSWDYSC  56
+
+
+>gb|EAX04489.1| hCG1643345, isoform CRA_b [Homo sapiens]
+Length=47
+
+ Score = 60.1 bits (144),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES  V+QAGVQWRDL S Q PPPGF  FS  SL SSWDYR 
+Sbjct  1   MESHFVAQAGVQWRDLSSLQAPPPGFTPFSCLSLPSSWDYRA  42
+
+
+>gb|EAX02917.1| hCG2042107, partial [Homo sapiens]
+Length=163
+
+ Score = 62.0 bits (149),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ESRSV+QAGVQWRDLGS Q PPPGF  F   +L SSWDY+
+Sbjct  108  ESRSVAQAGVQWRDLGSLQTPPPGFTPFGCLTLHSSWDYK  147
+
+
+>dbj|BAE89999.1| unnamed protein product [Macaca fascicularis]
+Length=343
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 29/36 (81%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V QAGVQ   LG  QPPPPGFKQFS FSLLSSWDYR
+Sbjct  252  VVQAGVQRHHLGLAQPPPPGFKQFSCFSLLSSWDYR  287
+
+
+>dbj|BAC03563.1| unnamed protein product [Homo sapiens]
+Length=151
+
+ Score = 62.0 bits (149),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/38 (79%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           V QAGVQWRDLGSPQP  PGFK+FS  SL SSWDYR T
+Sbjct  31  VGQAGVQWRDLGSPQPLLPGFKRFSCLSLPSSWDYRHT  68
+
+
+>gb|AAH07609.1| E2F2 protein [Homo sapiens]
+ gb|AIC58922.1| E2F2, partial [synthetic construct]
+Length=83
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MESRSV+QAGVQW DLGS QP PP FK+F   SL SSWDYR
+Sbjct  1   MESRSVAQAGVQWPDLGSLQPLPPRFKRFFCLSLQSSWDYR  41
+
+
+>dbj|BAC86723.1| unnamed protein product [Homo sapiens]
+Length=165
+
+ Score = 62.0 bits (149),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            ES SV+QAGVQW DLGS QP PPGFKQFS  SL SSWDY  T
+Sbjct  75   ESLSVAQAGVQWHDLGSLQPRPPGFKQFSCLSLPSSWDYGHT  116
+
+
+>ref|XP_012351744.1| PREDICTED: death-associated protein-like 1 isoform X1 [Nomascus 
+leucogenys]
+Length=134
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/37 (78%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  8    SQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            +QAGVQWRDLGS QPPPPGFK FS  SL SSWDY +T
+Sbjct  75   AQAGVQWRDLGSLQPPPPGFKWFSCLSLPSSWDYTST  111
+
+
+>dbj|BAC87102.1| unnamed protein product [Homo sapiens]
+Length=165
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            ES SV+QAGVQW DLGS QP PPGFKQFS  SL SSWDY  T
+Sbjct  75   ESLSVAQAGVQWHDLGSLQPRPPGFKQFSCLSLPSSWDYGHT  116
+
+
+>ref|XP_011785565.1| PREDICTED: serine/threonine/tyrosine-interacting-like protein 
+1 isoform X1 [Colobus angolensis palliatus]
+Length=387
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 30/41 (73%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            MESRSV+QAGVQW DLGS Q   PGF  FS  SLLS WDYR
+Sbjct  277  MESRSVTQAGVQWHDLGSLQALLPGFTPFSCLSLLSCWDYR  317
+
+
+>gb|EHH19897.1| hypothetical protein EGK_02637, partial [Macaca mulatta]
+Length=59
+
+ Score = 60.1 bits (144),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MESRSV+QAGVQW DL S QP PP FK FS  SL SSWDYR
+Sbjct  1   MESRSVAQAGVQWHDLDSLQPLPPRFKLFSCLSLPSSWDYR  41
+
+
+>gb|EHH61898.1| hypothetical protein EGM_20022, partial [Macaca fascicularis]
+Length=61
+
+ Score = 60.1 bits (144),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  10  AGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           AGVQWRDLGS QP PPGFK+FS  SLLSSWDYR
+Sbjct  1   AGVQWRDLGSLQPLPPGFKRFSCLSLLSSWDYR  33
+
+
+>ref|XP_008952016.1| PREDICTED: collagenase 3 isoform X1 [Pan paniscus]
+Length=489
+
+ Score = 63.9 bits (154),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+QAGV WR+L S QPPPPGFK+FS  SL SSWDYR
+Sbjct  439  ESHSVTQAGVHWRNLSSLQPPPPGFKRFSCLSLRSSWDYR  478
+
+
+>gb|EAW72619.1| hypothetical protein MGC2752 [Homo sapiens]
+ gb|AIC58380.1| MGC2752, partial [synthetic construct]
+Length=195
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+QAGV+WRDLGS QPPPPGF  FS  SL  SWDYR
+Sbjct  125  ESGSVAQAGVRWRDLGSLQPPPPGFTPFSCLSLPGSWDYR  164
+
+
+>gb|EHH17280.1| hypothetical protein EGK_13646, partial [Macaca mulatta]
+Length=157
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+QAGVQW DLGS QPPPPGFK+FS  +L SSWDYR
+Sbjct  74   VAQAGVQWHDLGSLQPPPPGFKRFSCLNLPSSWDYR  109
+
+
+>gb|EHH27828.1| hypothetical protein EGK_18118, partial [Macaca mulatta]
+Length=89
+
+ Score = 60.5 bits (145),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQ  DLGS QPP PG K+FS  SLLSSWDYR
+Sbjct  1   ESHSVAQAGVQRCDLGSLQPPSPGVKRFSCLSLLSSWDYR  40
+
+
+>gb|KRZ64886.1| UPF0764 protein C16orf89 [Trichinella papuae]
+Length=68
+
+ Score = 60.1 bits (144),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  1   MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           + ESRSV+QAGVQW DLGS QPPPPGFKQFS  SL     +R
+Sbjct  13  VTESRSVAQAGVQWHDLGSLQPPPPGFKQFSCLSLPIETGFR  54
+
+
+>ref|NP_001158312.1| LYR motif-containing protein 4 isoform 2 [Homo sapiens]
+Length=130
+
+ Score = 60.8 bits (146),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            M+S SV+QAGV W DL S QP PP FKQFS  SL SSWDYR T
+Sbjct  70   MDSHSVAQAGVHWNDLSSLQPLPPWFKQFSCLSLPSSWDYRRT  112
+
+
+>gb|EHH16412.1| hypothetical protein EGK_11692, partial [Macaca mulatta]
+Length=78
+
+ Score = 60.1 bits (144),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+Q GVQW ++GS QP PPGFK+FS  SLLSSWDYR
+Sbjct  8   ESHSVTQTGVQWCNVGSLQPLPPGFKRFSCLSLLSSWDYR  47
+
+
+>gb|EHH49777.1| hypothetical protein EGM_00492, partial [Macaca fascicularis]
+Length=101
+
+ Score = 60.5 bits (145),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW DL S QP PPGFKQFS  S  SSWD+R
+Sbjct  5   MESHSVTQAGVQWGDLCSLQPLPPGFKQFSRLSYPSSWDHR  45
+
+
+>gb|EHH27277.1| hypothetical protein EGK_17439, partial [Macaca mulatta]
+Length=73
+
+ Score = 59.7 bits (143),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 29/39 (74%), Positives = 32/39 (82%), Gaps = 0/39 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           ESRSV++AGVQW   GS QPPPPGFK+FS  SL SSWDY
+Sbjct  9   ESRSVAEAGVQWCSFGSLQPPPPGFKRFSCLSLPSSWDY  47
+
+
+>gb|EAX10331.1| hCG1646932, isoform CRA_c [Homo sapiens]
+Length=144
+
+ Score = 60.8 bits (146),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SVSQAGVQW DLGSPQ PP GF  FS  +L SSWDYR
+Sbjct  93   ESHSVSQAGVQWCDLGSPQSPPLGFTPFSCLNLQSSWDYR  132
+
+
+>ref|XP_004035908.1| PREDICTED: RNA-binding motif, single-stranded-interacting protein 
+2-like, partial [Gorilla gorilla gorilla]
+Length=168
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 28/41 (68%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ++SR V+QAGVQWRD  S QP PP FK+FSH  L SSWDYR
+Sbjct  18  LDSRPVAQAGVQWRDFDSLQPLPPRFKRFSHLCLPSSWDYR  58
+
+
+>dbj|BAG57781.1| unnamed protein product [Homo sapiens]
+Length=165
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 31/41 (76%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            MESRSV+QAGVQW  L S Q PPPGFKQFS  SL SS DYR
+Sbjct  111  MESRSVAQAGVQWCILCSLQLPPPGFKQFSCLSLPSSCDYR  151
+
+
+>gb|EAW76032.1| hCG2038368 [Homo sapiens]
+Length=120
+
+ Score = 60.1 bits (144),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 26/34 (76%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  8   SQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           SQAG+ WRDL S QPPPPGFK+FS  SLLS+WDY
+Sbjct  16  SQAGILWRDLCSLQPPPPGFKRFSCLSLLSNWDY  49
+
+
+>dbj|BAC85397.1| unnamed protein product [Homo sapiens]
+Length=132
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+Q GVQW +LGSPQPPPPGFK+FS  SL SSW+YR
+Sbjct  32  VAQTGVQWCNLGSPQPPPPGFKRFSCLSLPSSWEYR  67
+
+
+>gb|AAH18471.1| NFS1 nitrogen fixation 1 homolog (S. cerevisiae) [Homo sapiens]
+ gb|ADZ15829.1| NFS1 nitrogen fixation 1 homolog (S. cerevisiae) [synthetic construct]
+Length=189
+
+ Score = 60.8 bits (146),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV QAGVQW DL S Q PPPGF  FS  SLLSSWDYR
+Sbjct  138  ESHSVIQAGVQWHDLDSLQAPPPGFTPFSCLSLLSSWDYR  177
+
+
+>ref|XP_002830047.2| PREDICTED: D-tyrosyl-tRNA(Tyr) deacylase 1 [Pongo abelii]
+Length=213
+
+ Score = 60.8 bits (146),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ESRSVSQAGVQWRDL S Q PPPGF  F   SL +SWDYR
+Sbjct  161  ESRSVSQAGVQWRDLHSLQAPPPGFTPFFCLSLPNSWDYR  200
+
+
+>ref|XP_003269292.1| PREDICTED: UPF0764 protein C16orf89 homolog isoform X1 [Nomascus 
+leucogenys]
+Length=402
+
+ Score = 62.8 bits (151),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            ESRSV+QAGVQW DLGS QP PPGFK+F    L SSWDYR+
+Sbjct  319  ESRSVAQAGVQWHDLGSLQPLPPGFKRFFCLILPSSWDYRS  359
+
+
+>ref|XP_006715563.1| PREDICTED: hexaprenyldihydroxybenzoate methyltransferase, mitochondrial 
+isoform X1 [Homo sapiens]
+Length=410
+
+ Score = 62.8 bits (151),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 29/37 (78%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  6    SVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            SV+QAGVQW DLGS QPPPPGFK+FS  SL S WDYR
+Sbjct  83   SVAQAGVQWCDLGSLQPPPPGFKRFSCLSLPSHWDYR  119
+
+
+>gb|AAX47089.1| alpha-1A adrenoceptor variant 2c [Macaca mulatta]
+Length=370
+
+ Score = 62.4 bits (150),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            E     QAGVQW DLGS QPPPPGFK+FS  SL SSWDYR
+Sbjct  296  EVSLCHQAGVQWHDLGSLQPPPPGFKRFSCLSLPSSWDYR  335
+
+
+>gb|EHH21360.1| hypothetical protein EGK_04398, partial [Macaca mulatta]
+Length=95
+
+ Score = 59.7 bits (143),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SVSQAGVQW +LG  QP PPGFK+FS  SLLSS DYR
+Sbjct  9   ESHSVSQAGVQWCNLGLLQPLPPGFKRFSCLSLLSSQDYR  48
+
+
+>gb|AAR84645.1| alpha 1A adrenoceptor isoform 2c [Homo sapiens]
+ gb|ACA05904.1| adrenergic, alpha-1A-, receptor variant 6 [Homo sapiens]
+Length=370
+
+ Score = 62.4 bits (150),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            E     QAGVQW DLGS QPPPPGFK+FS  SL SSWDYR
+Sbjct  296  EVSLCHQAGVQWHDLGSLQPPPPGFKRFSCLSLPSSWDYR  335
+
+
+>gb|EAX10330.1| hCG1646932, isoform CRA_b [Homo sapiens]
+Length=178
+
+ Score = 60.5 bits (145),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SVSQAGVQW DLGSPQ PP GF  FS  +L SSWDYR
+Sbjct  127  ESHSVSQAGVQWCDLGSPQSPPLGFTPFSCLNLQSSWDYR  166
+
+
+>ref|XP_004033029.1| PREDICTED: putative uncharacterized protein LOC65996-like [Gorilla 
+gorilla gorilla]
+Length=102
+
+ Score = 59.7 bits (143),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAG QWRDLGS Q  PPGF  FS  SL S WDYR
+Sbjct  48  MESCSVAQAGTQWRDLGSLQALPPGFTPFSCLSLPSGWDYR  88
+
+
+>ref|NP_001254494.1| cAMP-responsive element modulator isoform 26 [Homo sapiens]
+Length=131
+
+ Score = 60.1 bits (144),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +SRSV QAGV+W DL S QP  PGFK+FS  SL+SSWDYR
+Sbjct  28  QSRSVIQAGVRWHDLSSLQPRTPGFKKFSCLSLMSSWDYR  67
+
+
+>gb|EHH14613.1| hypothetical protein EGK_00570, partial [Macaca mulatta]
+Length=101
+
+ Score = 59.7 bits (143),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW DL S QP PPGFKQFS  S  SSWD+R
+Sbjct  5   MESHSVTQAGVQWGDLCSLQPLPPGFKQFSCLSYPSSWDHR  45
+
+
+>ref|XP_011534200.1| PREDICTED: hexaprenyldihydroxybenzoate methyltransferase, mitochondrial 
+isoform X2 [Homo sapiens]
+Length=329
+
+ Score = 62.0 bits (149),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 29/37 (78%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  6    SVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            SV+QAGVQW DLGS QPPPPGFK+FS  SL S WDYR
+Sbjct  83   SVAQAGVQWCDLGSLQPPPPGFKRFSCLSLPSHWDYR  119
+
+
+>dbj|BAE90637.1| unnamed protein product [Macaca fascicularis]
+Length=51
+
+ Score = 58.5 bits (140),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           V+QAGV W DLGS QPP PGFK FS   LLSSWDYR  
+Sbjct  7   VAQAGVPWHDLGSLQPPSPGFKLFSCLCLLSSWDYRNI  44
+
+
+>dbj|BAE91325.1| unnamed protein product [Macaca fascicularis]
+Length=181
+
+ Score = 60.1 bits (144),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 28/42 (67%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           ES  V+QA VQW ++GS QPPPP F++FS  SLLSSWDYR T
+Sbjct  58  ESLCVAQATVQWHNVGSLQPPPPRFRRFSCLSLLSSWDYRHT  99
+
+
+>gb|EHH66749.1| hypothetical protein EGM_03798, partial [Macaca fascicularis]
+Length=74
+
+ Score = 58.9 bits (141),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAGVQW DL S QPPP  FK+FS  SL SSWDYR
+Sbjct  3   MESHSVAQAGVQWSDLHSLQPPPHRFKRFSCLSLSSSWDYR  43
+
+
+>gb|AAF24056.1|AF090944_1 PRO0663 [Homo sapiens]
+Length=61
+
+ Score = 58.5 bits (140),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  8   SQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +QAGVQWR LGS QPPPPGF +FS  SLLSSWDYR
+Sbjct  15  AQAGVQWRYLGSLQPPPPGFTRFSCLSLLSSWDYR  49
+
+
+>dbj|BAE89454.1| unnamed protein product [Macaca fascicularis]
+Length=87
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           ME  SV+QAGVQWR+LGS Q PPPGF  F   SL SSWDYR 
+Sbjct  1   MECCSVAQAGVQWRNLGSLQAPPPGFMLFFCLSLPSSWDYRC  42
+
+
+>dbj|BAB15100.1| unnamed protein product [Homo sapiens]
+Length=244
+
+ Score = 60.8 bits (146),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+QAGVQW +LGS +PPPPGFKQFS  SL SSW+YR
+Sbjct  189  VAQAGVQWCNLGSLKPPPPGFKQFSCLSLPSSWNYR  224
+
+
+>gb|EAW89455.1| hCG2039055, partial [Homo sapiens]
+Length=184
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+Q GVQ RDL SPQP PPGFK FSH SL SSWDYR
+Sbjct  70   VAQTGVQLRDLSSPQPLPPGFKPFSHLSLPSSWDYR  105
+
+
+>ref|XP_008965838.1| PREDICTED: cAMP-responsive element modulator isoform X15 [Pan 
+paniscus]
+Length=131
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +S SV QAGV+W DL S QPPPPGFK+FS  SL+SSW YR
+Sbjct  28  QSCSVIQAGVRWHDLSSLQPPPPGFKKFSCLSLMSSWYYR  67
+
+
+>gb|AAF22026.1|AF118094_21 PRO1902 [Homo sapiens]
+Length=84
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           ES SV+QAGVQW +LGS QPPP   KQ S+ SL SSWDYR T
+Sbjct  4   ESGSVAQAGVQWHNLGSLQPPPSRLKQLSYLSLPSSWDYRCT  45
+
+
+>gb|EHH17277.1| hypothetical protein EGK_13642, partial [Macaca mulatta]
+Length=127
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/39 (77%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           ESRSV+QAGVQWRDLGS Q PPP F  FS  SL SSWDY
+Sbjct  3   ESRSVAQAGVQWRDLGSLQAPPPRFTPFSCLSLPSSWDY  41
+
+
+>gb|AAP97731.1| hypothetical protein precursor [Homo sapiens]
+Length=101
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           ES SV+QAGVQWR LG  QP PPGF  FS  SL SSWDYR 
+Sbjct  50  ESCSVAQAGVQWRSLGLLQPLPPGFTSFSCLSLPSSWDYRC  90
+
+
+>ref|XP_014967919.1| PREDICTED: putative uncharacterized protein encoded by LINC00596, 
+partial [Macaca mulatta]
+Length=116
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 27/37 (73%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           V+QAGVQW +LGS QPPPPGFKQ S  SL  SWDYR 
+Sbjct  14  VAQAGVQWHNLGSLQPPPPGFKQLSCLSLPRSWDYRC  50
+
+
+>gb|EHH24999.1| hypothetical protein EGK_08749, partial [Macaca mulatta]
+Length=65
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +S SV+QAGVQW DLGS QP PP FK FS  SLLSSWDYR
+Sbjct  1   KSCSVAQAGVQWCDLGSLQPLPPRFKPFSCLSLLSSWDYR  40
+
+
+>gb|EAW93060.1| hCG2041755, partial [Homo sapiens]
+Length=143
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 31/43 (72%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            MES+SV QAGVQ  DLGS Q PPP FKQFS  SLL SW YR T
+Sbjct  99   MESQSVIQAGVQCHDLGSLQTPPPRFKQFSCLSLLCSWYYRHT  141
+
+
+>ref|XP_004029508.1| PREDICTED: uncharacterized protein LOC101146809 [Gorilla gorilla 
+gorilla]
+Length=284
+
+ Score = 61.2 bits (147),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 34/43 (79%), Gaps = 0/43 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            MES SV+QAGVQWRDLGS QP PPGFK+F   SL SSWD ++ 
+Sbjct  185  MESDSVAQAGVQWRDLGSLQPLPPGFKRFFCLSLPSSWDSQSV  227
+
+
+>ref|XP_010341849.1| PREDICTED: LOW QUALITY PROTEIN: uncharacterized protein LOC101031272 
+[Saimiri boliviensis boliviensis]
+Length=202
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            + +  +V+QAGVQW +L S QPPP GFKQFS  SLL SWDYR T
+Sbjct  116  LRQCLTVAQAGVQWCNLSSLQPPPLGFKQFSCLSLLGSWDYRCT  159
+
+
+>gb|EAW94179.1| ubiquitin-conjugating enzyme E2D 4 (putative), isoform CRA_b, 
+partial [Homo sapiens]
+Length=128
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+Q GVQWRDLGSPQ PPP FKQFS  SL SSWDYR
+Sbjct  33  VAQDGVQWRDLGSPQHPPPRFKQFSCLSLPSSWDYR  68
+
+
+>dbj|BAB85044.1| unnamed protein product [Homo sapiens]
+Length=213
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            +SRSVSQAGVQWRDL S Q PPPGF  F   SL SSWDYR
+Sbjct  161  DSRSVSQAGVQWRDLRSLQAPPPGFMPFFCLSLPSSWDYR  200
+
+
+>gb|EHH55557.1| hypothetical protein EGM_04789, partial [Macaca fascicularis]
+Length=81
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/34 (82%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  9   QAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           QAGVQWRDL S QPPPPGFK+FS  SL SSWDYR
+Sbjct  1   QAGVQWRDLDSMQPPPPGFKRFSCLSLPSSWDYR  34
+
+
+>gb|EHH18962.1| hypothetical protein EGK_19562, partial [Macaca mulatta]
+Length=71
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/39 (74%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           ESRSV+QAG+QW DL S QPPPP FKQFS  SL S WDY
+Sbjct  1   ESRSVAQAGMQWHDLDSLQPPPPRFKQFSCLSLPSRWDY  39
+
+
+>gb|EHH66747.1| hypothetical protein EGM_03796, partial [Macaca fascicularis]
+Length=155
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            +S SV+Q GVQWRDL S QP PPGFK+FS  SL S WDYR
+Sbjct  66   KSHSVAQVGVQWRDLSSLQPLPPGFKRFSCLSLPSGWDYR  105
+
+
+>ref|XP_004049315.1| PREDICTED: UPF0764 protein C16orf89 homolog isoform 15 [Gorilla 
+gorilla gorilla]
+Length=131
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +S SV QAGV+W DL S QP PPGFK+FS  SL+SSWDYR
+Sbjct  28  QSCSVIQAGVRWHDLSSLQPLPPGFKKFSCLSLVSSWDYR  67
+
+
+>gb|EAX10823.1| hCG2003656 [Homo sapiens]
+Length=102
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/39 (69%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  6   SVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           SV+QAGVQW  L S QPPPP FK+FS  SLLS+WDYR +
+Sbjct  53  SVTQAGVQWHHLSSLQPPPPRFKRFSCLSLLSNWDYRCS  91
+
+
+>ref|NP_872358.4| WD repeat-containing protein 27 isoform 1 [Homo sapiens]
+Length=895
+
+ Score = 62.4 bits (150),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+            MESRSV+ AGVQW DLGS QPPP  FKQF   SL SSWDY
+Sbjct  842  MESRSVAHAGVQWHDLGSLQPPPSRFKQFFCLSLPSSWDY  881
+
+
+>gb|EHH18945.1| hypothetical protein EGK_19530 [Macaca mulatta]
+Length=66
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES SV+QAG QW DL S QPPPP FK+FS  SL S WDYR
+Sbjct  1   MESPSVTQAGAQWCDLDSLQPPPPEFKRFSRLSLPSGWDYR  41
+
+
+>ref|XP_014199227.1| PREDICTED: uncharacterized protein LOC100968422 [Pan paniscus]
+Length=402
+
+ Score = 61.6 bits (148),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           E RS++QAGVQ  DL S QPPPPGFK+FS  SLLSSWDYR
+Sbjct  59  EYRSITQAGVQRGDLCSLQPPPPGFKRFSCLSLLSSWDYR  98
+
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/36 (67%), Positives = 27/36 (75%), Gaps = 1/36 (3%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+QAGVQW D  S QPPPP + Q  H SLLSSWD+R
+Sbjct  103  VAQAGVQWHDHSSLQPPPP-WAQEIHLSLLSSWDHR  137
+
+
+>ref|NP_001304972.1| D-tyrosyl-tRNA(Tyr) deacylase 1 isoform 1 [Homo sapiens]
+Length=213
+
+ Score = 59.7 bits (143),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            +SRSVSQAGVQWRDL S Q PPPGF  F   SL SSWDYR
+Sbjct  161  DSRSVSQAGVQWRDLRSLQAPPPGFMPFFGLSLPSSWDYR  200
+
+
+>gb|AAL55833.1|AF318326_1 unknown [Homo sapiens]
+ dbj|BAB14778.1| unnamed protein product [Homo sapiens]
+ gb|EAW95881.1| ATG10 autophagy related 10 homolog (S. cerevisiae), isoform CRA_a 
+[Homo sapiens]
+ gb|EAW95882.1| ATG10 autophagy related 10 homolog (S. cerevisiae), isoform CRA_a 
+[Homo sapiens]
+Length=125
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ++S SV+QAGVQ RDL S QPPP GFKQFS  SL S+WDYR
+Sbjct  73   VKSCSVTQAGVQLRDLSSLQPPPSGFKQFSCLSLPSNWDYR  113
+
+
+>gb|AAI06050.1| NSUN5C protein, partial [Homo sapiens]
+Length=204
+
+ Score = 59.7 bits (143),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/32 (84%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  11  GVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           GV WRDLGSPQP PPGFK+FS FSLLSSWDY 
+Sbjct  7   GVPWRDLGSPQPLPPGFKRFSCFSLLSSWDYE  38
+
+
+>dbj|BAE00668.1| unnamed protein product [Macaca fascicularis]
+Length=120
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES  V+QAGVQW DLGS QP PPGFK+FS  SL  SWDYR
+Sbjct  71   ESCPVTQAGVQWHDLGSLQPLPPGFKRFSCLSLPGSWDYR  110
+
+
+>gb|EAX08445.1| hCG2019873 [Homo sapiens]
+Length=127
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/43 (67%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           MES SV+Q G+Q  +LGS QPPPP FK+FS  SL SSWDYR T
+Sbjct  1   MESHSVAQTGMQCCNLGSLQPPPPEFKRFSCLSLPSSWDYRHT  43
+
+
+>gb|EHH58869.1| hypothetical protein EGM_08825, partial [Macaca fascicularis]
+Length=65
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/39 (74%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  4   SRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           S SV+QAGVQW DL S QP PPGFKQFS  SL +SWDYR
+Sbjct  2   SHSVAQAGVQWCDLSSLQPLPPGFKQFSCLSLPNSWDYR  40
+
+
+>gb|EAW55348.1| chromosome 6 open reading frame 79, isoform CRA_c [Homo sapiens]
+Length=257
+
+ Score = 60.1 bits (144),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES S  QAGVQW  LG  QPPPPGFK+ SH  LLSSWDYR
+Sbjct  179  ESHSFIQAGVQWHSLGLLQPPPPGFKRSSHLILLSSWDYR  218
+
+
+>emb|CQB86647.1| Uncharacterised protein [Chlamydia trachomatis]
+Length=146
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  5    RSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            RSV+QAGV+WRDLGS QPPPP  K FS  SL SSWDYR
+Sbjct  89   RSVTQAGVRWRDLGSLQPPPPRLKLFSCLSLPSSWDYR  126
+
+
+>gb|EHH59230.1| hypothetical protein EGM_09292, partial [Macaca fascicularis]
+Length=64
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES  V+QAGVQW DLGS + PP GFK+FS  SL SSWDYR+
+Sbjct  1   MESHPVAQAGVQWHDLGSLRLPPLGFKRFSCLSLPSSWDYRS  42
+
+
+>gb|EAW71075.1| hCG2012753 [Homo sapiens]
+Length=50
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  1   MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ++ES SV QAGVQ R LGS QPPPP FK+FS  SL SS DYR
+Sbjct  9   LLESCSVIQAGVQCRQLGSLQPPPPRFKRFSCLSLPSSRDYR  50
+
+
+>ref|XP_009250669.1| PREDICTED: transcription factor 4 isoform X1 [Pongo abelii]
+Length=718
+
+ Score = 62.0 bits (149),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MESRSV Q GVQW  L S QPPPPGFK FS  SLLS+WD R
+Sbjct  1   MESRSVIQTGVQWHHLSSLQPPPPGFKLFSRLSLLSTWDRR  41
+
+
+>gb|EHH63089.1| hypothetical protein EGM_15987, partial [Macaca fascicularis]
+Length=59
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES  V+QAGVQW +LGS Q PPPGF  FS  SL SSWDYR
+Sbjct  9   ESCCVAQAGVQWHNLGSLQAPPPGFTPFSCLSLPSSWDYR  48
+
+
+>ref|XP_012353507.1| PREDICTED: abhydrolase domain-containing protein 4 isoform X1 
+[Nomascus leucogenys]
+Length=462
+
+ Score = 61.6 bits (148),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+QAGVQW +LGS QPPPPGFKQFS  SL SSWDYR
+Sbjct  374  VAQAGVQWCNLGSLQPPPPGFKQFSCLSLPSSWDYR  409
+
+
+>gb|EAW85513.1| hCG2042870, isoform CRA_a, partial [Homo sapiens]
+Length=89
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSS  38
+           MESRSV+QAGVQWRDLGS QP PPGF++F   SL SS
+Sbjct  4   MESRSVAQAGVQWRDLGSLQPLPPGFQRFLCLSLTSS  40
+
+
+>gb|KRX11621.1| UPF0764 protein C16orf89 [Trichinella nelsoni]
+Length=56
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQWRDL S Q  PP FKQFS  SL SSWDYR
+Sbjct  5   ESHSVAQAGVQWRDLSSLQLLPPRFKQFSCLSLPSSWDYR  44
+
+
+>ref|XP_012356988.1| PREDICTED: transmembrane protein 220 isoform X1 [Nomascus leucogenys]
+Length=169
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV Q+GVQW DL S Q PPPGFK+FS  SL SSWDYR
+Sbjct  118  ESCSVPQSGVQWHDLSSLQSPPPGFKRFSCLSLPSSWDYR  157
+
+
+>gb|AAC08737.1| neuronal thread protein AD7c-NTP [Homo sapiens]
+Length=375
+
+ Score = 61.2 bits (147),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/38 (79%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  5    RSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+             SV+QAGVQWR+LGS QP PPGFK FS  SLLSSWDYR
+Sbjct  207  NSVTQAGVQWRNLGSLQPLPPGFKLFSCPSLLSSWDYR  244
+
+
+ Score = 58.9 bits (141),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+            MES SV+QAGVQW +LGS QP PPG K+FS  SL SSWDY
+Sbjct  304  MESHSVTQAGVQWPNLGSLQPLPPGLKRFSCLSLPSSWDY  343
+
+
+>dbj|BAB14934.1| unnamed protein product [Homo sapiens]
+Length=257
+
+ Score = 60.1 bits (144),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES S  QAGVQW  LG  QPPPPGFK+ SH  LLSSWDYR
+Sbjct  179  ESHSFIQAGVQWHSLGLLQPPPPGFKRSSHLILLSSWDYR  218
+
+
+>gb|EHH14529.1| hypothetical protein EGK_00471, partial [Macaca mulatta]
+Length=77
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+QAGVQW DLGS Q  PPGF  FS  SL SSWDYR
+Sbjct  5   ESRSVTQAGVQWPDLGSLQALPPGFTPFSCLSLPSSWDYR  44
+
+
+>gb|EAX10829.1| hCG2003821 [Homo sapiens]
+Length=49
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           MES  VS+AG QW DLGS QPPPP FK+FS  SL S+WDY
+Sbjct  1   MESCPVSKAGAQWCDLGSLQPPPPRFKRFSCLSLPSNWDY  40
+
+
+>gb|AAF69605.1|AF119917_13 PRO1722 [Homo sapiens]
+Length=118
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           MESRSV+Q GV W +L S QP PP FKQFS  SL SSWDY
+Sbjct  1   MESRSVAQTGVHWHNLSSLQPLPPRFKQFSCLSLRSSWDY  40
+
+
+>ref|XP_009189101.1| PREDICTED: protein GVQW1-like [Papio anubis]
+Length=84
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+QAGVQ RDLGS  PPPP FK+FS   LLSSW + 
+Sbjct  13  ESRSVTQAGVQGRDLGSLHPPPPRFKRFSCLRLLSSWGFH  52
+
+
+>ref|NP_001243358.1| PDZ and LIM domain protein 5 isoform i [Homo sapiens]
+ ref|XP_003950429.1| PREDICTED: PDZ and LIM domain protein 5 isoform X16 [Pan troglodytes]
+ ref|XP_008953559.1| PREDICTED: PDZ and LIM domain protein 5 isoform X10 [Pan paniscus]
+ gb|AAR09142.1| PDZ and LIM domain 5 [Homo sapiens]
+Length=136
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/37 (73%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  6   SVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ++S AGVQWR+LGSPQPP P FK+FS  SL SSWDYR
+Sbjct  29  TISSAGVQWRNLGSPQPPSPEFKRFSCLSLPSSWDYR  65
+
+
+>gb|EHH58664.1| hypothetical protein EGM_08570, partial [Macaca fascicularis]
+Length=57
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/41 (68%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           ES SV+QAGV W +L S QP PP FKQFS  S LSSWDYR 
+Sbjct  9   ESCSVTQAGVHWHNLDSLQPLPPRFKQFSCLSFLSSWDYRC  49
+
+
+>ref|XP_008984468.1| PREDICTED: transmembrane protein 231-like isoform X4 [Callithrix 
+jacchus]
+Length=163
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 28/36 (78%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+Q GV W DLGSPQPPPP FKQFS   L SSWDYR
+Sbjct  116  VTQTGVPWHDLGSPQPPPPEFKQFSCLRLPSSWDYR  151
+
+
+>gb|EHH50766.1| hypothetical protein EGM_01641 [Macaca fascicularis]
+Length=76
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 32/44 (73%), Positives = 34/44 (77%), Gaps = 3/44 (7%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSL---LSSWDYR  42
+           MES  V+QAGVQ RDLGS QPPPPGFK+FS  SL    SSWDYR
+Sbjct  1   MESHPVAQAGVQRRDLGSLQPPPPGFKRFSCLSLPTSPSSWDYR  44
+
+
+>ref|XP_012365799.1| PREDICTED: ATP synthase F(0) complex subunit C2, mitochondrial 
+isoform X4 [Nomascus leucogenys]
+Length=196
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/37 (73%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           V+QAGVQW +LGSPQP PPGFKQF   SLLSS DY +
+Sbjct  10  VAQAGVQWHNLGSPQPLPPGFKQFPCLSLLSSRDYSS  46
+
+
+>gb|EAW64334.1| hCG2041539, partial [Homo sapiens]
+Length=96
+
+ Score = 58.2 bits (139),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 32/42 (76%), Positives = 33/42 (79%), Gaps = 4/42 (10%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPG--FKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQW D GS QPPPPG  FKQFS   LLSSWDYR
+Sbjct  28  ESCSVAQAGVQWHDFGSLQPPPPGSWFKQFS--CLLSSWDYR  67
+
+
+>ref|XP_011842717.1| PREDICTED: LOW QUALITY PROTEIN: uncharacterized protein LOC105544743, 
+partial [Mandrillus leucophaeus]
+Length=524
+
+ Score = 61.2 bits (147),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+ AGVQWR+LGS QP PPGFKQFS  SLLSSWDYR
+Sbjct  327  VAXAGVQWRNLGSLQPLPPGFKQFSCLSLLSSWDYR  362
+
+
+ Score = 55.8 bits (133),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 27/40 (68%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  5    RSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            +SV+QAGVQW  L S Q PPPGFK+FS  SL SSWDYR  
+Sbjct  457  KSVTQAGVQWHSLSSLQLPPPGFKRFSCLSLPSSWDYRCV  496
+
+
+>gb|EAX00825.1| hCG1989288, partial [Homo sapiens]
+Length=96
+
+ Score = 58.2 bits (139),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+QAGVQWRDLGS QPPPP F +FS  SL  SWDYR
+Sbjct  34  VAQAGVQWRDLGSLQPPPPRFNRFSCLSLPRSWDYR  69
+
+
+>gb|EAW77968.1| zinc finger protein 680, isoform CRA_c [Homo sapiens]
+Length=131
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            ES SV+QAGV+W DL S QP PP FKQFS  SL SSWDYR 
+Sbjct  85   ESHSVAQAGVRWCDLDSLQPLPPEFKQFSCLSLSSSWDYRV  125
+
+
+>ref|XP_011529875.1| PREDICTED: kelch-like protein 2 isoform X3 [Homo sapiens]
+Length=628
+
+ Score = 61.6 bits (148),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 27/39 (69%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           +S S +QAG+QWRDL S QPP PGFK+ SH SL SSWDY
+Sbjct  52  QSHSATQAGMQWRDLSSLQPPTPGFKRLSHLSLPSSWDY  90
+
+
+>gb|AIC61924.1| hypothetical protein, partial [synthetic construct]
+Length=72
+
+ Score = 57.4 bits (137),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 26/41 (63%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           MES  ++QAGVQW  LG  QPPPPGFK+FS  SL  +W YR
+Sbjct  1   MESHCIAQAGVQWHHLGLLQPPPPGFKRFSCLSLPGTWGYR  41
+
+
+>ref|XP_004091240.1| PREDICTED: cAMP-responsive element modulator isoform X11 [Nomascus 
+leucogenys]
+Length=131
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           +S  V QAGVQW  L S +PPPPGFK+FS  SLLSSWDYR
+Sbjct  28  QSCPVIQAGVQWHVLSSLRPPPPGFKKFSCLSLLSSWDYR  67
+
+
+>gb|EAW63468.1| leptin receptor overlapping transcript-like 1, isoform CRA_a 
+[Homo sapiens]
+Length=155
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 29/43 (67%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            +MES SV+Q GVQWRDL S Q  PPGF  FS  SL SSWDYR 
+Sbjct  93   LMESCSVAQPGVQWRDLTSLQALPPGFTPFSCLSLPSSWDYRC  135
+
+
+>gb|AAG35515.1|AF130117_48 PRO2550 [Homo sapiens]
+Length=118
+
+ Score = 58.2 bits (139),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+QAGVQWRDL SPQPPPP FK+FS  S  SSWDYR
+Sbjct  17  VAQAGVQWRDLSSPQPPPPRFKRFSCLSPPSSWDYR  52
+
+
+>ref|XP_011529874.1| PREDICTED: kelch-like protein 2 isoform X2 [Homo sapiens]
+Length=633
+
+ Score = 61.6 bits (148),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 27/39 (69%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           +S S +QAG+QWRDL S QPP PGFK+ SH SL SSWDY
+Sbjct  52  QSHSATQAGMQWRDLSSLQPPTPGFKRLSHLSLPSSWDY  90
+
+
+>ref|XP_011848523.1| PREDICTED: protein GVQW1-like [Mandrillus leucophaeus]
+Length=163
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 27/42 (64%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           +S  V+QA VQW ++GS QPPPP F++FS  SLLSSWDYR T
+Sbjct  57  QSLCVAQATVQWHNVGSLQPPPPRFRRFSCLSLLSSWDYRHT  98
+
+
+>gb|AIC61908.1| hypothetical protein, partial [synthetic construct]
+Length=94
+
+ Score = 57.8 bits (138),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAGVQWRDL S QP    FK+FS  SLLSSWDYR 
+Sbjct  1   MESCSVTQAGVQWRDLHSLQPLRTRFKRFSCLSLLSSWDYRC  42
+
+
+>gb|EAX06738.1| hCG2038119, partial [Homo sapiens]
+Length=130
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            ES SV+Q+GVQW DL S QPPPP FKQFS FSL SSW+  TT
+Sbjct  72   ESPSVAQSGVQWCDLVSLQPPPPRFKQFSCFSLPSSWELHTT  113
+
+
+>dbj|BAD18412.1| unnamed protein product [Homo sapiens]
+Length=132
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/34 (82%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  9   QAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           QAGVQW DLGS QPPPP FKQFS  SL SSWDYR
+Sbjct  67  QAGVQWHDLGSLQPPPPRFKQFSCLSLPSSWDYR  100
+
+
+>gb|EAW98491.1| hCG2042307 [Homo sapiens]
+Length=94
+
+ Score = 57.8 bits (138),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 30/42 (71%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           MES SV+QAGVQWRDL S QP    FK+FS  SLLSSWDYR 
+Sbjct  1   MESCSVTQAGVQWRDLHSLQPLHTRFKRFSCLSLLSSWDYRC  42
+
+
+>gb|EAW85514.1| hCG2042870, isoform CRA_b, partial [Homo sapiens]
+Length=46
+
+ Score = 57.0 bits (136),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSS  38
+           MESRSV+QAGVQWRDLGS QP PPGF++F   SL SS
+Sbjct  4   MESRSVAQAGVQWRDLGSLQPLPPGFQRFLCLSLTSS  40
+
+
+>ref|XP_009454113.1| PREDICTED: putative uncharacterized protein C3orf66, partial 
+[Pan troglodytes]
+Length=158
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/39 (72%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  4    SRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            S SV+QA VQW +LGS QPPPPGFK+FS  S  SSWDYR
+Sbjct  77   SCSVAQARVQWHNLGSLQPPPPGFKRFSCLSFPSSWDYR  115
+
+
+>ref|XP_005246262.1| PREDICTED: protein GVQW1-like, partial [Homo sapiens]
+ ref|XP_005276259.1| PREDICTED: protein GVQW1-like, partial [Homo sapiens]
+Length=104
+
+ Score = 57.8 bits (138),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/34 (82%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  9   QAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           QAGVQW DLGS QPPPP FKQFS  SL SSWDYR
+Sbjct  1   QAGVQWCDLGSLQPPPPRFKQFSCLSLPSSWDYR  34
+
+
+>ref|XP_015306714.1| PREDICTED: LOW QUALITY PROTEIN: uncharacterized protein LOC101865919 
+[Macaca fascicularis]
+Length=196
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ESRSV+QAGV W DLGS Q PPPGF  FS  SL SSWDYR
+Sbjct  135  ESRSVAQAGVWWPDLGSLQAPPPGFTPFSCLSLRSSWDYR  174
+
+
+>ref|XP_004048368.1| PREDICTED: putative uncharacterized protein encoded by LINC00596-like 
+[Gorilla gorilla gorilla]
+Length=65
+
+ Score = 57.0 bits (136),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 29/43 (67%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           M+S SV+QAGVQW +LGS QP PPGFK FS  SLLSS  YR  
+Sbjct  1   MDSHSVAQAGVQWHNLGSLQPLPPGFKGFSCLSLLSSQVYRCA  43
+
+
+>ref|NP_001308207.1| tRNA-splicing endonuclease subunit Sen2 isoform 5 [Homo sapiens]
+Length=516
+
+ Score = 60.8 bits (146),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 30/41 (73%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ++SRSV QAGVQ  DLGS QP P GFK+FS  SLLSSWDYR
+Sbjct  445  VQSRSVVQAGVQCCDLGSLQPLPAGFKRFSCLSLLSSWDYR  485
+
+
+>dbj|BAC86633.1| unnamed protein product [Homo sapiens]
+Length=165
+
+ Score = 58.5 bits (140),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 27/37 (73%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+           V+QAGVQWR+LG PQP PP FKQFS  SL SSWD+R 
+Sbjct  58  VAQAGVQWRNLGLPQPLPPRFKQFSCLSLPSSWDHRC  94
+
+
+>gb|EHH53042.1| hypothetical protein EGM_13600, partial [Macaca fascicularis]
+Length=337
+
+ Score = 60.5 bits (145),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  1    MMESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            M ESRSV+QA  QW+DLGS Q P PGFK+F   SLLSSW+YR
+Sbjct  260  MTESRSVTQAVGQWQDLGSLQTPTPGFKRFFCLSLLSSWNYR  301
+
+
+>gb|EHH49632.1| hypothetical protein EGM_00324, partial [Macaca fascicularis]
+Length=65
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+QAG+QW DL S QP PP FK+FS+ SL S+WDYR
+Sbjct  1   ESRSVTQAGMQWCDLSSLQPLPPKFKRFSYLSLPSNWDYR  40
+
+
+>ref|XP_011925131.1| PREDICTED: cytokine receptor-like factor 2 [Cercocebus atys]
+Length=301
+
+ Score = 60.1 bits (144),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  3    ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ESRSV+QAGV W DL S QPPPPGFK+FS  SL SSWD R
+Sbjct  158  ESRSVAQAGVPWCDLSSLQPPPPGFKRFSRLSLPSSWDDR  197
+
+
+>gb|EHH17264.1| hypothetical protein EGK_13618, partial [Macaca mulatta]
+Length=46
+
+ Score = 56.6 bits (135),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWD  40
+           ESRSV+QAGVQWRD GS Q PPPGF  FS  SL SSWD
+Sbjct  9   ESRSVAQAGVQWRDRGSLQAPPPGFTPFSCLSLPSSWD  46
+
+
+>ref|XP_011766033.1| PREDICTED: zinc finger protein 354C isoform X5 [Macaca nemestrina]
+Length=181
+
+ Score = 58.5 bits (140),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            +E +SV+QA VQW DLGS QPP P FKQFS  SL SSWDYR
+Sbjct  101  LEFQSVTQAKVQWCDLGSLQPPLPRFKQFSCLSLPSSWDYR  141
+
+
+>gb|EAW47553.1| hCG1817437 [Homo sapiens]
+Length=91
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/37 (76%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  4   SRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWD  40
+           S SV QAGVQW D+G  QPPPPGF QFS  SLLSSWD
+Sbjct  22  SHSVIQAGVQWHDVGPLQPPPPGFNQFSCLSLLSSWD  58
+
+
+>dbj|BAG64432.1| unnamed protein product [Homo sapiens]
+Length=140
+
+ Score = 58.2 bits (139),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/38 (76%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  4   SRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDY  41
+           SRSV+QAGV WRDLGS Q PP GFKQFS  SL SSWD+
+Sbjct  42  SRSVTQAGVLWRDLGSLQSPPAGFKQFSCLSLPSSWDH  79
+
+
+>gb|AAB31736.1| neurofibromatosis type 2, partial [Homo sapiens]
+Length=46
+
+ Score = 56.6 bits (135),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/41 (68%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            ES SV+ AGVQWRDLG  QP PP FK+FS  S  SSWDYR
+Sbjct  6   CESCSVTLAGVQWRDLGLLQPLPPKFKRFSCLSFPSSWDYR  46
+
+
+>dbj|BAC86986.1| unnamed protein product [Homo sapiens]
+Length=124
+
+ Score = 57.8 bits (138),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQW +L S QPPPP FKQFS  S  SSW+YR
+Sbjct  12  ESHSVTQAGVQWCNLSSLQPPPPWFKQFSCLSFPSSWNYR  51
+
+
+>gb|EHH14429.1| hypothetical protein EGK_00351, partial [Macaca mulatta]
+Length=65
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+QAG+QW DL S QP PP FK+FS+ SL S+WDYR
+Sbjct  1   ESRSVTQAGMQWCDLSSLQPLPPKFKRFSYLSLPSNWDYR  40
+
+
+>gb|EHH14636.1| hypothetical protein EGK_00596, partial [Macaca mulatta]
+Length=86
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  7   VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           V+ AGVQWRDLGS QP PPGFK+FS  SL +SWDYR
+Sbjct  1   VAHAGVQWRDLGSLQPLPPGFKRFSCLSLPNSWDYR  36
+
+
+>gb|EHH17143.1| hypothetical protein EGK_13471, partial [Macaca mulatta]
+Length=72
+
+ Score = 57.0 bits (136),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV QAGV WR+LGS QP P  FKQFS  SLL SWDY+
+Sbjct  1   ESRSVPQAGVPWRNLGSLQPLPARFKQFSCLSLLGSWDYK  40
+
+
+>gb|ALQ34105.1| peptidylprolyl isomerase -like 3 isoform 2 [Homo sapiens]
+Length=130
+
+ Score = 57.8 bits (138),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 27/34 (79%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSL  35
+           MESR V QAGVQWRDLGS QPPPPGFKQ    SL
+Sbjct  27  MESRCVPQAGVQWRDLGSLQPPPPGFKQVFCLSL  60
+
+
+>gb|EAW55411.1| hCG1979495 [Homo sapiens]
+Length=122
+
+ Score = 57.8 bits (138),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+           ES  V+QAGVQW D GS QP PPG K  SH  LLSSWDYR T
+Sbjct  26  ESPFVTQAGVQWHDHGSLQPLPPGLKCSSHLILLSSWDYRHT  67
+
+
+>ref|XP_012360476.1| PREDICTED: CCR4-NOT transcription complex subunit 8 isoform X2 
+[Nomascus leucogenys]
+Length=333
+
+ Score = 59.7 bits (143),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            M+  SV+QAGVQW DLGS QPPPP FK F   SL SSWDYR 
+Sbjct  236  MKPCSVTQAGVQWCDLGSLQPPPPSFKLFFCLSLPSSWDYRC  277
+
+
+>ref|XP_010334997.1| PREDICTED: LOW QUALITY PROTEIN: uncharacterized protein LOC101029017 
+[Saimiri boliviensis boliviensis]
+Length=234
+
+ Score = 58.5 bits (140),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 1/36 (3%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            V+QAGVQWRDLGSPQ P PG +QFS  SLLSSWDYR
+Sbjct  68   VTQAGVQWRDLGSPQ-PLPGLRQFSCLSLLSSWDYR  102
+
+
+ Score = 47.8 bits (112),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 25/37 (68%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  6    SVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            SV+QA VQW +LGS QP  P FKQF   SL SSWDYR
+Sbjct  167  SVTQAVVQWHNLGSLQPLSPRFKQFFCLSLPSSWDYR  203
+
+
+>gb|EHH21769.1| hypothetical protein EGK_04905, partial [Macaca mulatta]
+Length=88
+
+ Score = 57.0 bits (136),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQWRD+GS Q  PP  K+FS  SL SSWDYR
+Sbjct  1   ESHSVAQAGVQWRDVGSLQLSPPRLKRFSCLSLPSSWDYR  40
+
+
+>gb|EHH57429.1| hypothetical protein EGM_07048, partial [Macaca fascicularis]
+Length=64
+
+ Score = 56.6 bits (135),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/37 (76%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  6   SVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           SV+QAGVQW  LGS QP PP F Q SH SLLSSWDYR
+Sbjct  5   SVTQAGVQWHSLGSLQPLPPEFTQASHLSLLSSWDYR  41
+
+
+>dbj|BAC86856.1| unnamed protein product [Homo sapiens]
+Length=327
+
+ Score = 59.7 bits (143),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 29/41 (71%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+            MESRSV Q  VQW +L S QP PP FK+FSH SL SSWDYR
+Sbjct  275  MESRSVVQTRVQWCNLDSLQPLPPRFKRFSHHSLPSSWDYR  315
+
+
+>ref|NP_115861.1| peptidyl-prolyl cis-trans isomerase-like 3 isoform PPIL3a [Homo 
+sapiens]
+ ref|XP_005246708.1| PREDICTED: peptidyl-prolyl cis-trans isomerase-like 3 isoform 
+X1 [Homo sapiens]
+ gb|AAK34939.1|AF251049_1 cyclophilin-like protein [Homo sapiens]
+ dbj|BAB55036.1| unnamed protein product [Homo sapiens]
+ gb|AAY14723.1| unknown [Homo sapiens]
+ gb|EAW70221.1| peptidylprolyl isomerase (cyclophilin)-like 3, isoform CRA_b 
+[Homo sapiens]
+ gb|ALQ34106.1| peptidylprolyl isomerase -like 3 isoform 3, partial [Homo sapiens]
+Length=165
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 27/34 (79%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  2   MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSL  35
+           MESR V QAGVQWRDLGS QPPPPGFKQ    SL
+Sbjct  27  MESRCVPQAGVQWRDLGSLQPPPPGFKQVFCLSL  60
+
+
+>gb|EHH60697.1| hypothetical protein EGM_18538, partial [Macaca fascicularis]
+Length=106
+
+ Score = 57.4 bits (137),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ESRSV+Q GVQW DL S Q PPPGF  FS  SL SSWDYR
+Sbjct  14  ESRSVAQTGVQWPDLSSLQAPPPGFTPFSCLSLPSSWDYR  53
+
+
+>gb|EHH56302.1| hypothetical protein EGM_05679, partial [Macaca fascicularis]
+Length=101
+
+ Score = 57.0 bits (136),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  3   ESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYR  42
+           ES SV+QAGVQW DL S Q PPPGF+ FS  SL SSWDYR
+Sbjct  50  ESCSVAQAGVQWPDLSSLQAPPPGFRPFSCLSLPSSWDYR  89
+
+
+>ref|XP_012360475.1| PREDICTED: CCR4-NOT transcription complex subunit 8 isoform X1 
+[Nomascus leucogenys]
+Length=387
+
+ Score = 59.7 bits (143),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  2    MESRSVSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRT  43
+            M+  SV+QAGVQW DLGS QPPPP FK F   SL SSWDYR 
+Sbjct  290  MKPCSVTQAGVQWCDLGSLQPPPPSFKLFFCLSLPSSWDYRC  331
+
+
+>ref|XP_008951147.1| PREDICTED: transmembrane protein 14B isoform X4 [Pan paniscus]
+Length=117
+
+ Score = 57.0 bits (136),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  7    VSQAGVQWRDLGSPQPPPPGFKQFSHFSLLSSWDYRTT  44
+            V+QAGVQW DL S QPPPP FK+FS  +LLSSWD+R  
+Sbjct  70   VAQAGVQWCDLSSLQPPPPRFKRFSCLTLLSSWDFRCA  107
+
+
+
+Lambda      K        H
+   0.317    0.130    0.427 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 761548998600
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Mar 28, 2016 12:00 AM
+  Number of letters in database: 30,803,427,846
+  Number of sequences in database:  84,060,097
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

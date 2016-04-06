@@ -1,0 +1,3447 @@
+BLASTP 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           84,060,097 sequences; 30,803,427,846 total letters
+
+
+
+Query= TN_Fu0012P9
+
+Length=115
+
+RID: FKMG3EZU014
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_001020424.1|  tumor protein D52 isoform 2 [Homo sapiens]         126   3e-33
+ref|XP_008954912.1|  PREDICTED: tumor protein D52 isoform X2 [Pan...    125   6e-33
+ref|XP_007999150.1|  PREDICTED: tumor protein D52 isoform X9 [Chl...    125   6e-33
+ref|XP_011887262.1|  PREDICTED: tumor protein D52 isoform X5 [Cer...    125   7e-33
+ref|XP_009211512.1|  PREDICTED: tumor protein D52 isoform X5 [Pap...    125   7e-33
+ref|XP_001162922.2|  PREDICTED: tumor protein D52 isoform X4 [Pan...    125   7e-33
+ref|NP_001127089.1|  tumor protein D52 [Pongo abelii]                   125   8e-33
+ref|XP_003269524.1|  PREDICTED: tumor protein D52 isoform X5 [Nom...    125   8e-33
+ref|XP_003902945.1|  PREDICTED: tumor protein D52 isoform X4 [Pap...    125   8e-33
+ref|XP_011742718.1|  PREDICTED: tumor protein D52 isoform X4 [Mac...    125   9e-33
+ref|XP_010949954.1|  PREDICTED: tumor protein D52 isoform X3 [Cam...    124   2e-32
+ref|NP_001274071.1|  tumor protein D52 isoform 5 [Homo sapiens]         125   2e-32
+ref|NP_001274069.1|  tumor protein D52 isoform 4 [Homo sapiens]         125   2e-32
+ref|XP_012306364.1|  PREDICTED: tumor protein D52 isoform X3 [Aot...    124   4e-32
+ref|XP_011792534.1|  PREDICTED: tumor protein D52 isoform X2 [Col...    124   4e-32
+ref|XP_003311827.1|  PREDICTED: tumor protein D52 isoform X2 [Pan...    124   5e-32
+ref|XP_004090802.1|  PREDICTED: tumor protein D52 isoform X2 [Nom...    124   5e-32
+ref|XP_003940234.1|  PREDICTED: tumor protein D52 isoform X2 [Sai...    124   5e-32
+ref|XP_007999146.1|  PREDICTED: tumor protein D52 isoform X5 [Chl...    124   5e-32
+ref|XP_011742716.1|  PREDICTED: tumor protein D52 isoform X2 [Mac...    124   5e-32
+ref|XP_011792533.1|  PREDICTED: tumor protein D52 isoform X1 [Col...    124   5e-32
+ref|XP_003902947.1|  PREDICTED: tumor protein D52 isoform X2 [Pap...    124   5e-32
+ref|XP_003311826.1|  PREDICTED: tumor protein D52 isoform X1 [Pan...    124   5e-32
+ref|XP_003269527.1|  PREDICTED: tumor protein D52 isoform X1 [Nom...    124   6e-32
+ref|XP_003940233.1|  PREDICTED: tumor protein D52 isoform X1 [Sai...    124   6e-32
+ref|XP_015001010.1|  PREDICTED: tumor protein D52 isoform X4 [Mac...    123   6e-32
+ref|XP_003902946.1|  PREDICTED: tumor protein D52 isoform X1 [Pap...    124   6e-32
+ref|XP_012306363.1|  PREDICTED: tumor protein D52 isoform X2 [Aot...    123   6e-32
+ref|XP_012306362.1|  PREDICTED: tumor protein D52 isoform X1 [Aot...    124   7e-32
+ref|XP_011742715.1|  PREDICTED: tumor protein D52 isoform X1 [Mac...    124   7e-32
+ref|XP_015001009.1|  PREDICTED: tumor protein D52 isoform X3 [Mac...    123   7e-32
+ref|XP_012518616.1|  PREDICTED: tumor protein D52 isoform X5 [Pro...    122   1e-31
+ref|XP_007520217.1|  PREDICTED: tumor protein D52 isoform X2 [Eri...    122   3e-31
+ref|XP_008058283.1|  PREDICTED: tumor protein D52 isoform X2 [Tar...    122   3e-31
+ref|XP_008058282.1|  PREDICTED: tumor protein D52 isoform X1 [Tar...    122   3e-31
+ref|XP_007520216.1|  PREDICTED: tumor protein D52 isoform X1 [Eri...    122   4e-31
+ref|XP_015093183.1|  PREDICTED: tumor protein D52 [Vicugna pacos]       121   4e-31
+ref|XP_010949940.1|  PREDICTED: tumor protein D52 isoform X1 [Cam...    121   4e-31
+ref|XP_007999143.1|  PREDICTED: tumor protein D52 isoform X2 [Chl...    123   6e-31
+ref|XP_015001008.1|  PREDICTED: tumor protein D52 isoform X2 [Mac...    123   6e-31
+ref|XP_015001007.1|  PREDICTED: tumor protein D52 isoform X1 [Mac...    123   7e-31
+ref|XP_007999142.1|  PREDICTED: tumor protein D52 isoform X1 [Chl...    123   8e-31
+ref|XP_012518612.1|  PREDICTED: tumor protein D52 isoform X2 [Pro...    120   9e-31
+ref|XP_012518611.1|  PREDICTED: tumor protein D52 isoform X1 [Pro...    120   9e-31
+ref|XP_007123426.1|  PREDICTED: tumor protein D52-like isoform X2...    120   1e-30
+ref|XP_004276226.1|  PREDICTED: tumor protein D52 isoform X2 [Orc...    120   1e-30
+ref|XP_008583700.1|  PREDICTED: tumor protein D52 isoform X2 [Gal...    120   1e-30
+ref|XP_007185156.1|  PREDICTED: tumor protein D52 isoform X2 [Bal...    120   1e-30
+ref|XP_007123425.1|  PREDICTED: tumor protein D52-like isoform X1...    120   1e-30
+ref|XP_004276225.1|  PREDICTED: tumor protein D52 isoform X1 [Orc...    120   1e-30
+ref|XP_007185155.1|  PREDICTED: tumor protein D52 isoform X1 [Bal...    120   1e-30
+ref|XP_006168984.1|  PREDICTED: tumor protein D52 isoform X2 [Tup...    120   2e-30
+ref|XP_008583699.1|  PREDICTED: tumor protein D52 isoform X1 [Gal...    120   2e-30
+ref|XP_003782581.1|  PREDICTED: tumor protein D52 isoform X5 [Oto...    119   2e-30
+ref|XP_006168983.1|  PREDICTED: tumor protein D52 isoform X1 [Tup...    120   2e-30
+ref|XP_004680077.1|  PREDICTED: tumor protein D52 [Condylura cris...    119   2e-30
+ref|XP_014640473.1|  PREDICTED: tumor protein D52 isoform X4 [Cer...    119   3e-30
+ref|XP_012595443.1|  PREDICTED: tumor protein D52 [Microcebus mur...    119   4e-30
+ref|XP_004842071.1|  PREDICTED: tumor protein D52 isoform X4 [Het...    117   5e-30
+ref|XP_004321039.1|  PREDICTED: LOW QUALITY PROTEIN: tumor protei...    119   5e-30
+ref|XP_008518156.1|  PREDICTED: tumor protein D52 isoform X10 [Eq...    118   6e-30
+ref|XP_004479156.1|  PREDICTED: tumor protein D52 isoform X4 [Das...    117   7e-30
+ref|XP_012665928.1|  PREDICTED: tumor protein D52 isoform X2 [Oto...    117   1e-29
+ref|XP_012665925.1|  PREDICTED: tumor protein D52 isoform X1 [Oto...    117   1e-29
+ref|XP_012926665.1|  PREDICTED: tumor protein D52 isoform X2 [Het...    117   2e-29
+ref|NP_005070.1|  tumor protein D52 isoform 3 [Homo sapiens]            115   2e-29
+ref|XP_004842070.1|  PREDICTED: tumor protein D52 isoform X1 [Het...    117   2e-29
+gb|AAX41272.1|  tumor protein D52 [synthetic construct]                 115   2e-29
+gb|AAX37143.1|  tumor protein D52 [synthetic construct]                 115   2e-29
+emb|CAG46831.1|  TPD52 [Homo sapiens]                                   115   3e-29
+ref|XP_004479154.1|  PREDICTED: tumor protein D52 isoform X2 [Das...    116   4e-29
+ref|XP_012375324.1|  PREDICTED: tumor protein D52 isoform X1 [Das...    116   4e-29
+ref|NP_001274072.1|  tumor protein D52 isoform 6 [Homo sapiens]         115   5e-29
+dbj|BAD97351.1|  N8 protein long isoform (Fragment) variant [Homo...    115   6e-29
+ref|XP_012351539.1|  PREDICTED: tumor protein D52 isoform X7 [Nom...    114   7e-29
+ref|XP_011742720.1|  PREDICTED: tumor protein D52 isoform X5 [Mac...    114   8e-29
+ref|NP_001253071.1|  tumor protein D52 [Macaca mulatta]                 114   8e-29
+ref|XP_003311824.1|  PREDICTED: tumor protein D52 isoform X6 [Pan...    114   8e-29
+ref|XP_003269525.1|  PREDICTED: tumor protein D52 isoform X6 [Nom...    114   8e-29
+ref|XP_010376789.1|  PREDICTED: tumor protein D52 isoform X2 [Rhi...    114   8e-29
+dbj|BAE89847.1|  unnamed protein product [Macaca fascicularis]          114   9e-29
+ref|XP_003480093.1|  PREDICTED: tumor protein D52 isoform X1 [Cav...    115   1e-28
+ref|XP_005638122.1|  PREDICTED: tumor protein D52 isoform X2 [Can...    114   1e-28
+ref|XP_005638121.1|  PREDICTED: tumor protein D52 isoform X1 [Can...    114   1e-28
+ref|NP_001020423.1|  tumor protein D52 isoform 1 [Homo sapiens]         114   2e-28
+ref|XP_011792535.1|  PREDICTED: tumor protein D52 isoform X3 [Col...    114   2e-28
+ref|XP_014422510.1|  PREDICTED: tumor protein D52 isoform X2 [Cam...    112   2e-28
+ref|XP_004090803.1|  PREDICTED: tumor protein D52 isoform X3 [Nom...    114   2e-28
+ref|XP_004047239.1|  PREDICTED: tumor protein D52 [Gorilla gorill...    114   2e-28
+ref|XP_011844474.1|  PREDICTED: tumor protein D52 isoform X3 [Man...    114   2e-28
+gb|AAB36476.1|  N8 gene product long isoform, N8L protein=D52 hom...    114   2e-28
+ref|XP_008981068.1|  PREDICTED: tumor protein D52 [Callithrix jac...    114   3e-28
+ref|XP_010376788.1|  PREDICTED: tumor protein D52 isoform X1 [Rhi...    113   5e-28
+ref|XP_011792536.1|  PREDICTED: tumor protein D52 isoform X4 [Col...    113   5e-28
+ref|XP_003940232.1|  PREDICTED: tumor protein D52 isoform X3 [Sai...    113   5e-28
+ref|XP_003311825.1|  PREDICTED: tumor protein D52 isoform X3 [Pan...    113   5e-28
+ref|XP_003269526.1|  PREDICTED: tumor protein D52 isoform X4 [Nom...    113   5e-28
+gb|EAW87071.1|  mitochondrial ribosomal protein S28, isoform CRA_...    112   5e-28
+ref|XP_006830957.1|  PREDICTED: tumor protein D52 [Chrysochloris ...    113   6e-28
+ref|XP_002819251.2|  PREDICTED: 28S ribosomal protein S28, mitoch...    112   6e-28
+ref|XP_012306365.1|  PREDICTED: tumor protein D52 isoform X4 [Aot...    112   6e-28
+ref|XP_011742717.1|  PREDICTED: tumor protein D52 isoform X3 [Mac...    112   6e-28
+ref|XP_004047241.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    112   6e-28
+ref|XP_007999149.1|  PREDICTED: tumor protein D52 isoform X8 [Chl...    112   6e-28
+ref|XP_004047240.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    112   6e-28
+ref|XP_015001011.1|  PREDICTED: tumor protein D52 isoform X5 [Mac...    112   7e-28
+ref|XP_003831329.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    111   7e-28
+ref|NP_054737.1|  28S ribosomal protein S28, mitochondrial [Homo ...    111   7e-28
+dbj|BAD96789.1|  mitochondrial ribosomal protein S28 variant [Hom...    111   7e-28
+gb|EAW87070.1|  mitochondrial ribosomal protein S28, isoform CRA_...    111   9e-28
+ref|XP_010634543.1|  PREDICTED: tumor protein D52 isoform X5 [Fuk...    112   1e-27
+ref|XP_007520218.1|  PREDICTED: tumor protein D52 isoform X3 [Eri...    112   1e-27
+ref|XP_004276230.1|  PREDICTED: tumor protein D52 isoform X6 [Orc...    110   2e-27
+ref|XP_004276229.1|  PREDICTED: tumor protein D52 isoform X5 [Orc...    110   2e-27
+ref|XP_006880611.1|  PREDICTED: tumor protein D52 [Elephantulus e...    112   2e-27
+ref|XP_015310475.1|  PREDICTED: tumor protein D52 isoform X3 [Mac...    113   2e-27
+ref|XP_007999144.1|  PREDICTED: tumor protein D52 isoform X3 [Chl...    113   2e-27
+ref|XP_005392117.1|  PREDICTED: tumor protein D52 isoform X1 [Chi...    112   2e-27
+ref|XP_004602619.1|  PREDICTED: tumor protein D52 [Sorex araneus]       111   3e-27
+ref|XP_012351541.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    110   3e-27
+ref|XP_005336072.1|  PREDICTED: tumor protein D52 isoform X2 [Ict...    111   3e-27
+ref|XP_007451798.1|  PREDICTED: tumor protein D52 isoform X4 [Lip...    111   3e-27
+ref|XP_004276227.1|  PREDICTED: tumor protein D52 isoform X3 [Orc...    111   3e-27
+ref|XP_011289638.1|  PREDICTED: tumor protein D52 isoform X1 [Fel...    110   3e-27
+ref|XP_005336071.1|  PREDICTED: tumor protein D52 isoform X1 [Ict...    111   3e-27
+ref|XP_003269528.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    110   3e-27
+ref|XP_011844471.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   4e-27
+ref|XP_007520219.1|  PREDICTED: tumor protein D52 isoform X4 [Eri...    110   4e-27
+ref|XP_010949948.1|  PREDICTED: tumor protein D52 isoform X2 [Cam...    110   4e-27
+ref|XP_011792538.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   4e-27
+ref|XP_008583701.1|  PREDICTED: tumor protein D52 isoform X3 [Gal...    110   4e-27
+ref|XP_015001003.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   4e-27
+ref|XP_011887272.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   4e-27
+ref|XP_010376791.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   4e-27
+ref|XP_011844470.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   4e-27
+ref|XP_014640472.1|  PREDICTED: tumor protein D52 isoform X3 [Cer...    109   4e-27
+ref|XP_010376790.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   5e-27
+ref|XP_011792537.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   5e-27
+ref|XP_011887271.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   5e-27
+ref|NP_001248018.1|  28S ribosomal protein S28, mitochondrial [Ma...    109   5e-27
+gb|EHH64253.1|  28S ribosomal protein S28, mitochondrial [Macaca ...    109   5e-27
+ref|XP_011887266.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    109   6e-27
+ref|XP_008518149.1|  PREDICTED: tumor protein D52 isoform X3 [Equ...    110   6e-27
+ref|NP_001231316.1|  tumor protein D52 [Sus scrofa]                     109   6e-27
+ref|XP_010586671.1|  PREDICTED: tumor protein D52 isoform X2 [Lox...    110   7e-27
+ref|XP_010634540.1|  PREDICTED: tumor protein D52 isoform X2 [Fuk...    110   7e-27
+ref|XP_015393160.1|  PREDICTED: tumor protein D52 isoform X2 [Pan...    110   7e-27
+ref|XP_010634539.1|  PREDICTED: tumor protein D52 isoform X1 [Fuk...    110   7e-27
+ref|XP_015393157.1|  PREDICTED: tumor protein D52 isoform X1 [Pan...    110   7e-27
+ref|XP_014583423.1|  PREDICTED: tumor protein D52 isoform X5 [Equ...    109   7e-27
+ref|XP_008518153.1|  PREDICTED: tumor protein D52 isoform X7 [Equ...    108   8e-27
+ref|XP_014717332.1|  PREDICTED: tumor protein D52 isoform X3 [Equ...    108   9e-27
+ref|XP_014583421.1|  PREDICTED: tumor protein D52 isoform X3 [Equ...    108   9e-27
+ref|XP_010586670.1|  PREDICTED: tumor protein D52 isoform X1 [Lox...    110   9e-27
+ref|XP_008518155.1|  PREDICTED: tumor protein D52 isoform X9 [Equ...    108   9e-27
+ref|XP_014717334.1|  PREDICTED: tumor protein D52 isoform X5 [Equ...    108   1e-26
+ref|XP_014717333.1|  PREDICTED: tumor protein D52 isoform X4 [Equ...    108   1e-26
+ref|XP_008518154.1|  PREDICTED: tumor protein D52 isoform X8 [Equ...    108   1e-26
+ref|XP_007123427.1|  PREDICTED: tumor protein D52-like isoform X3...    109   1e-26
+ref|XP_004276228.1|  PREDICTED: tumor protein D52 isoform X4 [Orc...    109   1e-26
+ref|XP_008583702.1|  PREDICTED: tumor protein D52 isoform X4 [Gal...    109   1e-26
+gb|ELK02405.1|  Tumor protein D52 [Pteropus alecto]                     109   1e-26
+ref|XP_007185157.1|  PREDICTED: tumor protein D52 isoform X3 [Bal...    109   1e-26
+ref|XP_006168985.1|  PREDICTED: tumor protein D52 isoform X3 [Tup...    109   1e-26
+ref|XP_005613095.1|  PREDICTED: tumor protein D52 isoform X1 [Equ...    109   2e-26
+ref|XP_014717330.1|  PREDICTED: tumor protein D52 isoform X1 [Equ...    109   2e-26
+ref|XP_008518152.1|  PREDICTED: tumor protein D52 isoform X6 [Equ...    108   2e-26
+ref|XP_009211510.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    108   2e-26
+ref|XP_008518151.1|  PREDICTED: tumor protein D52 isoform X5 [Equ...    108   2e-26
+ref|XP_008518150.1|  PREDICTED: tumor protein D52 isoform X4 [Equ...    108   2e-26
+ref|XP_004774289.1|  PREDICTED: tumor protein D52 isoform X7 [Mus...    108   2e-26
+ref|XP_004427197.1|  PREDICTED: tumor protein D52 isoform X1 [Cer...    108   2e-26
+ref|XP_003902949.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    107   2e-26
+ref|XP_012665931.1|  PREDICTED: tumor protein D52 isoform X3 [Oto...    108   3e-26
+ref|XP_012902183.1|  PREDICTED: tumor protein D52 isoform X2 [Mus...    108   4e-26
+ref|XP_008518147.1|  PREDICTED: tumor protein D52 isoform X1 [Equ...    108   4e-26
+ref|XP_014923037.1|  PREDICTED: tumor protein D52 [Acinonyx jubatus]    110   4e-26
+ref|XP_004774287.1|  PREDICTED: tumor protein D52 isoform X5 [Mus...    108   4e-26
+ref|XP_012902182.1|  PREDICTED: tumor protein D52 isoform X1 [Mus...    108   4e-26
+ref|XP_004774286.1|  PREDICTED: tumor protein D52 isoform X3 [Mus...    108   4e-26
+ref|XP_008518148.1|  PREDICTED: tumor protein D52 isoform X2 [Equ...    107   5e-26
+ref|XP_014717331.1|  PREDICTED: tumor protein D52 isoform X2 [Equ...    107   5e-26
+ref|XP_011742722.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    106   8e-26
+ref|XP_004393785.1|  PREDICTED: tumor protein D52 isoform X5 [Odo...    107   8e-26
+ref|XP_006727207.1|  PREDICTED: tumor protein D52 isoform X2 [Lep...    107   1e-25
+ref|XP_011742721.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    106   1e-25
+ref|XP_012665935.1|  PREDICTED: tumor protein D52 isoform X4 [Oto...    107   1e-25
+ref|XP_006727206.1|  PREDICTED: tumor protein D52 isoform X1 [Lep...    107   1e-25
+ref|NP_001075829.1|  tumor protein D52 [Oryctolagus cuniculus]          105   2e-25
+ref|XP_012595450.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    105   2e-25
+ref|XP_012422835.1|  PREDICTED: tumor protein D52 isoform X2 [Odo...    106   2e-25
+ref|XP_004393783.1|  PREDICTED: tumor protein D52 isoform X1 [Odo...    106   2e-25
+ref|XP_012926666.1|  PREDICTED: tumor protein D52 isoform X3 [Het...    106   2e-25
+ref|XP_012595449.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    105   2e-25
+ref|XP_015454136.1|  PREDICTED: tumor protein D52 isoform X2 [Pte...    105   2e-25
+ref|XP_011374562.1|  PREDICTED: tumor protein D52 isoform X2 [Pte...    105   3e-25
+ref|XP_004479155.1|  PREDICTED: tumor protein D52 isoform X3 [Das...    105   3e-25
+ref|XP_011582030.1|  PREDICTED: tumor protein D52 isoform X2 [Aqu...    103   4e-25
+ref|XP_011582029.1|  PREDICTED: tumor protein D52 isoform X1 [Aqu...    103   5e-25
+ref|XP_006530134.1|  PREDICTED: tumor protein D52 isoform X12 [Mu...    103   7e-25
+ref|XP_003480092.1|  PREDICTED: tumor protein D52 isoform X2 [Cav...    104   9e-25
+ref|XP_007942838.1|  PREDICTED: tumor protein D52 [Orycteropus af...    103   1e-24
+ref|XP_013027880.1|  PREDICTED: tumor protein D52 isoform X7 [Ans...    103   1e-24
+ref|NP_001172097.1|  28S ribosomal protein S28, mitochondrial [Su...    103   1e-24
+ref|XP_012966422.1|  PREDICTED: tumor protein D52 isoform X4 [Mes...    103   1e-24
+ref|XP_005638123.1|  PREDICTED: tumor protein D52 isoform X3 [Can...    103   1e-24
+pdb|5AJ3|FF  Chain f, Structure Of The Small Subunit Of The Mamma...    103   1e-24
+ref|NP_001020434.1|  tumor protein D52 isoform 3 [Mus musculus]         103   1e-24
+ref|XP_006530133.1|  PREDICTED: tumor protein D52 isoform X11 [Mu...    103   1e-24
+ref|XP_006169003.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    103   2e-24
+ref|XP_012005576.1|  PREDICTED: tumor protein D52 isoform X4 [Ovi...    103   2e-24
+ref|XP_012005577.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    103   2e-24
+ref|XP_004011806.2|  PREDICTED: 28S ribosomal protein S28, mitoch...    103   2e-24
+gb|EDL05195.1|  mCG10134, isoform CRA_f [Mus musculus]                  103   2e-24
+ref|XP_005689178.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    102   2e-24
+ref|XP_005967036.1|  PREDICTED: tumor protein D52 isoform X3 [Pan...    103   2e-24
+ref|XP_013824728.1|  PREDICTED: tumor protein D52 isoform X3 [Cap...    103   2e-24
+ref|XP_006530123.2|  PREDICTED: tumor protein D52 isoform X3 [Mus...    103   2e-24
+gb|ELV10544.1|  Tumor protein D52 [Tupaia chinensis]                    105   2e-24
+ref|XP_006530129.1|  PREDICTED: tumor protein D52 isoform X7 [Mus...    103   3e-24
+ref|XP_011246443.1|  PREDICTED: tumor protein D52 isoform X1 [Mus...    103   3e-24
+ref|XP_013027879.1|  PREDICTED: tumor protein D52 isoform X6 [Ans...    102   3e-24
+ref|XP_011246444.1|  PREDICTED: tumor protein D52 isoform X2 [Mus...    103   3e-24
+ref|XP_012966421.1|  PREDICTED: tumor protein D52 isoform X2 [Mes...    103   4e-24
+ref|XP_012578288.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    102   4e-24
+ref|XP_012518618.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    102   4e-24
+ref|XP_006530130.1|  PREDICTED: tumor protein D52 isoform X9 [Mus...    102   5e-24
+ref|XP_005066840.1|  PREDICTED: tumor protein D52 isoform X1 [Mes...    103   5e-24
+ref|XP_005392119.1|  PREDICTED: tumor protein D52 isoform X2 [Chi...    102   5e-24
+ref|NP_001020432.1|  tumor protein D52 isoform 1 [Mus musculus]         102   5e-24
+ref|XP_006530128.1|  PREDICTED: tumor protein D52 isoform X6 [Mus...    103   5e-24
+gb|EHA99672.1|  Tumor protein D52 [Heterocephalus glaber]               102   5e-24
+ref|XP_004276231.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    101   5e-24
+ref|XP_004774290.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    101   6e-24
+ref|XP_013027874.1|  PREDICTED: tumor protein D52 isoform X2 [Ans...    102   7e-24
+ref|XP_008687304.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    101   8e-24
+ref|XP_005301587.1|  PREDICTED: tumor protein D52 isoform X1 [Chr...    101   9e-24
+ref|XP_009890183.1|  PREDICTED: tumor protein D52 isoform X5 [Cha...    100   9e-24
+ref|XP_009966876.1|  PREDICTED: tumor protein D52 isoform X2 [Tyt...    102   1e-23
+ref|XP_009807833.1|  PREDICTED: tumor protein D52 isoform X2 [Gav...    102   1e-23
+ref|XP_013027873.1|  PREDICTED: tumor protein D52 isoform X1 [Ans...    102   1e-23
+ref|XP_006057113.1|  PREDICTED: tumor protein D52 isoform X4 [Bub...    101   1e-23
+ref|XP_009807761.1|  PREDICTED: tumor protein D52 isoform X1 [Gav...    102   1e-23
+ref|XP_012039297.1|  PREDICTED: tumor protein D52 isoform X2 [Ovi...    102   1e-23
+ref|XP_010077337.1|  PREDICTED: tumor protein D52 isoform X2 [Pte...    101   1e-23
+ref|XP_009077893.1|  PREDICTED: tumor protein D52 isoform X2 [Aca...    101   1e-23
+ref|XP_006057114.1|  PREDICTED: tumor protein D52 isoform X5 [Bub...    101   1e-23
+ref|XP_013824727.1|  PREDICTED: tumor protein D52 isoform X2 [Cap...    102   1e-23
+ref|XP_009966875.1|  PREDICTED: tumor protein D52 isoform X1 [Tyt...    102   1e-23
+ref|XP_010115411.1|  PREDICTED: tumor protein D52 isoform X2 [Chl...    102   1e-23
+ref|XP_005967034.1|  PREDICTED: tumor protein D52 isoform X1 [Pan...    101   1e-23
+ref|XP_009270657.1|  PREDICTED: tumor protein D52 isoform X3 [Apt...    102   1e-23
+ref|XP_012039296.1|  PREDICTED: tumor protein D52 isoform X1 [Ovi...    102   1e-23
+ref|XP_013824726.1|  PREDICTED: tumor protein D52 isoform X1 [Cap...    102   1e-23
+ref|XP_010115337.1|  PREDICTED: tumor protein D52 isoform X1 [Chl...    102   1e-23
+ref|XP_009270655.1|  PREDICTED: tumor protein D52 isoform X1 [Apt...    102   1e-23
+ref|XP_010077336.1|  PREDICTED: tumor protein D52 isoform X1 [Pte...    101   1e-23
+ref|XP_009077892.1|  PREDICTED: tumor protein D52 isoform X1 [Aca...    101   1e-23
+ref|XP_009687745.1|  PREDICTED: tumor protein D52 isoform X2 [Str...    100   1e-23
+ref|XP_005898636.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    100   1e-23
+ref|XP_009632768.1|  PREDICTED: tumor protein D52 isoform X1 [Egr...    102   1e-23
+ref|XP_009482722.1|  PREDICTED: tumor protein D52 isoform X1 [Pel...    102   1e-23
+ref|XP_009482723.1|  PREDICTED: tumor protein D52 isoform X2 [Pel...    102   1e-23
+ref|XP_009586299.1|  PREDICTED: tumor protein D52 isoform X1 [Ful...    102   1e-23
+ref|XP_009586300.1|  PREDICTED: tumor protein D52 isoform X2 [Ful...    102   1e-23
+ref|XP_005392120.1|  PREDICTED: tumor protein D52 isoform X3 [Chi...    101   1e-23
+ref|XP_009632769.1|  PREDICTED: tumor protein D52 isoform X2 [Egr...    101   1e-23
+ref|XP_007185154.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    100   1e-23
+ref|XP_009470090.1|  PREDICTED: tumor protein D52 isoform X1 [Nip...    102   1e-23
+ref|XP_002927895.2|  PREDICTED: 28S ribosomal protein S28, mitoch...  98.6    1e-23
+ref|XP_009940389.1|  PREDICTED: tumor protein D52 isoform X2 [Opi...    102   1e-23
+ref|XP_009470091.1|  PREDICTED: tumor protein D52 isoform X2 [Nip...    101   1e-23
+ref|XP_002759070.2|  PREDICTED: 28S ribosomal protein S28, mitoch...    100   1e-23
+ref|XP_009913858.1|  PREDICTED: tumor protein D52 isoform X2 [Hal...    101   2e-23
+ref|XP_009940390.1|  PREDICTED: tumor protein D52 isoform X3 [Opi...    101   2e-23
+ref|XP_009687744.1|  PREDICTED: tumor protein D52 isoform X1 [Str...    100   2e-23
+ref|XP_009913857.1|  PREDICTED: tumor protein D52 isoform X1 [Hal...    102   2e-23
+ref|XP_010137286.1|  PREDICTED: tumor protein D52 isoform X2 [Buc...    101   2e-23
+ref|XP_010586673.1|  PREDICTED: tumor protein D52 isoform X4 [Lox...    100   2e-23
+ref|XP_010137285.1|  PREDICTED: tumor protein D52 isoform X1 [Buc...    101   2e-23
+ref|XP_008253912.1|  PREDICTED: LOW QUALITY PROTEIN: 28S ribosoma...    100   2e-23
+ref|XP_009953330.1|  PREDICTED: tumor protein D52 isoform X2 [Lep...    101   2e-23
+ref|XP_007120567.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  98.6    2e-23
+ref|XP_004324655.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  98.2    2e-23
+ref|XP_009333279.1|  PREDICTED: tumor protein D52 isoform X3 [Pyg...    101   2e-23
+ref|XP_010170312.1|  PREDICTED: tumor protein D52 isoform X2 [Cap...    101   2e-23
+ref|XP_009333277.1|  PREDICTED: tumor protein D52 isoform X1 [Pyg...    101   2e-23
+ref|XP_010170310.1|  PREDICTED: tumor protein D52 isoform X1 [Cap...    101   2e-23
+ref|XP_012396699.1|  PREDICTED: tumor protein D52 isoform X3 [Sar...    100   2e-23
+ref|XP_009953329.1|  PREDICTED: tumor protein D52 isoform X1 [Lep...    101   2e-23
+ref|XP_009702978.1|  PREDICTED: tumor protein D52 isoform X2 [Car...    101   2e-23
+ref|XP_014334560.1|  PREDICTED: tumor protein D52 isoform X5 [Bos...    100   2e-23
+ref|XP_008981070.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    100   2e-23
+ref|XP_008981071.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    100   2e-23
+ref|XP_009702977.1|  PREDICTED: tumor protein D52 isoform X1 [Car...    101   2e-23
+ref|XP_015341383.1|  PREDICTED: tumor protein D52 isoform X2 [Mar...    100   2e-23
+ref|XP_015454138.1|  PREDICTED: tumor protein D52 isoform X4 [Pte...    100   2e-23
+ref|XP_011374564.1|  PREDICTED: tumor protein D52 isoform X4 [Pte...    100   2e-23
+ref|XP_005361858.1|  PREDICTED: tumor protein D52 isoform X2 [Mic...    100   2e-23
+ref|XP_015454137.1|  PREDICTED: tumor protein D52 isoform X3 [Pte...    100   2e-23
+ref|XP_003999967.1|  PREDICTED: tumor protein D52 isoform X2 [Fel...  99.8    2e-23
+ref|XP_013027877.1|  PREDICTED: tumor protein D52 isoform X4 [Ans...    100   2e-23
+ref|XP_013027878.1|  PREDICTED: tumor protein D52 isoform X5 [Ans...    100   2e-23
+ref|XP_008981069.1|  PREDICTED: 28S ribosomal protein S28, mitoch...    100   2e-23
+ref|XP_011374563.1|  PREDICTED: tumor protein D52 isoform X3 [Pte...  99.8    3e-23
+ref|XP_005361857.1|  PREDICTED: tumor protein D52 isoform X1 [Mic...    100   3e-23
+ref|XP_009499326.1|  PREDICTED: tumor protein D52 isoform X1 [Pha...    101   3e-23
+ref|XP_010949938.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  99.8    3e-23
+ref|XP_006193986.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  99.8    3e-23
+ref|XP_004479153.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  99.4    4e-23
+ref|XP_015454135.1|  PREDICTED: tumor protein D52 isoform X1 [Pte...  99.8    4e-23
+ref|XP_005967038.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  99.4    4e-23
+ref|XP_011374561.1|  PREDICTED: tumor protein D52 isoform X1 [Pte...  99.8    4e-23
+ref|XP_005479456.1|  PREDICTED: tumor protein D52 isoform X4 [Zon...  99.8    5e-23
+ref|XP_005215581.1|  PREDICTED: tumor protein D52 isoform X2 [Bos...    100   5e-23
+ref|XP_008636668.1|  PREDICTED: tumor protein D52 isoform X2 [Cor...    100   5e-23
+ref|XP_008919417.1|  PREDICTED: tumor protein D52 isoform X1 [Man...    100   5e-23
+ref|XP_015474746.1|  PREDICTED: tumor protein D52 isoform X7 [Par...  99.4    5e-23
+ref|XP_008919418.1|  PREDICTED: tumor protein D52 isoform X2 [Man...    100   5e-23
+ref|XP_006057111.1|  PREDICTED: tumor protein D52 isoform X2 [Bub...    100   5e-23
+ref|XP_010634541.1|  PREDICTED: tumor protein D52 isoform X3 [Fuk...  99.8    5e-23
+ref|XP_004427195.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  99.0    6e-23
+ref|XP_015474740.1|  PREDICTED: tumor protein D52 isoform X2 [Par...  99.8    6e-23
+ref|XP_006057110.1|  PREDICTED: tumor protein D52 isoform X1 [Bub...    100   6e-23
+ref|XP_005215580.1|  PREDICTED: tumor protein D52 isoform X1 [Bos...    100   6e-23
+ref|XP_008636667.1|  PREDICTED: tumor protein D52 isoform X1 [Cor...    100   6e-23
+ref|XP_015393162.1|  PREDICTED: tumor protein D52 isoform X3 [Pan...  99.8    6e-23
+ref|XP_010586672.1|  PREDICTED: tumor protein D52 isoform X3 [Lox...  99.8    6e-23
+ref|XP_004861543.1|  PREDICTED: tumor protein D52 [Heterocephalus...    100   6e-23
+ref|XP_015711323.1|  PREDICTED: tumor protein D52 isoform X12 [Co...  98.6    7e-23
+ref|XP_015474739.1|  PREDICTED: tumor protein D52 isoform X1 [Par...  99.8    7e-23
+ref|XP_003999982.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  98.6    8e-23
+ref|XP_010207194.1|  PREDICTED: tumor protein D52 isoform X2 [Col...  99.8    8e-23
+ref|XP_014923042.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  98.6    8e-23
+ref|XP_010306622.1|  PREDICTED: tumor protein D52 isoform X2 [Bal...  99.4    9e-23
+ref|XP_010207193.1|  PREDICTED: tumor protein D52 isoform X1 [Col...  99.8    9e-23
+ref|XP_010306614.1|  PREDICTED: tumor protein D52 isoform X1 [Bal...  99.4    9e-23
+ref|XP_014334558.1|  PREDICTED: tumor protein D52 isoform X2 [Bos...  99.4    9e-23
+ref|XP_008491735.1|  PREDICTED: tumor protein D52 isoform X2 [Cal...  99.8    9e-23
+ref|XP_008947206.1|  PREDICTED: tumor protein D52 isoform X2 [Mer...  99.4    1e-22
+ref|XP_012984939.1|  PREDICTED: tumor protein D52 isoform X2 [Mel...  99.4    1e-22
+gb|KQK81307.1|  tumor protein D52 isoform X1 [Amazona aestiva]        99.8    1e-22
+ref|XP_010176972.1|  PREDICTED: tumor protein D52 isoform X2 [Mes...  99.4    1e-22
+ref|XP_008491734.1|  PREDICTED: tumor protein D52 isoform X1 [Cal...  99.8    1e-22
+ref|XP_014334557.1|  PREDICTED: tumor protein D52 isoform X1 [Bos...  99.4    1e-22
+ref|XP_010176971.1|  PREDICTED: tumor protein D52 isoform X1 [Mes...  99.4    1e-22
+ref|XP_008583696.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  98.2    1e-22
+ref|XP_012984938.1|  PREDICTED: tumor protein D52 isoform X1 [Mel...  99.8    1e-22
+ref|XP_004656947.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  98.2    1e-22
+ref|XP_009569224.1|  PREDICTED: tumor protein D52 isoform X2 [Cuc...  99.4    1e-22
+ref|XP_009084529.1|  PREDICTED: tumor protein D52 isoform X4 [Ser...  98.2    1e-22
+ref|XP_009569223.1|  PREDICTED: tumor protein D52 isoform X1 [Cuc...  99.4    1e-22
+gb|KFO28218.1|  Tumor protein D52 [Fukomys damarensis]                99.4    1e-22
+ref|XP_007073859.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.8    1e-22
+ref|XP_008947205.1|  PREDICTED: tumor protein D52 isoform X1 [Mer...  99.0    1e-22
+ref|XP_007441863.1|  PREDICTED: tumor protein D52 isoform X1 [Pyt...  98.6    2e-22
+ref|XP_006202445.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.8    2e-22
+ref|XP_015474744.1|  PREDICTED: tumor protein D52 isoform X5 [Par...  99.0    2e-22
+ref|XP_015711320.1|  PREDICTED: tumor protein D52 isoform X9 [Cot...  97.8    2e-22
+ref|XP_005042273.1|  PREDICTED: tumor protein D52 isoform X1 [Fic...  99.0    2e-22
+ref|XP_008137487.1|  PREDICTED: tumor protein D52 [Eptesicus fuscus]  98.6    2e-22
+ref|XP_005479454.1|  PREDICTED: tumor protein D52 isoform X2 [Zon...  98.6    2e-22
+ref|XP_015474743.1|  PREDICTED: tumor protein D52 isoform X4 [Par...  99.0    2e-22
+ref|XP_003940236.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.4    2e-22
+ref|XP_005426808.1|  PREDICTED: tumor protein D52 isoform X2 [Geo...  98.6    2e-22
+ref|XP_005479453.1|  PREDICTED: tumor protein D52 isoform X1 [Zon...  99.0    2e-22
+ref|XP_012396698.1|  PREDICTED: tumor protein D52 isoform X1 [Sar...  98.6    2e-22
+ref|XP_009890180.1|  PREDICTED: tumor protein D52 isoform X2 [Cha...  98.2    2e-22
+ref|XP_006057109.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.4    2e-22
+ref|XP_005426807.1|  PREDICTED: tumor protein D52 isoform X1 [Geo...  98.6    2e-22
+ref|XP_011582031.1|  PREDICTED: tumor protein D52 isoform X3 [Aqu...  96.7    2e-22
+ref|XP_009890179.1|  PREDICTED: tumor protein D52 isoform X1 [Cha...  98.6    2e-22
+ref|NP_001039866.1|  28S ribosomal protein S28, mitochondrial [Bo...  97.4    3e-22
+ref|XP_012902184.1|  PREDICTED: tumor protein D52 isoform X4 [Mus...  98.2    3e-22
+ref|XP_010861697.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.1    3e-22
+ref|XP_012306361.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.1    3e-22
+ref|XP_008518144.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.1    3e-22
+ref|XP_006727208.1|  PREDICTED: tumor protein D52 isoform X3 [Lep...  98.2    3e-22
+ref|XP_010004697.1|  PREDICTED: tumor protein D52 isoform X2 [Cha...  97.8    3e-22
+ref|XP_014820980.1|  PREDICTED: tumor protein D52 isoform X2 [Phi...  98.2    3e-22
+ref|XP_014820979.1|  PREDICTED: tumor protein D52 isoform X1 [Phi...  98.2    3e-22
+ref|XP_004774288.1|  PREDICTED: tumor protein D52 isoform X6 [Mus...  97.4    3e-22
+ref|XP_009863261.1|  PREDICTED: tumor protein D52 isoform X2 [Apa...  98.2    3e-22
+gb|ERE81722.1|  tumor protein D52-like isoform 2 [Cricetulus gris...  97.8    3e-22
+ref|XP_003782624.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.1    4e-22
+ref|XP_009863260.1|  PREDICTED: tumor protein D52 isoform X1 [Apa...  98.2    4e-22
+gb|ERE81719.1|  tumor protein D52-like isoform 2 [Cricetulus gris...  97.8    4e-22
+gb|ERE81723.1|  tumor protein D52-like isoform 2 [Cricetulus gris...  97.8    4e-22
+ref|XP_001915167.3|  PREDICTED: 28S ribosomal protein S28, mitoch...  97.1    4e-22
+ref|XP_004386067.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  96.7    4e-22
+gb|KFV53343.1|  Tumor protein D52 [Tyto alba]                         96.3    4e-22
+ref|XP_007053027.1|  PREDICTED: tumor protein D52 [Chelonia mydas]    97.8    4e-22
+ref|XP_015711321.1|  PREDICTED: tumor protein D52 isoform X10 [Co...  97.1    4e-22
+ref|XP_015711319.1|  PREDICTED: tumor protein D52 isoform X8 [Cot...  97.1    4e-22
+gb|KFQ01327.1|  Tumor protein D52 [Haliaeetus albicilla]              96.3    5e-22
+ref|XP_007451794.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  96.7    5e-22
+ref|XP_014309149.1|  PREDICTED: tumor protein D52 isoform X4 [Myo...  97.4    5e-22
+ref|XP_006086344.1|  PREDICTED: tumor protein D52 isoform X2 [Myo...  97.8    5e-22
+gb|KFW88800.1|  Tumor protein D52 [Phalacrocorax carbo]               96.3    5e-22
+gb|KFO91506.1|  Tumor protein D52 [Buceros rhinoceros silvestris]     96.3    5e-22
+ref|XP_012422838.1|  PREDICTED: tumor protein D52 isoform X3 [Odo...  97.4    5e-22
+gb|KFV11650.1|  Tumor protein D52 [Pterocles gutturalis]              96.3    5e-22
+gb|KFR04746.1|  Tumor protein D52 [Nipponia nippon]                   96.3    5e-22
+ref|XP_015341384.1|  PREDICTED: tumor protein D52 isoform X3 [Mar...  96.3    5e-22
+gb|KFM02931.1|  Tumor protein D52 [Aptenodytes forsteri]              96.3    5e-22
+ref|XP_012966355.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  96.3    5e-22
+ref|XP_005361851.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  96.3    5e-22
+ref|XP_004393786.1|  PREDICTED: tumor protein D52 isoform X6 [Odo...  96.3    6e-22
+ref|XP_004175296.1|  PREDICTED: tumor protein D52 isoform X2 [Tae...  97.4    6e-22
+gb|KFR16584.1|  Tumor protein D52 [Opisthocomus hoazin]               95.9    6e-22
+ref|XP_012427550.1|  PREDICTED: tumor protein D52 isoform X1 [Tae...  97.4    6e-22
+ref|XP_010007672.1|  PREDICTED: tumor protein D52 isoform X2 [Nes...  97.4    6e-22
+gb|KFW63016.1|  Tumor protein D52 [Pygoscelis adeliae]                95.9    6e-22
+ref|XP_010007670.1|  PREDICTED: tumor protein D52 isoform X1 [Nes...  97.4    6e-22
+ref|XP_015711318.1|  PREDICTED: tumor protein D52 isoform X7 [Cot...  96.7    6e-22
+ref|XP_014717328.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  96.3    6e-22
+gb|KFQ13901.1|  Tumor protein D52 [Leptosomus discolor]               95.9    7e-22
+ref|XP_014404849.1|  PREDICTED: tumor protein D52 isoform X2 [Myo...  97.4    7e-22
+ref|XP_014404851.1|  PREDICTED: tumor protein D52 isoform X4 [Myo...  97.1    7e-22
+ref|XP_009084514.1|  PREDICTED: tumor protein D52 isoform X2 [Ser...  97.1    8e-22
+ref|XP_013915848.1|  PREDICTED: tumor protein D52 isoform X1 [Tha...  96.3    8e-22
+ref|XP_009940388.1|  PREDICTED: tumor protein D52 isoform X1 [Opi...  97.8    8e-22
+ref|XP_009084506.1|  PREDICTED: tumor protein D52 isoform X1 [Ser...  97.1    8e-22
+ref|XP_006727209.1|  PREDICTED: tumor protein D52 isoform X4 [Lep...  96.7    8e-22
+ref|XP_006131621.1|  PREDICTED: tumor protein D52 isoform X1 [Pel...  96.7    1e-21
+ref|XP_014433227.1|  PREDICTED: tumor protein D52 isoform X3 [Pel...  95.9    1e-21
+ref|XP_004393784.1|  PREDICTED: tumor protein D52 isoform X4 [Odo...  95.9    1e-21
+ref|XP_010634537.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  95.1    2e-21
+gb|EHB07063.1|  Tumor protein D52 [Heterocephalus glaber]             95.9    2e-21
+ref|XP_004386060.1|  PREDICTED: tumor protein D52 [Trichechus man...  95.9    2e-21
+ref|XP_015711314.1|  PREDICTED: tumor protein D52 isoform X4 [Cot...  95.9    2e-21
+ref|XP_015711312.1|  PREDICTED: tumor protein D52 isoform X2 [Cot...  96.3    2e-21
+ref|XP_015138316.1|  PREDICTED: tumor protein D52 isoform X5 [Gal...  95.5    2e-21
+ref|XP_010220319.1|  PREDICTED: tumor protein D52 [Tinamus guttatus]  95.9    2e-21
+gb|KFW78658.1|  Tumor protein D52 [Manacus vitellinus]                94.4    2e-21
+ref|XP_015711313.1|  PREDICTED: tumor protein D52 isoform X3 [Cot...  95.9    2e-21
+ref|XP_004393782.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  94.7    2e-21
+ref|XP_015711311.1|  PREDICTED: tumor protein D52 isoform X1 [Cot...  95.9    2e-21
+ref|XP_015138317.1|  PREDICTED: tumor protein D52 isoform X6 [Gal...  95.1    2e-21
+gb|KFO62809.1|  Tumor protein D52 [Corvus brachyrhynchos]             94.4    2e-21
+ref|XP_009904064.1|  PREDICTED: tumor protein D52 [Picoides pubes...  95.5    2e-21
+ref|XP_012396696.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  92.4    2e-21
+ref|XP_005513719.1|  PREDICTED: tumor protein D52 [Columba livia]     95.9    3e-21
+ref|XP_004639813.1|  PREDICTED: tumor protein D52 isoform X1 [Oct...  95.5    3e-21
+ref|XP_004639814.1|  PREDICTED: tumor protein D52 isoform X2 [Oct...  95.5    3e-21
+ref|XP_015341382.1|  PREDICTED: tumor protein D52 isoform X1 [Mar...  95.1    3e-21
+gb|KFP34577.1|  Tumor protein D52 [Colius striatus]                   94.0    3e-21
+ref|XP_014380616.1|  PREDICTED: tumor protein D52 isoform X2 [All...  93.6    3e-21
+gb|ERE81717.1|  28S ribosomal protein S28 [Cricetulus griseus]        93.6    3e-21
+gb|KFO07372.1|  Tumor protein D52 [Balearica pavonina gibbericeps]    94.0    3e-21
+ref|NP_001020435.1|  tumor protein D52 isoform 4 [Mus musculus]       94.4    4e-21
+gb|KFQ23511.1|  Tumor protein D52 [Merops nubicus]                    94.0    4e-21
+gb|KFP00630.1|  Tumor protein D52 [Calypte anna]                      93.6    4e-21
+gb|EDM01016.1|  rCG41402, isoform CRA_b [Rattus norvegicus]           92.4    4e-21
+ref|XP_009807982.1|  PREDICTED: tumor protein D52 isoform X4 [Gav...  94.7    4e-21
+ref|XP_015424236.1|  PREDICTED: tumor protein D52 isoform X2 [Myo...  95.1    4e-21
+ref|XP_009077895.1|  PREDICTED: tumor protein D52 isoform X4 [Aca...  94.7    5e-21
+ref|XP_015424242.1|  PREDICTED: tumor protein D52 isoform X4 [Myo...  95.1    5e-21
+ref|XP_014726201.1|  PREDICTED: tumor protein D52 isoform X3 [Stu...  93.2    5e-21
+ref|XP_009807908.1|  PREDICTED: tumor protein D52 isoform X3 [Gav...  95.1    5e-21
+ref|XP_009966878.1|  PREDICTED: tumor protein D52 isoform X3 [Tyt...  94.7    5e-21
+ref|XP_010077340.1|  PREDICTED: tumor protein D52 isoform X4 [Pte...  94.4    5e-21
+ref|XP_010115560.1|  PREDICTED: tumor protein D52 isoform X4 [Chl...  94.7    5e-21
+gb|KFV88864.1|  Tumor protein D52 [Struthio camelus australis]        93.6    5e-21
+gb|EDL05194.1|  mCG10134, isoform CRA_e [Mus musculus]                94.0    5e-21
+ref|XP_015138319.1|  PREDICTED: tumor protein D52 isoform X8 [Gal...  94.0    5e-21
+ref|XP_009270656.1|  PREDICTED: tumor protein D52 isoform X2 [Apt...  94.7    6e-21
+ref|XP_007486977.1|  PREDICTED: dachshund homolog 1 isoform X6 [M...  94.7    6e-21
+ref|XP_009586301.1|  PREDICTED: tumor protein D52 isoform X3 [Ful...  94.7    6e-21
+ref|XP_009077894.1|  PREDICTED: tumor protein D52 isoform X3 [Aca...  94.4    6e-21
+ref|XP_009632771.1|  PREDICTED: tumor protein D52 isoform X4 [Egr...  94.7    6e-21
+ref|XP_009482725.1|  PREDICTED: tumor protein D52 isoform X4 [Pel...  94.7    6e-21
+gb|KFO71187.1|  Tumor protein D52 [Cuculus canorus]                   93.6    6e-21
+ref|XP_009470093.1|  PREDICTED: tumor protein D52 isoform X4 [Nip...  94.7    6e-21
+ref|XP_009270658.1|  PREDICTED: tumor protein D52 isoform X4 [Apt...  94.4    6e-21
+ref|XP_009482724.1|  PREDICTED: tumor protein D52 isoform X3 [Pel...  94.7    6e-21
+ref|XP_001377458.1|  PREDICTED: dachshund homolog 1 isoform X1 [M...  94.7    6e-21
+ref|XP_010077339.1|  PREDICTED: tumor protein D52 isoform X3 [Pte...  94.4    6e-21
+ref|XP_009940392.1|  PREDICTED: tumor protein D52 isoform X5 [Opi...  94.4    6e-21
+ref|XP_007619748.1|  PREDICTED: 28S ribosomal protein S28, mitoch...  93.6    6e-21
+ref|XP_010115485.1|  PREDICTED: tumor protein D52 isoform X3 [Chl...  94.7    6e-21
+ref|XP_015138321.1|  PREDICTED: tumor protein D52 isoform X10 [Ga...  94.0    6e-21
+ref|XP_010137287.1|  PREDICTED: tumor protein D52 isoform X3 [Buc...  94.4    6e-21
+ref|XP_011246445.1|  PREDICTED: tumor protein D52 isoform X4 [Mus...  94.7    6e-21
+gb|EDL05192.1|  mCG10134, isoform CRA_c [Mus musculus]                92.8    7e-21
+ref|XP_009913860.1|  PREDICTED: tumor protein D52 isoform X4 [Hal...  94.4    7e-21
+ref|XP_009687746.1|  PREDICTED: tumor protein D52 isoform X3 [Str...  93.2    7e-21
+ref|XP_009940391.1|  PREDICTED: tumor protein D52 isoform X4 [Opi...  94.4    7e-21
+ref|XP_009333278.1|  PREDICTED: tumor protein D52 isoform X2 [Pyg...  94.4    7e-21
+ref|XP_009953331.1|  PREDICTED: tumor protein D52 isoform X3 [Lep...  94.4    7e-21
+ref|XP_009470092.1|  PREDICTED: tumor protein D52 isoform X3 [Nip...  94.4    7e-21
+ref|XP_009913859.1|  PREDICTED: tumor protein D52 isoform X3 [Hal...  94.4    7e-21
+ref|XP_006034635.1|  PREDICTED: tumor protein D52 isoform X1 [All...  93.6    7e-21
+ref|XP_010170314.1|  PREDICTED: tumor protein D52 isoform X4 [Cap...  94.4    8e-21
+ref|XP_009333280.1|  PREDICTED: tumor protein D52 isoform X4 [Pyg...  94.0    8e-21
+ref|XP_010170313.1|  PREDICTED: tumor protein D52 isoform X3 [Cap...  94.4    8e-21
+ref|XP_009702980.1|  PREDICTED: tumor protein D52 isoform X4 [Car...  94.0    8e-21
+ref|XP_011374560.1|  PREDICTED: hairy/enhancer-of-split related w...  93.2    9e-21
+ref|XP_015138313.1|  PREDICTED: tumor protein D52 isoform X3 [Gal...  94.0    9e-21
+ref|XP_015687544.1|  PREDICTED: tumor protein D52 isoform X3 [Pro...  94.0    9e-21
+
+
+>ref|NP_001020424.1| tumor protein D52 isoform 2 [Homo sapiens]
+ dbj|BAH12078.1| unnamed protein product [Homo sapiens]
+Length=207
+
+ Score =   126 bits (317),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  207
+
+
+>ref|XP_008954912.1| PREDICTED: tumor protein D52 isoform X2 [Pan paniscus]
+ ref|XP_009453820.1| PREDICTED: tumor protein D52 isoform X5 [Pan troglodytes]
+Length=198
+
+ Score =   125 bits (313),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  139  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  198
+
+
+>ref|XP_007999150.1| PREDICTED: tumor protein D52 isoform X9 [Chlorocebus sabaeus]
+Length=204
+
+ Score =   125 bits (314),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  145  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  204
+
+
+>ref|XP_011887262.1| PREDICTED: tumor protein D52 isoform X5 [Cercocebus atys]
+ ref|XP_015001013.1| PREDICTED: tumor protein D52 isoform X6 [Macaca mulatta]
+ ref|XP_015310479.1| PREDICTED: tumor protein D52 isoform X7 [Macaca fascicularis]
+Length=204
+
+ Score =   125 bits (313),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  145  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  204
+
+
+>ref|XP_009211512.1| PREDICTED: tumor protein D52 isoform X5 [Papio anubis]
+ ref|XP_011887263.1| PREDICTED: tumor protein D52 isoform X6 [Cercocebus atys]
+Length=198
+
+ Score =   125 bits (313),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  139  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  198
+
+
+>ref|XP_001162922.2| PREDICTED: tumor protein D52 isoform X4 [Pan troglodytes]
+ ref|XP_003831325.1| PREDICTED: tumor protein D52 isoform X1 [Pan paniscus]
+ ref|XP_004047235.1| PREDICTED: tumor protein D52 [Gorilla gorilla gorilla]
+ emb|CAH92494.1| hypothetical protein [Pongo abelii]
+Length=207
+
+ Score =   125 bits (313),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  207
+
+
+>ref|NP_001127089.1| tumor protein D52 [Pongo abelii]
+ emb|CAI29642.1| hypothetical protein [Pongo abelii]
+Length=207
+
+ Score =   125 bits (313),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  207
+
+
+>ref|XP_003269524.1| PREDICTED: tumor protein D52 isoform X5 [Nomascus leucogenys]
+Length=207
+
+ Score =   125 bits (313),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  207
+
+
+>ref|XP_003902945.1| PREDICTED: tumor protein D52 isoform X4 [Papio anubis]
+ ref|XP_011887261.1| PREDICTED: tumor protein D52 isoform X4 [Cercocebus atys]
+Length=207
+
+ Score =   125 bits (313),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  207
+
+
+>ref|XP_011742718.1| PREDICTED: tumor protein D52 isoform X4 [Macaca nemestrina]
+Length=207
+
+ Score =   125 bits (313),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  207
+
+
+>ref|XP_010949954.1| PREDICTED: tumor protein D52 isoform X3 [Camelus bactrianus]
+ ref|XP_010949963.1| PREDICTED: tumor protein D52 isoform X3 [Camelus bactrianus]
+ ref|XP_010949970.1| PREDICTED: tumor protein D52 isoform X3 [Camelus bactrianus]
+ ref|XP_010977698.1| PREDICTED: tumor protein D52 isoform X3 [Camelus dromedarius]
+ ref|XP_010977699.1| PREDICTED: tumor protein D52 isoform X3 [Camelus dromedarius]
+ ref|XP_010977700.1| PREDICTED: tumor protein D52 isoform X3 [Camelus dromedarius]
+ ref|XP_014422509.1| PREDICTED: tumor protein D52 isoform X1 [Camelus ferus]
+Length=184
+
+ Score =   124 bits (310),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  125  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  184
+
+
+>ref|NP_001274071.1| tumor protein D52 isoform 5 [Homo sapiens]
+ gb|ACY08777.1| prostate leucine zipper variant 2 [Homo sapiens]
+Length=238
+
+ Score =   125 bits (313),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  238
+
+
+>ref|NP_001274069.1| tumor protein D52 isoform 4 [Homo sapiens]
+ gb|ACY08776.1| prostate leucine zipper variant 1 [Homo sapiens]
+Length=247
+
+ Score =   125 bits (313),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  247
+
+
+>ref|XP_012306364.1| PREDICTED: tumor protein D52 isoform X3 [Aotus nancymaae]
+Length=234
+
+ Score =   124 bits (310),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  175  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  234
+
+
+>ref|XP_011792534.1| PREDICTED: tumor protein D52 isoform X2 [Colobus angolensis palliatus]
+Length=238
+
+ Score =   124 bits (310),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_003311827.1| PREDICTED: tumor protein D52 isoform X2 [Pan troglodytes]
+ ref|XP_004047238.1| PREDICTED: tumor protein D52 [Gorilla gorilla gorilla]
+Length=238
+
+ Score =   124 bits (310),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_004090802.1| PREDICTED: tumor protein D52 isoform X2 [Nomascus leucogenys]
+Length=238
+
+ Score =   124 bits (310),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_003940234.1| PREDICTED: tumor protein D52 isoform X2 [Saimiri boliviensis 
+boliviensis]
+Length=238
+
+ Score =   124 bits (310),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_007999146.1| PREDICTED: tumor protein D52 isoform X5 [Chlorocebus sabaeus]
+Length=279
+
+ Score =   124 bits (312),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  220  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  279
+
+
+>ref|XP_011742716.1| PREDICTED: tumor protein D52 isoform X2 [Macaca nemestrina]
+Length=238
+
+ Score =   124 bits (310),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_011792533.1| PREDICTED: tumor protein D52 isoform X1 [Colobus angolensis palliatus]
+Length=247
+
+ Score =   124 bits (310),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_003902947.1| PREDICTED: tumor protein D52 isoform X2 [Papio anubis]
+ ref|XP_007999148.1| PREDICTED: tumor protein D52 isoform X7 [Chlorocebus sabaeus]
+ ref|XP_011844473.1| PREDICTED: tumor protein D52 isoform X2 [Mandrillus leucophaeus]
+ ref|XP_011887259.1| PREDICTED: tumor protein D52 isoform X2 [Cercocebus atys]
+Length=238
+
+ Score =   124 bits (310),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_003311826.1| PREDICTED: tumor protein D52 isoform X1 [Pan troglodytes]
+ ref|XP_004047237.1| PREDICTED: tumor protein D52 [Gorilla gorilla gorilla]
+Length=247
+
+ Score =   124 bits (310),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_003269527.1| PREDICTED: tumor protein D52 isoform X1 [Nomascus leucogenys]
+Length=247
+
+ Score =   124 bits (310),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_003940233.1| PREDICTED: tumor protein D52 isoform X1 [Saimiri boliviensis 
+boliviensis]
+Length=247
+
+ Score =   124 bits (310),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_015001010.1| PREDICTED: tumor protein D52 isoform X4 [Macaca mulatta]
+ ref|XP_015310477.1| PREDICTED: tumor protein D52 isoform X5 [Macaca fascicularis]
+Length=238
+
+ Score =   123 bits (309),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_003902946.1| PREDICTED: tumor protein D52 isoform X1 [Papio anubis]
+ ref|XP_007999147.1| PREDICTED: tumor protein D52 isoform X6 [Chlorocebus sabaeus]
+ ref|XP_011844472.1| PREDICTED: tumor protein D52 isoform X1 [Mandrillus leucophaeus]
+ ref|XP_011887258.1| PREDICTED: tumor protein D52 isoform X1 [Cercocebus atys]
+Length=247
+
+ Score =   124 bits (310),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_012306363.1| PREDICTED: tumor protein D52 isoform X2 [Aotus nancymaae]
+Length=238
+
+ Score =   123 bits (309),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_012306362.1| PREDICTED: tumor protein D52 isoform X1 [Aotus nancymaae]
+Length=247
+
+ Score =   124 bits (310),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_011742715.1| PREDICTED: tumor protein D52 isoform X1 [Macaca nemestrina]
+Length=247
+
+ Score =   124 bits (310),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_015001009.1| PREDICTED: tumor protein D52 isoform X3 [Macaca mulatta]
+ ref|XP_015310476.1| PREDICTED: tumor protein D52 isoform X4 [Macaca fascicularis]
+Length=247
+
+ Score =   123 bits (309),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_012518616.1| PREDICTED: tumor protein D52 isoform X5 [Propithecus coquereli]
+Length=207
+
+ Score =   122 bits (305),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT TEPLPE TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATATEPLPEPTQESL  207
+
+
+>ref|XP_007520217.1| PREDICTED: tumor protein D52 isoform X2 [Erinaceus europaeus]
+Length=238
+
+ Score =   122 bits (305),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  238
+
+
+>ref|XP_008058283.1| PREDICTED: tumor protein D52 isoform X2 [Tarsius syrichta]
+Length=238
+
+ Score =   122 bits (305),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT TEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATATEPLPEQTQESL  238
+
+
+>ref|XP_008058282.1| PREDICTED: tumor protein D52 isoform X1 [Tarsius syrichta]
+Length=247
+
+ Score =   122 bits (305),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT TEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATATEPLPEQTQESL  247
+
+
+>ref|XP_007520216.1| PREDICTED: tumor protein D52 isoform X1 [Erinaceus europaeus]
+Length=247
+
+ Score =   122 bits (305),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_015093183.1| PREDICTED: tumor protein D52 [Vicugna pacos]
+Length=242
+
+ Score =   121 bits (304),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  183  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  242
+
+
+>ref|XP_010949940.1| PREDICTED: tumor protein D52 isoform X1 [Camelus bactrianus]
+ ref|XP_010977696.1| PREDICTED: tumor protein D52 isoform X1 [Camelus dromedarius]
+Length=242
+
+ Score =   121 bits (304),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  183  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  242
+
+
+>ref|XP_007999143.1| PREDICTED: tumor protein D52 isoform X2 [Chlorocebus sabaeus]
+Length=356
+
+ Score =   123 bits (308),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  297  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  356
+
+
+>ref|XP_015001008.1| PREDICTED: tumor protein D52 isoform X2 [Macaca mulatta]
+ ref|XP_015310474.1| PREDICTED: tumor protein D52 isoform X2 [Macaca fascicularis]
+Length=351
+
+ Score =   123 bits (308),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  292  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  351
+
+
+>ref|XP_015001007.1| PREDICTED: tumor protein D52 isoform X1 [Macaca mulatta]
+ ref|XP_015310473.1| PREDICTED: tumor protein D52 isoform X1 [Macaca fascicularis]
+Length=360
+
+ Score =   123 bits (308),  Expect = 7e-31, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  301  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  360
+
+
+>ref|XP_007999142.1| PREDICTED: tumor protein D52 isoform X1 [Chlorocebus sabaeus]
+Length=365
+
+ Score =   123 bits (308),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  306  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  365
+
+
+>ref|XP_012518612.1| PREDICTED: tumor protein D52 isoform X2 [Propithecus coquereli]
+Length=238
+
+ Score =   120 bits (301),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT TEPLPE TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATATEPLPEPTQESL  238
+
+
+>ref|XP_012518611.1| PREDICTED: tumor protein D52 isoform X1 [Propithecus coquereli]
+Length=247
+
+ Score =   120 bits (302),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 58/60 (97%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT TEPLPE TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATATEPLPEPTQESL  247
+
+
+>ref|XP_007123426.1| PREDICTED: tumor protein D52-like isoform X2 [Physeter catodon]
+ ref|XP_007451796.1| PREDICTED: tumor protein D52 isoform X2 [Lipotes vexillifer]
+Length=238
+
+ Score =   120 bits (301),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  238
+
+
+>ref|XP_004276226.1| PREDICTED: tumor protein D52 isoform X2 [Orcinus orca]
+Length=238
+
+ Score =   120 bits (301),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  238
+
+
+>ref|XP_008583700.1| PREDICTED: tumor protein D52 isoform X2 [Galeopterus variegatus]
+Length=238
+
+ Score =   120 bits (300),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT+TEPLPE+T+ESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATSTEPLPEQTKESL  238
+
+
+>ref|XP_007185156.1| PREDICTED: tumor protein D52 isoform X2 [Balaenoptera acutorostrata 
+scammoni]
+Length=238
+
+ Score =   120 bits (300),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  238
+
+
+>ref|XP_007123425.1| PREDICTED: tumor protein D52-like isoform X1 [Physeter catodon]
+ ref|XP_007451795.1| PREDICTED: tumor protein D52 isoform X1 [Lipotes vexillifer]
+Length=247
+
+ Score =   120 bits (301),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  247
+
+
+>ref|XP_004276225.1| PREDICTED: tumor protein D52 isoform X1 [Orcinus orca]
+Length=247
+
+ Score =   120 bits (301),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  247
+
+
+>ref|XP_007185155.1| PREDICTED: tumor protein D52 isoform X1 [Balaenoptera acutorostrata 
+scammoni]
+Length=247
+
+ Score =   120 bits (300),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  247
+
+
+>ref|XP_006168984.1| PREDICTED: tumor protein D52 isoform X2 [Tupaia chinensis]
+Length=238
+
+ Score =   120 bits (300),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQESL  238
+
+
+>ref|XP_008583699.1| PREDICTED: tumor protein D52 isoform X1 [Galeopterus variegatus]
+Length=247
+
+ Score =   120 bits (300),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT+TEPLPE+T+ESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATSTEPLPEQTKESL  247
+
+
+>ref|XP_003782581.1| PREDICTED: tumor protein D52 isoform X5 [Otolemur garnettii]
+Length=207
+
+ Score =   119 bits (297),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEP PE TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPHPEPTQESL  207
+
+
+>ref|XP_006168983.1| PREDICTED: tumor protein D52 isoform X1 [Tupaia chinensis]
+Length=247
+
+ Score =   120 bits (300),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQESL  247
+
+
+>ref|XP_004680077.1| PREDICTED: tumor protein D52 [Condylura cristata]
+Length=234
+
+ Score =   119 bits (299),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGE+LNS ANASAT TEPLPE+TQESL
+Sbjct  175  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEILNSTANASATATEPLPEQTQESL  234
+
+
+>ref|XP_014640473.1| PREDICTED: tumor protein D52 isoform X4 [Ceratotherium simum 
+simum]
+Length=238
+
+ Score =   119 bits (298),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQESL  238
+
+
+>ref|XP_012595443.1| PREDICTED: tumor protein D52 [Microcebus murinus]
+Length=238
+
+ Score =   119 bits (297),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEPTQESL  238
+
+
+>ref|XP_004842071.1| PREDICTED: tumor protein D52 isoform X4 [Heterocephalus glaber]
+Length=206
+
+ Score =   117 bits (294),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEP PE+TQESL
+Sbjct  147  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPPPEQTQESL  206
+
+
+>ref|XP_004321039.1| PREDICTED: LOW QUALITY PROTEIN: tumor protein D52 [Tursiops truncatus]
+Length=250
+
+ Score =   119 bits (297),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+ QESL
+Sbjct  191  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQAQESL  250
+
+
+>ref|XP_008518156.1| PREDICTED: tumor protein D52 isoform X10 [Equus przewalskii]
+Length=242
+
+ Score =   118 bits (296),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  183  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  242
+
+
+>ref|XP_004479156.1| PREDICTED: tumor protein D52 isoform X4 [Dasypus novemcinctus]
+Length=207
+
+ Score =   117 bits (293),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPL E+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLTEQTQESL  207
+
+
+>ref|XP_012665928.1| PREDICTED: tumor protein D52 isoform X2 [Otolemur garnettii]
+Length=238
+
+ Score =   117 bits (294),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEP PE TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPHPEPTQESL  238
+
+
+>ref|XP_012665925.1| PREDICTED: tumor protein D52 isoform X1 [Otolemur garnettii]
+Length=247
+
+ Score =   117 bits (294),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 57/60 (95%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEP PE TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPHPEPTQESL  247
+
+
+>ref|XP_012926665.1| PREDICTED: tumor protein D52 isoform X2 [Heterocephalus glaber]
+Length=238
+
+ Score =   117 bits (292),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEP PE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPPPEQTQESL  238
+
+
+>ref|NP_005070.1| tumor protein D52 isoform 3 [Homo sapiens]
+ gb|AAC50183.1| predicted 184 amino acid peptide with a molecular mass of 19.8 
+kDa [Homo sapiens]
+ gb|AAB36475.1| N8 gene product [Homo sapiens]
+ gb|AAH18117.1| Tumor protein D52 [Homo sapiens]
+ emb|CAG46861.1| TPD52 [Homo sapiens]
+ gb|AAV38251.1| tumor protein D52 [Homo sapiens]
+ gb|AAX41273.1| tumor protein D52 [synthetic construct]
+ gb|AAX41786.1| tumor protein D52 [synthetic construct]
+ gb|EAW87074.1| tumor protein D52, isoform CRA_b [Homo sapiens]
+ gb|ABM81958.1| tumor protein D52 [synthetic construct]
+ gb|ABM85137.1| tumor protein D52 [synthetic construct]
+ dbj|BAG35954.1| unnamed protein product [Homo sapiens]
+ gb|AIC49889.1| TPD52, partial [synthetic construct]
+Length=184
+
+ Score =   115 bits (288),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  184
+
+
+>ref|XP_004842070.1| PREDICTED: tumor protein D52 isoform X1 [Heterocephalus glaber]
+Length=247
+
+ Score =   117 bits (292),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEP PE+TQESL
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPPPEQTQESL  247
+
+
+>gb|AAX41272.1| tumor protein D52 [synthetic construct]
+Length=184
+
+ Score =   115 bits (288),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  184
+
+
+>gb|AAX37143.1| tumor protein D52 [synthetic construct]
+Length=185
+
+ Score =   115 bits (288),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  184
+
+
+>emb|CAG46831.1| TPD52 [Homo sapiens]
+ gb|AAX36654.1| tumor protein D52 [synthetic construct]
+Length=184
+
+ Score =   115 bits (287),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  184
+
+
+>ref|XP_004479154.1| PREDICTED: tumor protein D52 isoform X2 [Dasypus novemcinctus]
+Length=233
+
+ Score =   116 bits (290),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPL E+TQESL
+Sbjct  174  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLTEQTQESL  233
+
+
+>ref|XP_012375324.1| PREDICTED: tumor protein D52 isoform X1 [Dasypus novemcinctus]
+Length=242
+
+ Score =   116 bits (290),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPL E+TQESL
+Sbjct  183  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLTEQTQESL  242
+
+
+>ref|NP_001274072.1| tumor protein D52 isoform 6 [Homo sapiens]
+ gb|ACY08778.1| prostate leucine zipper isoform 3 [Homo sapiens]
+Length=233
+
+ Score =   115 bits (289),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 56/58 (97%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  233
+
+
+>dbj|BAD97351.1| N8 protein long isoform (Fragment) variant [Homo sapiens]
+Length=222
+
+ Score =   115 bits (288),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  166  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  222
+
+
+>ref|XP_012351539.1| PREDICTED: tumor protein D52 isoform X7 [Nomascus leucogenys]
+Length=179
+
+ Score =   114 bits (285),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  123  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  179
+
+
+>ref|XP_011742720.1| PREDICTED: tumor protein D52 isoform X5 [Macaca nemestrina]
+Length=184
+
+ Score =   114 bits (285),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  184
+
+
+>ref|NP_001253071.1| tumor protein D52 [Macaca mulatta]
+ ref|XP_003902944.1| PREDICTED: tumor protein D52 isoform X6 [Papio anubis]
+ ref|XP_011887264.1| PREDICTED: tumor protein D52 isoform X7 [Cercocebus atys]
+Length=184
+
+ Score =   114 bits (285),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  184
+
+
+>ref|XP_003311824.1| PREDICTED: tumor protein D52 isoform X6 [Pan troglodytes]
+ ref|XP_003831324.1| PREDICTED: tumor protein D52 isoform X3 [Pan paniscus]
+ ref|XP_004047234.1| PREDICTED: tumor protein D52 [Gorilla gorilla gorilla]
+Length=184
+
+ Score =   114 bits (285),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  184
+
+
+>ref|XP_003269525.1| PREDICTED: tumor protein D52 isoform X6 [Nomascus leucogenys]
+Length=184
+
+ Score =   114 bits (284),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  184
+
+
+>ref|XP_010376789.1| PREDICTED: tumor protein D52 isoform X2 [Rhinopithecus roxellana]
+Length=184
+
+ Score =   114 bits (284),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  184
+
+
+>dbj|BAE89847.1| unnamed protein product [Macaca fascicularis]
+Length=184
+
+ Score =   114 bits (284),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  184
+
+
+>ref|XP_003480093.1| PREDICTED: tumor protein D52 isoform X1 [Cavia porcellus]
+Length=246
+
+ Score =   115 bits (287),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 55/60 (92%), Positives = 56/60 (93%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKP GGDFGEVLNS ANASAT TEP PE+TQESL
+Sbjct  187  MPAMRNSPTFKSFEEKVENLKSKVGGTKPTGGDFGEVLNSTANASATVTEPPPEQTQESL  246
+
+
+>ref|XP_005638122.1| PREDICTED: tumor protein D52 isoform X2 [Canis lupus familiaris]
+Length=198
+
+ Score =   114 bits (284),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 54/59 (92%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT  EPLPE+TQ S
+Sbjct  139  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATAPEPLPEQTQAS  197
+
+
+>ref|XP_005638121.1| PREDICTED: tumor protein D52 isoform X1 [Canis lupus familiaris]
+Length=207
+
+ Score =   114 bits (284),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 54/59 (92%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT  EPLPE+TQ S
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATAPEPLPEQTQAS  206
+
+
+>ref|NP_001020423.1| tumor protein D52 isoform 1 [Homo sapiens]
+ sp|P55327.2|TPD52_HUMAN RecName: Full=Tumor protein D52; AltName: Full=Protein N8
+ gb|AAO22156.1|AF202897_1 prostate and colon associated protein [Homo sapiens]
+ emb|CAE45908.1| hypothetical protein [Homo sapiens]
+ dbj|BAH12400.1| unnamed protein product [Homo sapiens]
+ gb|ACY08779.1| prostate leucine zipper isoform 4 [Homo sapiens]
+Length=224
+
+ Score =   114 bits (285),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  224
+
+
+>ref|XP_011792535.1| PREDICTED: tumor protein D52 isoform X3 [Colobus angolensis palliatus]
+Length=233
+
+ Score =   114 bits (286),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/58 (95%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  233
+
+
+>ref|XP_014422510.1| PREDICTED: tumor protein D52 isoform X2 [Camelus ferus]
+Length=161
+
+ Score =   112 bits (281),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 53/57 (93%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  105  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  161
+
+
+>ref|XP_004090803.1| PREDICTED: tumor protein D52 isoform X3 [Nomascus leucogenys]
+Length=233
+
+ Score =   114 bits (285),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/58 (95%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  233
+
+
+>ref|XP_004047239.1| PREDICTED: tumor protein D52 [Gorilla gorilla gorilla]
+Length=233
+
+ Score =   114 bits (285),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/58 (95%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  233
+
+
+>ref|XP_011844474.1| PREDICTED: tumor protein D52 isoform X3 [Mandrillus leucophaeus]
+Length=233
+
+ Score =   114 bits (285),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/58 (95%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  233
+
+
+>gb|AAB36476.1| N8 gene product long isoform, N8L protein=D52 homolog/leucine 
+zipper protein {alternatively spliced, clone HK4a1} [human, 
+normal kidney, Peptide, 248 aa]
+Length=248
+
+ Score =   114 bits (286),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL
+Sbjct  192  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  248
+
+
+>ref|XP_008981068.1| PREDICTED: tumor protein D52 [Callithrix jacchus]
+Length=247
+
+ Score =   114 bits (285),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  191  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  247
+
+
+>ref|XP_010376788.1| PREDICTED: tumor protein D52 isoform X1 [Rhinopithecus roxellana]
+Length=224
+
+ Score =   113 bits (282),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_011792536.1| PREDICTED: tumor protein D52 isoform X4 [Colobus angolensis palliatus]
+Length=224
+
+ Score =   113 bits (282),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_003940232.1| PREDICTED: tumor protein D52 isoform X3 [Saimiri boliviensis 
+boliviensis]
+Length=224
+
+ Score =   113 bits (282),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_003311825.1| PREDICTED: tumor protein D52 isoform X3 [Pan troglodytes]
+ ref|XP_004047236.1| PREDICTED: tumor protein D52 [Gorilla gorilla gorilla]
+Length=224
+
+ Score =   113 bits (282),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_003269526.1| PREDICTED: tumor protein D52 isoform X4 [Nomascus leucogenys]
+Length=224
+
+ Score =   113 bits (282),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>gb|EAW87071.1| mitochondrial ribosomal protein S28, isoform CRA_c [Homo sapiens]
+ gb|ALQ34072.1| mitochondrial ribosomal protein S28 isoform 4, partial [Homo 
+sapiens]
+Length=181
+
+ Score =   112 bits (279),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_006830957.1| PREDICTED: tumor protein D52 [Chrysochloris asiatica]
+Length=249
+
+ Score =   113 bits (283),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 54/59 (92%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT+TEPL E+TQE+
+Sbjct  190  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATSTEPLTEQTQET  248
+
+
+>ref|XP_002819251.2| PREDICTED: 28S ribosomal protein S28, mitochondrial [Pongo abelii]
+Length=181
+
+ Score =   112 bits (279),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_012306365.1| PREDICTED: tumor protein D52 isoform X4 [Aotus nancymaae]
+Length=224
+
+ Score =   112 bits (281),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_011742717.1| PREDICTED: tumor protein D52 isoform X3 [Macaca nemestrina]
+Length=224
+
+ Score =   112 bits (281),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_004047241.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform 2 
+[Gorilla gorilla gorilla]
+Length=187
+
+ Score =   112 bits (279),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  133  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  187
+
+
+>ref|XP_007999149.1| PREDICTED: tumor protein D52 isoform X8 [Chlorocebus sabaeus]
+ ref|XP_009211511.1| PREDICTED: tumor protein D52 isoform X3 [Papio anubis]
+ ref|XP_011844475.1| PREDICTED: tumor protein D52 isoform X4 [Mandrillus leucophaeus]
+ ref|XP_011887260.1| PREDICTED: tumor protein D52 isoform X3 [Cercocebus atys]
+Length=224
+
+ Score =   112 bits (281),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_004047240.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform 1 
+[Gorilla gorilla gorilla]
+Length=186
+
+ Score =   112 bits (279),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|XP_015001011.1| PREDICTED: tumor protein D52 isoform X5 [Macaca mulatta]
+ ref|XP_015310478.1| PREDICTED: tumor protein D52 isoform X6 [Macaca fascicularis]
+ gb|EHH28596.1| Protein N8 [Macaca mulatta]
+ gb|EHH64254.1| Protein N8 [Macaca fascicularis]
+Length=224
+
+ Score =   112 bits (281),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_003831329.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Pan paniscus]
+ ref|XP_003951325.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Pan troglodytes]
+ ref|XP_009453816.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Pan troglodytes]
+Length=186
+
+ Score =   111 bits (278),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|NP_054737.1| 28S ribosomal protein S28, mitochondrial [Homo sapiens]
+ sp|Q9Y2Q9.1|RT28_HUMAN RecName: Full=28S ribosomal protein S28, mitochondrial; Short=MRP-S28; 
+Short=S28mt; AltName: Full=28S ribosomal protein S35, 
+mitochondrial; Short=MRP-S35; Short=S35mt; Flags: Precursor
+ gb|AAD20969.1| HSPC007 [Homo sapiens]
+ gb|AAH10150.1| Mitochondrial ribosomal protein S28 [Homo sapiens]
+ gb|EAW87069.1| mitochondrial ribosomal protein S28, isoform CRA_a [Homo sapiens]
+ dbj|BAG38094.1| unnamed protein product [Homo sapiens]
+ gb|ADZ15798.1| mitochondrial ribosomal protein S28 [synthetic construct]
+ gb|ALQ34070.1| mitochondrial ribosomal protein S28 isoform 1, partial [Homo 
+sapiens]
+Length=187
+
+ Score =   111 bits (278),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  133  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  187
+
+
+>dbj|BAD96789.1| mitochondrial ribosomal protein S28 variant [Homo sapiens]
+Length=187
+
+ Score =   111 bits (278),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  133  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  187
+
+
+>gb|EAW87070.1| mitochondrial ribosomal protein S28, isoform CRA_b [Homo sapiens]
+ gb|ALQ34071.1| mitochondrial ribosomal protein S28 isoform 2, partial [Homo 
+sapiens]
+Length=192
+
+ Score =   111 bits (278),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK
+Sbjct  138  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  192
+
+
+>ref|XP_010634543.1| PREDICTED: tumor protein D52 isoform X5 [Fukomys damarensis]
+Length=212
+
+ Score =   112 bits (279),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 55/60 (92%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAG DFGEVLNS ANASAT TEP  E+TQESL
+Sbjct  153  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGSDFGEVLNSTANASATDTEPPTEQTQESL  212
+
+
+>ref|XP_007520218.1| PREDICTED: tumor protein D52 isoform X3 [Erinaceus europaeus]
+Length=233
+
+ Score =   112 bits (280),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 54/58 (93%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  233
+
+
+>ref|XP_004276230.1| PREDICTED: tumor protein D52 isoform X6 [Orcinus orca]
+Length=184
+
+ Score =   110 bits (276),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  184
+
+
+>ref|XP_004276229.1| PREDICTED: tumor protein D52 isoform X5 [Orcinus orca]
+Length=184
+
+ Score =   110 bits (276),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  184
+
+
+>ref|XP_006880611.1| PREDICTED: tumor protein D52 [Elephantulus edwardii]
+Length=247
+
+ Score =   112 bits (280),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 55/58 (95%), Gaps = 0/58 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA+TTEPL E+T E
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASASTTEPLVEQTSE  245
+
+
+>ref|XP_015310475.1| PREDICTED: tumor protein D52 isoform X3 [Macaca fascicularis]
+Length=337
+
+ Score =   113 bits (283),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  281  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  337
+
+
+>ref|XP_007999144.1| PREDICTED: tumor protein D52 isoform X3 [Chlorocebus sabaeus]
+Length=342
+
+ Score =   113 bits (283),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 54/57 (95%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPE+TQESL
+Sbjct  286  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEQTQESL  342
+
+
+>ref|XP_005392117.1| PREDICTED: tumor protein D52 isoform X1 [Chinchilla lanigera]
+Length=246
+
+ Score =   112 bits (279),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 55/60 (92%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKP GGDFGEVLNS ANASAT TEP PE+T ESL
+Sbjct  187  MPAMRNSPTFKSFEEKVENLKSKVGGTKPTGGDFGEVLNSTANASATATEPPPEQTPESL  246
+
+
+>ref|XP_004602619.1| PREDICTED: tumor protein D52 [Sorex araneus]
+Length=247
+
+ Score =   111 bits (278),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 52/59 (88%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNS ANAS T +EPLPE+ QES
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSTANASGTASEPLPEQMQES  246
+
+
+>ref|XP_012351541.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Nomascus leucogenys]
+Length=181
+
+ Score =   110 bits (274),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 54/55 (98%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEADAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_005336072.1| PREDICTED: tumor protein D52 isoform X2 [Ictidomys tridecemlineatus]
+Length=237
+
+ Score =   111 bits (278),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 55/60 (92%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS T TEP  E+TQESL
+Sbjct  178  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASVTATEPPTEQTQESL  237
+
+
+>ref|XP_007451798.1| PREDICTED: tumor protein D52 isoform X4 [Lipotes vexillifer]
+Length=233
+
+ Score =   111 bits (277),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  233
+
+
+>ref|XP_004276227.1| PREDICTED: tumor protein D52 isoform X3 [Orcinus orca]
+Length=233
+
+ Score =   111 bits (277),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  233
+
+
+>ref|XP_011289638.1| PREDICTED: tumor protein D52 isoform X1 [Felis catus]
+Length=206
+
+ Score =   110 bits (275),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 56/60 (93%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA T+EPLPE+TQ  L
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA-TSEPLPEQTQGGL  206
+
+
+>ref|XP_005336071.1| PREDICTED: tumor protein D52 isoform X1 [Ictidomys tridecemlineatus]
+Length=246
+
+ Score =   111 bits (278),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 55/60 (92%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS T TEP  E+TQESL
+Sbjct  187  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASVTATEPPTEQTQESL  246
+
+
+>ref|XP_003269528.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Nomascus leucogenys]
+Length=186
+
+ Score =   110 bits (274),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 54/55 (98%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEADAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|XP_011844471.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Mandrillus leucophaeus]
+Length=181
+
+ Score =   109 bits (273),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_007520219.1| PREDICTED: tumor protein D52 isoform X4 [Erinaceus europaeus]
+Length=224
+
+ Score =   110 bits (276),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/57 (93%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  224
+
+
+>ref|XP_010949948.1| PREDICTED: tumor protein D52 isoform X2 [Camelus bactrianus]
+ ref|XP_010977697.1| PREDICTED: tumor protein D52 isoform X2 [Camelus dromedarius]
+Length=219
+
+ Score =   110 bits (276),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/57 (93%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEPLPE+TQESL
+Sbjct  163  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPLPEQTQESL  219
+
+
+>ref|XP_011792538.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Colobus angolensis palliatus]
+Length=181
+
+ Score =   109 bits (273),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_008583701.1| PREDICTED: tumor protein D52 isoform X3 [Galeopterus variegatus]
+Length=233
+
+ Score =   110 bits (276),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT+TEPLPE+T+ESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATSTEPLPEQTKESL  233
+
+
+>ref|XP_015001003.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Macaca mulatta]
+ ref|XP_005563658.2| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Macaca fascicularis]
+Length=181
+
+ Score =   109 bits (273),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_011887272.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X7 
+[Cercocebus atys]
+Length=181
+
+ Score =   109 bits (273),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_010376791.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Rhinopithecus roxellana]
+Length=181
+
+ Score =   109 bits (273),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_011844470.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Mandrillus leucophaeus]
+Length=186
+
+ Score =   109 bits (273),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|XP_014640472.1| PREDICTED: tumor protein D52 isoform X3 [Ceratotherium simum 
+simum]
+Length=192
+
+ Score =   109 bits (273),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQESL
+Sbjct  136  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQESL  192
+
+
+>ref|XP_010376790.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Rhinopithecus roxellana]
+Length=186
+
+ Score =   109 bits (273),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|XP_011792537.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Colobus angolensis palliatus]
+Length=186
+
+ Score =   109 bits (273),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|XP_011887271.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X6 
+[Cercocebus atys]
+Length=186
+
+ Score =   109 bits (273),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|NP_001248018.1| 28S ribosomal protein S28, mitochondrial [Macaca mulatta]
+ ref|XP_005563657.2| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Macaca fascicularis]
+Length=186
+
+ Score =   109 bits (273),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  186
+
+
+>gb|EHH64253.1| 28S ribosomal protein S28, mitochondrial [Macaca fascicularis]
+Length=187
+
+ Score =   109 bits (273),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  133  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  187
+
+
+>ref|XP_011887266.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Cercocebus atys]
+Length=198
+
+ Score =   109 bits (273),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 53/55 (96%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  144  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEEHHEK  198
+
+
+>ref|XP_008518149.1| PREDICTED: tumor protein D52 isoform X3 [Equus przewalskii]
+Length=219
+
+ Score =   110 bits (274),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  163  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  219
+
+
+>ref|NP_001231316.1| tumor protein D52 [Sus scrofa]
+Length=184
+
+ Score =   109 bits (272),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGG+KPAGGDFG+VLNS ANASATTTEPLPE+TQESL
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGSKPAGGDFGDVLNSTANASATTTEPLPEQTQESL  184
+
+
+>ref|XP_010586671.1| PREDICTED: tumor protein D52 isoform X2 [Loxodonta africana]
+Length=239
+
+ Score =   110 bits (275),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFG+VLNS ANASATTTEPL E+T E+
+Sbjct  180  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGDVLNSTANASATTTEPLIEQTPEN  238
+
+
+>ref|XP_010634540.1| PREDICTED: tumor protein D52 isoform X2 [Fukomys damarensis]
+Length=237
+
+ Score =   110 bits (275),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 55/60 (92%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAG DFGEVLNS ANASAT TEP  E+TQESL
+Sbjct  178  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGSDFGEVLNSTANASATDTEPPTEQTQESL  237
+
+
+>ref|XP_015393160.1| PREDICTED: tumor protein D52 isoform X2 [Panthera tigris altaica]
+Length=232
+
+ Score =   110 bits (274),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 56/60 (93%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA T+EPLPE+TQ  L
+Sbjct  174  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA-TSEPLPEQTQGGL  232
+
+
+>ref|XP_010634539.1| PREDICTED: tumor protein D52 isoform X1 [Fukomys damarensis]
+Length=246
+
+ Score =   110 bits (275),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 55/60 (92%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAG DFGEVLNS ANASAT TEP  E+TQESL
+Sbjct  187  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGSDFGEVLNSTANASATDTEPPTEQTQESL  246
+
+
+>ref|XP_015393157.1| PREDICTED: tumor protein D52 isoform X1 [Panthera tigris altaica]
+Length=241
+
+ Score =   110 bits (275),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 56/60 (93%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA T+EPLPE+TQ  L
+Sbjct  183  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA-TSEPLPEQTQGGL  241
+
+
+>ref|XP_014583423.1| PREDICTED: tumor protein D52 isoform X5 [Equus caballus]
+Length=191
+
+ Score =   109 bits (272),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  135  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  191
+
+
+>ref|XP_008518153.1| PREDICTED: tumor protein D52 isoform X7 [Equus przewalskii]
+Length=193
+
+ Score =   108 bits (271),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  137  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  193
+
+
+>ref|XP_014717332.1| PREDICTED: tumor protein D52 isoform X3 [Equus asinus]
+Length=187
+
+ Score =   108 bits (271),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  131  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  187
+
+
+>ref|XP_014583421.1| PREDICTED: tumor protein D52 isoform X3 [Equus caballus]
+Length=187
+
+ Score =   108 bits (271),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  131  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  187
+
+
+>ref|XP_010586670.1| PREDICTED: tumor protein D52 isoform X1 [Loxodonta africana]
+Length=248
+
+ Score =   110 bits (274),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 55/58 (95%), Gaps = 0/58 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFG+VLNS ANASATTTEPL E+T E
+Sbjct  189  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGDVLNSTANASATTTEPLIEQTPE  246
+
+
+>ref|XP_008518155.1| PREDICTED: tumor protein D52 isoform X9 [Equus przewalskii]
+ ref|XP_014583424.1| PREDICTED: tumor protein D52 isoform X6 [Equus caballus]
+Length=183
+
+ Score =   108 bits (270),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  127  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  183
+
+
+>ref|XP_014717334.1| PREDICTED: tumor protein D52 isoform X5 [Equus asinus]
+Length=183
+
+ Score =   108 bits (270),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  127  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  183
+
+
+>ref|XP_014717333.1| PREDICTED: tumor protein D52 isoform X4 [Equus asinus]
+Length=192
+
+ Score =   108 bits (271),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  136  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  192
+
+
+>ref|XP_008518154.1| PREDICTED: tumor protein D52 isoform X8 [Equus przewalskii]
+ ref|XP_014583422.1| PREDICTED: tumor protein D52 isoform X4 [Equus caballus]
+Length=192
+
+ Score =   108 bits (271),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  136  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  192
+
+
+>ref|XP_007123427.1| PREDICTED: tumor protein D52-like isoform X3 [Physeter catodon]
+ ref|XP_007451797.1| PREDICTED: tumor protein D52 isoform X3 [Lipotes vexillifer]
+Length=224
+
+ Score =   109 bits (273),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  224
+
+
+>ref|XP_004276228.1| PREDICTED: tumor protein D52 isoform X4 [Orcinus orca]
+Length=224
+
+ Score =   109 bits (273),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  224
+
+
+>ref|XP_008583702.1| PREDICTED: tumor protein D52 isoform X4 [Galeopterus variegatus]
+Length=224
+
+ Score =   109 bits (272),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT+TEPLPE+T+ESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATSTEPLPEQTKESL  224
+
+
+>gb|ELK02405.1| Tumor protein D52 [Pteropus alecto]
+Length=243
+
+ Score =   109 bits (273),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 54/62 (87%), Positives = 57/62 (92%), Gaps = 4/62 (6%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLK----SKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKT  56
+            MPAMRNSPTFKSFEEKVENLK    SKVGGTKPAGGDFGEVLNS ANASAT+TEPLP++T
+Sbjct  180  MPAMRNSPTFKSFEEKVENLKASRESKVGGTKPAGGDFGEVLNSTANASATSTEPLPDQT  239
+
+Query  57   QE  58
+            QE
+Sbjct  240  QE  241
+
+
+>ref|XP_007185157.1| PREDICTED: tumor protein D52 isoform X3 [Balaenoptera acutorostrata 
+scammoni]
+Length=224
+
+ Score =   109 bits (272),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANAS+TTTEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASSTTTEPLPEQTQESL  224
+
+
+>ref|XP_006168985.1| PREDICTED: tumor protein D52 isoform X3 [Tupaia chinensis]
+Length=224
+
+ Score =   109 bits (272),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQESL  224
+
+
+>ref|XP_005613095.1| PREDICTED: tumor protein D52 isoform X1 [Equus caballus]
+Length=243
+
+ Score =   109 bits (273),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  187  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  243
+
+
+>ref|XP_014717330.1| PREDICTED: tumor protein D52 isoform X1 [Equus asinus]
+Length=243
+
+ Score =   109 bits (273),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  187  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  243
+
+
+>ref|XP_008518152.1| PREDICTED: tumor protein D52 isoform X6 [Equus przewalskii]
+Length=198
+
+ Score =   108 bits (270),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  142  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  198
+
+
+>ref|XP_009211510.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Papio anubis]
+Length=181
+
+ Score =   108 bits (269),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 52/55 (95%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGA TDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGAITDTTILEADAVLLGIQESKDSRSKEEHHEK  181
+
+
+>ref|XP_008518151.1| PREDICTED: tumor protein D52 isoform X5 [Equus przewalskii]
+Length=205
+
+ Score =   108 bits (270),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  149  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  205
+
+
+>ref|XP_008518150.1| PREDICTED: tumor protein D52 isoform X4 [Equus przewalskii]
+Length=211
+
+ Score =   108 bits (270),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  155  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  211
+
+
+>ref|XP_004774289.1| PREDICTED: tumor protein D52 isoform X7 [Mustela putorius furo]
+Length=210
+
+ Score =   108 bits (270),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 52/57 (91%), Gaps = 0/57 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQ  57
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+ Q
+Sbjct  151  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASAGAPEPLPEQMQ  207
+
+
+>ref|XP_004427197.1| PREDICTED: tumor protein D52 isoform X1 [Ceratotherium simum 
+simum]
+Length=224
+
+ Score =   108 bits (271),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQESL  224
+
+
+>ref|XP_003902949.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Papio anubis]
+Length=186
+
+ Score =   107 bits (268),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 52/55 (95%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGA TDTT+LEA+AVLLGIQESKDSRSKEEHHEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGAITDTTILEADAVLLGIQESKDSRSKEEHHEK  186
+
+
+>ref|XP_012665931.1| PREDICTED: tumor protein D52 isoform X3 [Otolemur garnettii]
+Length=233
+
+ Score =   108 bits (270),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEP PE TQESL
+Sbjct  176  SFRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPHPEPTQESL  233
+
+
+>ref|XP_012902183.1| PREDICTED: tumor protein D52 isoform X2 [Mustela putorius furo]
+Length=252
+
+ Score =   108 bits (271),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 52/57 (91%), Gaps = 0/57 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQ  57
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+ Q
+Sbjct  193  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASAGAPEPLPEQMQ  249
+
+
+>ref|XP_008518147.1| PREDICTED: tumor protein D52 isoform X1 [Equus przewalskii]
+Length=229
+
+ Score =   108 bits (269),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  173  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  229
+
+
+>ref|XP_014923037.1| PREDICTED: tumor protein D52 [Acinonyx jubatus]
+Length=361
+
+ Score =   110 bits (274),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 56/60 (93%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA T+EPLPE+TQ  L
+Sbjct  303  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA-TSEPLPEQTQGGL  361
+
+
+>ref|XP_004774287.1| PREDICTED: tumor protein D52 isoform X5 [Mustela putorius furo]
+Length=233
+
+ Score =   108 bits (269),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 52/57 (91%), Gaps = 0/57 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQ  57
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+ Q
+Sbjct  174  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASAGAPEPLPEQMQ  230
+
+
+>ref|XP_012902182.1| PREDICTED: tumor protein D52 isoform X1 [Mustela putorius furo]
+Length=261
+
+ Score =   108 bits (271),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 52/57 (91%), Gaps = 0/57 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQ  57
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+ Q
+Sbjct  202  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASAGAPEPLPEQMQ  258
+
+
+>ref|XP_004774286.1| PREDICTED: tumor protein D52 isoform X3 [Mustela putorius furo]
+Length=242
+
+ Score =   108 bits (269),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 52/57 (91%), Gaps = 0/57 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQ  57
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+ Q
+Sbjct  183  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASAGAPEPLPEQMQ  239
+
+
+>ref|XP_008518148.1| PREDICTED: tumor protein D52 isoform X2 [Equus przewalskii]
+ ref|XP_014583420.1| PREDICTED: tumor protein D52 isoform X2 [Equus caballus]
+Length=219
+
+ Score =   107 bits (268),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  163  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  219
+
+
+>ref|XP_014717331.1| PREDICTED: tumor protein D52 isoform X2 [Equus asinus]
+Length=219
+
+ Score =   107 bits (268),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPLPE+TQE+L
+Sbjct  163  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLPEQTQETL  219
+
+
+>ref|XP_011742722.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Macaca nemestrina]
+Length=181
+
+ Score =   106 bits (264),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 52/55 (95%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEE HEK
+Sbjct  127  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEERHEK  181
+
+
+>ref|XP_004393785.1| PREDICTED: tumor protein D52 isoform X5 [Odobenus rosmarus divergens]
+Length=205
+
+ Score =   107 bits (266),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+TQ S
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA--PEPLPEQTQGS  204
+
+
+>ref|XP_006727207.1| PREDICTED: tumor protein D52 isoform X2 [Leptonychotes weddellii]
+Length=236
+
+ Score =   107 bits (267),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+TQ S
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA--PEPLPEQTQAS  235
+
+
+>ref|XP_011742721.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Macaca nemestrina]
+Length=186
+
+ Score =   106 bits (264),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 52/55 (95%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLGIQESKDSRSKEE HEK
+Sbjct  132  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGIQESKDSRSKEERHEK  186
+
+
+>ref|XP_012665935.1| PREDICTED: tumor protein D52 isoform X4 [Otolemur garnettii]
+Length=224
+
+ Score =   107 bits (266),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 52/57 (91%), Positives = 54/57 (95%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASATTTEP PE TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATTTEPHPEPTQESL  224
+
+
+>ref|XP_006727206.1| PREDICTED: tumor protein D52 isoform X1 [Leptonychotes weddellii]
+Length=245
+
+ Score =   107 bits (267),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+TQ S
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA--PEPLPEQTQAS  244
+
+
+>ref|NP_001075829.1| tumor protein D52 [Oryctolagus cuniculus]
+ sp|Q95212.1|TPD52_RABIT RecName: Full=Tumor protein D52; AltName: Full=28 kDa calcium-dependent 
+phosphoprotein; AltName: Full=pp28
+ gb|AAC48616.1| tumor promoter D52 protein [Oryctolagus cuniculus]
+Length=184
+
+ Score =   105 bits (262),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/57 (86%), Positives = 54/57 (95%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT+ EP+PE+TQE L
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATSGEPVPEQTQEGL  184
+
+
+>ref|XP_012595450.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Microcebus murinus]
+Length=163
+
+ Score =   105 bits (261),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+A+LLG+Q+SKDS+SKEEHHEK
+Sbjct  109  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAILLGLQDSKDSKSKEEHHEK  163
+
+
+>ref|XP_012422835.1| PREDICTED: tumor protein D52 isoform X2 [Odobenus rosmarus divergens]
+Length=236
+
+ Score =   106 bits (265),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+TQ S
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA--PEPLPEQTQGS  235
+
+
+>ref|XP_004393783.1| PREDICTED: tumor protein D52 isoform X1 [Odobenus rosmarus divergens]
+Length=245
+
+ Score =   106 bits (265),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 54/59 (92%), Gaps = 2/59 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASA   EPLPE+TQ S
+Sbjct  188  MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASA--PEPLPEQTQGS  244
+
+
+>ref|XP_012926666.1| PREDICTED: tumor protein D52 isoform X3 [Heterocephalus glaber]
+Length=224
+
+ Score =   106 bits (264),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 54/57 (95%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEP PE+TQESL
+Sbjct  168  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPPPEQTQESL  224
+
+
+>ref|XP_012595449.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Microcebus murinus]
+Length=183
+
+ Score =   105 bits (261),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+A+LLG+Q+SKDS+SKEEHHEK
+Sbjct  129  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAILLGLQDSKDSKSKEEHHEK  183
+
+
+>ref|XP_015454136.1| PREDICTED: tumor protein D52 isoform X2 [Pteropus alecto]
+Length=202
+
+ Score =   105 bits (262),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT+TEPLP++TQE
+Sbjct  146  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATSTEPLPDQTQE  200
+
+
+>ref|XP_011374562.1| PREDICTED: tumor protein D52 isoform X2 [Pteropus vampyrus]
+Length=202
+
+ Score =   105 bits (262),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT+TEPLP++TQE
+Sbjct  146  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATSTEPLPDQTQE  200
+
+
+>ref|XP_004479155.1| PREDICTED: tumor protein D52 isoform X3 [Dasypus novemcinctus]
+Length=219
+
+ Score =   105 bits (262),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 54/57 (95%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPL E+TQESL
+Sbjct  163  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLTEQTQESL  219
+
+
+>ref|XP_011582030.1| PREDICTED: tumor protein D52 isoform X2 [Aquila chrysaetos canadensis]
+Length=171
+
+ Score =   103 bits (258),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  113  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TETIAEQTQE  168
+
+
+>ref|XP_011582029.1| PREDICTED: tumor protein D52 isoform X1 [Aquila chrysaetos canadensis]
+Length=180
+
+ Score =   103 bits (258),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  122  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TETIAEQTQE  177
+
+
+>ref|XP_006530134.1| PREDICTED: tumor protein D52 isoform X12 [Mus musculus]
+Length=185
+
+ Score =   103 bits (258),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  125  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  184
+
+
+>ref|XP_003480092.1| PREDICTED: tumor protein D52 isoform X2 [Cavia porcellus]
+Length=223
+
+ Score =   104 bits (260),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 50/57 (88%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSPTFKSFEEKVENLKSKVGGTKP GGDFGEVLNS ANASAT TEP PE+TQESL
+Sbjct  167  VKNSPTFKSFEEKVENLKSKVGGTKPTGGDFGEVLNSTANASATVTEPPPEQTQESL  223
+
+
+>ref|XP_007942838.1| PREDICTED: tumor protein D52 [Orycteropus afer afer]
+Length=184
+
+ Score =   103 bits (257),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 49/56 (88%), Positives = 53/56 (95%), Gaps = 0/56 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT TEPL E+TQE+
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATATEPLTEQTQEN  183
+
+
+>ref|XP_013027880.1| PREDICTED: tumor protein D52 isoform X7 [Anser cygnoides domesticus]
+Length=180
+
+ Score =   103 bits (256),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 52/58 (90%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  122  MPIMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSAANASA--TETIAEQTQE  177
+
+
+>ref|NP_001172097.1| 28S ribosomal protein S28, mitochondrial [Sus scrofa]
+Length=188
+
+ Score =   103 bits (257),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+QESKDS+SKEE HEK
+Sbjct  134  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGLQESKDSKSKEERHEK  188
+
+
+>ref|XP_012966422.1| PREDICTED: tumor protein D52 isoform X4 [Mesocricetus auratus]
+Length=208
+
+ Score =   103 bits (258),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANA-SATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVG TKP GGDFGEVLNS ANA SATT+EP PE+ +ES
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGATKPTGGDFGEVLNSTANATSATTSEPPPEQMEES  207
+
+
+>ref|XP_005638123.1| PREDICTED: tumor protein D52 isoform X3 [Canis lupus familiaris]
+Length=184
+
+ Score =   103 bits (256),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 49/56 (88%), Positives = 52/56 (93%), Gaps = 0/56 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQES  59
+            ++NSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT  EPLPE+TQ S
+Sbjct  128  VKNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATAPEPLPEQTQAS  183
+
+
+>pdb|5AJ3|FF Chain f, Structure Of The Small Subunit Of The Mammalian Mitoribosome
+Length=188
+
+ Score =   103 bits (256),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+QESKDS+SKEE HEK
+Sbjct  134  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGLQESKDSKSKEERHEK  188
+
+
+>ref|NP_001020434.1| tumor protein D52 isoform 3 [Mus musculus]
+ dbj|BAC27709.1| unnamed protein product [Mus musculus]
+Length=199
+
+ Score =   103 bits (257),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  139  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  198
+
+
+>ref|XP_006530133.1| PREDICTED: tumor protein D52 isoform X11 [Mus musculus]
+Length=208
+
+ Score =   103 bits (257),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  207
+
+
+>ref|XP_006169003.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Tupaia chinensis]
+Length=226
+
+ Score =   103 bits (258),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+QE KDS++KEEHHEK
+Sbjct  172  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGLQEGKDSKAKEEHHEK  226
+
+
+>ref|XP_012005576.1| PREDICTED: tumor protein D52 isoform X4 [Ovis aries musimon]
+Length=207
+
+ Score =   103 bits (257),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS A+ASATTTEPLPE+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSTASASATTTEPLPEQTQESL  207
+
+
+>ref|XP_012005577.1| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X2 
+[Ovis aries musimon]
+Length=214
+
+ Score =   103 bits (257),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+QESKDS+SKEEH EK
+Sbjct  160  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGLQESKDSKSKEEHREK  214
+
+
+>ref|XP_004011806.2| PREDICTED: 28S ribosomal protein S28, mitochondrial isoform X1 
+[Ovis aries]
+Length=219
+
+ Score =   103 bits (257),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+QESKDS+SKEEH EK
+Sbjct  165  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGLQESKDSKSKEEHREK  219
+
+
+>gb|EDL05195.1| mCG10134, isoform CRA_f, partial [Mus musculus]
+Length=217
+
+ Score =   103 bits (257),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  157  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  216
+
+
+>ref|XP_005689178.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Capra hircus]
+Length=188
+
+ Score =   102 bits (255),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+A+LLG+QESKDS+SKEE HEK
+Sbjct  134  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAILLGLQESKDSKSKEERHEK  188
+
+
+>ref|XP_005967036.1| PREDICTED: tumor protein D52 isoform X3 [Pantholops hodgsonii]
+Length=207
+
+ Score =   103 bits (256),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS A+ASATTTEPLPE+TQESL
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSTASASATTTEPLPEQTQESL  207
+
+
+>ref|XP_013824728.1| PREDICTED: tumor protein D52 isoform X3 [Capra hircus]
+Length=219
+
+ Score =   103 bits (257),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS A+ASATTTEPLPE+TQESL
+Sbjct  160  MPAMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSTASASATTTEPLPEQTQESL  219
+
+
+>ref|XP_006530123.2| PREDICTED: tumor protein D52 isoform X3 [Mus musculus]
+Length=244
+
+ Score =   103 bits (258),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  184  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  243
+
+
+>gb|ELV10544.1| Tumor protein D52 [Tupaia chinensis]
+Length=331
+
+ Score =   105 bits (261),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+QE KDS++KEEHHEK
+Sbjct  277  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGLQEGKDSKAKEEHHEK  331
+
+
+>ref|XP_006530129.1| PREDICTED: tumor protein D52 isoform X7 [Mus musculus]
+Length=245
+
+ Score =   103 bits (258),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  185  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  244
+
+
+>ref|XP_011246443.1| PREDICTED: tumor protein D52 isoform X1 [Mus musculus]
+Length=256
+
+ Score =   103 bits (258),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  196  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  255
+
+
+>ref|XP_013027879.1| PREDICTED: tumor protein D52 isoform X6 [Anser cygnoides domesticus]
+Length=206
+
+ Score =   102 bits (255),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 52/58 (90%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  148  MPIMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSAANASA--TETIAEQTQE  203
+
+
+>ref|XP_011246444.1| PREDICTED: tumor protein D52 isoform X2 [Mus musculus]
+Length=247
+
+ Score =   103 bits (257),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  187  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  246
+
+
+>ref|XP_012966421.1| PREDICTED: tumor protein D52 isoform X2 [Mesocricetus auratus]
+Length=238
+
+ Score =   103 bits (256),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANA-SATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVG TKP GGDFGEVLNS ANA SATT+EP PE+ +ES
+Sbjct  178  MPAMRNSPTFKSFEEKVENLKSKVGATKPTGGDFGEVLNSTANATSATTSEPPPEQMEES  237
+
+
+>ref|XP_012578288.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Condylura 
+cristata]
+Length=189
+
+ Score =   102 bits (253),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHE  114
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+A+LLG+QE++DS+SKEEHHE
+Sbjct  134  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAILLGLQENRDSKSKEEHHE  187
+
+
+>ref|XP_012518618.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Propithecus 
+coquereli]
+Length=183
+
+ Score =   102 bits (253),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+Q+SKDS+SKEEH EK
+Sbjct  129  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGLQDSKDSKSKEEHREK  183
+
+
+>ref|XP_006530130.1| PREDICTED: tumor protein D52 isoform X9 [Mus musculus]
+Length=238
+
+ Score =   102 bits (255),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  178  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  237
+
+
+>ref|XP_005066840.1| PREDICTED: tumor protein D52 isoform X1 [Mesocricetus auratus]
+Length=247
+
+ Score =   103 bits (256),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANA-SATTTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVG TKP GGDFGEVLNS ANA SATT+EP PE+ +ES
+Sbjct  187  MPAMRNSPTFKSFEEKVENLKSKVGATKPTGGDFGEVLNSTANATSATTSEPPPEQMEES  246
+
+
+>ref|XP_005392119.1| PREDICTED: tumor protein D52 isoform X2 [Chinchilla lanigera]
+Length=232
+
+ Score =   102 bits (255),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 52/58 (90%), Gaps = 0/58 (0%)
+
+Query  3    AMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            + RNSPTFKSFEEKVENLKSKVGGTKP GGDFGEVLNS ANASAT TEP PE+T ESL
+Sbjct  175  SFRNSPTFKSFEEKVENLKSKVGGTKPTGGDFGEVLNSTANASATATEPPPEQTPESL  232
+
+
+>ref|NP_001020432.1| tumor protein D52 isoform 1 [Mus musculus]
+Length=247
+
+ Score =   102 bits (255),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  187  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  246
+
+
+>ref|XP_006530128.1| PREDICTED: tumor protein D52 isoform X6 [Mus musculus]
+Length=252
+
+ Score =   103 bits (256),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 51/60 (85%), Positives = 54/60 (90%), Gaps = 1/60 (2%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASAT-TTEPLPEKTQES  59
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS ANA++T TTEP PE+  ES
+Sbjct  192  MPAMRNSPTFKSFEEKVENLKSKVGGAKPAGGDFGEVLNSTANATSTMTTEPPPEQMTES  251
+
+
+>gb|EHA99672.1| Tumor protein D52 [Heterocephalus glaber]
+Length=224
+
+ Score =   102 bits (254),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 49/57 (86%), Positives = 52/57 (91%), Gaps = 0/57 (0%)
+
+Query  4    MRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            ++NSP FKSFEEKVENLKSKVGGTKPAGGDFGEVLNS ANASAT  EP PE+TQESL
+Sbjct  168  IKNSPIFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSTANASATAMEPPPEQTQESL  224
+
+
+>ref|XP_004276231.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Orcinus 
+orca]
+Length=188
+
+ Score =   101 bits (252),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 49/55 (89%), Positives = 53/55 (96%), Gaps = 0/55 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHEK  115
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA A+LLG+QESKDS+SKEE HEK
+Sbjct  134  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEAEAILLGLQESKDSKSKEERHEK  188
+
+
+>ref|XP_004774290.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Mustela 
+putorius furo]
+ ref|XP_012902185.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Mustela 
+putorius furo]
+Length=187
+
+ Score =   101 bits (252),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 48/54 (89%), Positives = 53/54 (98%), Gaps = 0/54 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHE  114
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+A+LLGIQESKD++SKEEH E
+Sbjct  134  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAILLGIQESKDAKSKEEHRE  187
+
+
+>ref|XP_013027874.1| PREDICTED: tumor protein D52 isoform X2 [Anser cygnoides domesticus]
+Length=265
+
+ Score =   102 bits (255),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 52/58 (90%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  207  MPIMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSAANASA--TETIAEQTQE  262
+
+
+>ref|XP_008687304.1| PREDICTED: 28S ribosomal protein S28, mitochondrial [Ursus maritimus]
+Length=187
+
+ Score =   101 bits (251),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 48/54 (89%), Positives = 53/54 (98%), Gaps = 0/54 (0%)
+
+Query  61   KYQKGTRVRLRLLDLELTSRFLGATTDTTVLEANAVLLGIQESKDSRSKEEHHE  114
+            KYQKGTRVRLRLLDLELTSRFLGATTDTT+LEA+AVLLG+QESKD++SKEEH E
+Sbjct  134  KYQKGTRVRLRLLDLELTSRFLGATTDTTILEADAVLLGVQESKDAKSKEEHRE  187
+
+
+>ref|XP_005301587.1| PREDICTED: tumor protein D52 isoform X1 [Chrysemys picta bellii]
+Length=198
+
+ Score =   101 bits (251),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 50/59 (85%), Positives = 52/59 (88%), Gaps = 2/59 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASA--TTTEPLPEKTQ  57
+            MP MRNS TFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASA  T TE + E+TQ
+Sbjct  140  MPVMRNSSTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATETITEQIQEETQ  198
+
+
+>ref|XP_009890183.1| PREDICTED: tumor protein D52 isoform X5 [Charadrius vociferus]
+Length=171
+
+ Score =   100 bits (249),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVE+LKSKVGG+KPAGGDFG+VLNSAANASA  TE + E+TQE
+Sbjct  113  MPIMRNSPTFKSFEEKVESLKSKVGGSKPAGGDFGDVLNSAANASA--TETIAEQTQE  168
+
+
+>ref|XP_009966876.1| PREDICTED: tumor protein D52 isoform X2 [Tyto alba]
+Length=248
+
+ Score =   102 bits (254),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  190  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TETIAEQTQE  245
+
+
+>ref|XP_009807833.1| PREDICTED: tumor protein D52 isoform X2 [Gavia stellata]
+Length=248
+
+ Score =   102 bits (254),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  190  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TEAIAEQTQE  245
+
+
+>ref|XP_013027873.1| PREDICTED: tumor protein D52 isoform X1 [Anser cygnoides domesticus]
+Length=273
+
+ Score =   102 bits (255),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 52/58 (90%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  215  MPIMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSAANASA--TETIAEQTQE  270
+
+
+>ref|XP_006057113.1| PREDICTED: tumor protein D52 isoform X4 [Bubalus bubalis]
+Length=203
+
+ Score =   101 bits (251),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS A+ASA+TTEPLPE+TQE L
+Sbjct  144  MPAMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSTASASASTTEPLPEQTQEGL  203
+
+
+>ref|XP_009807761.1| PREDICTED: tumor protein D52 isoform X1 [Gavia stellata]
+Length=257
+
+ Score =   102 bits (254),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  199  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TEAIAEQTQE  254
+
+
+>ref|XP_012039297.1| PREDICTED: tumor protein D52 isoform X2 [Ovis aries]
+ ref|XP_012005574.1| PREDICTED: tumor protein D52 isoform X2 [Ovis aries musimon]
+Length=238
+
+ Score =   102 bits (253),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS A+ASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSTASASATTTEPLPEQTQESL  238
+
+
+>ref|XP_010077337.1| PREDICTED: tumor protein D52 isoform X2 [Pterocles gutturalis]
+Length=232
+
+ Score =   101 bits (252),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  174  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TETIAEQTQE  229
+
+
+>ref|XP_009077893.1| PREDICTED: tumor protein D52 isoform X2 [Acanthisitta chloris]
+Length=232
+
+ Score =   101 bits (252),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 51/59 (86%), Positives = 52/59 (88%), Gaps = 2/59 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTT--EPLPEKTQ  57
+            MP MRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNSAANASAT T  E  PE+TQ
+Sbjct  174  MPIMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSAANASATETIAEQTPEETQ  232
+
+
+>ref|XP_006057114.1| PREDICTED: tumor protein D52 isoform X5 [Bubalus bubalis]
+Length=207
+
+ Score =   101 bits (251),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS A+ASA+TTEPLPE+TQE L
+Sbjct  148  MPAMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSTASASASTTEPLPEQTQEGL  207
+
+
+>ref|XP_013824727.1| PREDICTED: tumor protein D52 isoform X2 [Capra hircus]
+Length=238
+
+ Score =   102 bits (253),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 56/60 (93%), Positives = 58/60 (97%), Gaps = 0/60 (0%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQESL  60
+            MPAMRNSPTFKSFEEKVENLKSKVGG KPAGGDFGEVLNS A+ASATTTEPLPE+TQESL
+Sbjct  179  MPAMRNSPTFKSFEEKVENLKSKVGGNKPAGGDFGEVLNSTASASATTTEPLPEQTQESL  238
+
+
+>ref|XP_009966875.1| PREDICTED: tumor protein D52 isoform X1 [Tyto alba]
+Length=257
+
+ Score =   102 bits (253),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  199  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TETIAEQTQE  254
+
+
+>ref|XP_010115411.1| PREDICTED: tumor protein D52 isoform X2 [Chlamydotis macqueenii]
+Length=248
+
+ Score =   102 bits (253),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 2/58 (3%)
+
+Query  1    MPAMRNSPTFKSFEEKVENLKSKVGGTKPAGGDFGEVLNSAANASATTTEPLPEKTQE  58
+            MP MRNSPTFKSFEEKVENLKSKVGG+KPAGGDFGEVLNSAANASA  TE + E+TQE
+Sbjct  190  MPIMRNSPTFKSFEEKVENLKSKVGGSKPAGGDFGEVLNSAANASA--TETIAEQTQE  245
+
+
+
+Lambda      K        H
+   0.306    0.124    0.328 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 762441373632
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Mar 28, 2016 12:00 AM
+  Number of letters in database: 30,803,427,846
+  Number of sequences in database:  84,060,097
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
