@@ -14,21 +14,22 @@ getPep = function(fusionid){
  #pepstr = dfAllFusion["fusionPeptide_ID" == fusionid, c("Peptide")]; # this is not correct
  return(pepstr); # return value must be within brackets
 }
-#
-#
-dfmaster = data.frame(FusionID = character(), HitSequence = character(), stringsAsFactors=F) #create empty data frame with col header name and data type specify - GOOD
+##
+##
+dfmaster = data.frame(FusionID = character(), HitSequence = character(), FullPepSequence = character(), StartPos = numeric(), EndPos = numeric(), stringsAsFactors=F) #create empty data frame with col header name and data type specify - GOOD
 str(dfmaster)
-#
-#
+##
+##
 for(i in 1:npeps){
   #  print(dfMDA231[i,1]);
   #  print(dfMDA231[i,"Sequence"]);
   print("START FOR LOOP NEW ITERATION"); 
   ids = dfMDA231[i,1];
   #print(ids)
-  seq = dfMDA231[i,"Sequence"];
-     qrystrlength = nchar(seq);
-     print(paste("qrystrlength", qrystrlength));
+  #Convert peptide sequence that was reported as MS hit to upper case in case there are lower case letters ("m" is lower case at least)
+  seq = toupper(dfMDA231[i,"Sequence"]);
+  qrystrlength = nchar(seq);
+  print(paste("qrystrlength", qrystrlength));
   locssep = str_locate_all(pattern=";", ids);
   print(length(locssep[[1]][,1]));
   # if there are more than one rows, means there are more than one id in this string
@@ -44,31 +45,45 @@ for(i in 1:npeps){
    numids = length(splitids);
    for(j in 1:numids){
      #print(j);
-     ids = splitids[j]; 
+     ids = splitids[j];
+     ##
+     ##
+     ## 
      #dfmaster = rbind(dfmaster, data.frame(splitids[j], seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
-     dfmaster = rbind(dfmaster, data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
+     ###dfmaster = rbind(dfmaster, data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
    }
  } else {
    #row=c(ids, seq);
-   #print("\nFUSION EVENT\n");
+   print("\nFUSION EVENT\n");
    print(ids);
    querystring = seq;
-   #print("\nQUERY\n");
-   #print(querystring);
-   #print("\nTARGET\n");
+   print("\nQUERY\n");
+   print(querystring);
+   print("\nTARGET\n");
    targetstring = getPep(ids);
-   #print(targetstring);
+   print(targetstring);
    qryloctarget = str_locate_all(pattern=seq, targetstring);
-   qryloctargetStartPos = qryloctarget[[1]][,1];
-   print(qryloctargetStartPos);
-   qryloctargetEndPos = qryloctarget[[1]][,2];
-   print(qryloctargetEndPos);
+   qryloctargetStartPos = unname(qryloctarget[[1]][1,1]);
+   #print(qryloctargetStartPos);
+   qryloctargetEndPos = unname(qryloctarget[[1]][1,2]);
+   #print(qryloctargetEndPos);
    lenQueryString = nchar(querystring);
-   print(paste("*",lenQueryString));
+   #print(paste("*",lenQueryString));
    lenQueryStringTarget = qryloctargetEndPos - qryloctargetStartPos;
    #print(paste("**",lenQueryStringTarget));
-   dfmaster = rbind(dfmaster,data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
+     ##
+     ##
+	print("####");
+	print(ids);
+	print(seq);
+	print(targetstring);
+	print(qryloctargetStartPos);
+	print(qryloctargetEndPos);
+	print("####");
+     ## 
+   dfmaster = rbind(dfmaster,data.frame(ids, seq, targetstring, qryloctargetStartPos, qryloctargetEndPos, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
  }
   print("END FOR LOOP ITERATION");
 }
+str(dfmaster)
 
