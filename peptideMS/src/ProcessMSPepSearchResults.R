@@ -47,10 +47,18 @@ for(i in 1:npeps){
      #print(j);
      ids = splitids[j];
      ##
+     querystring = seq;
+     targetstring = getPep(ids);
+     qryloctarget = str_locate_all(pattern=seq, targetstring);
+     qryloctargetStartPos = unname(qryloctarget[[1]][1,1]);
+     qryloctargetEndPos = unname(qryloctarget[[1]][1,2]);
+     lenQueryString = nchar(querystring);
+     lenQueryStringInTarget = (qryloctargetEndPos - qryloctargetStartPos)+1;
      ##
      ## 
      #dfmaster = rbind(dfmaster, data.frame(splitids[j], seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
      ###dfmaster = rbind(dfmaster, data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
+     dfmaster = rbind(dfmaster, data.frame(FusionID=ids, HitSequence=seq, FullPepSequence=targetstring, StartPos=qryloctargetStartPos, EndPos=qryloctargetEndPos, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
    }
  } else {
    #row=c(ids, seq);
@@ -86,4 +94,4 @@ for(i in 1:npeps){
   print("END FOR LOOP ITERATION");
 }
 str(dfmaster)
-
+write.table(dfmaster, "PepHits.tsv", row.names=F, col.names=T, sep="\t", quote=F)
