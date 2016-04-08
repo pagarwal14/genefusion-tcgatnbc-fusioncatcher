@@ -16,7 +16,7 @@ getPep = function(fusionid){
 }
 #
 #
-dfmaster = data.frame(FusionID = character(), Sequence = character(), stringsAsFactors=F) #create empty data frame with col header name and data type specify - GOOD
+dfmaster = data.frame(FusionID = character(), HitSequence = character(), stringsAsFactors=F) #create empty data frame with col header name and data type specify - GOOD
 str(dfmaster)
 #
 #
@@ -45,19 +45,19 @@ for(i in 1:npeps){
    for(j in 1:numids){
      #print(j);
      ids = splitids[j]; 
-     #dfmaster = rbind(dfmaster, data.frame(splitids[j], seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "Sequence" = seq)
-     dfmaster = rbind(dfmaster, data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "Sequence" = seq)
+     #dfmaster = rbind(dfmaster, data.frame(splitids[j], seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
+     dfmaster = rbind(dfmaster, data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
    }
  } else {
    #row=c(ids, seq);
-   print("\nFUSION EVENT\n");
+   #print("\nFUSION EVENT\n");
    print(ids);
    querystring = seq;
-   print("\nQUERY\n");
-   print(querystring);
-   print("\nTARGET\n");
+   #print("\nQUERY\n");
+   #print(querystring);
+   #print("\nTARGET\n");
    targetstring = getPep(ids);
-   print(targetstring);
+   #print(targetstring);
    qryloctarget = str_locate_all(pattern=seq, targetstring);
    qryloctargetStartPos = qryloctarget[[1]][,1];
    print(qryloctargetStartPos);
@@ -66,8 +66,8 @@ for(i in 1:npeps){
    lenQueryString = nchar(querystring);
    print(paste("*",lenQueryString));
    lenQueryStringTarget = qryloctargetEndPos - qryloctargetStartPos;
-   print(paste("**",lenQueryStringTarget));
-   dfmaster = rbind(dfmaster,data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "Sequence" = seq)
+   #print(paste("**",lenQueryStringTarget));
+   dfmaster = rbind(dfmaster,data.frame(ids, seq, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
  }
   print("END FOR LOOP ITERATION");
 }
