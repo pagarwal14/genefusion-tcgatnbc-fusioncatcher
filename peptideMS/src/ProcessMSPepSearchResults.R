@@ -81,7 +81,7 @@ for(i in 1:npeps){
 	print(qryloctargetEndPos);
 	print("####");
      ## 
-   dfmaster = rbind(dfmaster,data.frame(ids, seq, targetstring, qryloctargetStartPos, qryloctargetEndPos, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
+   dfmaster = rbind(dfmaster,data.frame(FusionID=ids, HitSequence=seq, FullPepSequence=targetstring, StartPos=qryloctargetStartPos, EndPos=qryloctargetEndPos, stringsAsFactors=F));# can also specify the header col ("FusionID" = ids, "HitSequence" = seq)
  }
   print("END FOR LOOP ITERATION");
 }
