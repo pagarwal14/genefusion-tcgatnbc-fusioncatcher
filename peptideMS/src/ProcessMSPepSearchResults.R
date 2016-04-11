@@ -1,4 +1,7 @@
 library(stringr)
+#results dir
+resultsdir = "/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/results/"
+#
 dfAllFusion = read.table("/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/data/TN_fusion_032116.txt", sep="\t", stringsAsFactors=F, header=T)
 str(dfAllFusion)
 dfMDA231 = read.table("/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/data/pepsearch040516/MDA231-2.txt", sep="\t", stringsAsFactors=F, header=T)
@@ -94,4 +97,4 @@ for(i in 1:npeps){
   print("END FOR LOOP ITERATION");
 }
 str(dfmaster)
-write.table(dfmaster, "PepHits.tsv", row.names=F, col.names=T, sep="\t", quote=F)
+write.table(dfmaster, paste(resultsdir,"PepHits_041116_test.tsv",sep=""), row.names=F, col.names=T, sep="\t", quote=F)
