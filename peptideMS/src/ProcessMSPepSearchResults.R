@@ -2,22 +2,24 @@ library(stringr)
 #
 # Get the cell line name from cmd line
 #
+print("Start Processing...");
 cmdFlag = T # change to F if hard coding cell line name in code.
 if(cmdFlag==T){
-args = commandArgs(trailingOnly=TRUE)
-numargs = length(args)
-print(paste("Number of cmd line args",numargs))
-if(length(args)==0) {
-stop("At least one argument must be supplied (input file).tsv", call.=FALSE)
-}else if (length(args)==1) {
-cellLineName = args[1]
-}else{
-stop("Only one argument must be supplied (Cell Line Name)", call.=FALSE)
+args = commandArgs(trailingOnly=TRUE);
+numargs = length(args);
+print(paste("Number of cmd line args",numargs));
 }
 #
-}else{#default cell line name
-cellLineName = "MDA231"
+if(length(args)==0) {
+	stop("At least one argument must be supplied (input file).tsv", call.=FALSE);
+}else if (length(args)==1) {
+	cellLineName = args[1];
+	print(cellLineName);
+}else{
+	stop("Only one argument must be supplied (Cell Line Name)", call.=FALSE)
 }
+#
+#
 print(paste("cellLineName", cellLineName))
 #
 #
@@ -29,16 +31,32 @@ if(cellLineName=="MDA231"){
         cellLinePepHitFileName = "MCF10.txt";
 } else if(cellLineName=="Xenograft"){
         cellLinePepHitFileName = "Xenograft.txt";
+} else if(cellLineName=="MCF7_full"){
+        cellLinePepHitFileName = "MCF7_full.txt";
+} else if(cellLineName=="MDA231_2_full"){
+        cellLinePepHitFileName = "MDA231_2_full.txt";
+} else if(cellLineName=="MDA231_full"){
+        cellLinePepHitFileName = "MDA231_full.txt";
+} else if(cellLineName=="MCF10_full"){
+        cellLinePepHitFileName = "MCF10_full.txt";
+} else if(cellLineName=="Xenograft_full"){
+        cellLinePepHitFileName = "Xenograft_full.txt";
 }else{
 stop("Incorrect cell line name");
 }
+#
+#input data dir
+#for high (restricted) search
+#datainputdir = "/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/data/pepsearch040516/";
+#for full search
+datainputdir = "/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/data/pepsearch041116/";
 #
 #results dir
 resultsdir = "/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/results/"
 #
 dfAllFusion = read.table("/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/data/TN_fusion_032116.txt", sep="\t", stringsAsFactors=F, header=T)
 str(dfAllFusion)
-dfCellLine = read.table(paste("/srv/agarw005/projects/GeneFusion/analysis/TCGA_TNBC/rna-seq/147files/FusionCatcher_10-09-15/analyze_fusioncatcher_prod_10-18-15/pipeline/genefusion-tcgatnbc-fusioncatcher/peptideMS/data/pepsearch040516/", cellLinePepHitFileName, sep=""), sep="\t", stringsAsFactors=F, header=T)
+dfCellLine = read.table(paste(datainputdir, cellLinePepHitFileName, sep=""), sep="\t", stringsAsFactors=F, header=T)
 str(dfCellLine)
 dfCellLine = dfCellLine[,c("Protein.Group.Accessions", "Sequence")]
 str(dfCellLine)
